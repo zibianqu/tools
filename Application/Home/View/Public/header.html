@@ -1,0 +1,38 @@
+<script src="__JS__/public.js"></script>
+<header>
+	<div class="wrap-header zerogrid">
+		<div id="logo"><a href="/"><img src="__IMAGES__/logo.png" class=""/></a></div>
+		<nav>
+			<div class="wrap-nav">
+				<div class="menu">
+					<ul>
+						<li <if condition="$nav eq 1">class="current"</if>><a href="/">首页</a></li>
+						<li <if condition="$nav eq 2">class="current"</if>>
+							<a href="{:U('/art/lists')}">文章</a>
+							<div class="menu-article-type">
+									<foreach name="tlist" item="val">
+										<p><a href="{:U('/art/lists',array('ty'=>$val['id']))}">{$val.name}</a></p>
+									</foreach>
+							</div>
+							
+						</li>
+						
+					</ul>
+				</div>
+				<div class="search">
+						<input type="text" name="t" id="t" value="{$title}" placeholder="请输入你要搜索的关键词" url="{:U('/art/lists')}"/>
+					</div>
+				<div class="minimenu"><div>MENU</div>
+					<select onChange="location=this.value">
+						<option></option>
+						<option value="/">首页</option>
+						<option value="{:U('/art/lists')}">文章</option>
+					</select>
+				</div>
+			</div>
+		</nav>
+		
+	</div>
+
+</header>
+<div id='rtt'></div>

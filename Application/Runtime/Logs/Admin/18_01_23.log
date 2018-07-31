@@ -1,0 +1,284 @@
+[ 2018-01-23T15:57:46+08:00 ] 127.0.0.1 /admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000566s ]
+SQL: SHOW COLUMNS FROM `statisticsip` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `statisticsip` WHERE `ip` = '127.0.0.1' AND `date` = 20180123 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2048] Declaration of Home\Model\TypeModel::save() should be compatible with that of Think\Model::save() D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 88 行.
+NOTIC: [2048] Declaration of Home\Model\TypeModel::delete() should be compatible with that of Think\Model::delete() D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0126s ]
+NOTIC: [2] Missing argument 1 for Home\Model\TypeModel::lists(), called in D:\WWW\tools\ThinkPHP\Library\Think\Controller.class.php on line 51 and defined D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 83 行.
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 84 行.
+SQL: SELECT * FROM `type` ORDER BY `order` asc,id asc  [ RunTime:0.0002s ]
+
+[ 2018-01-23T15:57:47+08:00 ] 127.0.0.1 /admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000417s ]
+SQL: SHOW COLUMNS FROM `statisticsip` [ RunTime:0.0376s ]
+SQL: SELECT * FROM `statisticsip` WHERE `ip` = '127.0.0.1' AND `date` = 20180123 LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [2048] Declaration of Home\Model\TypeModel::save() should be compatible with that of Think\Model::save() D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 88 行.
+NOTIC: [2048] Declaration of Home\Model\TypeModel::delete() should be compatible with that of Think\Model::delete() D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0231s ]
+NOTIC: [2] Missing argument 1 for Home\Model\TypeModel::lists(), called in D:\WWW\tools\ThinkPHP\Library\Think\Controller.class.php on line 51 and defined D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 83 行.
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 84 行.
+SQL: SELECT * FROM `type` ORDER BY `order` asc,id asc  [ RunTime:0.0004s ]
+
+[ 2018-01-23T15:57:47+08:00 ] 127.0.0.1 /admin/login.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000499s ]
+SQL: SHOW COLUMNS FROM `statisticsip` [ RunTime:0.0253s ]
+SQL: SELECT * FROM `statisticsip` WHERE `ip` = '127.0.0.1' AND `date` = 20180123 LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [2048] Declaration of Home\Model\TypeModel::save() should be compatible with that of Think\Model::save() D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 88 行.
+NOTIC: [2048] Declaration of Home\Model\TypeModel::delete() should be compatible with that of Think\Model::delete() D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0139s ]
+NOTIC: [2] Missing argument 1 for Home\Model\TypeModel::lists(), called in D:\WWW\tools\ThinkPHP\Library\Think\Controller.class.php on line 51 and defined D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 83 行.
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 84 行.
+SQL: SELECT * FROM `type` ORDER BY `order` asc,id asc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000231s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067119s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067237s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000518s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000573s ]
+
+[ 2018-01-23T15:57:53+08:00 ] 127.0.0.1 /admin/login/dologin.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000493s ]
+SQL: SHOW COLUMNS FROM `statisticsip` [ RunTime:0.0323s ]
+SQL: SELECT * FROM `statisticsip` WHERE `ip` = '127.0.0.1' AND `date` = 20180123 LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [2048] Declaration of Home\Model\TypeModel::save() should be compatible with that of Think\Model::save() D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 88 行.
+NOTIC: [2048] Declaration of Home\Model\TypeModel::delete() should be compatible with that of Think\Model::delete() D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0244s ]
+NOTIC: [2] Missing argument 1 for Home\Model\TypeModel::lists(), called in D:\WWW\tools\ThinkPHP\Library\Think\Controller.class.php on line 51 and defined D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 83 行.
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 84 行.
+SQL: SELECT * FROM `type` ORDER BY `order` asc,id asc  [ RunTime:0.0004s ]
+NOTIC: [2048] Non-static method Admin\Model\AdminModel::adminLogin() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Admin\Controller\LoginController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.1479s ]
+SQL: SELECT * FROM `admin` WHERE `user` = 'admin' LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2018-01-23T15:57:55+08:00 ] 127.0.0.1 /admin/index.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000603s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000909s ]
+SQL: SHOW COLUMNS FROM `statisticsip` [ RunTime:0.0304s ]
+SQL: SELECT * FROM `statisticsip` WHERE `ip` = '127.0.0.1' AND `date` = 20180123 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2048] Declaration of Home\Model\TypeModel::save() should be compatible with that of Think\Model::save() D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 88 行.
+NOTIC: [2048] Declaration of Home\Model\TypeModel::delete() should be compatible with that of Think\Model::delete() D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0424s ]
+NOTIC: [2] Missing argument 1 for Home\Model\TypeModel::lists(), called in D:\WWW\tools\ThinkPHP\Library\Think\Controller.class.php on line 51 and defined D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 83 行.
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 84 行.
+SQL: SELECT * FROM `type` ORDER BY `order` asc,id asc  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000228s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000446s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.185966s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.186286s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001101s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001277s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001687s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001871s ]
+
+[ 2018-01-23T15:57:59+08:00 ] 127.0.0.1 /admin/index/lists.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000431s ]
+SQL: SHOW COLUMNS FROM `statisticsip` [ RunTime:0.0307s ]
+SQL: SELECT * FROM `statisticsip` WHERE `ip` = '127.0.0.1' AND `date` = 20180123 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2048] Declaration of Home\Model\TypeModel::save() should be compatible with that of Think\Model::save() D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 88 行.
+NOTIC: [2048] Declaration of Home\Model\TypeModel::delete() should be compatible with that of Think\Model::delete() D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0260s ]
+NOTIC: [2] Missing argument 1 for Home\Model\TypeModel::lists(), called in D:\WWW\tools\ThinkPHP\Library\Think\Controller.class.php on line 51 and defined D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 83 行.
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 84 行.
+SQL: SELECT * FROM `type` ORDER BY `order` asc,id asc  [ RunTime:0.0004s ]
+NOTIC: [2048] Declaration of Admin\Model\ArticleModel::save() should be compatible with that of Think\Model::save() D:\WWW\tools\Application\Admin\Model\ArticleModel.class.php 第 101 行.
+NOTIC: [2048] Declaration of Admin\Model\ArticleModel::delete() should be compatible with that of Think\Model::delete() D:\WWW\tools\Application\Admin\Model\ArticleModel.class.php 第 101 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0104s ]
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Admin\Controller\IndexController.class.php 第 102 行.
+SQL: SELECT * FROM `article` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0363s ]
+NOTIC: [2048] Declaration of Admin\Model\TypeModel::save() should be compatible with that of Think\Model::save() D:\WWW\tools\Application\Admin\Model\TypeModel.class.php 第 106 行.
+NOTIC: [2048] Declaration of Admin\Model\TypeModel::delete() should be compatible with that of Think\Model::delete() D:\WWW\tools\Application\Admin\Model\TypeModel.class.php 第 106 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\TypeModel::lists(), called in D:\WWW\tools\Application\Admin\Controller\IndexController.class.php on line 104 and defined D:\WWW\tools\Application\Admin\Model\TypeModel.class.php 第 101 行.
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Admin\Model\TypeModel.class.php 第 102 行.
+SQL: SELECT * FROM `type` ORDER BY `order` asc,id asc  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000188s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000359s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.134716s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.134888s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000477s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000543s ]
+
+[ 2018-01-23T15:58:02+08:00 ] 127.0.0.1 /admin/index/article.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000445s ]
+SQL: SHOW COLUMNS FROM `statisticsip` [ RunTime:0.1852s ]
+SQL: SELECT * FROM `statisticsip` WHERE `ip` = '127.0.0.1' AND `date` = 20180123 LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [2048] Declaration of Home\Model\TypeModel::save() should be compatible with that of Think\Model::save() D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 88 行.
+NOTIC: [2048] Declaration of Home\Model\TypeModel::delete() should be compatible with that of Think\Model::delete() D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0655s ]
+NOTIC: [2] Missing argument 1 for Home\Model\TypeModel::lists(), called in D:\WWW\tools\ThinkPHP\Library\Think\Controller.class.php on line 51 and defined D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 83 行.
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 84 行.
+SQL: SELECT * FROM `type` ORDER BY `order` asc,id asc  [ RunTime:0.0007s ]
+NOTIC: [2048] Declaration of Admin\Model\TypeModel::save() should be compatible with that of Think\Model::save() D:\WWW\tools\Application\Admin\Model\TypeModel.class.php 第 106 行.
+NOTIC: [2048] Declaration of Admin\Model\TypeModel::delete() should be compatible with that of Think\Model::delete() D:\WWW\tools\Application\Admin\Model\TypeModel.class.php 第 106 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\TypeModel::lists(), called in D:\WWW\tools\Application\Admin\Controller\IndexController.class.php on line 35 and defined D:\WWW\tools\Application\Admin\Model\TypeModel.class.php 第 101 行.
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Admin\Model\TypeModel.class.php 第 102 行.
+SQL: SELECT * FROM `type` ORDER BY `order` asc,id asc  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000168s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000293s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.091531s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.091699s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000246s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000458s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000512s ]
+
+[ 2018-01-23T16:08:35+08:00 ] 127.0.0.1 /admin/index/SaveArticle.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000923s ]
+SQL: SHOW COLUMNS FROM `statisticsip` [ RunTime:0.0693s ]
+SQL: SELECT * FROM `statisticsip` WHERE `ip` = '127.0.0.1' AND `date` = 20180123 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2048] Declaration of Home\Model\TypeModel::save() should be compatible with that of Think\Model::save() D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 88 行.
+NOTIC: [2048] Declaration of Home\Model\TypeModel::delete() should be compatible with that of Think\Model::delete() D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0144s ]
+NOTIC: [2] Missing argument 1 for Home\Model\TypeModel::lists(), called in D:\WWW\tools\ThinkPHP\Library\Think\Controller.class.php on line 51 and defined D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 83 行.
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 84 行.
+SQL: SELECT * FROM `type` ORDER BY `order` asc,id asc  [ RunTime:0.0004s ]
+NOTIC: [2048] Declaration of Admin\Model\ArticleModel::save() should be compatible with that of Think\Model::save() D:\WWW\tools\Application\Admin\Model\ArticleModel.class.php 第 101 行.
+NOTIC: [2048] Declaration of Admin\Model\ArticleModel::delete() should be compatible with that of Think\Model::delete() D:\WWW\tools\Application\Admin\Model\ArticleModel.class.php 第 101 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0140s ]
+SQL: INSERT INTO `article` (`type`,`title`,`keyword`,`author`,`content`,`createtime`) VALUES ('12','mysql 赋给用户远程权限 grant all privileges on','','小兔','&lt;h2 style=&quot;box-sizing: border-box; font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimHei, Arial, SimSun; line-height: 32px; color: rgb(79, 79, 79); margin: 8px 0px 16px; font-size: 24px; padding: 0px; background-color: rgb(255, 255, 255);&quot;&gt;登陆&lt;/h2&gt;&lt;p&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(79, 79, 79); font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimHei, Arial, SimSun; text-align: justify;&quot;&gt;在本机上使用命令行登陆,并切换到mysql库&lt;/span&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-family: Consolas, Inconsolata, Courier, monospace; font-size: 14px; white-space: pre; background-color: rgb(253, 234, 218);&quot;&gt;mysql -uroot -p
+use mysql;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(79, 79, 79); font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimHei, Arial, SimSun; text-align: justify;&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-family: Consolas, Inconsolata, Courier, monospace; font-size: 14px; white-space: pre; background-color: rgb(246, 248, 250);&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-family:Consolas, Inconsolata, Courier, monospace&quot;&gt;&lt;span style=&quot;font-size: 14px; white-space: pre; background-color: rgb(246, 248, 250);&quot;&gt;遇到问题：&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-family: Consolas, Inconsolata, Courier, monospace; font-size: 14px; white-space: pre; background-color: rgb(246, 248, 250);&quot;&gt;centos 安装msyql后需要初始化密码，mysql5.7 有初始的随机密码，所以去初始化密码的时候需要&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-family: Consolas, Inconsolata, Courier, monospace; font-size: 14px; white-space: pre; background-color: rgb(246, 248, 250);&quot;&gt;登录随机密码（/var/log/mysql.log下查找随机密码）;mysql5.6初始密码 命令:mysql -uroot进入&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-family:Consolas, Inconsolata, Courier, monospace&quot;&gt;&lt;span style=&quot;font-size: 14px; white-space: pre; background-color: rgb(246, 248, 250);&quot;&gt;数据库use mysql; 修改root密码 刷新权限就ok了。&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;h2 style=&quot;box-sizing: border-box; font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimHei, Arial, SimSun; line-height: 32px; color: rgb(79, 79, 79); margin: 8px 0px 16px; font-size: 24px; padding: 0px; background-color: rgb(255, 255, 255);&quot;&gt;更改表&lt;/h2&gt;&lt;p&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(79, 79, 79); font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimHei, Arial, SimSun; text-align: justify;&quot;&gt;要查看user表中user=’root’的对应情况，根据实际需求来更改表信息&lt;/span&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;box-sizing: border-box; margin: 0px; padding: 0px; font-family: Consolas, Inconsolata, Courier, monospace; font-size: 14px; white-space: pre; background-color: rgb(253, 234, 218);&quot;&gt;&lt;span class=&quot;hljs-keyword&quot; style=&quot;font-family: Consolas, Inconsolata, Courier, monospace; font-size: 14px; white-space: pre; background-color: rgb(253, 234, 218); color: rgb(0, 0, 136);&quot;&gt;select&lt;/span&gt; host,&lt;span class=&quot;hljs-keyword&quot; style=&quot;font-family: Consolas, Inconsolata, Courier, monospace; font-size: 14px; white-space: pre; background-color: rgb(253, 234, 218); color: rgb(0, 0, 136);&quot;&gt;user&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot; style=&quot;font-family: Consolas, Inconsolata, Courier, monospace; font-size: 14px; white-space: pre; background-color: rgb(253, 234, 218); color: rgb(0, 0, 136);&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot; style=&quot;font-family: Consolas, Inconsolata, Courier, monospace; font-size: 14px; white-space: pre; background-color: rgb(253, 234, 218); color: rgb(0, 0, 136);&quot;&gt;user&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot; style=&quot;font-family: Consolas, Inconsolata, Courier, monospace; font-size: 14px; white-space: pre; background-color: rgb(253, 234, 218); color: rgb(0, 0, 136);&quot;&gt;where&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot; style=&quot;font-family: Consolas, Inconsolata, Courier, monospace; font-size: 14px; white-space: pre; background-color: rgb(253, 234, 218); color: rgb(0, 0, 136);&quot;&gt;user&lt;/span&gt;=&lt;span class=&quot;hljs-string&quot; style=&quot;font-family: Consolas, Inconsolata, Courier, monospace; font-size: 14px; white-space: pre; background-color: rgb(253, 234, 218); color: rgb(0, 153, 0);&quot;&gt;&amp;#39;root&amp;#39;&lt;/span&gt;;&lt;/span&gt;&lt;span style=&quot;font-family: Consolas, Inconsolata, Courier, monospace; font-size: 14px; white-space: pre; background-color: rgb(246, 248, 250);&quot;&gt;# 如果上面查询到有信息,但host为localhost或其他值，&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-family: Consolas, Inconsolata, Courier, monospace; font-size: 14px; white-space: pre; background-color: rgb(246, 248, 250);&quot;&gt;就需要根据实际需求来更新表信息&lt;/span&gt;&lt;span class=&quot;hljs-operator&quot; style=&quot;box-sizing: border-box; margin: 0px; padding: 0px; font-family: Consolas, Inconsolata, Courier, monospace; font-size: 14px; white-space: pre;&quot;&gt;&lt;span class=&quot;hljs-keyword&quot; style=&quot;box-sizing: border-box; margin: 0px; padding: 0px; color: rgb(0, 0, 136);&quot;&gt;update&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot; style=&quot;box-sizing: border-box; margin: 0px; padding: 0px; color: rgb(0, 0, 136);&quot;&gt;user&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot; style=&quot;box-sizing: border-box; margin: 0px; padding: 0px; color: rgb(0, 0, 136);&quot;&gt;set&lt;/span&gt; host=&lt;span class=&quot;hljs-string&quot; style=&quot;box-sizing: border-box; margin: 0px; padding: 0px; color: rgb(0, 153, 0);&quot;&gt;&amp;#39;%&amp;#39;&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot; style=&quot;box-sizing: border-box; margin: 0px; padding: 0px; color: rgb(0, 0, 136);&quot;&gt;where&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot; style=&quot;box-sizing: border-box; margin: 0px; padding: 0px; color: rgb(0, 0, 136);&quot;&gt;user&lt;/span&gt;=&lt;span class=&quot;hljs-string&quot; style=&quot;box-sizing: border-box; margin: 0px; padding: 0px; color: rgb(0, 153, 0);&quot;&gt;&amp;#39;root&amp;#39;&lt;/span&gt; # 如果想任何的IP地址都&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;hljs-operator&quot; style=&quot;box-sizing: border-box; margin: 0px; padding: 0px; font-family: Consolas, Inconsolata, Courier, monospace; font-size: 14px; white-space: pre;&quot;&gt;可以使用root用户来远程登陆&lt;/span&gt;&lt;span style=&quot;font-family: Consolas, Inconsolata, Courier, monospace; font-size: 14px; white-space: pre;&quot;&gt;（注意如果上面的查询语句，查询出来有多条，就需要做一些处理，比如多加一个&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-family: Consolas, Inconsolata, Courier, monospace; font-size: 14px; white-space: pre;&quot;&gt;条件如 &lt;/span&gt;&lt;span class=&quot;hljs-keyword&quot; style=&quot;font-family: Consolas, Inconsolata, Courier, monospace; font-size: 14px; white-space: pre; box-sizing: border-box; margin: 0px; padding: 0px; color: rgb(0, 0, 136);&quot;&gt;where&lt;/span&gt;&lt;span style=&quot;font-family: Consolas, Inconsolata, Courier, monospace; font-size: 14px; white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span class=&quot;hljs-keyword&quot; style=&quot;font-family: Consolas, Inconsolata, Courier, monospace; font-size: 14px; white-space: pre; box-sizing: border-box; margin: 0px; padding: 0px; color: rgb(0, 0, 136);&quot;&gt;user&lt;/span&gt;&lt;span style=&quot;font-family: Consolas, Inconsolata, Courier, monospace; font-size: 14px; white-space: pre;&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;hljs-string&quot; style=&quot;font-family: Consolas, Inconsolata, Courier, monospace; font-size: 14px; white-space: pre; box-sizing: border-box; margin: 0px; padding: 0px; color: rgb(0, 153, 0);&quot;&gt;&amp;#39;root&amp;#39;&lt;/span&gt;&lt;span style=&quot;font-family: Consolas, Inconsolata, Courier, monospace; font-size: 14px; white-space: pre;&quot;&gt; &lt;/span&gt;&lt;span class=&quot;hljs-keyword&quot; style=&quot;font-family: Consolas, Inconsolata, Courier, monospace; font-size: 14px; white-space: pre; box-sizing: border-box; margin: 0px; padding: 0px; color: rgb(0, 0, 136);&quot;&gt;and&lt;/span&gt;&lt;span style=&quot;font-family: Consolas, Inconsolata, Courier, monospace; font-size: 14px; white-space: pre;&quot;&gt; host=&lt;/span&gt;&lt;span class=&quot;hljs-string&quot; style=&quot;font-family: Consolas, Inconsolata, Courier, monospace; font-size: 14px; white-space: pre; box-sizing: border-box; margin: 0px; padding: 0px; color: rgb(0, 153, 0);&quot;&gt;&amp;#39;localhost&amp;#39;&lt;/span&gt;&lt;span style=&quot;font-family: Consolas, Inconsolata, Courier, monospace; font-size: 14px; white-space: pre;&quot;&gt;或先删除其他人记录只保存一条&lt;/span&gt;&lt;span class=&quot;hljs-keyword&quot; style=&quot;font-family: Consolas, Inconsolata, Courier, monospace; font-size: 14px; white-space: pre; box-sizing: border-box; margin: 0px; padding: 0px; color: rgb(0, 0, 136);&quot;&gt;user&lt;/span&gt;&lt;span style=&quot;font-family: Consolas, Inconsolata, Courier, monospace; font-size: 14px; white-space: pre;&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;hljs-string&quot; style=&quot;font-family: Consolas, Inconsolata, Courier, monospace; font-size: 14px; white-space: pre; box-sizing: border-box; margin: 0px; padding: 0px; color: rgb(0, 153, 0);&quot;&gt;&amp;#39;root&amp;#39;&lt;/span&gt;&lt;span style=&quot;font-family: Consolas, Inconsolata, Courier, monospace; font-size: 14px; white-space: pre;&quot;&gt;的记录）&lt;/span&gt;&lt;/p&gt;&lt;h2 style=&quot;box-sizing: border-box; font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimHei, Arial, SimSun; line-height: 32px; color: rgb(79, 79, 79); margin: 8px 0px 16px; font-size: 24px; padding: 0px; background-color: rgb(255, 255, 255);&quot;&gt;更改权限&lt;/h2&gt;&lt;p&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(79, 79, 79); font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimHei, Arial, SimSun; text-align: justify;&quot;&gt;使用grant all privileges on来更改用户对应某些库的远程权限&lt;/span&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(79, 79, 79); font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimHei, Arial, SimSun; text-align: justify; background-color: rgb(255, 255, 255);&quot;&gt;语法模板&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(79, 79, 79); font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimHei, Arial, SimSun; text-align: justify;&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: rgb(253, 234, 218);&quot;&gt;&lt;span class=&quot;hljs-operator&quot; style=&quot;background-color: rgb(253, 234, 218); box-sizing: border-box; margin: 0px; padding: 0px; font-family: Consolas, Inconsolata, Courier, monospace; font-size: 14px; white-space: pre;&quot;&gt;&lt;span class=&quot;hljs-keyword&quot; style=&quot;background-color: rgb(253, 234, 218); color: rgb(0, 0, 136);&quot;&gt;grant&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot; style=&quot;background-color: rgb(253, 234, 218); color: rgb(0, 0, 136);&quot;&gt;all&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot; style=&quot;background-color: rgb(253, 234, 218); color: rgb(0, 0, 136);&quot;&gt;privileges&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot; style=&quot;background-color: rgb(253, 234, 218); color: rgb(0, 0, 136);&quot;&gt;on&lt;/span&gt; 库名.表名 &lt;span class=&quot;hljs-keyword&quot; style=&quot;background-color: rgb(253, 234, 218); color: rgb(0, 0, 136);&quot;&gt;to&lt;/span&gt; &lt;span class=&quot;hljs-string&quot; style=&quot;background-color: rgb(253, 234, 218); color: rgb(0, 153, 0);&quot;&gt;&amp;#39;用户名&amp;#39;&lt;/span&gt;@&lt;span class=&quot;hljs-string&quot; style=&quot;background-color: rgb(253, 234, 218); color: rgb(0, 153, 0);&quot;&gt;&amp;#39;IP地址&amp;#39;&lt;/span&gt; identified &lt;span class=&quot;hljs-keyword&quot; style=&quot;background-color: rgb(253, 234, 218); color: rgb(0, 0, 136);&quot;&gt;by&lt;/span&gt; &lt;span class=&quot;hljs-string&quot; style=&quot;background-color: rgb(253, 234, 218); color: rgb(0, 153, 0);&quot;&gt;&amp;#39;密码&amp;#39;&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot; style=&quot;background-color: rgb(253, 234, 218); color: rgb(0, 0, 136);&quot;&gt;with&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot; style=&quot;background-color: rgb(253, 234, 218); color: rgb(0, 0, 136);&quot;&gt;grant&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot; style=&quot;background-color: rgb(253, 234, 218); color: rgb(0, 0, 136);&quot;&gt;option&lt;/span&gt;;&lt;/span&gt;&lt;span style=&quot;font-family: Consolas, Inconsolata, Courier, monospace; font-size: 14px; white-space: pre;&quot;&gt;flush privileges;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(79, 79, 79); font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimHei, Arial, SimSun; text-align: justify;&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-family: Consolas, Inconsolata, Courier, monospace; font-size: 14px; white-space: pre; background-color: rgb(246, 248, 250);&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;库名:要远程访问的数据库名称,所有的数据库使用“*”&amp;nbsp;&lt;br/&gt;表名:要远程访问的数据库下的表的名称，所有的表使用“*”&amp;nbsp;&lt;br/&gt;用户名:要赋给远程访问权限的用户名称&amp;nbsp;&lt;br/&gt;IP地址:可以远程访问的电脑的IP地址，所有的地址使用“%”&amp;nbsp;&lt;br/&gt;密码:要赋给远程访问权限的用户对应使用的密码&lt;/span&gt;&lt;span style=&quot;font-family: Consolas, Inconsolata, Courier, monospace; font-size: 14px; white-space: pre; background-color: rgb(246, 248, 250);&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;遇到问题：&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;创建用户授权地址是%，然后登陆localhost登陆不上，原因是&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(51, 51, 51); font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Lantinghei SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, arial, 宋体, sans-serif, tahoma; white-space: pre-wrap;&quot;&gt;%不包括 localhost&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(79, 79, 79); font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimHei, Arial, SimSun; text-align: justify; background-color: rgb(255, 255, 255);&quot;&gt;示例：&lt;/span&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: rgb(253, 234, 218);&quot;&gt;&lt;span class=&quot;hljs-operator&quot; style=&quot;background-color: rgb(253, 234, 218); box-sizing: border-box; margin: 0px; padding: 0px; font-family: Consolas, Inconsolata, Courier, monospace; font-size: 14px; white-space: pre;&quot;&gt;&lt;span class=&quot;hljs-keyword&quot; style=&quot;background-color: rgb(253, 234, 218); color: rgb(0, 0, 136);&quot;&gt;GRANT&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot; style=&quot;background-color: rgb(253, 234, 218); color: rgb(0, 0, 136);&quot;&gt;ALL&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot; style=&quot;background-color: rgb(253, 234, 218); color: rgb(0, 0, 136);&quot;&gt;PRIVILEGES&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot; style=&quot;background-color: rgb(253, 234, 218); color: rgb(0, 0, 136);&quot;&gt;ON&lt;/span&gt; *.* &lt;span class=&quot;hljs-keyword&quot; style=&quot;background-color: rgb(253, 234, 218); color: rgb(0, 0, 136);&quot;&gt;TO&lt;/span&gt; &lt;span class=&quot;hljs-string&quot; style=&quot;background-color: rgb(253, 234, 218); color: rgb(0, 153, 0);&quot;&gt;&amp;#39;root&amp;#39;&lt;/span&gt;@&lt;span class=&quot;hljs-string&quot; style=&quot;background-color: rgb(253, 234, 218); color: rgb(0, 153, 0);&quot;&gt;&amp;#39;%&amp;#39;&lt;/span&gt; IDENTIFIED &lt;span class=&quot;hljs-keyword&quot; style=&quot;background-color: rgb(253, 234, 218); color: rgb(0, 0, 136);&quot;&gt;BY&lt;/span&gt; &lt;span class=&quot;hljs-string&quot; style=&quot;background-color: rgb(253, 234, 218); color: rgb(0, 153, 0);&quot;&gt;&amp;#39;lxh&amp;#39;&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot; style=&quot;background-color: rgb(253, 234, 218); color: rgb(0, 0, 136);&quot;&gt;WITH&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot; style=&quot;background-color: rgb(253, 234, 218); color: rgb(0, 0, 136);&quot;&gt;GRANT&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot; style=&quot;background-color: rgb(253, 234, 218); color: rgb(0, 0, 136);&quot;&gt;OPTION&lt;/span&gt;;&lt;/span&gt;&lt;span style=&quot;font-family: Consolas, Inconsolata, Courier, monospace; font-size: 14px; white-space: pre;&quot;&gt; &lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-family: Consolas, Inconsolata, Courier, monospace; font-size: 14px; white-space: pre; background-color: rgb(246, 248, 250);&quot;&gt;# 所有的地址都可以使用root用户，密码为lxh远程访问所有的数据库&lt;span style=&quot;font-family: Consolas, Inconsolata, Courier, monospace; font-size: 14px; white-space: pre; background-color: rgb(253, 234, 218);&quot;&gt;flush privileges;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: rgb(253, 234, 218);&quot;&gt;&lt;span class=&quot;hljs-operator&quot; style=&quot;background-color: rgb(253, 234, 218); box-sizing: border-box; margin: 0px; padding: 0px; font-family: Consolas, Inconsolata, Courier, monospace; font-size: 14px; white-space: pre;&quot;&gt;&lt;span class=&quot;hljs-keyword&quot; style=&quot;background-color: rgb(253, 234, 218); color: rgb(0, 0, 136);&quot;&gt;GRANT&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot; style=&quot;background-color: rgb(253, 234, 218); color: rgb(0, 0, 136);&quot;&gt;ALL&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot; style=&quot;background-color: rgb(253, 234, 218); color: rgb(0, 0, 136);&quot;&gt;PRIVILEGES&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot; style=&quot;background-color: rgb(253, 234, 218); color: rgb(0, 0, 136);&quot;&gt;ON&lt;/span&gt; testdb.* &lt;span class=&quot;hljs-keyword&quot; style=&quot;background-color: rgb(253, 234, 218); color: rgb(0, 0, 136);&quot;&gt;TO&lt;/span&gt; &lt;span class=&quot;hljs-string&quot; style=&quot;background-color: rgb(253, 234, 218); color: rgb(0, 153, 0);&quot;&gt;&amp;#39;lxh&amp;#39;&lt;/span&gt;@&lt;span class=&quot;hljs-string&quot; style=&quot;background-color: rgb(253, 234, 218); color: rgb(0, 153, 0);&quot;&gt;&amp;#39;172.16.52.225&amp;#39;&lt;/span&gt; &amp;nbsp;IDENTIFIED &lt;span class=&quot;hljs-keyword&quot; style=&quot;background-color: rgb(253, 234, 218); color: rgb(0, 0, 136);&quot;&gt;BY&lt;/span&gt; &lt;span class=&quot;hljs-string&quot; style=&quot;background-color: rgb(253, 234, 218); color: rgb(0, 153, 0);&quot;&gt;&amp;#39;lxh&amp;#39;&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot; style=&quot;background-color: rgb(253, 234, 218); color: rgb(0, 0, 136);&quot;&gt;WITH&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot; style=&quot;background-color: rgb(253, 234, 218); color: rgb(0, 0, 136);&quot;&gt;GRANT&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot; style=&quot;background-color: rgb(253, 234, 218); color: rgb(0, 0, 136);&quot;&gt;OPTION&lt;/span&gt;;&lt;/span&gt;&lt;span style=&quot;font-family: Consolas, Inconsolata, Courier, monospace; font-size: 14px; white-space: pre;&quot;&gt; &lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-family: Consolas, Inconsolata, Courier, monospace; font-size: 14px; white-space: pre; background-color: rgb(246, 248, 250);&quot;&gt;# IP为172.16.52.225的电脑可以使用lxh用户，密码为lxh远程访问数据库testdb的所有表&lt;/span&gt;&lt;span style=&quot;font-family: Consolas, Inconsolata, Courier, monospace; font-size: 14px; white-space: pre; background-color: rgb(246, 248, 250);&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-family: Consolas, Inconsolata, Courier, monospace; font-size: 14px; white-space: pre; background-color: rgb(246, 248, 250);&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;h2 style=&quot;box-sizing: border-box; font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimHei, Arial, SimSun; line-height: 32px; color: rgb(79, 79, 79); margin: 8px 0px 16px; font-size: 24px; padding: 0px; background-color: rgb(255, 255, 255);&quot;&gt;注意&lt;/h2&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(79, 79, 79); font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimHei, Arial, SimSun; text-align: justify; background-color: rgb(255, 255, 255);&quot;&gt;需要注意mysql的配置文件中的&lt;/span&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: 700; color: rgb(79, 79, 79); font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimHei, Arial, SimSun; text-align: justify; background-color: rgb(255, 255, 255);&quot;&gt;bindaddress&lt;/span&gt;&lt;span style=&quot;color: rgb(79, 79, 79); font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimHei, Arial, SimSun; text-align: justify; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;的参数和&lt;/span&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: 700; color: rgb(79, 79, 79); font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimHei, Arial, SimSun; text-align: justify; background-color: rgb(255, 255, 255);&quot;&gt;skip-networking&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(79, 79, 79); font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimHei, Arial, SimSun; text-align: justify; background-color: rgb(255, 255, 255);&quot;&gt;配置&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; margin-top: 0px; margin-bottom: 0px; padding: 0px; font-size: 14px; line-height: 22px; color: rgb(79, 79, 79); text-align: justify; font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimHei, Arial, SimSun;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: 700;&quot;&gt;bindaddress&lt;/span&gt;&amp;nbsp;: 设定哪些ip地址被配置，使得mysql服务器只回应哪些ip地址的请求),&lt;span style=&quot;box-sizing: border-box; font-weight: 700;&quot;&gt;最好注释掉该参数或设置成为127.0.0.1以外的值&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; margin-top: 0px; margin-bottom: 0px; padding: 0px; font-size: 14px; line-height: 22px; color: rgb(79, 79, 79); text-align: justify; font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimHei, Arial, SimSun;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: 700;&quot;&gt;skip-networking&amp;nbsp;&lt;/span&gt;: 如果设置了该参数项，将导致所有TCP/IP端口没有被监听,也就是说出了本机，其他客户端都无法用网络连接到本mysql服务器，所以&lt;span style=&quot;box-sizing: border-box; font-weight: 700;&quot;&gt;应该注释掉该参数&lt;/span&gt;&lt;/p&gt;','1516694915') [ RunTime:0.0217s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000181s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000383s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.137097s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.137298s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002884s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003075s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003106s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003313s ]
+
+[ 2018-01-23T16:08:41+08:00 ] 127.0.0.1 /admin/index/article.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000943s ]
+SQL: SHOW COLUMNS FROM `statisticsip` [ RunTime:0.0318s ]
+SQL: SELECT * FROM `statisticsip` WHERE `ip` = '127.0.0.1' AND `date` = 20180123 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Home\Model\TypeModel::save() should be compatible with that of Think\Model::save() D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 88 行.
+NOTIC: [2048] Declaration of Home\Model\TypeModel::delete() should be compatible with that of Think\Model::delete() D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0063s ]
+NOTIC: [2] Missing argument 1 for Home\Model\TypeModel::lists(), called in D:\WWW\tools\ThinkPHP\Library\Think\Controller.class.php on line 51 and defined D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 83 行.
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 84 行.
+SQL: SELECT * FROM `type` ORDER BY `order` asc,id asc  [ RunTime:0.0002s ]
+NOTIC: [2048] Declaration of Admin\Model\TypeModel::save() should be compatible with that of Think\Model::save() D:\WWW\tools\Application\Admin\Model\TypeModel.class.php 第 106 行.
+NOTIC: [2048] Declaration of Admin\Model\TypeModel::delete() should be compatible with that of Think\Model::delete() D:\WWW\tools\Application\Admin\Model\TypeModel.class.php 第 106 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\TypeModel::lists(), called in D:\WWW\tools\Application\Admin\Controller\IndexController.class.php on line 35 and defined D:\WWW\tools\Application\Admin\Model\TypeModel.class.php 第 101 行.
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Admin\Model\TypeModel.class.php 第 102 行.
+SQL: SELECT * FROM `type` ORDER BY `order` asc,id asc  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008166s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008222s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000523s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000570s ]
+
+[ 2018-01-23T16:08:44+08:00 ] 127.0.0.1 /admin/index/lists.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000566s ]
+SQL: SHOW COLUMNS FROM `statisticsip` [ RunTime:0.0328s ]
+SQL: SELECT * FROM `statisticsip` WHERE `ip` = '127.0.0.1' AND `date` = 20180123 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2048] Declaration of Home\Model\TypeModel::save() should be compatible with that of Think\Model::save() D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 88 行.
+NOTIC: [2048] Declaration of Home\Model\TypeModel::delete() should be compatible with that of Think\Model::delete() D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0111s ]
+NOTIC: [2] Missing argument 1 for Home\Model\TypeModel::lists(), called in D:\WWW\tools\ThinkPHP\Library\Think\Controller.class.php on line 51 and defined D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 83 行.
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 84 行.
+SQL: SELECT * FROM `type` ORDER BY `order` asc,id asc  [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Admin\Model\ArticleModel::save() should be compatible with that of Think\Model::save() D:\WWW\tools\Application\Admin\Model\ArticleModel.class.php 第 101 行.
+NOTIC: [2048] Declaration of Admin\Model\ArticleModel::delete() should be compatible with that of Think\Model::delete() D:\WWW\tools\Application\Admin\Model\ArticleModel.class.php 第 101 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0114s ]
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Admin\Controller\IndexController.class.php 第 102 行.
+SQL: SELECT * FROM `article` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2048] Declaration of Admin\Model\TypeModel::save() should be compatible with that of Think\Model::save() D:\WWW\tools\Application\Admin\Model\TypeModel.class.php 第 106 行.
+NOTIC: [2048] Declaration of Admin\Model\TypeModel::delete() should be compatible with that of Think\Model::delete() D:\WWW\tools\Application\Admin\Model\TypeModel.class.php 第 106 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\TypeModel::lists(), called in D:\WWW\tools\Application\Admin\Controller\IndexController.class.php on line 104 and defined D:\WWW\tools\Application\Admin\Model\TypeModel.class.php 第 101 行.
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Admin\Model\TypeModel.class.php 第 102 行.
+SQL: SELECT * FROM `type` ORDER BY `order` asc,id asc  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009927s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009991s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000418s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000590s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000657s ]
+

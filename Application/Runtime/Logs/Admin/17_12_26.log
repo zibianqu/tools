@@ -1,0 +1,812 @@
+[ 2017-12-26T11:37:01+08:00 ] 127.0.0.1 /admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.029002s ]
+SQL: SHOW COLUMNS FROM `statisticsip` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `statisticsip` WHERE `ip` = '127.0.0.1' AND `date` = 20171226 LIMIT 1   [ RunTime:0.0040s ]
+NOTIC: [2048] Declaration of Home\Model\TypeModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 88 行.
+NOTIC: [2048] Declaration of Home\Model\TypeModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0140s ]
+NOTIC: [2] Missing argument 1 for Home\Model\TypeModel::lists(), called in D:\WWW\tools\ThinkPHP\Library\Think\Controller.class.php on line 51 and defined D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 83 行.
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 84 行.
+SQL: SELECT * FROM `type` ORDER BY `order` asc,id asc  [ RunTime:0.0040s ]
+
+[ 2017-12-26T11:37:05+08:00 ] 127.0.0.1 /admin/login.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023001s ]
+SQL: SHOW COLUMNS FROM `statisticsip` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `statisticsip` WHERE `ip` = '127.0.0.1' AND `date` = 20171226 LIMIT 1   [ RunTime:0.0030s ]
+NOTIC: [2048] Declaration of Home\Model\TypeModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 88 行.
+NOTIC: [2048] Declaration of Home\Model\TypeModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0130s ]
+NOTIC: [2] Missing argument 1 for Home\Model\TypeModel::lists(), called in D:\WWW\tools\ThinkPHP\Library\Think\Controller.class.php on line 51 and defined D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 83 行.
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 84 行.
+SQL: SELECT * FROM `type` ORDER BY `order` asc,id asc  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.016000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.029002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.269015s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.282016s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.022001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.024002s ]
+
+[ 2017-12-26T11:37:11+08:00 ] 127.0.0.1 /admin/login/dologin.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.002001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015001s ]
+SQL: SHOW COLUMNS FROM `statisticsip` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `statisticsip` WHERE `ip` = '127.0.0.1' AND `date` = 20171226 LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [2048] Declaration of Home\Model\TypeModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 88 行.
+NOTIC: [2048] Declaration of Home\Model\TypeModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0100s ]
+NOTIC: [2] Missing argument 1 for Home\Model\TypeModel::lists(), called in D:\WWW\tools\ThinkPHP\Library\Think\Controller.class.php on line 51 and defined D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 83 行.
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 84 行.
+SQL: SELECT * FROM `type` ORDER BY `order` asc,id asc  [ RunTime:0.0030s ]
+NOTIC: [2048] Non-static method Admin\Model\AdminModel::adminLogin() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Admin\Controller\LoginController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0340s ]
+SQL: SELECT * FROM `admin` WHERE `user` = 'admin' LIMIT 1   [ RunTime:0.0030s ]
+
+[ 2017-12-26T11:37:12+08:00 ] 127.0.0.1 /admin/login/dologin.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.036002s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016001s ]
+SQL: SHOW COLUMNS FROM `statisticsip` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `statisticsip` WHERE `ip` = '127.0.0.1' AND `date` = 20171226 LIMIT 1   [ RunTime:0.0030s ]
+NOTIC: [2048] Declaration of Home\Model\TypeModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 88 行.
+NOTIC: [2048] Declaration of Home\Model\TypeModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0100s ]
+NOTIC: [2] Missing argument 1 for Home\Model\TypeModel::lists(), called in D:\WWW\tools\ThinkPHP\Library\Think\Controller.class.php on line 51 and defined D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 83 行.
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 84 行.
+SQL: SELECT * FROM `type` ORDER BY `order` asc,id asc  [ RunTime:0.0030s ]
+NOTIC: [2048] Non-static method Admin\Model\AdminModel::adminLogin() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Admin\Controller\LoginController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `admin` WHERE `user` = 'admin' LIMIT 1   [ RunTime:0.0030s ]
+
+[ 2017-12-26T11:37:14+08:00 ] 127.0.0.1 /admin/index.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018001s ]
+SQL: SHOW COLUMNS FROM `statisticsip` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `statisticsip` WHERE `ip` = '127.0.0.1' AND `date` = 20171226 LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [2048] Declaration of Home\Model\TypeModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 88 行.
+NOTIC: [2048] Declaration of Home\Model\TypeModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0100s ]
+NOTIC: [2] Missing argument 1 for Home\Model\TypeModel::lists(), called in D:\WWW\tools\ThinkPHP\Library\Think\Controller.class.php on line 51 and defined D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 83 行.
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 84 行.
+SQL: SELECT * FROM `type` ORDER BY `order` asc,id asc  [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.008001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.020001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.327018s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.340020s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.019001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.019001s ]
+
+[ 2017-12-26T11:37:16+08:00 ] 127.0.0.1 /admin/index.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019001s ]
+SQL: SHOW COLUMNS FROM `statisticsip` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `statisticsip` WHERE `ip` = '127.0.0.1' AND `date` = 20171226 LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [2048] Declaration of Home\Model\TypeModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 88 行.
+NOTIC: [2048] Declaration of Home\Model\TypeModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0100s ]
+NOTIC: [2] Missing argument 1 for Home\Model\TypeModel::lists(), called in D:\WWW\tools\ThinkPHP\Library\Think\Controller.class.php on line 51 and defined D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 83 行.
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 84 行.
+SQL: SELECT * FROM `type` ORDER BY `order` asc,id asc  [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.007000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.019001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.290017s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.302017s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.018001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.018001s ]
+
+[ 2017-12-26T11:37:20+08:00 ] 127.0.0.1 /admin/index/article.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019001s ]
+SQL: SHOW COLUMNS FROM `statisticsip` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `statisticsip` WHERE `ip` = '127.0.0.1' AND `date` = 20171226 LIMIT 1   [ RunTime:0.0030s ]
+NOTIC: [2048] Declaration of Home\Model\TypeModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 88 行.
+NOTIC: [2048] Declaration of Home\Model\TypeModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0100s ]
+NOTIC: [2] Missing argument 1 for Home\Model\TypeModel::lists(), called in D:\WWW\tools\ThinkPHP\Library\Think\Controller.class.php on line 51 and defined D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 83 行.
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 84 行.
+SQL: SELECT * FROM `type` ORDER BY `order` asc,id asc  [ RunTime:0.0030s ]
+NOTIC: [2048] Declaration of Admin\Model\TypeModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Admin\Model\TypeModel.class.php 第 106 行.
+NOTIC: [2048] Declaration of Admin\Model\TypeModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Admin\Model\TypeModel.class.php 第 106 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\TypeModel::lists(), called in D:\WWW\tools\Application\Admin\Controller\IndexController.class.php on line 35 and defined D:\WWW\tools\Application\Admin\Model\TypeModel.class.php 第 101 行.
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Admin\Model\TypeModel.class.php 第 102 行.
+SQL: SELECT * FROM `type` ORDER BY `order` asc,id asc  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.007000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.018001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.529031s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.542031s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.019001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.019001s ]
+
+[ 2017-12-26T11:37:25+08:00 ] 127.0.0.1 /admin/index/typemanager.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.006000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.070004s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.024002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.036002s ]
+SQL: SHOW COLUMNS FROM `statisticsip` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `statisticsip` WHERE `ip` = '127.0.0.1' AND `date` = 20171226 LIMIT 1   [ RunTime:0.0030s ]
+NOTIC: [2048] Declaration of Home\Model\TypeModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 88 行.
+NOTIC: [2048] Declaration of Home\Model\TypeModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0100s ]
+NOTIC: [2] Missing argument 1 for Home\Model\TypeModel::lists(), called in D:\WWW\tools\ThinkPHP\Library\Think\Controller.class.php on line 51 and defined D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 83 行.
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 84 行.
+SQL: SELECT * FROM `type` ORDER BY `order` asc,id asc  [ RunTime:0.0030s ]
+NOTIC: [2048] Declaration of Admin\Model\TypeModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Admin\Model\TypeModel.class.php 第 106 行.
+NOTIC: [2048] Declaration of Admin\Model\TypeModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Admin\Model\TypeModel.class.php 第 106 行.
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Admin\Controller\IndexController.class.php 第 222 行.
+SQL: SELECT * FROM `type` WHERE `parent_id` IN ('0') ORDER BY `order` asc,id asc  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `type` WHERE `parent_id` IN ('1','2','3','4','12') ORDER BY `order` asc,id asc  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.008000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.020001s ]
+NOTIC: [8] Undefined variable: title D:\WWW\tools\Application\Runtime\Cache\Admin\998d5290710e253fee5e3c66bc442010.php 第 116 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.059061s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.072061s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.022001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.035002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.032002s ]
+INFO: [ app_end ] --END-- [ RunTime:0.054003s ]
+
+[ 2017-12-26T11:37:37+08:00 ] 127.0.0.1 /admin/index/type.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.031002s ]
+SQL: SHOW COLUMNS FROM `statisticsip` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `statisticsip` WHERE `ip` = '127.0.0.1' AND `date` = 20171226 LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [2048] Declaration of Home\Model\TypeModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 88 行.
+NOTIC: [2048] Declaration of Home\Model\TypeModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0100s ]
+NOTIC: [2] Missing argument 1 for Home\Model\TypeModel::lists(), called in D:\WWW\tools\ThinkPHP\Library\Think\Controller.class.php on line 51 and defined D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 83 行.
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 84 行.
+SQL: SELECT * FROM `type` ORDER BY `order` asc,id asc  [ RunTime:0.0020s ]
+NOTIC: [2048] Declaration of Admin\Model\TypeModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Admin\Model\TypeModel.class.php 第 106 行.
+NOTIC: [2048] Declaration of Admin\Model\TypeModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Admin\Model\TypeModel.class.php 第 106 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\TypeModel::lists(), called in D:\WWW\tools\Application\Admin\Controller\IndexController.class.php on line 236 and defined D:\WWW\tools\Application\Admin\Model\TypeModel.class.php 第 101 行.
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Admin\Model\TypeModel.class.php 第 102 行.
+SQL: SELECT * FROM `type` ORDER BY `order` asc,id asc  [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.007000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.019001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.557032s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.570032s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.022001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.033001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.043003s ]
+
+[ 2017-12-26T11:38:16+08:00 ] 127.0.0.1 /admin/index/savetype.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.069004s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.026002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.039002s ]
+SQL: SHOW COLUMNS FROM `statisticsip` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `statisticsip` WHERE `ip` = '127.0.0.1' AND `date` = 20171226 LIMIT 1   [ RunTime:0.0030s ]
+NOTIC: [2048] Declaration of Home\Model\TypeModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 88 行.
+NOTIC: [2048] Declaration of Home\Model\TypeModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0100s ]
+NOTIC: [2] Missing argument 1 for Home\Model\TypeModel::lists(), called in D:\WWW\tools\ThinkPHP\Library\Think\Controller.class.php on line 51 and defined D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 83 行.
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 84 行.
+SQL: SELECT * FROM `type` ORDER BY `order` asc,id asc  [ RunTime:0.0030s ]
+NOTIC: [2048] Declaration of Admin\Model\TypeModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Admin\Model\TypeModel.class.php 第 106 行.
+NOTIC: [2048] Declaration of Admin\Model\TypeModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Admin\Model\TypeModel.class.php 第 106 行.
+SQL: INSERT INTO `type` (`name`,`parent_id`,`order`) VALUES ('错误解决汇总','0','100') [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.007001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.020001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.238013s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.250015s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.020001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.034002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.024001s ]
+
+[ 2017-12-26T11:38:20+08:00 ] 127.0.0.1 /admin/index/type.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019001s ]
+SQL: SHOW COLUMNS FROM `statisticsip` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `statisticsip` WHERE `ip` = '127.0.0.1' AND `date` = 20171226 LIMIT 1   [ RunTime:0.0030s ]
+NOTIC: [2048] Declaration of Home\Model\TypeModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 88 行.
+NOTIC: [2048] Declaration of Home\Model\TypeModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0090s ]
+NOTIC: [2] Missing argument 1 for Home\Model\TypeModel::lists(), called in D:\WWW\tools\ThinkPHP\Library\Think\Controller.class.php on line 51 and defined D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 83 行.
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 84 行.
+SQL: SELECT * FROM `type` ORDER BY `order` asc,id asc  [ RunTime:0.0020s ]
+NOTIC: [2048] Declaration of Admin\Model\TypeModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Admin\Model\TypeModel.class.php 第 106 行.
+NOTIC: [2048] Declaration of Admin\Model\TypeModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Admin\Model\TypeModel.class.php 第 106 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\TypeModel::lists(), called in D:\WWW\tools\Application\Admin\Controller\IndexController.class.php on line 236 and defined D:\WWW\tools\Application\Admin\Model\TypeModel.class.php 第 101 行.
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Admin\Model\TypeModel.class.php 第 102 行.
+SQL: SELECT * FROM `type` ORDER BY `order` asc,id asc  [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.007000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.019002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.483028s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.495028s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.019001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.020001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.051003s ]
+
+[ 2017-12-26T11:38:25+08:00 ] 127.0.0.1 /admin/index/lists.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.002001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020001s ]
+SQL: SHOW COLUMNS FROM `statisticsip` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `statisticsip` WHERE `ip` = '127.0.0.1' AND `date` = 20171226 LIMIT 1   [ RunTime:0.0030s ]
+NOTIC: [2048] Declaration of Home\Model\TypeModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 88 行.
+NOTIC: [2048] Declaration of Home\Model\TypeModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0100s ]
+NOTIC: [2] Missing argument 1 for Home\Model\TypeModel::lists(), called in D:\WWW\tools\ThinkPHP\Library\Think\Controller.class.php on line 51 and defined D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 83 行.
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 84 行.
+SQL: SELECT * FROM `type` ORDER BY `order` asc,id asc  [ RunTime:0.0050s ]
+NOTIC: [2048] Declaration of Admin\Model\ArticleModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Admin\Model\ArticleModel.class.php 第 101 行.
+NOTIC: [2048] Declaration of Admin\Model\ArticleModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Admin\Model\ArticleModel.class.php 第 101 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Admin\Controller\IndexController.class.php 第 102 行.
+SQL: SELECT * FROM `article` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0120s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [2048] Declaration of Admin\Model\TypeModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Admin\Model\TypeModel.class.php 第 106 行.
+NOTIC: [2048] Declaration of Admin\Model\TypeModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Admin\Model\TypeModel.class.php 第 106 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\TypeModel::lists(), called in D:\WWW\tools\Application\Admin\Controller\IndexController.class.php on line 104 and defined D:\WWW\tools\Application\Admin\Model\TypeModel.class.php 第 101 行.
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Admin\Model\TypeModel.class.php 第 102 行.
+SQL: SELECT * FROM `type` ORDER BY `order` asc,id asc  [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.007000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.020001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.847048s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.859049s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.019001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.043002s ]
+
+[ 2017-12-26T11:39:23+08:00 ] 127.0.0.1 /admin/index/typemanager.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.002001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022002s ]
+SQL: SHOW COLUMNS FROM `statisticsip` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `statisticsip` WHERE `ip` = '127.0.0.1' AND `date` = 20171226 LIMIT 1   [ RunTime:0.0030s ]
+NOTIC: [2048] Declaration of Home\Model\TypeModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 88 行.
+NOTIC: [2048] Declaration of Home\Model\TypeModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0100s ]
+NOTIC: [2] Missing argument 1 for Home\Model\TypeModel::lists(), called in D:\WWW\tools\ThinkPHP\Library\Think\Controller.class.php on line 51 and defined D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 83 行.
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 84 行.
+SQL: SELECT * FROM `type` ORDER BY `order` asc,id asc  [ RunTime:0.0020s ]
+NOTIC: [2048] Declaration of Admin\Model\TypeModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Admin\Model\TypeModel.class.php 第 106 行.
+NOTIC: [2048] Declaration of Admin\Model\TypeModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Admin\Model\TypeModel.class.php 第 106 行.
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Admin\Controller\IndexController.class.php 第 222 行.
+SQL: SELECT * FROM `type` WHERE `parent_id` IN ('0') ORDER BY `order` asc,id asc  [ RunTime:0.0030s ]
+SQL: SELECT * FROM `type` WHERE `parent_id` IN ('1','2','3','4','12','13') ORDER BY `order` asc,id asc  [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.008001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.020001s ]
+NOTIC: [8] Undefined variable: title D:\WWW\tools\Application\Runtime\Cache\Admin\998d5290710e253fee5e3c66bc442010.php 第 116 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.845048s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.859049s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.019001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.037002s ]
+
+[ 2017-12-26T11:39:28+08:00 ] 127.0.0.1 /admin/index/type/id/13.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019001s ]
+SQL: SHOW COLUMNS FROM `statisticsip` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `statisticsip` WHERE `ip` = '127.0.0.1' AND `date` = 20171226 LIMIT 1   [ RunTime:0.0030s ]
+NOTIC: [2048] Declaration of Home\Model\TypeModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 88 行.
+NOTIC: [2048] Declaration of Home\Model\TypeModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0110s ]
+NOTIC: [2] Missing argument 1 for Home\Model\TypeModel::lists(), called in D:\WWW\tools\ThinkPHP\Library\Think\Controller.class.php on line 51 and defined D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 83 行.
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 84 行.
+SQL: SELECT * FROM `type` ORDER BY `order` asc,id asc  [ RunTime:0.0030s ]
+NOTIC: [2048] Declaration of Admin\Model\TypeModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Admin\Model\TypeModel.class.php 第 106 行.
+NOTIC: [2048] Declaration of Admin\Model\TypeModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Admin\Model\TypeModel.class.php 第 106 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\TypeModel::lists(), called in D:\WWW\tools\Application\Admin\Controller\IndexController.class.php on line 236 and defined D:\WWW\tools\Application\Admin\Model\TypeModel.class.php 第 101 行.
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Admin\Model\TypeModel.class.php 第 102 行.
+SQL: SELECT * FROM `type` ORDER BY `order` asc,id asc  [ RunTime:0.0030s ]
+SQL: SELECT * FROM `type` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.006001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.020001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.474027s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.487028s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.020002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.031002s ]
+
+[ 2017-12-26T11:39:39+08:00 ] 127.0.0.1 /admin/index/typemanager.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019001s ]
+SQL: SHOW COLUMNS FROM `statisticsip` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `statisticsip` WHERE `ip` = '127.0.0.1' AND `date` = 20171226 LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [2048] Declaration of Home\Model\TypeModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 88 行.
+NOTIC: [2048] Declaration of Home\Model\TypeModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0090s ]
+NOTIC: [2] Missing argument 1 for Home\Model\TypeModel::lists(), called in D:\WWW\tools\ThinkPHP\Library\Think\Controller.class.php on line 51 and defined D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 83 行.
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 84 行.
+SQL: SELECT * FROM `type` ORDER BY `order` asc,id asc  [ RunTime:0.0020s ]
+NOTIC: [2048] Declaration of Admin\Model\TypeModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Admin\Model\TypeModel.class.php 第 106 行.
+NOTIC: [2048] Declaration of Admin\Model\TypeModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Admin\Model\TypeModel.class.php 第 106 行.
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Admin\Controller\IndexController.class.php 第 222 行.
+SQL: SELECT * FROM `type` WHERE `parent_id` IN ('0') ORDER BY `order` asc,id asc  [ RunTime:0.0030s ]
+SQL: SELECT * FROM `type` WHERE `parent_id` IN ('1','2','3','4','12','13') ORDER BY `order` asc,id asc  [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.007001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.020001s ]
+NOTIC: [8] Undefined variable: title D:\WWW\tools\Application\Runtime\Cache\Admin\998d5290710e253fee5e3c66bc442010.php 第 116 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.756043s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.769043s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.019001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.017000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.036002s ]
+
+[ 2017-12-26T11:39:52+08:00 ] 127.0.0.1 /admin/index/type/id/13.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020001s ]
+SQL: SHOW COLUMNS FROM `statisticsip` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `statisticsip` WHERE `ip` = '127.0.0.1' AND `date` = 20171226 LIMIT 1   [ RunTime:0.0030s ]
+NOTIC: [2048] Declaration of Home\Model\TypeModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 88 行.
+NOTIC: [2048] Declaration of Home\Model\TypeModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0100s ]
+NOTIC: [2] Missing argument 1 for Home\Model\TypeModel::lists(), called in D:\WWW\tools\ThinkPHP\Library\Think\Controller.class.php on line 51 and defined D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 83 行.
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 84 行.
+SQL: SELECT * FROM `type` ORDER BY `order` asc,id asc  [ RunTime:0.0020s ]
+NOTIC: [2048] Declaration of Admin\Model\TypeModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Admin\Model\TypeModel.class.php 第 106 行.
+NOTIC: [2048] Declaration of Admin\Model\TypeModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Admin\Model\TypeModel.class.php 第 106 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\TypeModel::lists(), called in D:\WWW\tools\Application\Admin\Controller\IndexController.class.php on line 236 and defined D:\WWW\tools\Application\Admin\Model\TypeModel.class.php 第 101 行.
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Admin\Model\TypeModel.class.php 第 102 行.
+SQL: SELECT * FROM `type` ORDER BY `order` asc,id asc  [ RunTime:0.0030s ]
+SQL: SELECT * FROM `type` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.006001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.020001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.459027s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.472027s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.019001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.033001s ]
+
+[ 2017-12-26T11:40:09+08:00 ] 127.0.0.1 /admin/index/savetype.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018001s ]
+SQL: SHOW COLUMNS FROM `statisticsip` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `statisticsip` WHERE `ip` = '127.0.0.1' AND `date` = 20171226 LIMIT 1   [ RunTime:0.0030s ]
+NOTIC: [2048] Declaration of Home\Model\TypeModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 88 行.
+NOTIC: [2048] Declaration of Home\Model\TypeModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0110s ]
+NOTIC: [2] Missing argument 1 for Home\Model\TypeModel::lists(), called in D:\WWW\tools\ThinkPHP\Library\Think\Controller.class.php on line 51 and defined D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 83 行.
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 84 行.
+SQL: SELECT * FROM `type` ORDER BY `order` asc,id asc  [ RunTime:0.0030s ]
+NOTIC: [2048] Declaration of Admin\Model\TypeModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Admin\Model\TypeModel.class.php 第 106 行.
+NOTIC: [2048] Declaration of Admin\Model\TypeModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Admin\Model\TypeModel.class.php 第 106 行.
+SQL: UPDATE `type` SET `name`='Erroneous solution',`parent_id`='0',`order`='100' WHERE `id` = 13 [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.008001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.019001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.170010s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.183011s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.019001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.019001s ]
+
+[ 2017-12-26T11:40:12+08:00 ] 127.0.0.1 /admin/index/type/id/13.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018001s ]
+SQL: SHOW COLUMNS FROM `statisticsip` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `statisticsip` WHERE `ip` = '127.0.0.1' AND `date` = 20171226 LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [2048] Declaration of Home\Model\TypeModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 88 行.
+NOTIC: [2048] Declaration of Home\Model\TypeModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0100s ]
+NOTIC: [2] Missing argument 1 for Home\Model\TypeModel::lists(), called in D:\WWW\tools\ThinkPHP\Library\Think\Controller.class.php on line 51 and defined D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 83 行.
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 84 行.
+SQL: SELECT * FROM `type` ORDER BY `order` asc,id asc  [ RunTime:0.0020s ]
+NOTIC: [2048] Declaration of Admin\Model\TypeModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Admin\Model\TypeModel.class.php 第 106 行.
+NOTIC: [2048] Declaration of Admin\Model\TypeModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Admin\Model\TypeModel.class.php 第 106 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\TypeModel::lists(), called in D:\WWW\tools\Application\Admin\Controller\IndexController.class.php on line 236 and defined D:\WWW\tools\Application\Admin\Model\TypeModel.class.php 第 101 行.
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Admin\Model\TypeModel.class.php 第 102 行.
+SQL: SELECT * FROM `type` ORDER BY `order` asc,id asc  [ RunTime:0.0030s ]
+SQL: SELECT * FROM `type` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.008000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.019001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.462026s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.474027s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.019001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.033002s ]
+
+[ 2017-12-26T11:40:19+08:00 ] 127.0.0.1 /admin/index/lists.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.003001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019001s ]
+SQL: SHOW COLUMNS FROM `statisticsip` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `statisticsip` WHERE `ip` = '127.0.0.1' AND `date` = 20171226 LIMIT 1   [ RunTime:0.0030s ]
+NOTIC: [2048] Declaration of Home\Model\TypeModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 88 行.
+NOTIC: [2048] Declaration of Home\Model\TypeModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0100s ]
+NOTIC: [2] Missing argument 1 for Home\Model\TypeModel::lists(), called in D:\WWW\tools\ThinkPHP\Library\Think\Controller.class.php on line 51 and defined D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 83 行.
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 84 行.
+SQL: SELECT * FROM `type` ORDER BY `order` asc,id asc  [ RunTime:0.0030s ]
+NOTIC: [2048] Declaration of Admin\Model\ArticleModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Admin\Model\ArticleModel.class.php 第 101 行.
+NOTIC: [2048] Declaration of Admin\Model\ArticleModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Admin\Model\ArticleModel.class.php 第 101 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Admin\Controller\IndexController.class.php 第 102 行.
+SQL: SELECT * FROM `article` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [2048] Declaration of Admin\Model\TypeModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Admin\Model\TypeModel.class.php 第 106 行.
+NOTIC: [2048] Declaration of Admin\Model\TypeModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Admin\Model\TypeModel.class.php 第 106 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\TypeModel::lists(), called in D:\WWW\tools\Application\Admin\Controller\IndexController.class.php on line 104 and defined D:\WWW\tools\Application\Admin\Model\TypeModel.class.php 第 101 行.
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Admin\Model\TypeModel.class.php 第 102 行.
+SQL: SELECT * FROM `type` ORDER BY `order` asc,id asc  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.007001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.020001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.856049s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.869050s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.020001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.033002s ]
+
+[ 2017-12-26T11:40:24+08:00 ] 127.0.0.1 /admin/index/article.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.002001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019001s ]
+SQL: SHOW COLUMNS FROM `statisticsip` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `statisticsip` WHERE `ip` = '127.0.0.1' AND `date` = 20171226 LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [2048] Declaration of Home\Model\TypeModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 88 行.
+NOTIC: [2048] Declaration of Home\Model\TypeModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0090s ]
+NOTIC: [2] Missing argument 1 for Home\Model\TypeModel::lists(), called in D:\WWW\tools\ThinkPHP\Library\Think\Controller.class.php on line 51 and defined D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 83 行.
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 84 行.
+SQL: SELECT * FROM `type` ORDER BY `order` asc,id asc  [ RunTime:0.0020s ]
+NOTIC: [2048] Declaration of Admin\Model\TypeModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Admin\Model\TypeModel.class.php 第 106 行.
+NOTIC: [2048] Declaration of Admin\Model\TypeModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Admin\Model\TypeModel.class.php 第 106 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\TypeModel::lists(), called in D:\WWW\tools\Application\Admin\Controller\IndexController.class.php on line 35 and defined D:\WWW\tools\Application\Admin\Model\TypeModel.class.php 第 101 行.
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Admin\Model\TypeModel.class.php 第 102 行.
+SQL: SELECT * FROM `type` ORDER BY `order` asc,id asc  [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.007001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.020001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.512030s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.525030s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.020001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.019001s ]
+
+[ 2017-12-26T11:40:59+08:00 ] 127.0.0.1 /admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021001s ]
+SQL: SHOW COLUMNS FROM `statisticsip` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `statisticsip` WHERE `ip` = '127.0.0.1' AND `date` = 20171226 LIMIT 1   [ RunTime:0.0030s ]
+NOTIC: [2048] Declaration of Home\Model\TypeModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 88 行.
+NOTIC: [2048] Declaration of Home\Model\TypeModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0090s ]
+NOTIC: [2] Missing argument 1 for Home\Model\TypeModel::lists(), called in D:\WWW\tools\ThinkPHP\Library\Think\Controller.class.php on line 51 and defined D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 83 行.
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 84 行.
+SQL: SELECT * FROM `type` ORDER BY `order` asc,id asc  [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.007001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.020001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.315018s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.327018s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.018001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.019001s ]
+
+[ 2017-12-26T11:41:04+08:00 ] 127.0.0.1 /admin/index/article.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019001s ]
+SQL: SHOW COLUMNS FROM `statisticsip` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `statisticsip` WHERE `ip` = '127.0.0.1' AND `date` = 20171226 LIMIT 1   [ RunTime:0.0030s ]
+NOTIC: [2048] Declaration of Home\Model\TypeModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 88 行.
+NOTIC: [2048] Declaration of Home\Model\TypeModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0110s ]
+NOTIC: [2] Missing argument 1 for Home\Model\TypeModel::lists(), called in D:\WWW\tools\ThinkPHP\Library\Think\Controller.class.php on line 51 and defined D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 83 行.
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 84 行.
+SQL: SELECT * FROM `type` ORDER BY `order` asc,id asc  [ RunTime:0.0030s ]
+NOTIC: [2048] Declaration of Admin\Model\TypeModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Admin\Model\TypeModel.class.php 第 106 行.
+NOTIC: [2048] Declaration of Admin\Model\TypeModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Admin\Model\TypeModel.class.php 第 106 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\TypeModel::lists(), called in D:\WWW\tools\Application\Admin\Controller\IndexController.class.php on line 35 and defined D:\WWW\tools\Application\Admin\Model\TypeModel.class.php 第 101 行.
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Admin\Model\TypeModel.class.php 第 102 行.
+SQL: SELECT * FROM `type` ORDER BY `order` asc,id asc  [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.006000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.019001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.496028s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.509029s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.019001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.020001s ]
+
+[ 2017-12-26T11:50:21+08:00 ] 127.0.0.1 /admin/index/SaveArticle.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.002001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017001s ]
+SQL: SHOW COLUMNS FROM `statisticsip` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `statisticsip` WHERE `ip` = '127.0.0.1' AND `date` = 20171226 LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [2048] Declaration of Home\Model\TypeModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 88 行.
+NOTIC: [2048] Declaration of Home\Model\TypeModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0100s ]
+NOTIC: [2] Missing argument 1 for Home\Model\TypeModel::lists(), called in D:\WWW\tools\ThinkPHP\Library\Think\Controller.class.php on line 51 and defined D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 83 行.
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 84 行.
+SQL: SELECT * FROM `type` ORDER BY `order` asc,id asc  [ RunTime:0.0030s ]
+NOTIC: [2048] Declaration of Admin\Model\ArticleModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Admin\Model\ArticleModel.class.php 第 101 行.
+NOTIC: [2048] Declaration of Admin\Model\ArticleModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Admin\Model\ArticleModel.class.php 第 101 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0090s ]
+SQL: INSERT INTO `article` (`type`,`title`,`keyword`,`author`,`content`,`createtime`) VALUES ('13','thinkphp框架报错：_STORAGE_WRITE_ERROR_','_STORAGE_WRITE_ERROR_,setenforce,setlinux','小兔','&lt;p&gt;&lt;font color=&quot;#323232&quot; face=&quot;Century Gothic, Microsoft yahei&quot;&gt;&lt;span style=&quot;line-height: 28.8px; background-color: rgb(255, 255, 255);&quot;&gt;使用的是thinkphp框架，刚搭建了服务器安装好了php环境，跑程序报了以下错误：&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(50, 50, 50); font-family: &amp;quot;Century Gothic&amp;quot;, &amp;quot;Microsoft yahei&amp;quot;; line-height: 28.8px; background-color: rgb(255, 255, 255);&quot;&gt;_STORAGE_WRITE_ERROR_:./Application/Runtime/Cache/User/788524be80db1959c132efbce25367a0.php&lt;/span&gt;&lt;br/&gt;&lt;span style=&quot;color: rgb(50, 50, 50); font-family: &amp;quot;Century Gothic&amp;quot;, &amp;quot;Microsoft yahei&amp;quot;; line-height: 28.8px; background-color: rgb(255, 255, 255);&quot;&gt;错误位置&lt;/span&gt;&lt;br/&gt;&lt;span style=&quot;color: rgb(50, 50, 50); font-family: &amp;quot;Century Gothic&amp;quot;, &amp;quot;Microsoft yahei&amp;quot;; line-height: 28.8px; background-color: rgb(255, 255, 255);&quot;&gt;FILE: /data/web/partTime/ThinkPHP/Library/Think/Storage/Driver/File.class.php 　LINE: 47&lt;/span&gt;&lt;br/&gt;&lt;br/&gt;&lt;span style=&quot;color: rgb(50, 50, 50); font-family: &amp;quot;Century Gothic&amp;quot;, &amp;quot;Microsoft yahei&amp;quot;; line-height: 28.8px; background-color: rgb(255, 255, 255);&quot;&gt;--------------------------------------&lt;/span&gt;&lt;br/&gt;一般情况有以下几种情况：&lt;/p&gt;&lt;ol class=&quot; list-paddingleft-2&quot; style=&quot;list-style-type: decimal;&quot;&gt;&lt;li&gt;&lt;p&gt;该工作区间没有足够空间，删除大的缓存或日志文件。&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;查看Runtime是否有足够的读写权限，及用户组是否有权限，用chomd命令赋权限。&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;还有一种是setlinux防火墙的问题，有强制模式和宽松模式，强制模式下进程只能访问任务列表下的文件&lt;/p&gt;&lt;p&gt;所以要把setlinux改成宽松模式，临时设置命令setenforce 0，可以修改配置不过需要重启服务器&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;','1514260221') [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.007000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.019001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.176010s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.188011s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.019001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.020002s ]
+
+[ 2017-12-26T11:50:29+08:00 ] 127.0.0.1 /admin/index/article.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019002s ]
+SQL: SHOW COLUMNS FROM `statisticsip` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `statisticsip` WHERE `ip` = '127.0.0.1' AND `date` = 20171226 LIMIT 1   [ RunTime:0.0030s ]
+NOTIC: [2048] Declaration of Home\Model\TypeModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 88 行.
+NOTIC: [2048] Declaration of Home\Model\TypeModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0090s ]
+NOTIC: [2] Missing argument 1 for Home\Model\TypeModel::lists(), called in D:\WWW\tools\ThinkPHP\Library\Think\Controller.class.php on line 51 and defined D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 83 行.
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 84 行.
+SQL: SELECT * FROM `type` ORDER BY `order` asc,id asc  [ RunTime:0.0020s ]
+NOTIC: [2048] Declaration of Admin\Model\TypeModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Admin\Model\TypeModel.class.php 第 106 行.
+NOTIC: [2048] Declaration of Admin\Model\TypeModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Admin\Model\TypeModel.class.php 第 106 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\TypeModel::lists(), called in D:\WWW\tools\Application\Admin\Controller\IndexController.class.php on line 35 and defined D:\WWW\tools\Application\Admin\Model\TypeModel.class.php 第 101 行.
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Admin\Model\TypeModel.class.php 第 102 行.
+SQL: SELECT * FROM `type` ORDER BY `order` asc,id asc  [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.007001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.020001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.495028s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.507029s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.019001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.019001s ]
+
+[ 2017-12-26T13:45:50+08:00 ] 127.0.0.1 /admin/index/article.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.002001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019001s ]
+SQL: SHOW COLUMNS FROM `statisticsip` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `statisticsip` WHERE `ip` = '127.0.0.1' AND `date` = 20171226 LIMIT 1   [ RunTime:0.0030s ]
+NOTIC: [2048] Declaration of Home\Model\TypeModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 88 行.
+NOTIC: [2048] Declaration of Home\Model\TypeModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0100s ]
+NOTIC: [2] Missing argument 1 for Home\Model\TypeModel::lists(), called in D:\WWW\tools\ThinkPHP\Library\Think\Controller.class.php on line 51 and defined D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 83 行.
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 84 行.
+SQL: SELECT * FROM `type` ORDER BY `order` asc,id asc  [ RunTime:0.0030s ]
+NOTIC: [2048] Declaration of Admin\Model\TypeModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Admin\Model\TypeModel.class.php 第 106 行.
+NOTIC: [2048] Declaration of Admin\Model\TypeModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Admin\Model\TypeModel.class.php 第 106 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\TypeModel::lists(), called in D:\WWW\tools\Application\Admin\Controller\IndexController.class.php on line 35 and defined D:\WWW\tools\Application\Admin\Model\TypeModel.class.php 第 101 行.
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Admin\Model\TypeModel.class.php 第 102 行.
+SQL: SELECT * FROM `type` ORDER BY `order` asc,id asc  [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.007001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.023001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.490028s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.503029s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.018001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.020001s ]
+
+[ 2017-12-26T13:45:56+08:00 ] 127.0.0.1 /admin/index/lists.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019001s ]
+SQL: SHOW COLUMNS FROM `statisticsip` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `statisticsip` WHERE `ip` = '127.0.0.1' AND `date` = 20171226 LIMIT 1   [ RunTime:0.0030s ]
+NOTIC: [2048] Declaration of Home\Model\TypeModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 88 行.
+NOTIC: [2048] Declaration of Home\Model\TypeModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0110s ]
+NOTIC: [2] Missing argument 1 for Home\Model\TypeModel::lists(), called in D:\WWW\tools\ThinkPHP\Library\Think\Controller.class.php on line 51 and defined D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 83 行.
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 84 行.
+SQL: SELECT * FROM `type` ORDER BY `order` asc,id asc  [ RunTime:0.0210s ]
+NOTIC: [2048] Declaration of Admin\Model\ArticleModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Admin\Model\ArticleModel.class.php 第 101 行.
+NOTIC: [2048] Declaration of Admin\Model\ArticleModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Admin\Model\ArticleModel.class.php 第 101 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Admin\Controller\IndexController.class.php 第 102 行.
+SQL: SELECT * FROM `article` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0160s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0030s ]
+NOTIC: [2048] Declaration of Admin\Model\TypeModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Admin\Model\TypeModel.class.php 第 106 行.
+NOTIC: [2048] Declaration of Admin\Model\TypeModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Admin\Model\TypeModel.class.php 第 106 行.
+NOTIC: [2] Missing argument 1 for Admin\Model\TypeModel::lists(), called in D:\WWW\tools\Application\Admin\Controller\IndexController.class.php on line 104 and defined D:\WWW\tools\Application\Admin\Model\TypeModel.class.php 第 101 行.
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Admin\Model\TypeModel.class.php 第 102 行.
+SQL: SELECT * FROM `type` ORDER BY `order` asc,id asc  [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.007001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.019001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.864049s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.878051s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.020001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.025001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.043003s ]
+

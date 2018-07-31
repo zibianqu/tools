@@ -1,0 +1,61 @@
+[ 2018-05-08T16:14:36+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000551s ]
+SQL: SHOW COLUMNS FROM `statisticsip` [ RunTime:0.0802s ]
+SQL: SELECT * FROM `statisticsip` WHERE `ip` = '127.0.0.1' AND `date` = 20180508 LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `statisticsip` (`ip`,`date`,`recordtime`) VALUES ('127.0.0.1','20180508','1525767275') [ RunTime:0.0271s ]
+NOTIC: [2048] Declaration of Home\Model\TypeModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 88 行.
+NOTIC: [2048] Declaration of Home\Model\TypeModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0273s ]
+SQL: SELECT * FROM `type` ORDER BY `order` asc,id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0609s ]
+SQL: SELECT * FROM `article` WHERE `status` = 1 ORDER BY id desc LIMIT 6   [ RunTime:0.0135s ]
+SQL: SELECT * FROM `article` WHERE `status` = 1 ORDER BY readnum desc,id desc LIMIT 6   [ RunTime:0.0081s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000323s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000376s ]
+NOTIC: [8] Undefined variable: title D:\WWW\tools\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 62 行.
+INFO: [ keyWords ] --START--
+SQL: SHOW COLUMNS FROM `keywords` [ RunTime:0.1275s ]
+SQL: SELECT * FROM `keywords` ORDER BY `order` asc,num desc LIMIT 30   [ RunTime:0.0003s ]
+INFO: Run Home\Behavior\KeyWordsBehavior [ RunTime:0.194681s ]
+INFO: [ keyWords ] --END-- [ RunTime:0.194719s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.463826s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.463861s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.025627s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.025673s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.041107s ]
+INFO: [ app_end ] --END-- [ RunTime:0.041164s ]
+
+[ 2018-05-08T16:14:39+08:00 ] 127.0.0.1 /tools/json.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000579s ]
+NOTIC: [2048] Declaration of Home\Model\TypeModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\TypeModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0123s ]
+SQL: SELECT * FROM `type` ORDER BY `order` asc,id asc  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+NOTIC: [8] Undefined variable: title D:\WWW\tools\Application\Runtime\Cache\Home\b96ea3c293470823d0141bd5abcd1707.php 第 53 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.107082s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.107134s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000266s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000487s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000518s ]
+

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+
+    <!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>在线聊天,聊天室,有人吗？ - {:C('site_name')}</title>
+	<meta name="keywords" content="在线聊天,聊天室,有人吗？"/>
+	<meta name="description" content="在线聊天,聊天室,有人吗？"/>
+	
+    <!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <!-- CSS
+  ================================================== -->
+	<link rel="stylesheet" href="__CSS__/zerogrid.css">
+	<link rel="stylesheet" href="__CSS__/style.css">
+    <link rel="stylesheet" href="__CSS__/responsive.css">
+	<link rel="stylesheet" href="__CSS__/responsiveslides.css" />
+	<link rel="stylesheet" href="__CSS__/newstyle.css">
+
+    <script src="__JS__/jquery.min.js"></script>
+    <script type="text/javascript" src="__JS__/chat/jquery.websocket.js"  media="all"></script>
+    <script type="text/javascript" src="__JS__/chat.js"  media="all"></script>
+	
+</head>
+<body>
+<!--------------Header--------------->
+
+<include file="Public/header" />
+
+<!--------------Content--------------->
+<div class="new_content zerogrid">
+	<div class="new_br"></div>
+	<div class="new_menu">
+		{$menu_html}
+	</div>
+	<div class="new_br"></div>
+	<div class="new_line"></div>
+	<div class="new_br"></div>
+	<div class="new_tool">
+		<h1>{$menu_name}</h1>
+		<div class="new_br"></div>
+		<div class="new_tool_ chat_">
+			<div class="content">
+				<div class="message"></div>
+				<div class="tool">
+					<span class="empty">清空记录</span>
+				</div>
+				<div class="send">
+					<textarea class="chat" name="chat"></textarea>
+					<p><input type="submit"  name="submit" class="button1" value="发送" /></p>
+				</div>
+				<div class="list">
+					<h3>在线用户<strong class="online">0</strong></h3>
+					<ul>
+					</ul>
+				</div>
+			</div>
+			
+			<div class="clearfix"></div>
+			<div class="new_br"></div>
+			<div class="new_br"></div>
+		</div>
+	</div>
+	
+</div>
+
+<!--------------Footer--------------->
+
+<include file="Public/footer" />
+</body>
+</html>

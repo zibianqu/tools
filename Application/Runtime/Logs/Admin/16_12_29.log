@@ -1,0 +1,753 @@
+[ 2016-12-29T10:18:19+08:00 ] 127.0.0.1 /admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-12-29T10:18:20+08:00 ] 127.0.0.1 /admin/login.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.077004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.079004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-12-29T10:18:26+08:00 ] 127.0.0.1 /admin/login/dologin.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Non-static method Admin\Model\AdminModel::adminLogin() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Admin\Controller\LoginController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `admin` WHERE `user` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-12-29T10:18:26+08:00 ] 127.0.0.1 /admin/index.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.075004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-12-29T10:18:28+08:00 ] 127.0.0.1 /admin/index/article.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.081005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.083005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-12-29T10:18:32+08:00 ] 127.0.0.1 /admin/index/SaveArticle.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Model\ArticleModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Admin\Model\ArticleModel.class.php 第 101 行.
+NOTIC: [2048] Declaration of Admin\Model\ArticleModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Admin\Model\ArticleModel.class.php 第 101 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0120s ]
+SQL: INSERT INTO `article` (`type`,`title`,`keyword`,`author`,`content`,`createtime`) VALUES ('0','git','','小兔','&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	&lt;strong&gt;查看、添加、提交、删除、找回，重置修改文件&lt;/strong&gt;
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git help &amp;lt;command&amp;gt; # 显示command的help
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git show # 显示某次提交的内容 git show $id
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git co -- &amp;lt;file&amp;gt; # 抛弃工作区修改
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git co . # 抛弃工作区修改
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git add &amp;lt;file&amp;gt; # 将工作文件修改提交到本地暂存区
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git add . # 将所有修改过的工作文件提交暂存区
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git rm &amp;lt;file&amp;gt; # 从版本库中删除文件
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git rm &amp;lt;file&amp;gt; --cached # 从版本库中删除文件，但不删除文件
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git reset &amp;lt;file&amp;gt; # 从暂存区恢复到工作文件
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git reset -- . # 从暂存区恢复到工作文件
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git reset --hard # 恢复最近一次提交过的状态，即放弃上次提交后的所有本次修改
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git ci &amp;lt;file&amp;gt; git ci . git ci -a # 将git add, git rm和git ci等操作都合并在一起做　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　git ci -am &quot;some comments&quot;
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git ci --amend # 修改最后一次提交记录
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git revert &amp;lt;$id&amp;gt; # 恢复某次提交的状态，恢复动作本身也创建次提交对象
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git revert HEAD # 恢复最后一次提交的状态
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	&lt;strong&gt;查看文件diff&lt;/strong&gt;
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git diff &amp;lt;file&amp;gt; # 比较当前文件和暂存区文件差异 git diff
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git diff &amp;lt;&lt;span class=&quot;MathJax_Preview&quot; style=&quot;color:inherit;&quot;&gt;&lt;/span&gt;id1&amp;gt;&amp;lt;&lt;span class=&quot;MJX_Assistive_MathML&quot; style=&quot;vertical-align:0px;&quot;&gt;id1&amp;gt;&amp;lt;&lt;/span&gt;id2&amp;gt; # 比较两次提交之间的差异
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git diff &amp;lt;branch1&amp;gt;..&amp;lt;branch2&amp;gt; # 在两个分支之间比较
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git diff --staged # 比较暂存区和版本库差异
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git diff --cached # 比较暂存区和版本库差异
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git diff --stat # 仅仅比较统计信息
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	&lt;strong&gt;查看提交记录&lt;/strong&gt;
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git log git log &amp;lt;file&amp;gt; # 查看该文件每次提交记录
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git log -p &amp;lt;file&amp;gt; # 查看每次详细修改内容的diff
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git log -p -2 # 查看最近两次详细修改内容的diff
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git log --stat #查看提交统计信息
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	&lt;strong&gt;tig&lt;/strong&gt;
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	Mac上可以使用tig代替diff和log，brew install tig
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	&lt;strong&gt;Git 本地分支管理&lt;/strong&gt;
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	&lt;strong&gt;查看、切换、创建和删除分支&lt;/strong&gt;
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git br -r # 查看远程分支
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git br &amp;lt;new_branch&amp;gt; # 创建新的分支
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git br -v # 查看各个分支最后提交信息
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git br --merged # 查看已经被合并到当前分支的分支
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git br --no-merged # 查看尚未被合并到当前分支的分支
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git co &amp;lt;branch&amp;gt; # 切换到某个分支
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git co -b &amp;lt;new_branch&amp;gt; # 创建新的分支，并且切换过去
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git co -b &amp;lt;new_branch&amp;gt; &amp;lt;branch&amp;gt; # 基于branch创建新的new_branch
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git co $id # 把某次历史提交记录checkout出来，但无分支信息，切换到其他分支会自动删除
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git co $id -b &amp;lt;new_branch&amp;gt; # 把某次历史提交记录checkout出来，创建成一个分支
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git br -d &amp;lt;branch&amp;gt; # 删除某个分支
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git br -D &amp;lt;branch&amp;gt; # 强制删除某个分支 (未被合并的分支被删除的时候需要强制)
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	&lt;strong&gt;&amp;nbsp;分支合并和rebase&lt;/strong&gt;
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git merge &amp;lt;branch&amp;gt; # 将branch分支合并到当前分支
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git merge origin/master --no-ff # 不要Fast-Foward合并，这样可以生成merge提交
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git rebase master &amp;lt;branch&amp;gt; # 将master rebase到branch，相当于： git co &amp;lt;branch&amp;gt; &amp;amp;&amp;amp; git rebase master &amp;amp;&amp;amp; git co master &amp;amp;&amp;amp; git merge &amp;lt;branch&amp;gt;
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	&lt;strong&gt;&amp;nbsp;Git补丁管理(方便在多台机器上开发同步时用)&lt;/strong&gt;
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git diff &amp;gt; ../sync.patch # 生成补丁
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git apply ../sync.patch # 打补丁
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git apply --check ../sync.patch #测试补丁能否成功
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	&lt;strong&gt;&amp;nbsp;Git暂存管理&lt;/strong&gt;
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git stash # 暂存
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git stash list # 列所有stash
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git stash apply # 恢复暂存的内容
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git stash drop # 删除暂存区
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	&lt;strong&gt;Git远程分支管理&lt;/strong&gt;
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git pull # 抓取远程仓库所有分支更新并合并到本地
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git pull --no-ff # 抓取远程仓库所有分支更新并合并到本地，不要快进合并
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git fetch origin # 抓取远程仓库更新
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git merge origin/master # 将远程主分支合并到本地当前分支
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git co --track origin/branch # 跟踪某个远程分支创建相应的本地分支
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git co -b &amp;lt;local_branch&amp;gt; origin/&amp;lt;remote_branch&amp;gt; # 基于远程分支创建本地分支，功能同上
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git push # push所有分支
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git push origin master # 将本地主分支推到远程主分支
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git push -u origin master # 将本地主分支推到远程(如无远程主分支则创建，用于初始化远程仓库)
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git push origin &amp;lt;local_branch&amp;gt; # 创建远程分支， origin是远程仓库名
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git push origin &amp;lt;local_branch&amp;gt;:&amp;lt;remote_branch&amp;gt; # 创建远程分支
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git push origin :&amp;lt;remote_branch&amp;gt; #先删除本地分支(git br -d &amp;lt;branch&amp;gt;)，然后再push删除远程分支
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	&lt;strong&gt;Git远程仓库管理&lt;/strong&gt;
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	&lt;span style=&quot;color:#FFFFFF;&quot;&gt;&lt;em&gt;&lt;span class=&quot;wp_keywordlink&quot;&gt;&lt;a href=&quot;http://blog.jobbole.com/6492/&quot; target=&quot;_blank&quot;&gt;GitHub&lt;/a&gt;&lt;/span&gt;&lt;/em&gt;&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git remote -v # 查看远程服务器地址和仓库名称
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git remote show origin # 查看远程服务器仓库状态
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git remote add origin git@ github:robbin/robbin_site.git # 添加远程仓库地址
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git remote set-url origin git@ github.com:robbin/robbin_site.git # 设置远程仓库地址(用于修改远程仓库地址) git remote rm &amp;lt;repository&amp;gt; # 删除远程仓库
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	&lt;strong&gt;创建远程仓库&lt;/strong&gt;
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git clone --bare robbin_site robbin_site.git # 用带版本的项目创建纯版本仓库
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	scp -r my_project.git git@ git.csdn.net:~ # 将纯仓库上传到服务器上
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	mkdir robbin_site.git &amp;amp;&amp;amp; cd robbin_site.git &amp;amp;&amp;amp; git --bare init # 在服务器创建纯仓库
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git remote add origin git@ github.com:robbin/robbin_site.git # 设置远程仓库地址
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git push -u origin master # 客户端首次提交
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git push -u origin develop # 首次将本地develop分支提交到远程develop分支，并且track
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git remote set-head origin master # 设置远程仓库的HEAD指向master分支
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	也可以命令设置跟踪远程库和本地库
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git branch --set-upstream master origin/master
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git branch --set-upstream develop origin/develop
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	来源：http://www.cnblogs.com/cspku/articles/Git_cmds.html
+&lt;/p&gt;','1482977912') [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2016-12-29T10:18:34+08:00 ] 127.0.0.1 /admin/index/article.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.080005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007000s ]
+
+[ 2016-12-29T10:18:36+08:00 ] 127.0.0.1 /admin/index/lists.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+NOTIC: [2048] Declaration of Admin\Model\ArticleModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Admin\Model\ArticleModel.class.php 第 101 行.
+NOTIC: [2048] Declaration of Admin\Model\ArticleModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Admin\Model\ArticleModel.class.php 第 101 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0120s ]
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Admin\Controller\IndexController.class.php 第 96 行.
+SQL: SELECT * FROM `article` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0130s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.151009s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.153009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006000s ]
+
+[ 2016-12-29T10:18:39+08:00 ] 127.0.0.1 /admin/index/article/id/37.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007001s ]
+NOTIC: [2048] Declaration of Admin\Model\ArticleModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Admin\Model\ArticleModel.class.php 第 101 行.
+NOTIC: [2048] Declaration of Admin\Model\ArticleModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Admin\Model\ArticleModel.class.php 第 101 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `article` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.084005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.086005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2016-12-29T10:18:50+08:00 ] 127.0.0.1 /admin/index/SaveArticle.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2048] Declaration of Admin\Model\ArticleModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Admin\Model\ArticleModel.class.php 第 101 行.
+NOTIC: [2048] Declaration of Admin\Model\ArticleModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Admin\Model\ArticleModel.class.php 第 101 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0240s ]
+SQL: UPDATE `article` SET `type`='0',`title`='git 常用命令',`keyword`='git',`author`='小兔',`content`='&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	&lt;strong&gt;查看、添加、提交、删除、找回，重置修改文件&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git help &amp;lt;command&amp;gt; # 显示command的help
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git show # 显示某次提交的内容 git show $id
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git co -- &amp;lt;file&amp;gt; # 抛弃工作区修改
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git co . # 抛弃工作区修改
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git add &amp;lt;file&amp;gt; # 将工作文件修改提交到本地暂存区
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git add . # 将所有修改过的工作文件提交暂存区
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git rm &amp;lt;file&amp;gt; # 从版本库中删除文件
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git rm &amp;lt;file&amp;gt; --cached # 从版本库中删除文件，但不删除文件
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git reset &amp;lt;file&amp;gt; # 从暂存区恢复到工作文件
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git reset -- . # 从暂存区恢复到工作文件
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git reset --hard # 恢复最近一次提交过的状态，即放弃上次提交后的所有本次修改
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git ci &amp;lt;file&amp;gt; git ci . git ci -a # 将git add, git rm和git ci等操作都合并在一起做　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　git ci -am &quot;some comments&quot;
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git ci --amend # 修改最后一次提交记录
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git revert &amp;lt;$id&amp;gt; # 恢复某次提交的状态，恢复动作本身也创建次提交对象
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git revert HEAD # 恢复最后一次提交的状态
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	&lt;strong&gt;查看文件diff&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git diff &amp;lt;file&amp;gt; # 比较当前文件和暂存区文件差异 git diff
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git diff &amp;lt;&lt;span class=&quot;MathJax_Preview&quot; style=&quot;color:inherit;&quot;&gt;&lt;/span&gt;id1&amp;gt;&amp;lt;&lt;span class=&quot;MJX_Assistive_MathML&quot; style=&quot;vertical-align:0px;&quot;&gt;id1&amp;gt;&amp;lt;&lt;/span&gt;id2&amp;gt; # 比较两次提交之间的差异
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git diff &amp;lt;branch1&amp;gt;..&amp;lt;branch2&amp;gt; # 在两个分支之间比较
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git diff --staged # 比较暂存区和版本库差异
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git diff --cached # 比较暂存区和版本库差异
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git diff --stat # 仅仅比较统计信息
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	&lt;strong&gt;查看提交记录&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git log git log &amp;lt;file&amp;gt; # 查看该文件每次提交记录
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git log -p &amp;lt;file&amp;gt; # 查看每次详细修改内容的diff
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git log -p -2 # 查看最近两次详细修改内容的diff
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git log --stat #查看提交统计信息
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	&lt;strong&gt;tig&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	Mac上可以使用tig代替diff和log，brew install tig
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	&lt;strong&gt;Git 本地分支管理&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	&lt;strong&gt;查看、切换、创建和删除分支&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git br -r # 查看远程分支
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git br &amp;lt;new_branch&amp;gt; # 创建新的分支
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git br -v # 查看各个分支最后提交信息
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git br --merged # 查看已经被合并到当前分支的分支
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git br --no-merged # 查看尚未被合并到当前分支的分支
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git co &amp;lt;branch&amp;gt; # 切换到某个分支
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git co -b &amp;lt;new_branch&amp;gt; # 创建新的分支，并且切换过去
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git co -b &amp;lt;new_branch&amp;gt; &amp;lt;branch&amp;gt; # 基于branch创建新的new_branch
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git co $id # 把某次历史提交记录checkout出来，但无分支信息，切换到其他分支会自动删除
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git co $id -b &amp;lt;new_branch&amp;gt; # 把某次历史提交记录checkout出来，创建成一个分支
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git br -d &amp;lt;branch&amp;gt; # 删除某个分支
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git br -D &amp;lt;branch&amp;gt; # 强制删除某个分支 (未被合并的分支被删除的时候需要强制)
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	&lt;strong&gt;&amp;nbsp;分支合并和rebase&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git merge &amp;lt;branch&amp;gt; # 将branch分支合并到当前分支
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git merge origin/master --no-ff # 不要Fast-Foward合并，这样可以生成merge提交
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git rebase master &amp;lt;branch&amp;gt; # 将master rebase到branch，相当于： git co &amp;lt;branch&amp;gt; &amp;amp;&amp;amp; git rebase master &amp;amp;&amp;amp; git co master &amp;amp;&amp;amp; git merge &amp;lt;branch&amp;gt;
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	&lt;strong&gt;&amp;nbsp;Git补丁管理(方便在多台机器上开发同步时用)&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git diff &amp;gt; ../sync.patch # 生成补丁
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git apply ../sync.patch # 打补丁
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git apply --check ../sync.patch #测试补丁能否成功
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	&lt;strong&gt;&amp;nbsp;Git暂存管理&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git stash # 暂存
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git stash list # 列所有stash
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git stash apply # 恢复暂存的内容
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git stash drop # 删除暂存区
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	&lt;strong&gt;Git远程分支管理&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git pull # 抓取远程仓库所有分支更新并合并到本地
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git pull --no-ff # 抓取远程仓库所有分支更新并合并到本地，不要快进合并
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git fetch origin # 抓取远程仓库更新
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git merge origin/master # 将远程主分支合并到本地当前分支
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git co --track origin/branch # 跟踪某个远程分支创建相应的本地分支
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git co -b &amp;lt;local_branch&amp;gt; origin/&amp;lt;remote_branch&amp;gt; # 基于远程分支创建本地分支，功能同上
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git push # push所有分支
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git push origin master # 将本地主分支推到远程主分支
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git push -u origin master # 将本地主分支推到远程(如无远程主分支则创建，用于初始化远程仓库)
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git push origin &amp;lt;local_branch&amp;gt; # 创建远程分支， origin是远程仓库名
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git push origin &amp;lt;local_branch&amp;gt;:&amp;lt;remote_branch&amp;gt; # 创建远程分支
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git push origin :&amp;lt;remote_branch&amp;gt; #先删除本地分支(git br -d &amp;lt;branch&amp;gt;)，然后再push删除远程分支
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	&lt;strong&gt;Git远程仓库管理&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	&lt;span style=&quot;color:#FFFFFF;&quot;&gt;&lt;em&gt;&lt;span class=&quot;wp_keywordlink&quot;&gt;&lt;a href=&quot;http://blog.jobbole.com/6492/&quot; target=&quot;_blank&quot;&gt;GitHub&lt;/a&gt;&lt;/span&gt;&lt;/em&gt;&lt;/span&gt; 
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git remote -v # 查看远程服务器地址和仓库名称
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git remote show origin # 查看远程服务器仓库状态
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git remote add origin git@ github:robbin/robbin_site.git # 添加远程仓库地址
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git remote set-url origin git@ github.com:robbin/robbin_site.git # 设置远程仓库地址(用于修改远程仓库地址) git remote rm &amp;lt;repository&amp;gt; # 删除远程仓库
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	&lt;strong&gt;创建远程仓库&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git clone --bare robbin_site robbin_site.git # 用带版本的项目创建纯版本仓库
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	scp -r my_project.git git@ git.csdn.net:~ # 将纯仓库上传到服务器上
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	mkdir robbin_site.git &amp;amp;&amp;amp; cd robbin_site.git &amp;amp;&amp;amp; git --bare init # 在服务器创建纯仓库
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git remote add origin git@ github.com:robbin/robbin_site.git # 设置远程仓库地址
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git push -u origin master # 客户端首次提交
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git push -u origin develop # 首次将本地develop分支提交到远程develop分支，并且track
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git remote set-head origin master # 设置远程仓库的HEAD指向master分支
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	也可以命令设置跟踪远程库和本地库
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git branch --set-upstream master origin/master
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git branch --set-upstream develop origin/develop
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	来源：http://www.cnblogs.com/cspku/articles/Git_cmds.html
+&lt;/p&gt;',`createtime`='1482977929' WHERE `id` = 37 [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006000s ]
+
+[ 2016-12-29T10:18:52+08:00 ] 127.0.0.1 /admin/index/article/id/37.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+NOTIC: [2048] Declaration of Admin\Model\ArticleModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Admin\Model\ArticleModel.class.php 第 101 行.
+NOTIC: [2048] Declaration of Admin\Model\ArticleModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Admin\Model\ArticleModel.class.php 第 101 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `article` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.073004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+

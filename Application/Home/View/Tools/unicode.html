@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+    <!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>Unicode编码转换 - {:C('site_name')}</title>
+	<meta name="keywords" content="Unicode编码转换,Unicode转ASCII,ASCII转Unicode,中文转Unicode,Unicode转中文"/>
+	<meta name="description" content="Unicode编码转换，ASCII与Unicode互转，Unicode与中文互转"/>
+	
+    <!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <!-- CSS
+  ================================================== -->
+	<link rel="stylesheet" href="__CSS__/zerogrid.css">
+	<link rel="stylesheet" href="__CSS__/style.css">
+    <link rel="stylesheet" href="__CSS__/responsive.css">
+	<link rel="stylesheet" href="__CSS__/responsiveslides.css" />
+	<link rel="stylesheet" href="__CSS__/newstyle.css">
+	<!--[if lt IE 8]>
+       <div style=' clear: both; text-align:center; position: relative;'>
+         <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+           <img src="http://storage.ie6countdown.com/assets/100/__IMAGES__/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+        </a>
+      </div>
+    <![endif]-->
+    <!--[if lt IE 9]>
+		<script src="__JS__/html5.js"></script>
+		<script src="__JS__/css3-mediaqueries.js"></script>
+	<![endif]-->
+    <script src="__JS__/jquery.min.js"></script>
+	<script src="__JS__/unicode.js"></script>
+	
+</head>
+<body>
+<!--------------Header--------------->
+
+<include file="Public/header" />
+
+<!--------------Content--------------->
+<div class="new_content zerogrid">
+	<div class="new_br"></div>
+		<div class="new_menu">
+			{$menu_html}
+		</div>
+	<div class="new_br"></div>
+	<div class="new_line"></div>
+	<div class="new_br"></div>
+	<div class="new_tool">
+		<h1>{$menu_name}</h1>
+		<div class="new_br"></div>
+		<div class="new_tool_ unicode">
+			<div class="unicode_content">
+				<textarea  class="text1" id="start"></textarea>
+				<div class="middle">
+					<button class="button1" id="but1">ASCII&nbsp;&gt;&gt;&nbsp;Unicode</button>
+					<button class="button1" id="but2">Unicode&nbsp;&gt;&gt;&nbsp;ASCII</button>
+					<button class="button1" id="but3">Unicode&nbsp;&gt;&gt;&nbsp;中文</button>
+					<button class="button1" id="but4">中文&nbsp;&gt;&gt;&nbsp;Unicode</button>
+					<button class="button1" id="but5">&nbsp;&nbsp;&nbsp;&nbsp;清&nbsp;&nbsp;&nbsp;&nbsp;空&nbsp;&nbsp;&nbsp;&nbsp;</button>
+				</div>
+				<textarea  class="text2" id="end"></textarea>
+			</div>
+		</div>
+		<div class="new_tool_ hide">
+			<p>
+				现在的Unix时间戳（Unix timestamp）<input type="text" class="input1" name="unix1" id="unix1" value=""/>
+				<button class="button1" id="start">开始</button><button class="button1" id="stop">停止</button>
+				<button class="button1" id="refresh">刷新</button><button class="button1" id="clear">清空</button>
+			</p>
+			<p>
+				Unix时间戳（Unix timestamp）<input type="text" class="input1" name="unix2" id="unix2" value=""/>
+				<button class="button1" id="change1">转换成北京时间</button><input type="text" class="input1" name="time1" id="time1" value=""/>
+			</p>
+			<p>
+				北京时间（年/月/日 时:分:秒）<input type="text" class="input1" name="time2" id="time2"/>
+				<button class="button1" id="change2">转换成Unix时间戳</button><input type="text" class="input1" name="unix3" id="unix3"/>
+			</p>
+			<p>
+				北京时间<input type="text" class="input2" name="year" id="year"/>年<input type="text" class="input2" name="month" id="month"/>月
+				<input type="text" class="input2" name="day" id="day"/>日<input type="text" class="input2" name="hour" id="hour"/>时
+				<input type="text" class="input2" name="minute" id="minute"/>分<input type="text" class="input2" name="second" id="second"/>秒
+				<button class="button1" id="change3">转换Unix时间戳</button><input type="text" class="input1" name="unix4" id="unix4">
+			</p>
+			 
+		</div>
+	</div>
+	
+</div>
+
+
+
+<!--------------Footer--------------->
+
+<include file="Public/footer" />
+</body>
+</html>

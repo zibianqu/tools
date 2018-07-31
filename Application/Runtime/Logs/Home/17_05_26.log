@@ -1,0 +1,272 @@
+[ 2017-05-26T10:21:12+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.039002s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015001s ]
+SQL: SHOW COLUMNS FROM `statisticsip` [ RunTime:0.0470s ]
+SQL: SELECT * FROM `statisticsip` WHERE `ip` = '127.0.0.1' AND `date` = 20170526 LIMIT 1   [ RunTime:0.0020s ]
+SQL: INSERT INTO `statisticsip` (`ip`,`date`,`recordtime`) VALUES ('127.0.0.1','20170526','1495765271') [ RunTime:0.0340s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `article` WHERE `status` = 1 ORDER BY id desc LIMIT 6   [ RunTime:0.0420s ]
+SQL: SELECT * FROM `article` WHERE `status` = 1 ORDER BY readnum desc,id desc LIMIT 6   [ RunTime:0.0730s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.045003s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.048003s ]
+NOTIC: [8] Undefined variable: title D:\WWW\tools\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 56 行.
+INFO: [ keyWords ] --START--
+SQL: SHOW COLUMNS FROM `keywords` [ RunTime:0.0440s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\WWW\tools\Application\Home\Model\CommModel.class.php on line 46 and defined D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `keywords` ORDER BY `order` asc,num desc LIMIT 30   [ RunTime:0.0100s ]
+INFO: Run Home\Behavior\KeyWordsBehavior [ RunTime:0.180010s ]
+INFO: [ keyWords ] --END-- [ RunTime:0.182010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.537031s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.540031s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.012001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.026001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.033001s ]
+
+[ 2017-05-26T17:02:05+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `article` WHERE `status` = 1 ORDER BY id desc LIMIT 6   [ RunTime:0.0430s ]
+SQL: SELECT * FROM `article` WHERE `status` = 1 ORDER BY readnum desc,id desc LIMIT 6   [ RunTime:0.0660s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Undefined variable: title D:\WWW\tools\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 56 行.
+INFO: [ keyWords ] --START--
+SQL: SHOW COLUMNS FROM `keywords` [ RunTime:0.0060s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\WWW\tools\Application\Home\Model\CommModel.class.php on line 46 and defined D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `keywords` ORDER BY `order` asc,num desc LIMIT 30   [ RunTime:0.0010s ]
+INFO: Run Home\Behavior\KeyWordsBehavior [ RunTime:0.077004s ]
+INFO: [ keyWords ] --END-- [ RunTime:0.079004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.312018s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.314018s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006000s ]
+
+[ 2017-05-26T17:02:23+08:00 ] 127.0.0.1 /art/article/id/44.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `article` WHERE `id` = 44 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `article` WHERE `id` = 44 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `article` SET `title`='Eclipse导入外部项目无法识别为web项目并且无法在部署到tomcat下解决方法',`keyword`='Eclipse,部署,tomcat',`content`='&lt;div style=&quot;color:#362E2B;font-family:Arial;font-size:14px;background-color:#FFFFFF;&quot;&gt;
+	﻿﻿1、进入项目根目录，找到.project文件，打开。
+&lt;/div&gt;
+&lt;div style=&quot;color:#362E2B;font-family:Arial;font-size:14px;background-color:#FFFFFF;&quot;&gt;
+	&lt;br /&gt;
+&lt;/div&gt;
+&lt;p style=&quot;color:#362E2B;font-family:Arial;font-size:14px;background-color:#FFFFFF;&quot;&gt;
+	2、找到&amp;lt;natures&amp;gt;&amp;lt;/natures&amp;gt;代码段，在标签中加入如下标签内容并保存：
+&lt;/p&gt;
+&lt;div style=&quot;color:#362E2B;font-family:Arial;font-size:14px;background-color:#FFFFFF;&quot;&gt;
+&lt;pre&gt;&amp;nbsp;&amp;nbsp;&amp;lt;nature&amp;gt;org.eclipse.jem.workbench.JavaEMFNature&amp;lt;/nature&amp;gt;
+&amp;nbsp;&amp;nbsp;&amp;lt;nature&amp;gt;org.eclipse.wst.common.modulecore.ModuleCoreNature&amp;lt;/nature&amp;gt;
+&amp;nbsp;&amp;nbsp;&amp;lt;nature&amp;gt;com.genuitec.eclipse.ast.deploy.core.deploymentnature&amp;lt;/nature&amp;gt;
+&amp;nbsp;&amp;nbsp;&amp;lt;nature&amp;gt;com.genuitec.eclipse.j2eedt.core.webnature&amp;lt;/nature&amp;gt;
+&amp;nbsp;&amp;nbsp;&amp;lt;nature&amp;gt;org.eclipse.jdt.core.javanature&amp;lt;/nature&amp;gt;
+&amp;nbsp;&amp;nbsp;&amp;lt;nature&amp;gt;org.eclipse.wst.jsdt.core.jsNature&amp;lt;/nature&amp;gt;
+&amp;nbsp;&amp;nbsp;&amp;lt;nature&amp;gt;org.eclipse.wst.common.project.facet.core.nature&amp;lt;/nature&amp;gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;span style=&quot;color:#800000;&quot;&gt; &lt;/span&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p style=&quot;color:#362E2B;font-family:Arial;font-size:14px;background-color:#FFFFFF;&quot;&gt;
+	3、删除.setting文件夹下的文件，用eclipse新建一个Web项目并从新建的项目的.setting文件下拷贝以下文件
+&lt;/p&gt;
+&lt;p style=&quot;color:#362E2B;font-family:Arial;font-size:14px;background-color:#FFFFFF;&quot;&gt;
+	&lt;span style=&quot;color:#990000;&quot;&gt;.jsdtscope&amp;nbsp;&lt;br /&gt;
+org.eclipse.jst.common.project.facet.core.prefs&amp;nbsp;&lt;br /&gt;
+org.eclipse.wst.common.component&amp;nbsp;&lt;br /&gt;
+org.eclipse.wst.common.project.facet.core.xml&amp;nbsp;&lt;br /&gt;
+org.eclipse.wst.jsdt.ui.superType.&lt;a href=&quot;http://lib.csdn.net/base/docker&quot; class=&quot;replace_word&quot; target=&quot;_blank&quot;&gt;Container&lt;/a&gt;&amp;nbsp;&lt;br /&gt;
+org.eclipse.wst.jsdt.ui.superType.name&lt;/span&gt; 
+&lt;/p&gt;
+&lt;p style=&quot;color:#362E2B;font-family:Arial;font-size:14px;background-color:#FFFFFF;&quot;&gt;
+	&lt;span style=&quot;color:#990000;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color:#990000;&quot;&gt;&lt;br /&gt;
+&lt;/span&gt; 
+&lt;/p&gt;
+&lt;p style=&quot;color:#362E2B;font-family:Arial;font-size:14px;background-color:#FFFFFF;&quot;&gt;
+	4.修改&lt;span style=&quot;color:#990000;&quot;&gt;org.eclipse.wst.common.component&lt;/span&gt;中项目名称相关的内容
+&lt;/p&gt;
+&lt;div style=&quot;color:#362E2B;font-family:Arial;font-size:14px;background-color:#FFFFFF;&quot;&gt;
+	&lt;div&gt;
+		&lt;div&gt;
+			&amp;lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&amp;gt;
+		&lt;/div&gt;
+		&lt;div&gt;
+			&amp;lt;project-modules id=&quot;moduleCoreId&quot; project-version=&quot;1.5.0&quot;&amp;gt;
+		&lt;/div&gt;
+		&lt;div&gt;
+			&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;lt;wb-module deploy-name=&quot;&lt;span style=&quot;color:#3333FF;&quot;&gt;baseproject&lt;/span&gt;&quot;&amp;gt;
+		&lt;/div&gt;
+		&lt;div&gt;
+			&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;lt;wb-resource deploy-path=&quot;/&quot; source-path=&quot;/&lt;span style=&quot;color:#3333FF;&quot;&gt;WebRoot&lt;/span&gt;&quot; tag=&quot;defaultRootSource&quot;/&amp;gt;
+		&lt;/div&gt;
+		&lt;div&gt;
+			&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;lt;wb-resource deploy-path=&quot;/WEB-INF/classes&quot; source-path=&quot;/src&quot;/&amp;gt;
+		&lt;/div&gt;
+		&lt;div&gt;
+			&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;lt;property name=&quot;context-root&quot; value=&quot;&lt;span style=&quot;color:#3333FF;&quot;&gt;baseproject&lt;/span&gt;&quot;/&amp;gt;
+		&lt;/div&gt;
+		&lt;div&gt;
+			&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;lt;property name=&quot;java-output-path&quot; value=&quot;/&lt;span style=&quot;color:#3333FF;&quot;&gt;baseproject&lt;/span&gt;/build/classes&quot;/&amp;gt;
+		&lt;/div&gt;
+		&lt;div&gt;
+			&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;lt;/wb-module&amp;gt;
+		&lt;/div&gt;
+		&lt;div&gt;
+			&amp;lt;/project-modules&amp;gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div&gt;
+		&lt;br /&gt;
+	&lt;/div&gt;
+	&lt;div&gt;
+		将上面所有蓝色字体部分替换成你自己项目中的名称，deploy-name值相同的地方改为你的项目名，同时把source-path改为/WebRoot(如果你的项目目录是WebContent就不用改了)
+	&lt;/div&gt;
+	&lt;div&gt;
+		&lt;br /&gt;
+	&lt;/div&gt;
+	&lt;div&gt;
+		5.修改&lt;span style=&quot;color:#990000;&quot;&gt;.jsdtscope&lt;/span&gt;中项目名称相关的内容&lt;br /&gt;
+	&lt;/div&gt;
+	&lt;div&gt;
+		&lt;div&gt;
+			&amp;lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&amp;gt;
+		&lt;/div&gt;
+		&lt;div&gt;
+			&amp;lt;classpath&amp;gt;
+		&lt;/div&gt;
+		&lt;div&gt;
+			&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;lt;classpathentry kind=&quot;src&quot; path=&quot;&lt;span style=&quot;color:#3333FF;&quot;&gt;WebRoot&lt;/span&gt;&quot;/&amp;gt;
+		&lt;/div&gt;
+		&lt;div&gt;
+			&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;lt;classpathentry kind=&quot;con&quot; path=&quot;org.eclipse.wst.jsdt.launching.JRE_CONTAINER&quot;/&amp;gt;
+		&lt;/div&gt;
+		&lt;div&gt;
+			&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;lt;classpathentry kind=&quot;con&quot; path=&quot;org.eclipse.wst.jsdt.launching.WebProject&quot;&amp;gt;
+		&lt;/div&gt;
+		&lt;div&gt;
+			&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;lt;attributes&amp;gt;
+		&lt;/div&gt;
+		&lt;div&gt;
+			&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;lt;attribute name=&quot;hide&quot; value=&quot;true&quot;/&amp;gt;
+		&lt;/div&gt;
+		&lt;div&gt;
+			&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;lt;/attributes&amp;gt;
+		&lt;/div&gt;
+		&lt;div&gt;
+			&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;lt;/classpathentry&amp;gt;
+		&lt;/div&gt;
+		&lt;div&gt;
+			&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;lt;classpathentry kind=&quot;con&quot; path=&quot;org.eclipse.wst.jsdt.launching.baseBrowserLibrary&quot;/&amp;gt;
+		&lt;/div&gt;
+		&lt;div&gt;
+			&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;lt;classpathentry kind=&quot;output&quot; path=&quot;&quot;/&amp;gt;
+		&lt;/div&gt;
+		&lt;div&gt;
+			&amp;lt;/classpath&amp;gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div&gt;
+		&lt;br /&gt;
+	&lt;/div&gt;
+	&lt;div&gt;
+		和第4步一样，将蓝色字体部分修改为项目中的名称 (如果你的项目目录是WebContent就不用改了)
+	&lt;/div&gt;
+	&lt;div&gt;
+		&lt;br /&gt;
+	&lt;/div&gt;
+	&lt;div&gt;
+		&lt;p&gt;
+			6、在eclipse的项目上点右键，刷新项目，就会发现项目变成了web项目,然后添加到tomcat中就会发现tomcat可以识别我们的项目了。
+		&lt;/p&gt;
+	&lt;/div&gt;
+&lt;/div&gt;',`status`='1',`type`='0',`createtime`='1488348187',`author`='小兔',`imgurl`=NULL,`recom`='0',`readnum`='7' WHERE `id` = 44 [ RunTime:0.0140s ]
+SQL: SELECT `id`,`title` FROM `article` WHERE ( id<44 and status=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0160s ]
+SQL: SELECT `id`,`title` FROM `article` WHERE ( id>44 and status=1 ) ORDER BY id asc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title` FROM `article` WHERE ( id<>44 and status=1 and recom=1 ) ORDER BY id desc LIMIT 6   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: title D:\WWW\tools\Application\Runtime\Cache\Home\f274c600cf8d13c9d31ff143ea08a211.php 第 45 行.
+INFO: [ keyWords ] --START--
+SQL: SHOW COLUMNS FROM `keywords` [ RunTime:0.0070s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\WWW\tools\Application\Home\Model\CommModel.class.php on line 46 and defined D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `keywords` ORDER BY `order` asc,num desc LIMIT 30   [ RunTime:0.0020s ]
+INFO: Run Home\Behavior\KeyWordsBehavior [ RunTime:0.102006s ]
+INFO: [ keyWords ] --END-- [ RunTime:0.105006s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.279016s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.281016s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-05-26T17:15:54+08:00 ] 127.0.0.1 /Public/files/images/2017/03/08/xoP5YL1Q8Sw8I39.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-05-26T17:15:54+08:00 ] 127.0.0.1 /Public/files/images/2017/03/08/ud93ayL4EEJ42S1.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010001s ]
+
+[ 2017-05-26T17:15:54+08:00 ] 127.0.0.1 /Public/files/images/2017/03/08/5HnhX45FqExet6U.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.003001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017001s ]
+
+[ 2017-05-26T17:15:54+08:00 ] 127.0.0.1 /Public/files/images/2017/03/08/VBIk654r1fA1Ng3.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007000s ]
+
+[ 2017-05-26T17:15:54+08:00 ] 127.0.0.1 /Public/files/images/2017/03/08/KcbxKzRf97jrd2O.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006001s ]
+
+[ 2017-05-26T17:15:54+08:00 ] 127.0.0.1 /Public/files/images/2017/03/08/7vA9z2ltM3hZvNF.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-05-26T17:15:54+08:00 ] 127.0.0.1 /Public/files/images/2017/03/08/g7jG7J9JB4NL1L4.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+

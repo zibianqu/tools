@@ -1,0 +1,10 @@
+[ 2018-06-28T10:19:44+08:00 ] 127.0.0.1 /tools/apache2_2/img/folder.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.024176s ]
+
+[ 2018-06-28T15:24:27+08:00 ] 127.0.0.1 /tools/apache2_2/img/folder.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+

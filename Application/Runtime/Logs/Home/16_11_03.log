@@ -1,0 +1,1301 @@
+[ 2016-11-03T16:58:22+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.058003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019001s ]
+SQL: SHOW COLUMNS FROM `statisticsip` [ RunTime:0.8440s ]
+SQL: SELECT * FROM `statisticsip` WHERE `ip` = '127.0.0.1' AND `date` = 20161103 LIMIT 1   [ RunTime:0.0210s ]
+SQL: INSERT INTO `statisticsip` (`ip`,`date`,`recordtime`) VALUES ('127.0.0.1','20161103','1478163501') [ RunTime:0.0920s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0830s ]
+SQL: SELECT * FROM `article` WHERE `status` = 1 ORDER BY id desc LIMIT 6   [ RunTime:0.0980s ]
+SQL: SELECT * FROM `article` WHERE `status` = 1 ORDER BY readnum desc,id desc LIMIT 6   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.050003s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.050003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.330018s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.332019s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.018001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.019002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-11-03T16:58:51+08:00 ] 127.0.0.1 /art/lists.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Non-static method Home\Model\CommModel::keyWord() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Home\Controller\ArtController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `article` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2048] Non-static method Home\Model\CommModel::keyWordList() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Home\Controller\ArtController.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `keywords` [ RunTime:0.0420s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\WWW\tools\Application\Home\Model\CommModel.class.php on line 40 and defined D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `keywords` ORDER BY `order` asc,num desc LIMIT 20   [ RunTime:0.0090s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.116007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.117007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-03T17:07:29+08:00 ] 127.0.0.1 /art/lists.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Non-static method Home\Model\CommModel::keyWord() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Home\Controller\ArtController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `article` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [2048] Non-static method Home\Model\CommModel::keyWordList() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Home\Controller\ArtController.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `keywords` [ RunTime:0.0090s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\WWW\tools\Application\Home\Model\CommModel.class.php on line 40 and defined D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `keywords` ORDER BY `order` asc,num desc LIMIT 20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.069004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-11-03T17:09:39+08:00 ] 127.0.0.1 /art/lists.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Non-static method Home\Model\CommModel::keyWord() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Home\Controller\ArtController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `article` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] Non-static method Home\Model\CommModel::keyWordList() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Home\Controller\ArtController.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `keywords` [ RunTime:0.0090s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\WWW\tools\Application\Home\Model\CommModel.class.php on line 40 and defined D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `keywords` ORDER BY `order` asc,num desc LIMIT 20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-11-03T17:15:30+08:00 ] 127.0.0.1 /art/lists.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Non-static method Home\Model\CommModel::keyWord() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Home\Controller\ArtController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `article` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2048] Non-static method Home\Model\CommModel::keyWordList() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Home\Controller\ArtController.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `keywords` [ RunTime:0.0100s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\WWW\tools\Application\Home\Model\CommModel.class.php on line 40 and defined D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `keywords` ORDER BY `order` asc,num desc LIMIT 20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-11-03T17:15:45+08:00 ] 127.0.0.1 /art/lists.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Non-static method Home\Model\CommModel::keyWord() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Home\Controller\ArtController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `article` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] Non-static method Home\Model\CommModel::keyWordList() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Home\Controller\ArtController.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `keywords` [ RunTime:0.0090s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\WWW\tools\Application\Home\Model\CommModel.class.php on line 40 and defined D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `keywords` ORDER BY `order` asc,num desc LIMIT 20   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2016-11-03T17:16:18+08:00 ] 127.0.0.1 /art/lists.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Non-static method Home\Model\CommModel::keyWord() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Home\Controller\ArtController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `article` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] Non-static method Home\Model\CommModel::keyWordList() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Home\Controller\ArtController.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `keywords` [ RunTime:0.0080s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\WWW\tools\Application\Home\Model\CommModel.class.php on line 40 and defined D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `keywords` ORDER BY `order` asc,num desc LIMIT 20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-03T17:17:49+08:00 ] 127.0.0.1 /art/lists.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Non-static method Home\Model\CommModel::keyWord() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Home\Controller\ArtController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `article` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2048] Non-static method Home\Model\CommModel::keyWordList() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Home\Controller\ArtController.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `keywords` [ RunTime:0.0080s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\WWW\tools\Application\Home\Model\CommModel.class.php on line 40 and defined D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `keywords` ORDER BY `order` asc,num desc LIMIT 20   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-11-03T17:18:06+08:00 ] 127.0.0.1 /art/lists.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Non-static method Home\Model\CommModel::keyWord() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Home\Controller\ArtController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `article` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [2048] Non-static method Home\Model\CommModel::keyWordList() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Home\Controller\ArtController.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `keywords` [ RunTime:0.0090s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\WWW\tools\Application\Home\Model\CommModel.class.php on line 40 and defined D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `keywords` ORDER BY `order` asc,num desc LIMIT 20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-03T17:18:27+08:00 ] 127.0.0.1 /art/lists.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Non-static method Home\Model\CommModel::keyWord() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Home\Controller\ArtController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `article` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2048] Non-static method Home\Model\CommModel::keyWordList() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Home\Controller\ArtController.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `keywords` [ RunTime:0.0070s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\WWW\tools\Application\Home\Model\CommModel.class.php on line 40 and defined D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `keywords` ORDER BY `order` asc,num desc LIMIT 20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-03T17:19:36+08:00 ] 127.0.0.1 /art/lists.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Non-static method Home\Model\CommModel::keyWord() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Home\Controller\ArtController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `article` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2048] Non-static method Home\Model\CommModel::keyWordList() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Home\Controller\ArtController.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `keywords` [ RunTime:0.0090s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\WWW\tools\Application\Home\Model\CommModel.class.php on line 40 and defined D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `keywords` ORDER BY `order` asc,num desc LIMIT 20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-03T17:19:54+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `article` WHERE `status` = 1 ORDER BY id desc LIMIT 6   [ RunTime:0.0030s ]
+SQL: SELECT * FROM `article` WHERE `status` = 1 ORDER BY readnum desc,id desc LIMIT 6   [ RunTime:0.0260s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-03T17:19:59+08:00 ] 127.0.0.1 /art/article/id/18.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `article` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `article` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `article` SET `title`='JS/HTML 保存图片到本地：HTML &lt;a&gt; download 属性',`keyword`='a直接下载图片',`content`='&lt;p&gt;
+	可以利用html中的a标签加上download属性下载属性
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;pre class=&quot;prettyprint lang-html&quot;&gt;&amp;lt;a  href=&quot;http://wpa.qq.com/pa?p=1:714115852:16&quot; download=&quot;aaa&quot;&amp;gt;
+	&amp;lt;img  border=&quot;0&quot; SRC=http://wpa.qq.com/pa?p=1:714115852:16 alt=&quot;点击发送消息给我&quot;&amp;gt;
+&amp;lt;/a&amp;gt;&lt;/pre&gt;
+&lt;span style=&quot;font-family:&amp;quot;font-size:15px;line-height:25px;background-color:#FFFFFF;&quot;&gt;但是会有不兼容的问题，当前好像只支持 Chrome &amp;nbsp;和 Firefox 浏览器，&lt;/span&gt;&lt;span&gt;&lt;/span&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	解决方法：
+&lt;/p&gt;
+&lt;p&gt;
+	在head中引入js
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;pre class=&quot;prettyprint lang-js&quot;&gt;&amp;lt;script src=”http://html5shiv.googlecode.com/svn/trunk/html5.js”&amp;gt;&amp;lt;/script&amp;gt;&lt;/pre&gt;
+&lt;div&gt;
+	&lt;br /&gt;
+&lt;/div&gt;',`status`='1',`type`='0',`createtime`='1476085857',`author`='小兔',`imgurl`=NULL,`recom`='0',`readnum`='1' WHERE `id` = 18 [ RunTime:0.0250s ]
+SQL: SELECT `id`,`title` FROM `article` WHERE ( id<18 and status=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`title` FROM `article` WHERE ( id>18 and status=1 ) ORDER BY id asc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`title` FROM `article` WHERE ( id<>18 and status=1 and recom=1 ) ORDER BY id desc LIMIT 6   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.073004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-03T17:20:03+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `article` WHERE `status` = 1 ORDER BY id desc LIMIT 6   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `article` WHERE `status` = 1 ORDER BY readnum desc,id desc LIMIT 6   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-03T17:20:20+08:00 ] 127.0.0.1 /art/article/id/11.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `article` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `article` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `article` SET `title`='在线智能图片处理-调色篇',`keyword`=NULL,`content`='&lt;p style=&quot;font-size:14px;vertical-align:baseline;color:#444444;font-family:&amp;quot;background-color:#F9F9F9;&quot;&gt;
+	又是一个小巧的在线工具，它&lt;strong&gt;&lt;span style=&quot;vertical-align:baseline;color:#FF6600;&quot;&gt;可以在线智能调色上传的照片&lt;/span&gt;&lt;/strong&gt;，左侧为预设选项，右侧为自定义调节，全程中文，使用方便！
+&lt;/p&gt;
+&lt;p style=&quot;font-size:14px;vertical-align:baseline;color:#444444;font-family:&amp;quot;text-align:center;background-color:#F9F9F9;&quot;&gt;
+	&lt;img class=&quot;alignnone&quot; src=&quot;http://img.youquhome.com/uploads/2015/11/polarr.jpg&quot; alt=&quot;在线智能图片处理-调色篇&quot; width=&quot;363&quot; height=&quot;180&quot; style=&quot;height:auto;&quot; /&gt; 
+&lt;/p&gt;
+&lt;p style=&quot;font-size:14px;vertical-align:baseline;color:#444444;font-family:&amp;quot;background-color:#F9F9F9;&quot;&gt;
+	传送门&amp;nbsp;&lt;a href=&quot;https://v3.polarr.co/&quot; target=&quot;_blank&quot;&gt;https://v3.polarr.co/&lt;/a&gt;&amp;nbsp;&lt;span id=&quot;more-3612&quot; style=&quot;vertical-align:baseline;&quot;&gt;&lt;/span&gt; 
+&lt;/p&gt;
+&lt;blockquote style=&quot;font-size:14px;vertical-align:baseline;font-style:italic;color:#FF6600;font-family:&amp;quot;background-color:#F9F9F9;&quot;&gt;
+	&lt;h2 style=&quot;font-size:1.28571rem;vertical-align:baseline;font-family:&amp;quot;&quot;&gt;
+		方法
+	&lt;/h2&gt;
+&lt;/blockquote&gt;
+&lt;p style=&quot;font-size:14px;vertical-align:baseline;color:#444444;font-family:&amp;quot;background-color:#F9F9F9;&quot;&gt;
+	网站支持中文，初学网友推荐用左边的预设调节，喜欢折腾的可以用右边的自定义调节，同时支持快捷键操作，Ctrl+O打开照片，Ctrl+S保存图片！
+&lt;/p&gt;
+&lt;p style=&quot;font-size:14px;vertical-align:baseline;color:#444444;font-family:&amp;quot;text-align:right;background-color:#F9F9F9;&quot;&gt;
+	网友&lt;span style=&quot;vertical-align:baseline;color:#808000;&quot;&gt;Zesty&lt;/span&gt;提供趣站
+&lt;/p&gt;',`status`='1',`type`='0',`createtime`='1472785500',`author`='小兔',`imgurl`=NULL,`recom`='0',`readnum`='10' WHERE `id` = 11 [ RunTime:0.0010s ]
+SQL: SELECT `id`,`title` FROM `article` WHERE ( id<11 and status=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title` FROM `article` WHERE ( id>11 and status=1 ) ORDER BY id asc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`title` FROM `article` WHERE ( id<>11 and status=1 and recom=1 ) ORDER BY id desc LIMIT 6   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-11-03T17:20:33+08:00 ] 127.0.0.1 /art/lists.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Non-static method Home\Model\CommModel::keyWord() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Home\Controller\ArtController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `article` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2048] Non-static method Home\Model\CommModel::keyWordList() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Home\Controller\ArtController.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `keywords` [ RunTime:0.0130s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\WWW\tools\Application\Home\Model\CommModel.class.php on line 40 and defined D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `keywords` ORDER BY `order` asc,num desc LIMIT 20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-03T17:20:44+08:00 ] 127.0.0.1 /art/lists.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Non-static method Home\Model\CommModel::keyWord() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Home\Controller\ArtController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `article` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2048] Non-static method Home\Model\CommModel::keyWordList() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Home\Controller\ArtController.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `keywords` [ RunTime:0.0080s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\WWW\tools\Application\Home\Model\CommModel.class.php on line 40 and defined D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `keywords` ORDER BY `order` asc,num desc LIMIT 20   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-03T17:20:52+08:00 ] 127.0.0.1 /art/lists.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Non-static method Home\Model\CommModel::keyWord() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Home\Controller\ArtController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `article` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [2048] Non-static method Home\Model\CommModel::keyWordList() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Home\Controller\ArtController.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `keywords` [ RunTime:0.0070s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\WWW\tools\Application\Home\Model\CommModel.class.php on line 40 and defined D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `keywords` ORDER BY `order` asc,num desc LIMIT 20   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-03T17:21:00+08:00 ] 127.0.0.1 /art/lists.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Non-static method Home\Model\CommModel::keyWord() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Home\Controller\ArtController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `article` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2048] Non-static method Home\Model\CommModel::keyWordList() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Home\Controller\ArtController.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `keywords` [ RunTime:0.0100s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\WWW\tools\Application\Home\Model\CommModel.class.php on line 40 and defined D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `keywords` ORDER BY `order` asc,num desc LIMIT 20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-03T17:21:16+08:00 ] 127.0.0.1 /art/lists.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2048] Non-static method Home\Model\CommModel::keyWord() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Home\Controller\ArtController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `article` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] Non-static method Home\Model\CommModel::keyWordList() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Home\Controller\ArtController.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `keywords` [ RunTime:0.0080s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\WWW\tools\Application\Home\Model\CommModel.class.php on line 40 and defined D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `keywords` ORDER BY `order` asc,num desc LIMIT 20   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-11-03T17:21:38+08:00 ] 127.0.0.1 /art/lists.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Non-static method Home\Model\CommModel::keyWord() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Home\Controller\ArtController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `article` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] Non-static method Home\Model\CommModel::keyWordList() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Home\Controller\ArtController.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `keywords` [ RunTime:0.0080s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\WWW\tools\Application\Home\Model\CommModel.class.php on line 40 and defined D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `keywords` ORDER BY `order` asc,num desc LIMIT 20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-03T17:21:58+08:00 ] 127.0.0.1 /art/lists.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Non-static method Home\Model\CommModel::keyWord() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Home\Controller\ArtController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `article` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2048] Non-static method Home\Model\CommModel::keyWordList() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Home\Controller\ArtController.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `keywords` [ RunTime:0.0090s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\WWW\tools\Application\Home\Model\CommModel.class.php on line 40 and defined D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `keywords` ORDER BY `order` asc,num desc LIMIT 20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-11-03T17:22:12+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `article` WHERE `status` = 1 ORDER BY id desc LIMIT 6   [ RunTime:0.0050s ]
+SQL: SELECT * FROM `article` WHERE `status` = 1 ORDER BY readnum desc,id desc LIMIT 6   [ RunTime:0.0230s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-03T17:22:19+08:00 ] 127.0.0.1 /art/lists.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2048] Non-static method Home\Model\CommModel::keyWord() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Home\Controller\ArtController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `article` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2048] Non-static method Home\Model\CommModel::keyWordList() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Home\Controller\ArtController.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `keywords` [ RunTime:0.0090s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\WWW\tools\Application\Home\Model\CommModel.class.php on line 40 and defined D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `keywords` ORDER BY `order` asc,num desc LIMIT 20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-03T17:22:26+08:00 ] 127.0.0.1 /art/lists.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Non-static method Home\Model\CommModel::keyWord() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Home\Controller\ArtController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `article` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2048] Non-static method Home\Model\CommModel::keyWordList() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Home\Controller\ArtController.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `keywords` [ RunTime:0.0090s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\WWW\tools\Application\Home\Model\CommModel.class.php on line 40 and defined D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `keywords` ORDER BY `order` asc,num desc LIMIT 20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-03T17:22:27+08:00 ] 127.0.0.1 /art/lists.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Non-static method Home\Model\CommModel::keyWord() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Home\Controller\ArtController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `article` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] Non-static method Home\Model\CommModel::keyWordList() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Home\Controller\ArtController.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `keywords` [ RunTime:0.0070s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\WWW\tools\Application\Home\Model\CommModel.class.php on line 40 and defined D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `keywords` ORDER BY `order` asc,num desc LIMIT 20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-03T17:28:21+08:00 ] 127.0.0.1 /art/lists.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Non-static method Home\Model\CommModel::keyWord() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Home\Controller\ArtController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `article` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] Non-static method Home\Model\CommModel::keyWordList() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Home\Controller\ArtController.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `keywords` [ RunTime:0.0100s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\WWW\tools\Application\Home\Model\CommModel.class.php on line 40 and defined D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `keywords` ORDER BY `order` asc,num desc LIMIT 20   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-11-03T17:28:30+08:00 ] 127.0.0.1 /art/lists.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Non-static method Home\Model\CommModel::keyWord() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Home\Controller\ArtController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `article` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2048] Non-static method Home\Model\CommModel::keyWordList() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Home\Controller\ArtController.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `keywords` [ RunTime:0.0080s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\WWW\tools\Application\Home\Model\CommModel.class.php on line 40 and defined D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `keywords` ORDER BY `order` asc,num desc LIMIT 20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-03T17:29:46+08:00 ] 127.0.0.1 /art/lists.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Non-static method Home\Model\CommModel::keyWord() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Home\Controller\ArtController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `article` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] Non-static method Home\Model\CommModel::keyWordList() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Home\Controller\ArtController.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `keywords` [ RunTime:0.0070s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\WWW\tools\Application\Home\Model\CommModel.class.php on line 40 and defined D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `keywords` ORDER BY `order` asc,num desc LIMIT 20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006001s ]
+
+[ 2016-11-03T17:44:17+08:00 ] 127.0.0.1 /art/lists.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Non-static method Home\Model\CommModel::keyWord() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Home\Controller\ArtController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `article` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2048] Non-static method Home\Model\CommModel::keyWordList() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Home\Controller\ArtController.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `keywords` [ RunTime:0.0080s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\WWW\tools\Application\Home\Model\CommModel.class.php on line 40 and defined D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `keywords` ORDER BY `order` asc,num desc LIMIT 20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-11-03T17:47:13+08:00 ] 127.0.0.1 /art/lists.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Non-static method Home\Model\CommModel::keyWord() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Home\Controller\ArtController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `article` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2048] Non-static method Home\Model\CommModel::keyWordList() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Home\Controller\ArtController.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `keywords` [ RunTime:0.0110s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\WWW\tools\Application\Home\Model\CommModel.class.php on line 40 and defined D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `keywords` ORDER BY `order` asc,num desc LIMIT 20   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004001s ]
+
+[ 2016-11-03T18:09:33+08:00 ] 127.0.0.1 /art/lists.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2048] Non-static method Home\Model\CommModel::keyWord() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Home\Controller\ArtController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.1920s ]
+SQL: SELECT * FROM `article` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] Non-static method Home\Model\CommModel::keyWordList() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Home\Controller\ArtController.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `keywords` [ RunTime:0.0100s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\WWW\tools\Application\Home\Model\CommModel.class.php on line 40 and defined D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `keywords` ORDER BY `order` asc,num desc LIMIT 20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-11-03T18:12:26+08:00 ] 127.0.0.1 /art/lists.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Non-static method Home\Model\CommModel::keyWord() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Home\Controller\ArtController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `article` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] Non-static method Home\Model\CommModel::keyWordList() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Home\Controller\ArtController.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `keywords` [ RunTime:0.0090s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\WWW\tools\Application\Home\Model\CommModel.class.php on line 40 and defined D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `keywords` ORDER BY `order` asc,num desc LIMIT 20   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2016-11-03T18:14:07+08:00 ] 127.0.0.1 /art/lists.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [2048] Non-static method Home\Model\CommModel::keyWord() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Home\Controller\ArtController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `article` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2048] Non-static method Home\Model\CommModel::keyWordList() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Home\Controller\ArtController.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `keywords` [ RunTime:0.0080s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\WWW\tools\Application\Home\Model\CommModel.class.php on line 40 and defined D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `keywords` ORDER BY `order` asc,num desc LIMIT 20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2016-11-03T18:14:30+08:00 ] 127.0.0.1 /art/lists.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2048] Non-static method Home\Model\CommModel::keyWord() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Home\Controller\ArtController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `article` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2048] Non-static method Home\Model\CommModel::keyWordList() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Home\Controller\ArtController.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `keywords` [ RunTime:0.0090s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\WWW\tools\Application\Home\Model\CommModel.class.php on line 40 and defined D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `keywords` ORDER BY `order` asc,num desc LIMIT 20   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2016-11-03T18:14:39+08:00 ] 127.0.0.1 /art/lists.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2048] Non-static method Home\Model\CommModel::keyWord() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Home\Controller\ArtController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `article` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2048] Non-static method Home\Model\CommModel::keyWordList() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Home\Controller\ArtController.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `keywords` [ RunTime:0.0110s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\WWW\tools\Application\Home\Model\CommModel.class.php on line 40 and defined D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `keywords` ORDER BY `order` asc,num desc LIMIT 20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006000s ]
+
+[ 2016-11-03T18:16:38+08:00 ] 127.0.0.1 /art/lists.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Non-static method Home\Model\CommModel::keyWord() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Home\Controller\ArtController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `article` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2048] Non-static method Home\Model\CommModel::keyWordList() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Home\Controller\ArtController.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `keywords` [ RunTime:0.0080s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\WWW\tools\Application\Home\Model\CommModel.class.php on line 40 and defined D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `keywords` ORDER BY `order` asc,num desc LIMIT 20   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-11-03T18:17:00+08:00 ] 127.0.0.1 /art/lists.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Non-static method Home\Model\CommModel::keyWord() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Home\Controller\ArtController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `article` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2048] Non-static method Home\Model\CommModel::keyWordList() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Home\Controller\ArtController.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `keywords` [ RunTime:0.0090s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\WWW\tools\Application\Home\Model\CommModel.class.php on line 40 and defined D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `keywords` ORDER BY `order` asc,num desc LIMIT 20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-11-03T18:17:22+08:00 ] 127.0.0.1 /art/lists.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Non-static method Home\Model\CommModel::keyWord() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Home\Controller\ArtController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `article` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2048] Non-static method Home\Model\CommModel::keyWordList() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Home\Controller\ArtController.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `keywords` [ RunTime:0.0080s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\WWW\tools\Application\Home\Model\CommModel.class.php on line 40 and defined D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `keywords` ORDER BY `order` asc,num desc LIMIT 20   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-11-03T18:17:40+08:00 ] 127.0.0.1 /art/lists.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Non-static method Home\Model\CommModel::keyWord() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Home\Controller\ArtController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `article` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2048] Non-static method Home\Model\CommModel::keyWordList() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Home\Controller\ArtController.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `keywords` [ RunTime:0.0080s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\WWW\tools\Application\Home\Model\CommModel.class.php on line 40 and defined D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `keywords` ORDER BY `order` asc,num desc LIMIT 20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2016-11-03T18:18:00+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `article` WHERE `status` = 1 ORDER BY id desc LIMIT 6   [ RunTime:0.0040s ]
+SQL: SELECT * FROM `article` WHERE `status` = 1 ORDER BY readnum desc,id desc LIMIT 6   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-11-03T18:18:03+08:00 ] 127.0.0.1 /art/lists.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Non-static method Home\Model\CommModel::keyWord() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Home\Controller\ArtController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `article` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2048] Non-static method Home\Model\CommModel::keyWordList() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Home\Controller\ArtController.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `keywords` [ RunTime:0.0080s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\WWW\tools\Application\Home\Model\CommModel.class.php on line 40 and defined D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `keywords` ORDER BY `order` asc,num desc LIMIT 20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+

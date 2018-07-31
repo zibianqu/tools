@@ -1,0 +1,784 @@
+[ 2016-10-14T17:38:13+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.066003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `statisticsip` [ RunTime:0.4940s ]
+SQL: SELECT * FROM `statisticsip` WHERE `ip` = '127.0.0.1' AND `date` = 20161014 LIMIT 1   [ RunTime:0.0260s ]
+SQL: INSERT INTO `statisticsip` (`ip`,`date`,`recordtime`) VALUES ('127.0.0.1','20161014','1476437892') [ RunTime:0.0510s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0910s ]
+SQL: SELECT * FROM `article` WHERE `status` = 1 ORDER BY id desc LIMIT 6   [ RunTime:0.1170s ]
+SQL: SELECT * FROM `article` WHERE `status` = 1 ORDER BY readnum desc,id desc LIMIT 6   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.032001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.033002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.342019s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.344020s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.028002s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.029002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.019001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.021001s ]
+
+[ 2016-10-14T17:43:10+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `article` WHERE `status` = 1 ORDER BY id desc LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `article` WHERE `status` = 1 ORDER BY readnum desc,id desc LIMIT 6   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-10-14T17:43:13+08:00 ] 127.0.0.1 /art/article/id/20.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `article` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `article` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0020s ]
+SQL: UPDATE `article` SET `title`='PHP如何释放内存之unset销毁变量并释放内存详解',`keyword`='unset销毁变量',`content`='&lt;p style=&quot;font-family:&amp;quot;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	PHP的unset()函数用来清除、销毁变量，不用的变量，我们可以用unset()将它销毁。但是某些时候，用unset()却无法达到销毁变量占用的内存！我们先看一个例子：
+&lt;/p&gt;
+&lt;p style=&quot;font-family:&amp;quot;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;pre class=&quot;prettyprint lang-php&quot;&gt;&amp;lt;?php
+$s = str_repeat(\'1\',255);   //产生由255个1组成的字符串
+$m = memory_get_usage();    //获取当前占用内存
+unset($s);
+$mm = memory_get_usage();   //unset()后再查看当前占用内存
+echo $m-$mm;
+?&amp;gt;&lt;/pre&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;div style=&quot;margin:0px;padding:0px;font-family:&amp;quot;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	&lt;div id=&quot;highlighter_261900&quot; class=&quot;syntaxhighlighter  php&quot; style=&quot;padding:0px;margin:0.5em 0px !important;font-size:1em !important;&quot;&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;p style=&quot;font-family:&amp;quot;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	&lt;span style=&quot;line-height:1.6em;&quot;&gt;最后输出unset()之前占用内存减去unset()之后占用内存，如果是正数，那么说明unset($s)已经将$s从内存中销毁(或者 说，unset()之后内存占用减少了)，可是我在PHP5和windows平台下，得到的结果是：-48。这是否可以说明，unset($s)并没有起 到销毁变量$s所占用内存的作用呢？我们再作下面的例子：&lt;/span&gt;
+&lt;/p&gt;
+&lt;div style=&quot;margin:0px;padding:0px;font-family:&amp;quot;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	&lt;div id=&quot;highlighter_299905&quot; class=&quot;syntaxhighlighter  php&quot; style=&quot;padding:0px;margin:0.5em 0px !important;font-size:1em !important;&quot;&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;p style=&quot;font-family:&amp;quot;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;pre class=&quot;prettyprint lang-php&quot;&gt;&amp;lt;?php
+$s = str_repeat(\'1\',256);   //产生由256个1组成的字符串
+$m = memory_get_usage();    //获取当前占用内存
+unset($s);
+$mm = memory_get_usage();   //unset()后再查看当前占用内存
+echo $m-$mm;
+?&amp;gt;&lt;/pre&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-family:&amp;quot;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	这个例子，和上面的例子几乎相同，唯一的不同是，$s由256个1组成，即比第一个例子多了一个1，得到结果是：224。这是否可以说明，unset($s)已经将$s所占用的内存销毁了？
+&lt;/p&gt;
+&lt;p style=&quot;font-family:&amp;quot;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	通过上面两个例子，我们可以得出以下结论：
+&lt;/p&gt;
+&lt;p style=&quot;font-family:&amp;quot;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	&lt;span style=&quot;text-decoration:underline;&quot;&gt;&lt;strong&gt;结论一、unset()函数只能在变量值占用内存空间超过256字节时才会释放内存空间。&lt;/strong&gt;&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-family:&amp;quot;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	那么是不是只要变量值超过256，使用unset就可以释放内存空间呢？我们再通过一个例子来测试一下：
+&lt;/p&gt;
+&lt;div style=&quot;margin:0px;padding:0px;font-family:&amp;quot;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	&lt;div id=&quot;highlighter_57584&quot; class=&quot;syntaxhighlighter  php&quot; style=&quot;padding:0px;margin:0.5em 0px !important;font-size:1em !important;&quot;&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;p style=&quot;font-family:&amp;quot;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-family:&amp;quot;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;pre class=&quot;prettyprint lang-php&quot;&gt;&amp;lt;?php
+$s = str_repeat(\'1\',256);       //这和第二个例子完全相同
+$p = &amp;amp;$s;
+$m = memory_get_usage();
+unset($s);                      //销毁$s
+$mm = memory_get_usage();
+echo $p . \'&amp;lt;br /&amp;gt;\';
+echo $m-$mm;
+?&amp;gt;&lt;/pre&gt;
+&lt;span&gt;刷新页面，我们看到第一行有256个1，第二行是-48，按理说我们已经销毁了$s，而$p只是引用$s的变量，应该是没有内容了，另外，unset($s)后内存占用却比unset()前增加了！现在我们再做以下的例子：&lt;/span&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-family:&amp;quot;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;pre class=&quot;prettyprint lang-php&quot;&gt;&amp;lt;?php
+$s = str_repeat(\'1\', 256);      //这和第二个例子完全相同
+$p = &amp;amp;$s;
+$m = memory_get_usage();
+$s = null;                      //设置$s为null
+$mm = memory_get_usage();
+echo $p . \'&amp;lt;br /&amp;gt;\';
+echo $m-$mm;
+?&amp;gt;&lt;/pre&gt;
+&lt;span&gt;现在刷新页面，我们看到，输出$p已经是没有内容了，unset()前后内存占用量之差是224，即已经清除了变量占用的内存。本例中的$s=null也可以换成unset()，如下：&lt;/span&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-family:&amp;quot;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;pre class=&quot;prettyprint lang-php&quot;&gt;&amp;lt;?php
+$s = str_repeat(\'1\', 256);      //这和第二个例子完全相同
+$p = &amp;amp;$s;
+$m = memory_get_usage();
+unset($s);                      //销毁$s
+unset($p);
+$mm = memory_get_usage();
+echo $p . \'&amp;lt;br /&amp;gt;\';
+echo $m-$mm;
+?&amp;gt;&lt;/pre&gt;
+&lt;span&gt;我们将$s和$p都使用unset()销毁，这时再看内存占用量之差也是224，说明这样也可以释放内存。那么，我们可以得到另外一条结论：&lt;/span&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-family:&amp;quot;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	&lt;span style=&quot;text-decoration:underline;&quot;&gt;&lt;strong&gt;结论二、只有当指向该变量的所有变量（如引用变量）都被销毁后，才会释放内存。&lt;/strong&gt;&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-family:&amp;quot;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	相信经过本文的例子后，大家应该对unset()有所了解了，最起码，本人用unset()也是为了在变量不起作用时，释放内存。
+&lt;/p&gt;
+&lt;p style=&quot;font-family:&amp;quot;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-family:&amp;quot;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	原文地址：http://www.cnblogs.com/52php/p/5658322.html
+&lt;/p&gt;',`status`='1',`type`='0',`createtime`='1476437920',`author`='小兔',`imgurl`=NULL,`recom`='0',`readnum`='1' WHERE `id` = 20 [ RunTime:0.0400s ]
+SQL: SELECT `id`,`title` FROM `article` WHERE ( id<20 and status=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`title` FROM `article` WHERE ( id>20 and status=1 ) ORDER BY id asc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`title` FROM `article` WHERE ( id<>20 and status=1 and recom=1 ) ORDER BY id desc LIMIT 6   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\tools\Application\Home\Controller\ArtController.class.php 第 56 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-10-14T17:57:14+08:00 ] 127.0.0.1 /art/article/id/20.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `article` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `article` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0070s ]
+SQL: UPDATE `article` SET `title`='PHP如何释放内存之unset销毁变量并释放内存详解',`keyword`='unset销毁变量',`content`='&lt;p style=&quot;font-family:&amp;quot;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	PHP的unset()函数用来清除、销毁变量，不用的变量，我们可以用unset()将它销毁。但是某些时候，用unset()却无法达到销毁变量占用的内存！我们先看一个例子：
+&lt;/p&gt;
+&lt;p style=&quot;font-family:&amp;quot;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;pre class=&quot;prettyprint lang-php&quot;&gt;&amp;lt;?php
+$s = str_repeat(\'1\',255);   //产生由255个1组成的字符串gfgdfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+$m = memory_get_usage();    //获取当前占用内存
+unset($s);
+$mm = memory_get_usage();   //unset()后再查看当前占用内存
+echo $m-$mm;
+?&amp;gt;&lt;/pre&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;div style=&quot;margin:0px;padding:0px;font-family:&amp;quot;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	&lt;div id=&quot;highlighter_261900&quot; class=&quot;syntaxhighlighter  php&quot; style=&quot;padding:0px;margin:0.5em 0px !important;font-size:1em !important;&quot;&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;p style=&quot;font-family:&amp;quot;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	&lt;span style=&quot;line-height:1.6em;&quot;&gt;最后输出unset()之前占用内存减去unset()之后占用内存，如果是正数，那么说明unset($s)已经将$s从内存中销毁(或者 说，unset()之后内存占用减少了)，可是我在PHP5和windows平台下，得到的结果是：-48。这是否可以说明，unset($s)并没有起 到销毁变量$s所占用内存的作用呢？我们再作下面的例子：&lt;/span&gt; 
+&lt;/p&gt;
+&lt;div style=&quot;margin:0px;padding:0px;font-family:&amp;quot;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	&lt;div id=&quot;highlighter_299905&quot; class=&quot;syntaxhighlighter  php&quot; style=&quot;padding:0px;margin:0.5em 0px !important;font-size:1em !important;&quot;&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;p style=&quot;font-family:&amp;quot;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;pre class=&quot;prettyprint lang-php&quot;&gt;&amp;lt;?php
+$s = str_repeat(\'1\',256);   //产生由256个1组成的字符串
+$m = memory_get_usage();    //获取当前占用内存
+unset($s);
+$mm = memory_get_usage();   //unset()后再查看当前占用内存
+echo $m-$mm;
+?&amp;gt;&lt;/pre&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-family:&amp;quot;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	这个例子，和上面的例子几乎相同，唯一的不同是，$s由256个1组成，即比第一个例子多了一个1，得到结果是：224。这是否可以说明，unset($s)已经将$s所占用的内存销毁了？
+&lt;/p&gt;
+&lt;p style=&quot;font-family:&amp;quot;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	通过上面两个例子，我们可以得出以下结论：
+&lt;/p&gt;
+&lt;p style=&quot;font-family:&amp;quot;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	&lt;span style=&quot;text-decoration:underline;&quot;&gt;&lt;strong&gt;结论一、unset()函数只能在变量值占用内存空间超过256字节时才会释放内存空间。&lt;/strong&gt;&lt;/span&gt; 
+&lt;/p&gt;
+&lt;p style=&quot;font-family:&amp;quot;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	那么是不是只要变量值超过256，使用unset就可以释放内存空间呢？我们再通过一个例子来测试一下：
+&lt;/p&gt;
+&lt;div style=&quot;margin:0px;padding:0px;font-family:&amp;quot;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	&lt;div id=&quot;highlighter_57584&quot; class=&quot;syntaxhighlighter  php&quot; style=&quot;padding:0px;margin:0.5em 0px !important;font-size:1em !important;&quot;&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;p style=&quot;font-family:&amp;quot;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-family:&amp;quot;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;pre class=&quot;prettyprint lang-php&quot;&gt;&amp;lt;?php
+$s = str_repeat(\'1\',256);       //这和第二个例子完全相同
+$p = &amp;amp;$s;
+$m = memory_get_usage();
+unset($s);                      //销毁$s
+$mm = memory_get_usage();
+echo $p . \'&amp;lt;br /&amp;gt;\';
+echo $m-$mm;
+?&amp;gt;&lt;/pre&gt;
+&lt;span&gt;刷新页面，我们看到第一行有256个1，第二行是-48，按理说我们已经销毁了$s，而$p只是引用$s的变量，应该是没有内容了，另外，unset($s)后内存占用却比unset()前增加了！现在我们再做以下的例子：&lt;/span&gt; 
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-family:&amp;quot;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;pre class=&quot;prettyprint lang-php&quot;&gt;&amp;lt;?php
+$s = str_repeat(\'1\', 256);      //这和第二个例子完全相同
+$p = &amp;amp;$s;
+$m = memory_get_usage();
+$s = null;                      //设置$s为null
+$mm = memory_get_usage();
+echo $p . \'&amp;lt;br /&amp;gt;\';
+echo $m-$mm;
+?&amp;gt;&lt;/pre&gt;
+&lt;span&gt;现在刷新页面，我们看到，输出$p已经是没有内容了，unset()前后内存占用量之差是224，即已经清除了变量占用的内存。本例中的$s=null也可以换成unset()，如下：&lt;/span&gt; 
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-family:&amp;quot;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;pre class=&quot;prettyprint lang-php&quot;&gt;&amp;lt;?php
+$s = str_repeat(\'1\', 256);      //这和第二个例子完全相同
+$p = &amp;amp;$s;
+$m = memory_get_usage();
+unset($s);                      //销毁$s
+unset($p);
+$mm = memory_get_usage();
+echo $p . \'&amp;lt;br /&amp;gt;\';
+echo $m-$mm;
+?&amp;gt;&lt;/pre&gt;
+&lt;span&gt;我们将$s和$p都使用unset()销毁，这时再看内存占用量之差也是224，说明这样也可以释放内存。那么，我们可以得到另外一条结论：&lt;/span&gt; 
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-family:&amp;quot;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	&lt;span style=&quot;text-decoration:underline;&quot;&gt;&lt;strong&gt;结论二、只有当指向该变量的所有变量（如引用变量）都被销毁后，才会释放内存。&lt;/strong&gt;&lt;/span&gt; 
+&lt;/p&gt;
+&lt;p style=&quot;font-family:&amp;quot;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	相信经过本文的例子后，大家应该对unset()有所了解了，最起码，本人用unset()也是为了在变量不起作用时，释放内存。
+&lt;/p&gt;
+&lt;p style=&quot;font-family:&amp;quot;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-family:&amp;quot;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	原文地址：http://www.cnblogs.com/52php/p/5658322.html
+&lt;/p&gt;',`status`='1',`type`='0',`createtime`='1476439032',`author`='小兔',`imgurl`=NULL,`recom`='0',`readnum`='2' WHERE `id` = 20 [ RunTime:0.0120s ]
+SQL: SELECT `id`,`title` FROM `article` WHERE ( id<20 and status=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`title` FROM `article` WHERE ( id>20 and status=1 ) ORDER BY id asc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title` FROM `article` WHERE ( id<>20 and status=1 and recom=1 ) ORDER BY id desc LIMIT 6   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\tools\Application\Home\Controller\ArtController.class.php 第 56 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006000s ]
+
+[ 2016-10-14T18:00:16+08:00 ] 127.0.0.1 /art/article/id/20.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `article` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `article` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `article` SET `title`='PHP如何释放内存之unset销毁变量并释放内存详解',`keyword`='unset销毁变量',`content`='&lt;p style=&quot;font-family:&amp;quot;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	PHP的unset()函数用来清除、销毁变量，不用的变量，我们可以用unset()将它销毁。但是某些时候，用unset()却无法达到销毁变量占用的内存！我们先看一个例子：
+&lt;/p&gt;
+&lt;p style=&quot;font-family:&amp;quot;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;pre class=&quot;prettyprint lang-php&quot;&gt;&amp;lt;?php
+$s = str_repeat(\'1\',255);   //产生由255个1组成的字符串gfgdfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+$m = memory_get_usage();    //获取当前占用内存
+unset($s);
+$mm = memory_get_usage();   //unset()后再查看当前占用内存
+echo $m-$mm;
+?&amp;gt;&lt;/pre&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;div style=&quot;margin:0px;padding:0px;font-family:&amp;quot;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	&lt;div id=&quot;highlighter_261900&quot; class=&quot;syntaxhighlighter  php&quot; style=&quot;padding:0px;margin:0.5em 0px !important;font-size:1em !important;&quot;&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;p style=&quot;font-family:&amp;quot;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	&lt;span style=&quot;line-height:1.6em;&quot;&gt;最后输出unset()之前占用内存减去unset()之后占用内存，如果是正数，那么说明unset($s)已经将$s从内存中销毁(或者 说，unset()之后内存占用减少了)，可是我在PHP5和windows平台下，得到的结果是：-48。这是否可以说明，unset($s)并没有起 到销毁变量$s所占用内存的作用呢？我们再作下面的例子：&lt;/span&gt; 
+&lt;/p&gt;
+&lt;div style=&quot;margin:0px;padding:0px;font-family:&amp;quot;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	&lt;div id=&quot;highlighter_299905&quot; class=&quot;syntaxhighlighter  php&quot; style=&quot;padding:0px;margin:0.5em 0px !important;font-size:1em !important;&quot;&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;p style=&quot;font-family:&amp;quot;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;pre class=&quot;prettyprint lang-php&quot;&gt;&amp;lt;?php
+$s = str_repeat(\'1\',256);   //产生由256个1组成的字符串
+$m = memory_get_usage();    //获取当前占用内存
+unset($s);
+$mm = memory_get_usage();   //unset()后再查看当前占用内存
+echo $m-$mm;
+?&amp;gt;&lt;/pre&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-family:&amp;quot;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	这个例子，和上面的例子几乎相同，唯一的不同是，$s由256个1组成，即比第一个例子多了一个1，得到结果是：224。这是否可以说明，unset($s)已经将$s所占用的内存销毁了？
+&lt;/p&gt;
+&lt;p style=&quot;font-family:&amp;quot;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	通过上面两个例子，我们可以得出以下结论：
+&lt;/p&gt;
+&lt;p style=&quot;font-family:&amp;quot;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	&lt;span style=&quot;text-decoration:underline;&quot;&gt;&lt;strong&gt;结论一、unset()函数只能在变量值占用内存空间超过256字节时才会释放内存空间。&lt;/strong&gt;&lt;/span&gt; 
+&lt;/p&gt;
+&lt;p style=&quot;font-family:&amp;quot;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	那么是不是只要变量值超过256，使用unset就可以释放内存空间呢？我们再通过一个例子来测试一下：
+&lt;/p&gt;
+&lt;div style=&quot;margin:0px;padding:0px;font-family:&amp;quot;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	&lt;div id=&quot;highlighter_57584&quot; class=&quot;syntaxhighlighter  php&quot; style=&quot;padding:0px;margin:0.5em 0px !important;font-size:1em !important;&quot;&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;p style=&quot;font-family:&amp;quot;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-family:&amp;quot;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;pre class=&quot;prettyprint lang-php&quot;&gt;&amp;lt;?php
+$s = str_repeat(\'1\',256);       //这和第二个例子完全相同
+$p = &amp;amp;$s;
+$m = memory_get_usage();
+unset($s);                      //销毁$s
+$mm = memory_get_usage();
+echo $p . \'&amp;lt;br /&amp;gt;\';
+echo $m-$mm;
+?&amp;gt;&lt;/pre&gt;
+&lt;span&gt;刷新页面，我们看到第一行有256个1，第二行是-48，按理说我们已经销毁了$s，而$p只是引用$s的变量，应该是没有内容了，另外，unset($s)后内存占用却比unset()前增加了！现在我们再做以下的例子：&lt;/span&gt; 
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-family:&amp;quot;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;pre class=&quot;prettyprint lang-php&quot;&gt;&amp;lt;?php
+$s = str_repeat(\'1\', 256);      //这和第二个例子完全相同
+$p = &amp;amp;$s;
+$m = memory_get_usage();
+$s = null;                      //设置$s为null
+$mm = memory_get_usage();
+echo $p . \'&amp;lt;br /&amp;gt;\';
+echo $m-$mm;
+?&amp;gt;&lt;/pre&gt;
+&lt;span&gt;现在刷新页面，我们看到，输出$p已经是没有内容了，unset()前后内存占用量之差是224，即已经清除了变量占用的内存。本例中的$s=null也可以换成unset()，如下：&lt;/span&gt; 
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-family:&amp;quot;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;pre class=&quot;prettyprint lang-php&quot;&gt;&amp;lt;?php
+$s = str_repeat(\'1\', 256);      //这和第二个例子完全相同
+$p = &amp;amp;$s;
+$m = memory_get_usage();
+unset($s);                      //销毁$s
+unset($p);
+$mm = memory_get_usage();
+echo $p . \'&amp;lt;br /&amp;gt;\';
+echo $m-$mm;
+?&amp;gt;&lt;/pre&gt;
+&lt;span&gt;我们将$s和$p都使用unset()销毁，这时再看内存占用量之差也是224，说明这样也可以释放内存。那么，我们可以得到另外一条结论：&lt;/span&gt; 
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-family:&amp;quot;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	&lt;span style=&quot;text-decoration:underline;&quot;&gt;&lt;strong&gt;结论二、只有当指向该变量的所有变量（如引用变量）都被销毁后，才会释放内存。&lt;/strong&gt;&lt;/span&gt; 
+&lt;/p&gt;
+&lt;p style=&quot;font-family:&amp;quot;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	相信经过本文的例子后，大家应该对unset()有所了解了，最起码，本人用unset()也是为了在变量不起作用时，释放内存。
+&lt;/p&gt;
+&lt;p style=&quot;font-family:&amp;quot;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-family:&amp;quot;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	原文地址：http://www.cnblogs.com/52php/p/5658322.html
+&lt;/p&gt;',`status`='1',`type`='0',`createtime`='1476439032',`author`='小兔',`imgurl`=NULL,`recom`='0',`readnum`='3' WHERE `id` = 20 [ RunTime:0.0010s ]
+SQL: SELECT `id`,`title` FROM `article` WHERE ( id<20 and status=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`title` FROM `article` WHERE ( id>20 and status=1 ) ORDER BY id asc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`title` FROM `article` WHERE ( id<>20 and status=1 and recom=1 ) ORDER BY id desc LIMIT 6   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\tools\Application\Home\Controller\ArtController.class.php 第 56 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2016-10-14T18:00:38+08:00 ] 127.0.0.1 /art/article/id/20.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `article` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `article` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0030s ]
+SQL: UPDATE `article` SET `title`='PHP如何释放内存之unset销毁变量并释放内存详解',`keyword`='unset销毁变量',`content`='&lt;p style=&quot;font-family:&amp;quot;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	PHP的unset()函数用来清除、销毁变量，不用的变量，我们可以用unset()将它销毁。但是某些时候，用unset()却无法达到销毁变量占用的内存！我们先看一个例子：
+&lt;/p&gt;
+&lt;p style=&quot;font-family:&amp;quot;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;pre class=&quot;prettyprint lang-php&quot;&gt;&amp;lt;?php
+$s = str_repeat(\'1\',255);   //产生由255个1组成的字符串gfgdfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+$m = memory_get_usage();    //获取当前占用内存
+unset($s);
+$mm = memory_get_usage();   //unset()后再查看当前占用内存
+echo $m-$mm;
+?&amp;gt;&lt;/pre&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;div style=&quot;margin:0px;padding:0px;font-family:&amp;quot;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	&lt;div id=&quot;highlighter_261900&quot; class=&quot;syntaxhighlighter  php&quot; style=&quot;padding:0px;margin:0.5em 0px !important;font-size:1em !important;&quot;&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;p style=&quot;font-family:&amp;quot;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	&lt;span style=&quot;line-height:1.6em;&quot;&gt;最后输出unset()之前占用内存减去unset()之后占用内存，如果是正数，那么说明unset($s)已经将$s从内存中销毁(或者 说，unset()之后内存占用减少了)，可是我在PHP5和windows平台下，得到的结果是：-48。这是否可以说明，unset($s)并没有起 到销毁变量$s所占用内存的作用呢？我们再作下面的例子：&lt;/span&gt; 
+&lt;/p&gt;
+&lt;div style=&quot;margin:0px;padding:0px;font-family:&amp;quot;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	&lt;div id=&quot;highlighter_299905&quot; class=&quot;syntaxhighlighter  php&quot; style=&quot;padding:0px;margin:0.5em 0px !important;font-size:1em !important;&quot;&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;p style=&quot;font-family:&amp;quot;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;pre class=&quot;prettyprint lang-php&quot;&gt;&amp;lt;?php
+$s = str_repeat(\'1\',256);   //产生由256个1组成的字符串
+$m = memory_get_usage();    //获取当前占用内存
+unset($s);
+$mm = memory_get_usage();   //unset()后再查看当前占用内存
+echo $m-$mm;
+?&amp;gt;&lt;/pre&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-family:&amp;quot;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	这个例子，和上面的例子几乎相同，唯一的不同是，$s由256个1组成，即比第一个例子多了一个1，得到结果是：224。这是否可以说明，unset($s)已经将$s所占用的内存销毁了？
+&lt;/p&gt;
+&lt;p style=&quot;font-family:&amp;quot;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	通过上面两个例子，我们可以得出以下结论：
+&lt;/p&gt;
+&lt;p style=&quot;font-family:&amp;quot;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	&lt;span style=&quot;text-decoration:underline;&quot;&gt;&lt;strong&gt;结论一、unset()函数只能在变量值占用内存空间超过256字节时才会释放内存空间。&lt;/strong&gt;&lt;/span&gt; 
+&lt;/p&gt;
+&lt;p style=&quot;font-family:&amp;quot;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	那么是不是只要变量值超过256，使用unset就可以释放内存空间呢？我们再通过一个例子来测试一下：
+&lt;/p&gt;
+&lt;div style=&quot;margin:0px;padding:0px;font-family:&amp;quot;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	&lt;div id=&quot;highlighter_57584&quot; class=&quot;syntaxhighlighter  php&quot; style=&quot;padding:0px;margin:0.5em 0px !important;font-size:1em !important;&quot;&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;p style=&quot;font-family:&amp;quot;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-family:&amp;quot;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;pre class=&quot;prettyprint lang-php&quot;&gt;&amp;lt;?php
+$s = str_repeat(\'1\',256);       //这和第二个例子完全相同
+$p = &amp;amp;$s;
+$m = memory_get_usage();
+unset($s);                      //销毁$s
+$mm = memory_get_usage();
+echo $p . \'&amp;lt;br /&amp;gt;\';
+echo $m-$mm;
+?&amp;gt;&lt;/pre&gt;
+&lt;span&gt;刷新页面，我们看到第一行有256个1，第二行是-48，按理说我们已经销毁了$s，而$p只是引用$s的变量，应该是没有内容了，另外，unset($s)后内存占用却比unset()前增加了！现在我们再做以下的例子：&lt;/span&gt; 
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-family:&amp;quot;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;pre class=&quot;prettyprint lang-php&quot;&gt;&amp;lt;?php
+$s = str_repeat(\'1\', 256);      //这和第二个例子完全相同
+$p = &amp;amp;$s;
+$m = memory_get_usage();
+$s = null;                      //设置$s为null
+$mm = memory_get_usage();
+echo $p . \'&amp;lt;br /&amp;gt;\';
+echo $m-$mm;
+?&amp;gt;&lt;/pre&gt;
+&lt;span&gt;现在刷新页面，我们看到，输出$p已经是没有内容了，unset()前后内存占用量之差是224，即已经清除了变量占用的内存。本例中的$s=null也可以换成unset()，如下：&lt;/span&gt; 
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-family:&amp;quot;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;pre class=&quot;prettyprint lang-php&quot;&gt;&amp;lt;?php
+$s = str_repeat(\'1\', 256);      //这和第二个例子完全相同
+$p = &amp;amp;$s;
+$m = memory_get_usage();
+unset($s);                      //销毁$s
+unset($p);
+$mm = memory_get_usage();
+echo $p . \'&amp;lt;br /&amp;gt;\';
+echo $m-$mm;
+?&amp;gt;&lt;/pre&gt;
+&lt;span&gt;我们将$s和$p都使用unset()销毁，这时再看内存占用量之差也是224，说明这样也可以释放内存。那么，我们可以得到另外一条结论：&lt;/span&gt; 
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-family:&amp;quot;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	&lt;span style=&quot;text-decoration:underline;&quot;&gt;&lt;strong&gt;结论二、只有当指向该变量的所有变量（如引用变量）都被销毁后，才会释放内存。&lt;/strong&gt;&lt;/span&gt; 
+&lt;/p&gt;
+&lt;p style=&quot;font-family:&amp;quot;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	相信经过本文的例子后，大家应该对unset()有所了解了，最起码，本人用unset()也是为了在变量不起作用时，释放内存。
+&lt;/p&gt;
+&lt;p style=&quot;font-family:&amp;quot;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-family:&amp;quot;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	原文地址：http://www.cnblogs.com/52php/p/5658322.html
+&lt;/p&gt;',`status`='1',`type`='0',`createtime`='1476439032',`author`='小兔',`imgurl`=NULL,`recom`='0',`readnum`='4' WHERE `id` = 20 [ RunTime:0.0020s ]
+SQL: SELECT `id`,`title` FROM `article` WHERE ( id<20 and status=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title` FROM `article` WHERE ( id>20 and status=1 ) ORDER BY id asc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title` FROM `article` WHERE ( id<>20 and status=1 and recom=1 ) ORDER BY id desc LIMIT 6   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\tools\Application\Home\Controller\ArtController.class.php 第 56 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004001s ]
+
+[ 2016-10-14T18:00:50+08:00 ] 127.0.0.1 /art/article/id/20.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `article` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `article` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0020s ]
+SQL: UPDATE `article` SET `title`='PHP如何释放内存之unset销毁变量并释放内存详解',`keyword`='unset销毁变量',`content`='&lt;p style=&quot;font-family:&amp;quot;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	PHP的unset()函数用来清除、销毁变量，不用的变量，我们可以用unset()将它销毁。但是某些时候，用unset()却无法达到销毁变量占用的内存！我们先看一个例子：
+&lt;/p&gt;
+&lt;p style=&quot;font-family:&amp;quot;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;pre class=&quot;prettyprint lang-php&quot;&gt;&amp;lt;?php
+$s = str_repeat(\'1\',255);   //产生由255个1组成的字符串gfgdfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+$m = memory_get_usage();    //获取当前占用内存
+unset($s);
+$mm = memory_get_usage();   //unset()后再查看当前占用内存
+echo $m-$mm;
+?&amp;gt;&lt;/pre&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;div style=&quot;margin:0px;padding:0px;font-family:&amp;quot;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	&lt;div id=&quot;highlighter_261900&quot; class=&quot;syntaxhighlighter  php&quot; style=&quot;padding:0px;margin:0.5em 0px !important;font-size:1em !important;&quot;&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;p style=&quot;font-family:&amp;quot;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	&lt;span style=&quot;line-height:1.6em;&quot;&gt;最后输出unset()之前占用内存减去unset()之后占用内存，如果是正数，那么说明unset($s)已经将$s从内存中销毁(或者 说，unset()之后内存占用减少了)，可是我在PHP5和windows平台下，得到的结果是：-48。这是否可以说明，unset($s)并没有起 到销毁变量$s所占用内存的作用呢？我们再作下面的例子：&lt;/span&gt; 
+&lt;/p&gt;
+&lt;div style=&quot;margin:0px;padding:0px;font-family:&amp;quot;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	&lt;div id=&quot;highlighter_299905&quot; class=&quot;syntaxhighlighter  php&quot; style=&quot;padding:0px;margin:0.5em 0px !important;font-size:1em !important;&quot;&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;p style=&quot;font-family:&amp;quot;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;pre class=&quot;prettyprint lang-php&quot;&gt;&amp;lt;?php
+$s = str_repeat(\'1\',256);   //产生由256个1组成的字符串
+$m = memory_get_usage();    //获取当前占用内存
+unset($s);
+$mm = memory_get_usage();   //unset()后再查看当前占用内存
+echo $m-$mm;
+?&amp;gt;&lt;/pre&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-family:&amp;quot;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	这个例子，和上面的例子几乎相同，唯一的不同是，$s由256个1组成，即比第一个例子多了一个1，得到结果是：224。这是否可以说明，unset($s)已经将$s所占用的内存销毁了？
+&lt;/p&gt;
+&lt;p style=&quot;font-family:&amp;quot;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	通过上面两个例子，我们可以得出以下结论：
+&lt;/p&gt;
+&lt;p style=&quot;font-family:&amp;quot;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	&lt;span style=&quot;text-decoration:underline;&quot;&gt;&lt;strong&gt;结论一、unset()函数只能在变量值占用内存空间超过256字节时才会释放内存空间。&lt;/strong&gt;&lt;/span&gt; 
+&lt;/p&gt;
+&lt;p style=&quot;font-family:&amp;quot;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	那么是不是只要变量值超过256，使用unset就可以释放内存空间呢？我们再通过一个例子来测试一下：
+&lt;/p&gt;
+&lt;div style=&quot;margin:0px;padding:0px;font-family:&amp;quot;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	&lt;div id=&quot;highlighter_57584&quot; class=&quot;syntaxhighlighter  php&quot; style=&quot;padding:0px;margin:0.5em 0px !important;font-size:1em !important;&quot;&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;p style=&quot;font-family:&amp;quot;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-family:&amp;quot;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;pre class=&quot;prettyprint lang-php&quot;&gt;&amp;lt;?php
+$s = str_repeat(\'1\',256);       //这和第二个例子完全相同
+$p = &amp;amp;$s;
+$m = memory_get_usage();
+unset($s);                      //销毁$s
+$mm = memory_get_usage();
+echo $p . \'&amp;lt;br /&amp;gt;\';
+echo $m-$mm;
+?&amp;gt;&lt;/pre&gt;
+&lt;span&gt;刷新页面，我们看到第一行有256个1，第二行是-48，按理说我们已经销毁了$s，而$p只是引用$s的变量，应该是没有内容了，另外，unset($s)后内存占用却比unset()前增加了！现在我们再做以下的例子：&lt;/span&gt; 
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-family:&amp;quot;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;pre class=&quot;prettyprint lang-php&quot;&gt;&amp;lt;?php
+$s = str_repeat(\'1\', 256);      //这和第二个例子完全相同
+$p = &amp;amp;$s;
+$m = memory_get_usage();
+$s = null;                      //设置$s为null
+$mm = memory_get_usage();
+echo $p . \'&amp;lt;br /&amp;gt;\';
+echo $m-$mm;
+?&amp;gt;&lt;/pre&gt;
+&lt;span&gt;现在刷新页面，我们看到，输出$p已经是没有内容了，unset()前后内存占用量之差是224，即已经清除了变量占用的内存。本例中的$s=null也可以换成unset()，如下：&lt;/span&gt; 
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-family:&amp;quot;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;pre class=&quot;prettyprint lang-php&quot;&gt;&amp;lt;?php
+$s = str_repeat(\'1\', 256);      //这和第二个例子完全相同
+$p = &amp;amp;$s;
+$m = memory_get_usage();
+unset($s);                      //销毁$s
+unset($p);
+$mm = memory_get_usage();
+echo $p . \'&amp;lt;br /&amp;gt;\';
+echo $m-$mm;
+?&amp;gt;&lt;/pre&gt;
+&lt;span&gt;我们将$s和$p都使用unset()销毁，这时再看内存占用量之差也是224，说明这样也可以释放内存。那么，我们可以得到另外一条结论：&lt;/span&gt; 
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-family:&amp;quot;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	&lt;span style=&quot;text-decoration:underline;&quot;&gt;&lt;strong&gt;结论二、只有当指向该变量的所有变量（如引用变量）都被销毁后，才会释放内存。&lt;/strong&gt;&lt;/span&gt; 
+&lt;/p&gt;
+&lt;p style=&quot;font-family:&amp;quot;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	相信经过本文的例子后，大家应该对unset()有所了解了，最起码，本人用unset()也是为了在变量不起作用时，释放内存。
+&lt;/p&gt;
+&lt;p style=&quot;font-family:&amp;quot;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-family:&amp;quot;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	原文地址：http://www.cnblogs.com/52php/p/5658322.html
+&lt;/p&gt;',`status`='1',`type`='0',`createtime`='1476439032',`author`='小兔',`imgurl`=NULL,`recom`='0',`readnum`='5' WHERE `id` = 20 [ RunTime:0.0010s ]
+SQL: SELECT `id`,`title` FROM `article` WHERE ( id<20 and status=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title` FROM `article` WHERE ( id>20 and status=1 ) ORDER BY id asc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title` FROM `article` WHERE ( id<>20 and status=1 and recom=1 ) ORDER BY id desc LIMIT 6   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\tools\Application\Home\Controller\ArtController.class.php 第 56 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+

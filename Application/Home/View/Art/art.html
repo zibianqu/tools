@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+
+    <!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>{$art.title}- {:C('site_name')}</title>
+	<meta name="keywords" content="{$art.keyword}"/>
+	<meta name="description" content="{$art.keyword}"/>
+	
+    <!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <!-- CSS
+  ================================================== -->
+	<link rel="stylesheet" href="__CSS__/zerogrid.css">
+	<link rel="stylesheet" href="__CSS__/style.css">
+    <link rel="stylesheet" href="__CSS__/responsive.css">
+	<link rel="stylesheet" href="__CSS__/responsiveslides.css" />
+	<link rel="stylesheet" href="__CSS__/newstyle.css">
+	<link rel="stylesheet" href="__PUBLIC__/ueditor/themes/default/css/ueditor.css">
+	<link rel="stylesheet" href="__PUBLIC__/ueditor/themes/default/dialogbase.css?cache=0.6068784751091556">
+	<link rel="stylesheet" href="__PUBLIC__/ueditor/third-party/SyntaxHighlighter/shCoreDefault.css">
+
+    <script src="__JS__/jquery.min.js"></script>
+	<script src="__JS__/unixtime.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/ueditor/dialogs/internal.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/ueditor/third-party/SyntaxHighlighter/shCore.js"></script>
+</head>
+<body>
+<!--------------Header--------------->
+
+<include file="Public/header" />
+
+<!--------------Content--------------->
+<div class="c_basic zerogrid">
+	<div class="c_left art">
+		<div class="art_body">
+			<div class="art_content">
+				<h1>{$art.title}</h1>
+				<p class="art_content_1"><span>作者：{$art.author}</span><span>阅读：{$art.readnum}</span><span>时间：{$art.createtime|date='Y-m-d',###}</span></p>
+				<div class="c_l_border"></div>
+				<div class="art_content_2">
+					{$art.content|htmlspecialchars_decode}
+				</div>
+			</div>
+		</div>
+		<div class="art_related">
+			<div class="art_related_1">
+					<if condition="$prev.id gt 0">
+			&lt;&lt;&nbsp;&nbsp;<a href="{:U('/art/article',array('id'=>$prev['id']))}">{$prev.title|msubstr=0,40}</a>
+			</if>
+			<if condition="$next.id gt 0">
+				<br/>
+				&gt;&gt;&nbsp;&nbsp;<a href="{:U('/art/article',array('id'=>$next['id']))}">{$next.title|msubstr=0,40}</a>
+			</if>
+			</div>	
+		</div>
+	</div>
+	<div class="c_right">
+		<div class="c_r_tags">
+			<div class="c_r_tags_1">
+				<p><span>推荐</span></p>
+				<div class="c_r_tags_2">
+					<foreach name="recomtool" item="val">
+					<a href="{:U('/tools/'.$val['function'])}" class="button- button--wayra">{$val.name}</a>
+					</foreach>
+				</div>
+			</div>
+		</div>
+		
+		<div class="c_r_tags">
+			<div class="c_r_tags_1">
+				<p><span>标签</span></p>
+				<div class="c_r_tags_2">
+					<embed type="application/x-shockwave-flash" src="__IMAGES__/tagcloud.swf" width="260" height="250" id="tagcloudflash" name="tagcloudflash" bgcolor="#ffffff" quality="high" wmode="transparent" allowscriptaccess="always" flashvars="{:hook('keyWords')}">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="clearfix"></div>
+</div>
+
+
+
+
+
+<!--------------Footer--------------->
+
+<include file="Public/footer" />
+</body>
+<script type="text/javascript">      
+ 
+SyntaxHighlighter.all();       
+ 
+</script>
+</html>

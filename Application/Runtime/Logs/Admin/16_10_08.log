@@ -1,0 +1,562 @@
+[ 2016-10-08T18:02:51+08:00 ] 127.0.0.1 /admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [2048] Non-static method Admin\Model\AdminModel::isLogin() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Admin\Controller\IndexController.class.php 第 13 行.
+
+[ 2016-10-08T18:02:51+08:00 ] 127.0.0.1 /admin/login.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.134008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.136008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-10-08T18:03:00+08:00 ] 127.0.0.1 /admin/login/dologin.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+NOTIC: [2048] Non-static method Admin\Model\AdminModel::adminLogin() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Admin\Controller\LoginController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0430s ]
+SQL: SELECT * FROM `admin` WHERE `user` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-08T18:03:00+08:00 ] 127.0.0.1 /admin/index.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Non-static method Admin\Model\AdminModel::isLogin() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Admin\Controller\IndexController.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-10-08T18:03:02+08:00 ] 127.0.0.1 /admin/login/dologin.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Non-static method Admin\Model\AdminModel::adminLogin() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Admin\Controller\LoginController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `admin` WHERE `user` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-10-08T18:03:04+08:00 ] 127.0.0.1 /admin/index/lists.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Non-static method Admin\Model\AdminModel::isLogin() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Admin\Controller\IndexController.class.php 第 13 行.
+NOTIC: [2048] Declaration of Admin\Model\ArticleModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Admin\Model\ArticleModel.class.php 第 101 行.
+NOTIC: [2048] Declaration of Admin\Model\ArticleModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Admin\Model\ArticleModel.class.php 第 101 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0160s ]
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Admin\Controller\IndexController.class.php 第 96 行.
+SQL: SELECT * FROM `article` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0160s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.116007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.117007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-10-08T18:03:05+08:00 ] 127.0.0.1 /admin/index/article.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Non-static method Admin\Model\AdminModel::isLogin() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Admin\Controller\IndexController.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-10-08T18:03:40+08:00 ] 127.0.0.1 /admin/index/SaveArticle.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Non-static method Admin\Model\AdminModel::isLogin() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Admin\Controller\IndexController.class.php 第 13 行.
+NOTIC: [2048] Declaration of Admin\Model\ArticleModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Admin\Model\ArticleModel.class.php 第 101 行.
+NOTIC: [2048] Declaration of Admin\Model\ArticleModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Admin\Model\ArticleModel.class.php 第 101 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0480s ]
+SQL: INSERT INTO `article` (`type`,`title`,`keyword`,`author`,`content`,`createtime`) VALUES ('0','PHP魔术方法和魔术常量介绍及使用','魔术方法,魔术常量','小兔','&lt;h2 id=&quot;mabov&quot; style=&quot;color:#222222;font-size:18px;font-family:&amp;quot;&quot;&gt;
+	魔术方法(&lt;span class=&quot;wp_keywordlink&quot;&gt;&lt;a href=&quot;http://www.codeceo.com/article/magic-javascript-ui.html&quot; target=&quot;_blank&quot;&gt;Magic&lt;/a&gt;&lt;/span&gt;&amp;nbsp;methods)
+&lt;/h2&gt;
+&lt;p style=&quot;color:#444444;font-family:&amp;quot;font-size:14px;&quot;&gt;
+	PHP中把以两个下划线__开头的方法称为魔术方法，这些方法在PHP中充当了举足轻重的作用。 魔术方法包括：
+&lt;/p&gt;
+&lt;ul style=&quot;color:#444444;font-family:&amp;quot;font-size:14px;&quot;&gt;
+	&lt;li&gt;
+		__construct()，类的构造函数
+	&lt;/li&gt;
+	&lt;li&gt;
+		__destruct()，类的析构函数
+	&lt;/li&gt;
+	&lt;li&gt;
+		__call()，在对象中调用一个不可访问方法时调用
+	&lt;/li&gt;
+	&lt;li&gt;
+		__callStatic()，用静态方式中调用一个不可访问方法时调用
+	&lt;/li&gt;
+	&lt;li&gt;
+		__get()，获得一个类的成员变量时调用
+	&lt;/li&gt;
+	&lt;li&gt;
+		__set()，设置一个类的成员变量时调用
+	&lt;/li&gt;
+	&lt;li&gt;
+		__isset()，当对不可访问属性调用isset()或empty()时调用
+	&lt;/li&gt;
+	&lt;li&gt;
+		__unset()，当对不可访问属性调用unset()时被调用。
+	&lt;/li&gt;
+	&lt;li&gt;
+		__sleep()，执行serialize()时，先会调用这个函数
+	&lt;/li&gt;
+	&lt;li&gt;
+		__wakeup()，执行unserialize()时，先会调用这个函数
+	&lt;/li&gt;
+	&lt;li&gt;
+		__toString()，类被当成字符串时的回应方法
+	&lt;/li&gt;
+	&lt;li&gt;
+		__invoke()，调用函数的方式调用一个对象时的回应方法
+	&lt;/li&gt;
+	&lt;li&gt;
+		__set_state()，调用var_export()导出类时，此静态方法会被调用。
+	&lt;/li&gt;
+	&lt;li&gt;
+		__clone()，当对象复制完成时调用
+	&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;tezyp&quot; style=&quot;color:#222222;font-size:14px;font-family:&amp;quot;&quot;&gt;
+	__construct()和__destruct()
+&lt;/h3&gt;
+&lt;p style=&quot;color:#444444;font-family:&amp;quot;font-size:14px;&quot;&gt;
+	构造函数和析构函数应该不陌生，他们在对象创建和消亡时被调用。例如我们需要打开一个文件，在对象创建时打开，对象消亡时关闭
+&lt;/p&gt;
+&lt;p style=&quot;color:#444444;font-family:&amp;quot;font-size:14px;&quot;&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;pre class=&quot;prettyprint lang-php&quot;&gt;&amp;lt;?php 
+class FileRead { 
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;protected $handle = NULL; 
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;function __construct(){ $this-&amp;gt;handle = fopen(...);
+    } 
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;function __destruct(){
+        fclose($this-&amp;gt;handle);
+    }
+} 
+?&amp;gt;&lt;/pre&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;pre class=&quot;brush: php; gutter: false; first-line: 1 hljs xml&quot;&gt;&lt;/pre&gt;
+&lt;p style=&quot;color:#444444;font-family:&amp;quot;font-size:14px;&quot;&gt;
+	这两个方法在继承时可以扩展，例如：
+&lt;/p&gt;
+&lt;p style=&quot;color:#444444;font-family:&amp;quot;font-size:14px;&quot;&gt;
+	&lt;span style=&quot;font-family:Consolas, Monaco, &amp;quot;font-size:13.2px;line-height:1.5;background-color:#F5F5F5;&quot;&gt;&lt;/span&gt;
+&lt;/p&gt;
+&lt;pre class=&quot;prettyprint lang-php&quot;&gt;&amp;lt;?php
+class TmpFileRead extends FileRead { 
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;function __construct(){ parent::__construct();
+    } 
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;function __destruct(){ parent::__destruct();
+    }
+} ?&amp;gt;&lt;/pre&gt;
+&lt;h3 id=&quot;ozasa&quot; style=&quot;color:#222222;font-size:14px;font-family:&amp;quot;&quot;&gt;
+	__call()和__callStatic()
+&lt;/h3&gt;
+&lt;p style=&quot;color:#444444;font-family:&amp;quot;font-size:14px;&quot;&gt;
+	在对象中调用一个不可访问方法时会调用这两个方法，后者为静态方法。这两个方法我们在可变方法（Variable functions）调用中可能会用到。
+&lt;/p&gt;
+&lt;pre class=&quot;brush: php; gutter: false; first-line: 1 hljs xml&quot;&gt;
+
+&lt;pre class=&quot;prettyprint lang-php&quot;&gt;&amp;lt;?php 
+class MethodTest { 
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public function __call ($name, $arguments) { 
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;echo &quot;Calling object method \'$name\' &quot;. implode(\', \', $arguments). &quot;n&quot;;
+    } 
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public static function __callStatic ($name, $arguments) { 
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;echo &quot;Calling static method \'$name\' &quot;. implode(\', \', $arguments). &quot;n&quot;;
+    }
+}
+
+$obj = new MethodTest;
+$obj-&amp;gt;runTest(\'in object context\');
+MethodTest::runTest(\'in static context\'); 
+?&amp;gt;&lt;/pre&gt;
+&lt;/pre&gt;
+&lt;h3 id=&quot;ejtvq&quot; style=&quot;color:#222222;font-size:14px;font-family:&amp;quot;&quot;&gt;
+	__get()，__set()，__isset()和__unset()
+&lt;/h3&gt;
+&lt;p style=&quot;color:#444444;font-family:&amp;quot;font-size:14px;&quot;&gt;
+	当get/set一个类的成员变量时调用这两个函数。例如我们将对象变量保存在另外一个数组中，而不是对象本身的成员变量
+&lt;/p&gt;
+&lt;pre class=&quot;brush: php; gutter: false; first-line: 1 hljs xml&quot;&gt;
+
+&lt;pre class=&quot;prettyprint lang-php&quot;&gt;&amp;lt;?php
+class MethodTest { 
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;private $data = array(); 
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public function __set($name, $value){ 
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;$this-&amp;gt;data[$name] = $value;
+    } 
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public function __get($name){ 
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;if(array_key_exists($name, $this-&amp;gt;data)) return $this-&amp;gt;data[$name];
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; return NULL;
+    }
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public function __isset($name){
+ &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;return isset($this-&amp;gt;data[$name])
+    }
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public function unset($name){ 
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;unset($this-&amp;gt;data[$name]);
+    }
+} ?&amp;gt;&lt;/pre&gt;
+&lt;/pre&gt;
+&lt;h3 id=&quot;qukds&quot; style=&quot;color:#222222;font-size:14px;font-family:&amp;quot;&quot;&gt;
+	__sleep()和__wakeup()
+&lt;/h3&gt;
+&lt;p style=&quot;color:#444444;font-family:&amp;quot;font-size:14px;&quot;&gt;
+	当我们在执行serialize()和unserialize()时，会先调用这两个函数。例如我们在序列化一个对象时，这个对象有一个数据库链接，想要在反序列化中恢复链接状态，则可以通过重构这两个函数来实现链接的恢复。例子如下：
+&lt;/p&gt;
+&lt;p style=&quot;color:#444444;font-family:&amp;quot;font-size:14px;&quot;&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;pre class=&quot;prettyprint lang-php&quot;&gt;&amp;lt;?php 
+class Connection { 
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;protected $link; 
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;private $server, $username, $password, $db; 
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public function __construct($server, $username, $password, $db) { $this-&amp;gt;server = $server; 
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;$this-&amp;gt;username = $username;
+ &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;$this-&amp;gt;password = $password; 
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;$this-&amp;gt;db = $db;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;$this-&amp;gt;connect();
+    } 
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;private function connect() { 
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;$this-&amp;gt;link = mysql_connect($this-&amp;gt;server, $this-&amp;gt;username, $this-&amp;gt;password);
+        mysql_select_db($this-&amp;gt;db, $this-&amp;gt;link);
+    } 
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public function __sleep() {
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;return array(\'server\', \'username\', \'password\', \'db\');
+    } 
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public function __wakeup() { 
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;$this-&amp;gt;connect();
+    }
+} ?&amp;gt;&lt;/pre&gt;
+&lt;h3 id=&quot;vzees&quot; style=&quot;color:#222222;font-size:14px;font-family:&amp;quot;&quot;&gt;
+	__toString()
+&lt;/h3&gt;
+&lt;p style=&quot;color:#444444;font-family:&amp;quot;font-size:14px;&quot;&gt;
+	对象当成字符串时的回应方法。例如使用echo $obj;来输出一个对象
+&lt;/p&gt;
+&lt;p style=&quot;color:#444444;font-family:&amp;quot;font-size:14px;&quot;&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;pre class=&quot;prettyprint lang-php&quot;&gt;&amp;lt;?php // Declare a simple 
+class class TestClass { 
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public function __toString() { 
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;return \'this is a object\';
+    }
+}
+
+$class = new TestClass(); echo $class; 
+?&amp;gt;&lt;/pre&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;pre class=&quot;brush: php; gutter: false; first-line: 1 hljs xml&quot;&gt;&lt;/pre&gt;
+&lt;p style=&quot;color:#444444;font-family:&amp;quot;font-size:14px;&quot;&gt;
+	这个方法只能返回字符串，而且不可以在这个方法中抛出异常，否则会出现致命错误。
+&lt;/p&gt;
+&lt;h3 id=&quot;jhhyi&quot; style=&quot;color:#222222;font-size:14px;font-family:&amp;quot;&quot;&gt;
+	__invoke()
+&lt;/h3&gt;
+&lt;p style=&quot;color:#444444;font-family:&amp;quot;font-size:14px;&quot;&gt;
+	调用函数的方式调用一个对象时的回应方法。如下
+&lt;/p&gt;
+&lt;p style=&quot;color:#444444;font-family:&amp;quot;font-size:14px;&quot;&gt;
+	&lt;span style=&quot;color:#222222;font-family:&amp;quot;font-size:14px;line-height:1.5;&quot;&gt;&lt;/span&gt;
+&lt;/p&gt;
+&lt;pre class=&quot;prettyprint lang-php&quot;&gt;&amp;lt;?php 
+class CallableClass {
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;function __invoke() {
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;echo \'this is a object\';
+    }
+}
+$obj = new CallableClass;
+var_dump(is_callable($obj));
+ ?&amp;gt;&lt;/pre&gt;
+&lt;br /&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p style=&quot;color:#444444;font-family:&amp;quot;font-size:14px;&quot;&gt;
+	&lt;span style=&quot;color:#222222;font-family:&amp;quot;font-size:14px;line-height:1.5;&quot;&gt;__set_state()&lt;/span&gt;&lt;span style=&quot;font-family:&amp;quot;line-height:1.5;&quot;&gt;&lt;/span&gt;
+&lt;/p&gt;
+&lt;p style=&quot;color:#444444;font-family:&amp;quot;font-size:14px;&quot;&gt;
+	调用var_export()导出类时，此静态方法会被调用。
+&lt;/p&gt;
+&lt;p style=&quot;color:#444444;font-family:&amp;quot;font-size:14px;&quot;&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;pre class=&quot;prettyprint lang-php&quot;&gt;&amp;lt;?php 
+class A { 
+public $var1; 
+public $var2; 
+public static function __set_state ($an_array) {
+        $obj = new A;
+        $obj-&amp;gt;var1 = $an_array[\'var1\'];
+        $obj-&amp;gt;var2 = $an_array[\'var2\']; return $obj;
+    }
+}
+
+$a = new A;
+$a-&amp;gt;var1 = 5;
+$a-&amp;gt;var2 = \'foo\';
+var_dump(var_export($a)); 
+?&amp;gt;&lt;/pre&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;h3 id=&quot;ycrcl&quot; style=&quot;color:#222222;font-size:14px;font-family:&amp;quot;&quot;&gt;
+	__clone()
+&lt;/h3&gt;
+&lt;p style=&quot;color:#444444;font-family:&amp;quot;font-size:14px;&quot;&gt;
+	当对象复制完成时调用。例如在&lt;span class=&quot;wp_keywordlink&quot;&gt;&lt;a href=&quot;http://www.codeceo.com/article/category/develop/design-patterns&quot; target=&quot;_blank&quot;&gt;设计模式&lt;/a&gt;&lt;/span&gt;详解及PHP实现：单例模式一文中提到的单例模式实现方式，利用这个函数来防止对象被克隆。
+&lt;/p&gt;
+&lt;pre class=&quot;brush: php; gutter: false; first-line: 1 hljs xml&quot;&gt;
+
+
+&lt;pre class=&quot;prettyprint lang-js&quot;&gt;&amp;lt;?php 
+public class Singleton { 
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;private static $_instance = NULL; // 私有构造方法 
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;private function __construct() {}
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public static function getInstance() { 
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;if (is_null(self::$_instance)) { 
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;self::$_instance = new Singleton();
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; } return self::$_instance;
+    } // 防止克隆实例 
+public function __clone(){ die(\'Clone is not allowed.\' . E_USER_ERROR);}
+} ?&amp;gt;&lt;/pre&gt;
+&lt;br /&gt;
+&lt;/pre&gt;
+&lt;h2 id=&quot;rfjwk&quot; style=&quot;color:#222222;font-size:18px;font-family:&amp;quot;&quot;&gt;
+	魔术常量(Magic constants)
+&lt;/h2&gt;
+&lt;p style=&quot;color:#444444;font-family:&amp;quot;font-size:14px;&quot;&gt;
+	PHP中的常量大部分都是不变的，但是有8个常量会随着他们所在代码位置的变化而变化，这8个常量被称为魔术常量。
+&lt;/p&gt;
+&lt;ul style=&quot;color:#444444;font-family:&amp;quot;font-size:14px;&quot;&gt;
+	&lt;li&gt;
+		__LINE__，文件中的当前行号
+	&lt;/li&gt;
+	&lt;li&gt;
+		__FILE__，文件的完整路径和文件名
+	&lt;/li&gt;
+	&lt;li&gt;
+		__DIR__，文件所在的目录
+	&lt;/li&gt;
+	&lt;li&gt;
+		__FUNCTION__，函数名称
+	&lt;/li&gt;
+	&lt;li&gt;
+		__CLASS__，类的名称
+	&lt;/li&gt;
+	&lt;li&gt;
+		__TRAIT__，Trait的名字
+	&lt;/li&gt;
+	&lt;li&gt;
+		__METHOD__，类的方法名
+	&lt;/li&gt;
+	&lt;li&gt;
+		__NAMESPACE__，当前命名空间的名称
+	&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p style=&quot;color:#444444;font-family:&amp;quot;font-size:14px;&quot;&gt;
+	这些魔术常量常常被用于获得当前环境信息或者记录日志。
+&lt;/p&gt;
+&lt;p style=&quot;color:#444444;font-family:&amp;quot;font-size:14px;&quot;&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p style=&quot;color:#444444;font-family:&amp;quot;font-size:14px;&quot;&gt;
+	原文地址：http://www.codeceo.com/article/php-magic-method-and-var.html
+&lt;/p&gt;','1475921020') [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-10-08T18:03:41+08:00 ] 127.0.0.1 /admin/index/article.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Non-static method Admin\Model\AdminModel::isLogin() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Admin\Controller\IndexController.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-10-08T18:03:51+08:00 ] 127.0.0.1 /admin/index/keywordlists.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Non-static method Admin\Model\AdminModel::isLogin() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Admin\Controller\IndexController.class.php 第 13 行.
+NOTIC: [2048] Non-static method Admin\Model\CommModel::keyWordList() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Admin\Controller\IndexController.class.php 第 135 行.
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Admin\Controller\IndexController.class.php 第 135 行.
+SQL: SHOW COLUMNS FROM `keywords` [ RunTime:0.0510s ]
+SQL: SELECT * FROM `keywords` ORDER BY `order` asc,num desc LIMIT 0,10   [ RunTime:0.0230s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `keywords` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.108006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.109006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004001s ]
+
+[ 2016-10-08T18:06:25+08:00 ] 127.0.0.1 /Admin/Index/keywordlists/p/2.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+NOTIC: [2048] Non-static method Admin\Model\AdminModel::isLogin() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Admin\Controller\IndexController.class.php 第 13 行.
+NOTIC: [2048] Non-static method Admin\Model\CommModel::keyWordList() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Admin\Controller\IndexController.class.php 第 135 行.
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Admin\Controller\IndexController.class.php 第 135 行.
+SQL: SHOW COLUMNS FROM `keywords` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `keywords` ORDER BY `order` asc,num desc LIMIT 10,10   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `keywords` LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2016-10-08T18:06:37+08:00 ] 127.0.0.1 /admin/index/deleteKeyWord.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Non-static method Admin\Model\AdminModel::isLogin() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Admin\Controller\IndexController.class.php 第 13 行.
+NOTIC: [2048] Non-static method Admin\Model\CommModel::deleteKeyWord() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Admin\Controller\IndexController.class.php 第 149 行.
+SQL: SHOW COLUMNS FROM `keywords` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `keywords` WHERE `id` = 25 LIMIT 1   [ RunTime:0.0000s ]
+SQL: DELETE FROM `keywords` WHERE `id` = 25 [ RunTime:0.0300s ]
+
+[ 2016-10-08T18:06:41+08:00 ] 127.0.0.1 /Admin/Index/keywordlists/p/1.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Non-static method Admin\Model\AdminModel::isLogin() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Admin\Controller\IndexController.class.php 第 13 行.
+NOTIC: [2048] Non-static method Admin\Model\CommModel::keyWordList() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Admin\Controller\IndexController.class.php 第 135 行.
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Admin\Controller\IndexController.class.php 第 135 行.
+SQL: SHOW COLUMNS FROM `keywords` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `keywords` ORDER BY `order` asc,num desc LIMIT 0,10   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `keywords` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+

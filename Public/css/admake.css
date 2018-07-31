@@ -1,0 +1,58 @@
+#adMakerWarp{font-size: 13px;}
+#adMakerWarp ul{margin: 0; padding: 0;}
+#adMakerWarp li{list-style: none; line-height: 32px; overflow: hidden;}
+#adMakerWarp li.line{height: 1px; background: #dcdcdc; margin: 8px 0;}
+#adMakerWarp .left{float: left; width: 305px; padding: 15px; border: 1px solid #ccc; border-radius: 10px; background: #efefef;}
+#adMakerWarp .right{float: left; display: inline; margin-left: 50px;}
+#adMakerWarp canvas{border: 1px solid #ccc;}
+#adMakerWarp input[type=text]{border-radius: 5px; border: 1px solid #ccc; height: 23px;padding-left: 3px;}
+#adMakerWarp input[type=number]{border-radius: 5px; border: 1px solid #ccc; height: 23px;padding-left: 3px;}
+#adMakerWarp select{border-radius: 5px; border: 1px solid #ccc; height: 23px;padding-left: 3px;}
+#adMakerWarp input.short{width:40px;}
+#adMakerWarp hr{height: 1px; background: #ccc; border: none; margin: 5px 0;}
+#adMakerWarp label{width: 80px; display: inline-block;}
+#adMakerWarp label.color{float: left;}
+#adMakerWarp input.long{width: 200px;}
+#adMakerWarp input.btn{width: 150px;height: 35px; margin-top: 15px; margin-left: 75px;}
+#adMakerWarp i{display: inline-block; width: 16px; height: 16px; float:left; margin-left: 2px;
+    border: 1px solid #fff; margin-top: 6px; cursor: pointer;}
+#adMakerWarp i:first-child{margin-left: 0;}
+#adMakerWarp i.gray{background: #252525;}
+#adMakerWarp i.white{background: #ffffff;}
+#adMakerWarp i.yellow{background: #f4b300;}
+#adMakerWarp i.green{background: #78ba00;}
+#adMakerWarp i.blue{background: #2673ec;}
+#adMakerWarp i.red{background: #ae113d;}
+#adMakerWarp i.litter_coffe{background: #632f00;}
+#adMakerWarp i.coffe{background: #2e1700;}
+#adMakerWarp i.orange{background: #b01e00;}
+#adMakerWarp i.purple{background: #7200ac;}
+#adMakerWarp i.yel{background: #e1b700;}
+#adMakerWarp i.current{background-image: url(../images/true.png);background-repeat: no-repeat; background-position: 3px 3px;}
+#mb{width: 100%; min-height: 100%; background: #000; opacity: 0.8; position:absolute; left: 0; top: 0; z-index: 1000; display: none;}
+#MyPix{ position: absolute; left: 20%; top: 20%; z-index: 1001; display: none;}
+
+
+#iColorPicker {
+	color: #fff;
+	background: #333;
+	border: 1px solid #ccc;
+	padding: 5px;
+	z-index: 9999
+}
+#colorPreview {
+	height: 50px;
+	border: 1px solid #000;
+	background: #fff;
+	cursor: pointer;
+	height: 60px
+}
+table.pickerTable {
+	border-collapse: collapse
+}
+table.pickerTable td {
+	width: 12px;
+	height: 14px;
+	border: 1px solid #000;
+	cursor: pointer
+}

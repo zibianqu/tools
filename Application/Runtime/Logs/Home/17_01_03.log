@@ -1,0 +1,11 @@
+[ 2017-01-03T16:28:30+08:00 ] 127.0.0.1 /index/return_curl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.034002s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019001s ]
+SQL: SHOW COLUMNS FROM `statisticsip` [ RunTime:0.0610s ]
+SQL: SELECT * FROM `statisticsip` WHERE `ip` = '88.88.88.88' AND `date` = 20170103 LIMIT 1   [ RunTime:0.0140s ]
+SQL: INSERT INTO `statisticsip` (`ip`,`date`,`recordtime`) VALUES ('88.88.88.88','20170103','1483432110') [ RunTime:0.0640s ]
+

@@ -1,0 +1,57 @@
+[ 2016-12-09T16:58:55+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.063004s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `statisticsip` [ RunTime:0.6130s ]
+SQL: SELECT * FROM `statisticsip` WHERE `ip` = '127.0.0.1' AND `date` = 20161209 LIMIT 1   [ RunTime:0.0510s ]
+SQL: INSERT INTO `statisticsip` (`ip`,`date`,`recordtime`) VALUES ('127.0.0.1','20161209','1481273934') [ RunTime:0.1830s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0580s ]
+SQL: SELECT * FROM `article` WHERE `status` = 1 ORDER BY id desc LIMIT 6   [ RunTime:0.1240s ]
+SQL: SELECT * FROM `article` WHERE `status` = 1 ORDER BY readnum desc,id desc LIMIT 6   [ RunTime:0.0690s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.043002s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.047002s ]
+NOTIC: [8] Undefined variable: title D:\WWW\tools\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 56 行.
+INFO: [ keyWords ] --START--
+SQL: SHOW COLUMNS FROM `keywords` [ RunTime:0.0390s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\WWW\tools\Application\Home\Model\CommModel.class.php on line 46 and defined D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `keywords` ORDER BY `order` asc,num desc LIMIT 30   [ RunTime:0.0950s ]
+INFO: Run Home\Behavior\KeyWordsBehavior [ RunTime:0.258015s ]
+INFO: [ keyWords ] --END-- [ RunTime:0.261015s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.705040s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.707041s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.011001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.051003s ]
+INFO: [ app_end ] --END-- [ RunTime:0.053003s ]
+
+[ 2016-12-09T16:58:59+08:00 ] 127.0.0.1 /tools/admaker.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.027002s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.029002s ]
+NOTIC: [8] Undefined variable: title D:\WWW\tools\Application\Runtime\Cache\Home\191b300e802ad286930c10e3485ecac6.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.116007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.118007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005001s ]
+

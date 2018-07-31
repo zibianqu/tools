@@ -1,0 +1,687 @@
+[ 2016-09-18T10:57:48+08:00 ] 127.0.0.1 /admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `statisticsip` [ RunTime:0.5570s ]
+SQL: SELECT * FROM `statisticsip` WHERE `ip` = '127.0.0.1' AND `date` = 20160918 LIMIT 1   [ RunTime:0.0160s ]
+SQL: INSERT INTO `statisticsip` (`ip`,`date`,`recordtime`) VALUES ('127.0.0.1','20160918','1474167468') [ RunTime:0.1590s ]
+NOTIC: [2048] Non-static method Admin\Model\AdminModel::isLogin() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Admin\Controller\IndexController.class.php 第 13 行.
+
+[ 2016-09-18T10:57:48+08:00 ] 127.0.0.1 /admin/login.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.120007s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.121007s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.170009s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.171009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-09-18T10:57:50+08:00 ] 127.0.0.1 /admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Non-static method Admin\Model\AdminModel::isLogin() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Admin\Controller\IndexController.class.php 第 13 行.
+
+[ 2016-09-18T10:57:50+08:00 ] 127.0.0.1 /admin/login.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-09-18T10:58:04+08:00 ] 127.0.0.1 /admin/login/dologin.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Non-static method Admin\Model\AdminModel::adminLogin() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Admin\Controller\LoginController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0500s ]
+SQL: SELECT * FROM `admin` WHERE `user` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-09-18T10:58:04+08:00 ] 127.0.0.1 /admin/index.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Non-static method Admin\Model\AdminModel::isLogin() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Admin\Controller\IndexController.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-09-18T10:58:06+08:00 ] 127.0.0.1 /admin/index/article.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2048] Non-static method Admin\Model\AdminModel::isLogin() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Admin\Controller\IndexController.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-09-18T10:58:26+08:00 ] 127.0.0.1 /admin/index/SaveArticle.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Non-static method Admin\Model\AdminModel::isLogin() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Admin\Controller\IndexController.class.php 第 13 行.
+NOTIC: [2048] Declaration of Admin\Model\ArticleModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Admin\Model\ArticleModel.class.php 第 101 行.
+NOTIC: [2048] Declaration of Admin\Model\ArticleModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Admin\Model\ArticleModel.class.php 第 101 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0160s ]
+SQL: INSERT INTO `article` (`type`,`title`,`keyword`,`author`,`content`,`createtime`) VALUES ('0','php 代码安全','代码安全,php','小兔','&lt;h4 style=&quot;text-indent:24px;color:#105CB6;font-size:14px;font-family:Arial, 宋体;background-color:#FFFFFF;&quot;&gt;
+	绝不要信任外部数据或输入
+&lt;/h4&gt;
+&lt;p style=&quot;font-family:Verdana, 宋体;text-indent:2em;color:#121C46;background-color:#FFFFFF;&quot;&gt;
+	关于 Web 应用程序安全性，必须认识到的第一件事是不应该信任外部数据。外部数据（outside data） 包括不是由程序员在 PHP 代码中直接输入的任何数据。在采取措施确保安全之前，来自任何其他来源（比如 GET 变量、表单 POST、数据库、配置文件、会话变量或 cookie）的任何数据都是不可信任的。
+&lt;/p&gt;
+&lt;p style=&quot;font-family:Verdana, 宋体;text-indent:2em;color:#121C46;background-color:#FFFFFF;&quot;&gt;
+	例如，下面的数据元素可以被认为是安全的，因为它们是在 PHP 中设置的。
+&lt;/p&gt;
+&lt;pre class=&quot;prettyprint lang-php&quot;&gt;$myUsername = \'tmyer\';
+$arrayUsers = array(\'tmyer\', \'tom\', \'tommy\');
+define(&quot;GREETING&quot;, \'hello there\' . $myUsername);&lt;/pre&gt;
+&lt;p style=&quot;font-family:Verdana, 宋体;text-indent:2em;color:#121C46;background-color:#FFFFFF;&quot;&gt;
+	但是，下面的数据元素都是有瑕疵的。
+&lt;/p&gt;
+&lt;pre class=&quot;prettyprint lang-php&quot;&gt;$myUsername = $_POST[\'username\']; //tainted!
+$arrayUsers = array($myUsername, \'tom\', \'tommy\'); //tainted!
+define(&quot;GREETING&quot;, \'hello there\' . $myUsername); //tainted!&lt;/pre&gt;
+&lt;span&gt;为什么第一个变量 $myUsername 是有瑕疵的？因为它直接来自表单 POST。用户可以在这个输入域中输入任何字符串，包括用来清除文件或运行以前上传的文件的恶意命令。您可能会问，“难道不能使用只接受字母 A-Z 的客户端（JavaScript）表单检验脚本来避免这种危险吗？”是的，这总是一个有好处的步骤，但是正如在后面会看到的，任何人都可以将任何表单下载到自己的机器上，修改它，然后重新提交他们需要的任何内容。&lt;/span&gt;
+&lt;p style=&quot;font-family:Verdana, 宋体;text-indent:2em;color:#121C46;background-color:#FFFFFF;&quot;&gt;
+	解决方案很简单：必须对 $_POST[\'username\'] 运行清理代码。如果不这么做，那么在使用 $myUsername 的任何其他时候（比如在数组或常量中），就可能污染这些对象。
+&lt;/p&gt;
+&lt;p style=&quot;font-family:Verdana, 宋体;text-indent:2em;color:#121C46;background-color:#FFFFFF;&quot;&gt;
+	对用户输入进行清理的一个简单方法是，使用正则表达式来处理它。在这个示例中，只希望接受字母。将字符串限制为特定数量的字符，或者要求所有字母都是小写的，这可能也是个好主意。
+&lt;/p&gt;
+&lt;pre class=&quot;prettyprint lang-php&quot;&gt;$myUsername = cleanInput($_POST[\'username\']); //clean!
+$arrayUsers = array($myUsername, \'tom\', \'tommy\'); //clean!
+define(&quot;GREETING&quot;, \'hello there\' . $myUsername); //clean!
+function cleanInput($input){
+    $clean = strtolower($input);
+    $clean = preg_replace(&quot;/[^a-z]/&quot;, &quot;&quot;, $clean);
+    $clean = substr($clean,0,12);
+    return $clean;
+}&lt;/pre&gt;
+&lt;h4 style=&quot;text-indent:24px;color:#105CB6;font-size:14px;font-family:Arial, 宋体;background-color:#FFFFFF;&quot;&gt;
+	禁用那些使安全性难以实施的 PHP 设置
+&lt;/h4&gt;
+&lt;p style=&quot;font-family:Verdana, 宋体;text-indent:2em;color:#121C46;background-color:#FFFFFF;&quot;&gt;
+	已经知道了不能信任用户输入，还应该知道不应该信任机器上配置 PHP 的方式。例如，要确保禁用 register_globals。如果启用了 register_globals，就可能做一些粗心的事情，比如使用 $variable 替换同名的 GET 或 POST 字符串。通过禁用这个设置，PHP 强迫您在正确的名称空间中引用正确的变量。要使用来自表单 POST 的变量，应该引用 $_POST[\'variable\']。这样就不会将这个特定变量误会成 cookie、会话或 GET 变量。
+&lt;/p&gt;
+&lt;h4 style=&quot;text-indent:24px;color:#105CB6;font-size:14px;font-family:Arial, 宋体;background-color:#FFFFFF;&quot;&gt;
+	如果不能理解它，就不能保护它
+&lt;/h4&gt;
+&lt;p style=&quot;font-family:Verdana, 宋体;text-indent:2em;color:#121C46;background-color:#FFFFFF;&quot;&gt;
+	一些开发人员使用奇怪的语法，或者将语句组织得很紧凑，形成简短但是含义模糊的代码。这种方式可能效率高，但是如果您不理解代码正在做什么，那么就无法决定如何保护它。
+&lt;/p&gt;
+&lt;p style=&quot;font-family:Verdana, 宋体;text-indent:2em;color:#121C46;background-color:#FFFFFF;&quot;&gt;
+	例如，您喜欢下面两段代码中的哪一段？
+&lt;/p&gt;
+&lt;pre class=&quot;prettyprint lang-php&quot;&gt;$input = (isset($_POST[\'username\']) ? $_POST[\'username\']:\'\');
+$input = \'\';
+if (isset($_POST[\'username\'])){
+    $input = $_POST[\'username\'];
+}else{
+    $input = \'\';
+}&lt;/pre&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-family:Verdana, 宋体;text-indent:2em;color:#121C46;background-color:#FFFFFF;&quot;&gt;
+	在第二个比较清晰的代码段中，很容易看出 $input 是有瑕疵的，需要进行清理，然后才能安全地处理。
+&lt;/p&gt;
+&lt;h4 style=&quot;text-indent:24px;color:#105CB6;font-size:14px;font-family:Arial, 宋体;background-color:#FFFFFF;&quot;&gt;
+	“纵深防御” 是新的法宝
+&lt;/h4&gt;
+&lt;p style=&quot;font-family:Verdana, 宋体;text-indent:2em;color:#121C46;background-color:#FFFFFF;&quot;&gt;
+	本教程将用示例来说明如何保护在线表单，同时在处理表单的 PHP 代码中采用必要的措施。同样，即使使用 PHP regex 来确保 GET 变量完全是数字的，仍然可以采取措施确保 SQL 查询使用转义的用户输入。
+&lt;/p&gt;
+&lt;p style=&quot;font-family:Verdana, 宋体;text-indent:2em;color:#121C46;background-color:#FFFFFF;&quot;&gt;
+	纵深防御不只是一种好思想，它可以确保您不会陷入严重的麻烦。
+&lt;/p&gt;
+&lt;p style=&quot;font-family:Verdana, 宋体;text-indent:2em;color:#121C46;background-color:#FFFFFF;&quot;&gt;
+	既然已经讨论了基本规则，现在就来研究第一种威胁：SQL 注入攻击。
+&lt;/p&gt;
+&lt;p style=&quot;font-family:Verdana, 宋体;text-indent:2em;color:#121C46;background-color:#FFFFFF;&quot;&gt;
+	在 SQL 注入攻击 中，用户通过操纵表单或 GET 查询字符串，将信息添加到数据库查询中。例如，假设有一个简单的登录数据库。这个数据库中的每个记录都有一个用户名字段和一个密码字段。构建一个登录表单，让用户能够登录。
+&lt;/p&gt;
+&lt;p style=&quot;font-family:Verdana, 宋体;text-indent:2em;color:#121C46;background-color:#FFFFFF;&quot;&gt;
+	下面是一个简单的登录表单：
+&lt;/p&gt;
+&lt;pre class=&quot;brush: html;&quot;&gt;
+
+
+
+
+&lt;pre class=&quot;prettyprint lang-html&quot;&gt;&amp;lt;html&amp;gt;
+&amp;lt;head&amp;gt;
+&amp;lt;title&amp;gt;Login&amp;lt;/title&amp;gt;
+&amp;lt;/head&amp;gt;
+&amp;lt;body&amp;gt;
+&amp;lt;form action=&quot;verify.php&quot; method=&quot;post&quot;&amp;gt;
+&amp;lt;p&amp;gt;&amp;lt;label for=\'user\'&amp;gt;Username&amp;lt;/label&amp;gt;
+&amp;lt;input type=\'text\' name=\'user\' id=\'user\'/&amp;gt;
+&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;&amp;lt;label for=\'pw\'&amp;gt;Password&amp;lt;/label&amp;gt;
+&amp;lt;input type=\'password\' name=\'pw\' id=\'pw\'/&amp;gt;
+&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;&amp;lt;input type=\'submit\' value=\'login\'/&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;/form&amp;gt;
+&amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt; &lt;/pre&gt;
+&lt;/pre&gt;
+&lt;p style=&quot;font-family:Verdana, 宋体;text-indent:2em;color:#121C46;background-color:#FFFFFF;&quot;&gt;
+	这个表单接受用户输入的用户名和密码，并将用户输入提交给名为 verify.php 的文件。在这个文件中，PHP 处理来自登录表单的数据，如下所示：
+&lt;/p&gt;
+&lt;pre class=&quot;prettyprint lang-php&quot;&gt;$okay = 0;
+$username = $_POST[\'user\'];
+$pw = $_POST[\'pw\'];
+$sql = &quot;select count(*) as ctr from users where username=\'&quot;.$username.&quot;\' and password=\'&quot;. $pw.&quot;\' limit 1&quot;; 
+$result = mysql_query($sql);
+while ($data = mysql_fetch_object($result)){
+    if ($data-&amp;gt;ctr == 1){
+        //they\'re okay to enter the application!
+        $okay = 1;
+    }
+}
+if ($okay){
+    $_SESSION[\'loginokay\'] = true;
+    header(&quot;index.php&quot;);
+}else{
+    header(&quot;login.php&quot;);
+}&lt;/pre&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-family:Verdana, 宋体;text-indent:2em;color:#121C46;background-color:#FFFFFF;&quot;&gt;
+	这段代码看起来没问题，对吗？世界各地成百（甚至成千）的 PHP/MySQL 站点都在使用这样的代码。它错在哪里？好，记住 “不能信任用户输入”。这里没有对来自用户的任何信息进行转义，因此使应用程序容易受到攻击。具体来说，可能会出现任何类型的 SQL 注入攻击。例如，如果用户输入 foo 作为用户名，输入 \' or \'1\'=\'1 作为密码，那么实际上会将以下字符串传递给 PHP，然后将查询传递给 MySQL：
+&lt;/p&gt;
+&lt;pre class=&quot;prettyprint lang-php&quot;&gt;$sql = &quot;select count(*) as ctr  from users where username=\'foo\' and password=\'\' or \'1\'=\'1\' limit 1&quot;; &lt;/pre&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-family:Verdana, 宋体;text-indent:2em;color:#121C46;background-color:#FFFFFF;&quot;&gt;
+	这个查询总是返回计数值 1，因此 PHP 会允许进行访问。通过在密码字符串的末尾注入某些恶意 SQL，黑客就能装扮成合法的用户。
+&lt;/p&gt;
+&lt;p style=&quot;font-family:Verdana, 宋体;text-indent:2em;color:#121C46;background-color:#FFFFFF;&quot;&gt;
+	解决这个问题的办法是，将 PHP 的内置 mysql_real_escape_string() 函数用作任何用户输入的包装器。这个函数对字符串中的字符进行转义，使字符串不可能传递撇号等特殊字符并让 MySQL 根据特殊字符进行操作。下面展示了带转义处理的代码。
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;pre class=&quot;prettyprint lang-php&quot;&gt;$okay = 0;
+$username = $_POST[\'user\'];
+$pw = $_POST[\'pw\'];
+$sql = &quot;select count(*) as ctr from users where username=\'&quot;.mysql_real_escape_string($username).&quot;\' 
+and password=\'&quot;. mysql_real_escape_string($pw).&quot;\' limit 1&quot;; 
+$result = mysql_query($sql);
+while ($data = mysql_fetch_object($result)){
+    if ($data-&amp;gt;ctr == 1){
+        //they\'re okay to enter the application!
+        $okay = 1; 
+    }
+}
+if ($okay){
+    $_SESSION[\'loginokay\'] = true;
+    header(&quot;index.php&quot;);
+}else{
+    header(&quot;login.php&quot;);
+}&lt;/pre&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-family:Verdana, 宋体;text-indent:2em;color:#121C46;background-color:#FFFFFF;&quot;&gt;
+	使用 mysql_real_escape_string() 作为用户输入的包装器，就可以避免用户输入中的任何恶意 SQL 注入。如果用户尝试通过 SQL 注入传递畸形的密码，那么会将以下查询传递给数据库：
+&lt;/p&gt;
+&lt;pre class=&quot;brush: sql;&quot;&gt;
+
+&lt;pre class=&quot;prettyprint lang-php&quot;&gt;select count(*) as ctr from users where username=\'foo\' and password=\'\' or \'1\'=\'1\' limit 1&quot; &lt;/pre&gt;
+&lt;/pre&gt;
+&lt;p style=&quot;font-family:Verdana, 宋体;text-indent:2em;color:#121C46;background-color:#FFFFFF;&quot;&gt;
+	数据库中没有任何东西与这样的密码匹配。仅仅采用一个简单的步骤，就堵住了 Web 应用程序中的一个大漏洞。这里得出的经验是，总是应该对 SQL 查询的用户输入进行转义。
+&lt;/p&gt;
+&lt;p style=&quot;font-family:Verdana, 宋体;text-indent:2em;color:#121C46;background-color:#FFFFFF;&quot;&gt;
+	但是，还有几个安全漏洞需要堵住。下一项是操纵 GET 变量。
+&lt;/p&gt;
+&lt;p style=&quot;font-family:Verdana, 宋体;text-indent:2em;color:#121C46;background-color:#FFFFFF;&quot;&gt;
+	防止用户操纵 GET 变量
+&lt;/p&gt;
+&lt;p style=&quot;font-family:Verdana, 宋体;text-indent:2em;color:#121C46;background-color:#FFFFFF;&quot;&gt;
+	上面我们探讨了，防止了用户使用畸形的密码进行登录。如果您很聪明，应该应用您学到的方法，确保对 SQL 语句的所有用户输入进行转义。但是，用户现在已经安全地登录了。用户拥有有效的密码，并不意味着他将按照规则行事 —— 他有很多机会能够造成损害。例如，应用程序可能允许用户查看特殊的内容。所有链接指向 template.php?pid=33 或 template.php?pid=321 这样的位置。URL 中问号后面的部分称为查询字符串。因为查询字符串直接放在 URL 中，所以也称为 GET 查询字符串。
+&lt;/p&gt;
+&lt;p style=&quot;font-family:Verdana, 宋体;text-indent:2em;color:#121C46;background-color:#FFFFFF;&quot;&gt;
+	在 PHP 中，如果禁用了 register_globals，那么可以用 $_GET[\'pid\'] 访问这个字符串。
+&lt;/p&gt;
+&lt;pre class=&quot;brush: php;&quot;&gt;
+
+
+
+
+&lt;pre class=&quot;prettyprint lang-php&quot;&gt;$pid = $_GET[\'pid\'];
+//we create an object of a fictional class Page
+$obj = new Page;
+$content = $obj-&amp;gt;fetchPage($pid);
+//and now we have a bunch of PHP that displays the page&lt;/pre&gt;
+&lt;/pre&gt;
+&lt;p style=&quot;font-family:Verdana, 宋体;text-indent:2em;color:#121C46;background-color:#FFFFFF;&quot;&gt;
+	这里有什么错吗？首先，这里隐含地相信来自浏览器的 GET 变量 pid 是安全的。这会怎么样呢？大多数用户没那么聪明，无法构造出语义攻击。但是，如果他们注意到浏览器的 URL 位置域中的 pid=33，就可能开始捣乱。如果他们输入另一个数字，那么可能没问题；但是如果输入别的东西，比如输入 SQL 命令或某个文件的名称（比如 /etc/passwd），或者搞别的恶作剧，比如输入长达 3,000 个字符的数值，那么会发生什么呢？
+&lt;/p&gt;
+&lt;p style=&quot;font-family:Verdana, 宋体;text-indent:2em;color:#121C46;background-color:#FFFFFF;&quot;&gt;
+	在这种情况下，要记住基本规则，不要信任用户输入。应用程序开发人员知道 template.php 接受的个人标识符（PID）应该是数字，所以可以使用 PHP 的 is_numeric() 函数确保不接受非数字的 PID，如下所示：
+&lt;/p&gt;
+&lt;pre class=&quot;brush: php;&quot;&gt;
+
+
+
+
+&lt;pre class=&quot;prettyprint lang-php&quot;&gt;$pid = $_GET[\'pid\'];
+if (is_numeric($pid)){
+    //we create an object of a fictional class Page
+    $obj = new Page;
+    $content = $obj-&amp;gt;fetchPage($pid);
+    //and now we have a bunch of PHP that displays the page
+}else{
+    //didn\'t pass the is_numeric() test, do something else!
+}&lt;/pre&gt;
+&lt;/pre&gt;
+&lt;p style=&quot;font-family:Verdana, 宋体;text-indent:2em;color:#121C46;background-color:#FFFFFF;&quot;&gt;
+	这个方法似乎是有效的，但是以下这些输入都能够轻松地通过 is_numeric() 的检查：
+&lt;/p&gt;
+&lt;ul class=&quot;article&quot; style=&quot;color:#121C46;font-family:Verdana, 宋体;background-color:#FFFFFF;&quot;&gt;
+	&lt;li&gt;
+		100 （有效）
+	&lt;/li&gt;
+	&lt;li&gt;
+		100.1 （不应该有小数位）
+	&lt;/li&gt;
+	&lt;li&gt;
+		+0123.45e6 （科学计数法 —— 不好）
+	&lt;/li&gt;
+	&lt;li&gt;
+		0xff33669f （十六进制 —— 危险！危险！）
+	&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p style=&quot;font-family:Verdana, 宋体;text-indent:2em;color:#121C46;background-color:#FFFFFF;&quot;&gt;
+	那么，有安全意识的 PHP 开发人员应该怎么做呢？多年的经验表明，最好的做法是使用正则表达式来确保整个 GET 变量由数字组成，如下所示：
+&lt;/p&gt;
+&lt;p style=&quot;font-family:Verdana, 宋体;text-indent:2em;color:#121C46;background-color:#FFFFFF;&quot;&gt;
+	使用正则表达式限制 GET 变量：
+&lt;/p&gt;
+&lt;pre class=&quot;brush: php;&quot;&gt;
+
+
+
+
+&lt;pre class=&quot;prettyprint lang-php&quot;&gt;$pid = $_GET[\'pid\'];
+if (strlen($pid)){
+    if (!ereg(&quot;^[0-9]+$&quot;,$pid)){
+        //do something appropriate, like maybe logging them out or sending them back to home page 
+    }
+}else{
+    //empty $pid, so send them back to the home page
+}
+//we create an object of a fictional class Page, which is now
+//moderately protected from evil user input
+$obj = new Page;
+$content = $obj-&amp;gt;fetchPage($pid);
+//and now we have a bunch of PHP that displays the page&lt;/pre&gt;
+&lt;/pre&gt;
+&lt;p style=&quot;font-family:Verdana, 宋体;text-indent:2em;color:#121C46;background-color:#FFFFFF;&quot;&gt;
+	需要做的只是使用 strlen() 检查变量的长度是否非零；如果是，就使用一个全数字正则表达式来确保数据元素是有效的。如果 PID 包含字母、斜线、点号或任何与十六进制相似的内容，那么这个例程捕获它并将页面从用户活动中屏蔽。如果看一下 Page 类幕后的情况，就会看到有安全意识的 PHP 开发人员已经对用户输入 $pid 进行了转义，从而保护了 fetchPage() 方法，如下所示：
+&lt;/p&gt;
+&lt;p style=&quot;font-family:Verdana, 宋体;text-indent:2em;color:#121C46;background-color:#FFFFFF;&quot;&gt;
+	对 fetchPage() 方法进行转义：
+&lt;/p&gt;
+&lt;pre class=&quot;brush: php;&quot;&gt;
+
+
+
+
+&lt;pre class=&quot;prettyprint lang-php&quot;&gt;class Page{
+    function fetchPage($pid){
+        $sql = &quot;select pid,title,desc,kw,content,status from page where pid=\'&quot;.mysql_real_escape_string($pid).&quot;\'&quot;; 
+    }
+}&lt;/pre&gt;
+&lt;/pre&gt;
+&lt;p style=&quot;font-family:Verdana, 宋体;text-indent:2em;color:#121C46;background-color:#FFFFFF;&quot;&gt;
+	您可能会问，“既然已经确保 PID 是数字，那么为什么还要进行转义？” 因为不知道在多少不同的上下文和情况中会使用 fetchPage() 方法。必须在调用这个方法的所有地方进行保护，而方法中的转义体现了纵深防御的意义。
+&lt;/p&gt;
+&lt;p style=&quot;font-family:Verdana, 宋体;text-indent:2em;color:#121C46;background-color:#FFFFFF;&quot;&gt;
+	如果用户尝试输入非常长的数值，比如长达 1000 个字符，试图发起缓冲区溢出攻击，那么会发生什么呢？下一节更详细地讨论这个问题，但是目前可以添加另一个检查，确保输入的 PID 具有正确的长度。您知道数据库的 pid 字段的最大长度是 5 位，所以可以添加下面的检查。
+&lt;/p&gt;
+&lt;p style=&quot;font-family:Verdana, 宋体;text-indent:2em;color:#121C46;background-color:#FFFFFF;&quot;&gt;
+	使用正则表达式和长度检查来限制 GET 变量：
+&lt;/p&gt;
+&lt;pre class=&quot;brush: php;&quot;&gt;
+
+
+
+
+&lt;pre class=&quot;prettyprint lang-php&quot;&gt;$pid = $_GET[\'pid\'];
+if (strlen($pid)){
+    if (!ereg(&quot;^[0-9]+$&quot;,$pid) &amp;amp;&amp;amp; strlen($pid) &amp;gt; 5){
+        //do something appropriate, like maybe logging them out or sending them back to home page
+    }
+} else {
+    //empty $pid, so send them back to the home page
+}
+    //we create an object of a fictional class Page, which is now
+    //even more protected from evil user input
+    $obj = new Page;
+    $content = $obj-&amp;gt;fetchPage($pid);
+    //and now we have a bunch of PHP that displays the page&lt;/pre&gt;
+&lt;/pre&gt;
+&lt;p style=&quot;font-family:Verdana, 宋体;text-indent:2em;color:#121C46;background-color:#FFFFFF;&quot;&gt;
+	现在，任何人都无法在数据库应用程序中塞进一个 5,000 位的数值 —— 至少在涉及 GET 字符串的地方不会有这种情况。想像一下黑客在试图突破您的应用程序而遭到挫折时咬牙切齿的样子吧！而且因为关闭了错误报告，黑客更难进行侦察。
+&lt;/p&gt;
+&lt;p style=&quot;font-family:Verdana, 宋体;text-indent:2em;color:#121C46;background-color:#FFFFFF;&quot;&gt;
+	&lt;strong&gt;缓冲区溢出攻击&lt;/strong&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-family:Verdana, 宋体;text-indent:2em;color:#121C46;background-color:#FFFFFF;&quot;&gt;
+	缓冲区溢出攻击 试图使 PHP 应用程序中（或者更精确地说，在 Apache 或底层操作系统中）的内存分配缓冲区发生溢出。请记住，您可能是使用 PHP 这样的高级语言来编写 Web 应用程序，但是最终还是要调用 C（在 Apache 的情况下）。与大多数低级语言一样，C 对于内存分配有严格的规则。
+&lt;/p&gt;
+&lt;p style=&quot;font-family:Verdana, 宋体;text-indent:2em;color:#121C46;background-color:#FFFFFF;&quot;&gt;
+	缓冲区溢出攻击向缓冲区发送大量数据，使部分数据溢出到相邻的内存缓冲区，从而破坏缓冲区或者重写逻辑。这样就能够造成拒绝服务、破坏数据或者在远程服务器上执行恶意代码。
+&lt;/p&gt;
+&lt;p style=&quot;font-family:Verdana, 宋体;text-indent:2em;color:#121C46;background-color:#FFFFFF;&quot;&gt;
+	防止缓冲区溢出攻击的惟一方法是检查所有用户输入的长度。例如，如果有一个表单元素要求输入用户的名字，那么在这个域上添加值为 40 的 maxlength 属性，并在后端使用 substr() 进行检查。下面给出表单和 PHP 代码的简短示例。
+&lt;/p&gt;
+&lt;pre class=&quot;brush: php;&quot;&gt;
+
+
+
+
+&lt;pre class=&quot;prettyprint lang-php&quot;&gt;if ($_POST[\'submit\'] == &quot;go&quot;){
+    $name = substr($_POST[\'name\'],0,40);
+}
+?&amp;gt;
+&amp;lt;form action=&quot;&amp;lt;?php echo $_SERVER[\'PHP_SELF\'];?&amp;gt;&quot; method=&quot;post&quot;&amp;gt;
+&amp;lt;p&amp;gt;&amp;lt;label for=&quot;name&quot;&amp;gt;Name&amp;lt;/label&amp;gt;
+&amp;lt;input type=&quot;text&quot; name=&quot;name&quot; id=&quot;name&quot; size=&quot;20&quot; maxlength=&quot;40&quot;/&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;&amp;lt;input type=&quot;submit&quot; name=&quot;submit&quot; value=&quot;go&quot;/&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;/form&amp;gt; &lt;/pre&gt;
+&lt;/pre&gt;
+&lt;p style=&quot;font-family:Verdana, 宋体;text-indent:2em;color:#121C46;background-color:#FFFFFF;&quot;&gt;
+	为什么既提供 maxlength 属性，又在后端进行 substr() 检查？因为纵深防御总是好的。浏览器防止用户输入 PHP 或 MySQL 不能安全地处理的超长字符串（想像一下有人试图输入长达 1,000 个字符的名称），而后端 PHP 检查会确保没有人远程地或者在浏览器中操纵表单数据。
+&lt;/p&gt;
+&lt;p style=&quot;font-family:Verdana, 宋体;text-indent:2em;color:#121C46;background-color:#FFFFFF;&quot;&gt;
+	正如您看到的，这种方式与前面使用 strlen() 检查 GET 变量 pid 的长度相似。在这个示例中，忽略长度超过 5 位的任何输入值，但是也可以很容易地将值截短到适当的长度，如下改变输入的 GET 变量的长度所示：
+&lt;/p&gt;
+&lt;pre class=&quot;brush: php;&quot;&gt;
+
+
+
+
+&lt;pre class=&quot;prettyprint lang-php&quot;&gt;$pid = $_GET[\'pid\'];
+if (strlen($pid)){
+    if (!ereg(&quot;^[0-9]+$&quot;,$pid)){
+        //if non numeric $pid, send them back to home page
+    }
+}else{
+    //empty $pid, so send them back to the home page
+}
+    //we have a numeric pid, but it may be too long, so let\'s check
+    if (strlen($pid)&amp;gt;5){
+        $pid = substr($pid,0,5);
+    }
+    //we create an object of a fictional class Page, which is now
+    //even more protected from evil user input
+    $obj = new Page;
+    $content = $obj-&amp;gt;fetchPage($pid);
+    //and now we have a bunch of PHP that displays the page&lt;/pre&gt;
+&lt;/pre&gt;
+&lt;p style=&quot;font-family:Verdana, 宋体;text-indent:2em;color:#121C46;background-color:#FFFFFF;&quot;&gt;
+	注意，缓冲区溢出攻击并不限于长的数字串或字母串。也可能会看到长的十六进制字符串（往往看起来像 xA3 或 xFF）。记住，任何缓冲区溢出攻击的目的都是淹没特定的缓冲区，并将恶意代码或指令放到下一个缓冲区中，从而破坏数据或执行恶意代码。对付十六进制缓冲区溢出最简单的方法也是不允许输入超过特定的长度。
+&lt;/p&gt;
+&lt;p style=&quot;font-family:Verdana, 宋体;text-indent:2em;color:#121C46;background-color:#FFFFFF;&quot;&gt;
+	如果您处理的是允许在数据库中输入较长条目的表单文本区，那么无法在客户端轻松地限制数据的长度。在数据到达 PHP 之后，可以使用正则表达式清除任何像十六进制的字符串。
+&lt;/p&gt;
+&lt;p style=&quot;font-family:Verdana, 宋体;text-indent:2em;color:#121C46;background-color:#FFFFFF;&quot;&gt;
+	防止十六进制字符串：
+&lt;/p&gt;
+&lt;pre class=&quot;prettyprint lang-php&quot;&gt;if ($_POST[\'submit\'] == &quot;go&quot;){
+    $name = substr($_POST[\'name\'],0,40);
+    //clean out any potential hexadecimal characters
+    $name = cleanHex($name);
+    //continue processing....
+}
+function cleanHex($input){
+    $clean = preg_replace(&quot;![][xX]([A-Fa-f0-9]{1,3})!&quot;, &quot;&quot;,$input);
+    return $clean; 
+}
+?&amp;gt;
+&amp;lt;form action=&quot;&amp;lt;?php echo $_SERVER[\'PHP_SELF\'];?&amp;gt;&quot; method=&quot;post&quot;&amp;gt;
+&amp;lt;p&amp;gt;&amp;lt;label for=&quot;name&quot;&amp;gt;Name&amp;lt;/label&amp;gt;
+&amp;lt;input type=&quot;text&quot; name=&quot;name&quot; id=&quot;name&quot; size=&quot;20&quot; maxlength=&quot;40&quot;/&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;&amp;lt;input type=&quot;submit&quot; name=&quot;submit&quot; value=&quot;go&quot;/&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;/form&amp;gt; &lt;/pre&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-family:Verdana, 宋体;text-indent:2em;color:#121C46;background-color:#FFFFFF;&quot;&gt;
+	您可能会发现这一系列操作有点儿太严格了。毕竟，十六进制串有合法的用途，比如输出外语中的字符。如何部署十六进制 regex 由您自己决定。比较好的策略是，只有在一行中包含过多十六进制串时，或者字符串的字符超过特定数量（比如 128 或 255）时，才删除十六进制串。
+&lt;/p&gt;
+&lt;p style=&quot;font-family:Verdana, 宋体;text-indent:2em;color:#121C46;background-color:#FFFFFF;&quot;&gt;
+	&lt;strong&gt;跨站点脚本攻击&lt;/strong&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-family:Verdana, 宋体;text-indent:2em;color:#121C46;background-color:#FFFFFF;&quot;&gt;
+	在跨站点脚本（XSS）攻击中，往往有一个恶意用户在表单中（或通过其他用户输入方式）输入信息，这些输入将恶 意的客户端标记插入过程或数据库中。例如，假设站点上有一个简单的来客登记簿程序，让访问者能够留下姓名、电子邮件地址和简短的消息。恶意用户可以利用这 个机会插入简短消息之外的东西，比如对于其他用户不合适的图片或将用户重定向到另一个站点的 Javascrīpt，或者窃取 cookie 信息。幸运的是，PHP 提供了 strip_tags() 函数，这个函数可以清除任何包围在 HTML 标记中的内容。strip_tags() 函数还允许提供允许标记的列表，比如 &amp;lt;b&amp;gt; 或 &amp;lt;i&amp;gt;。
+&lt;/p&gt;
+&lt;p style=&quot;font-family:Verdana, 宋体;text-indent:2em;color:#121C46;background-color:#FFFFFF;&quot;&gt;
+	&lt;strong&gt;浏览器内的数据操纵&lt;/strong&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-family:Verdana, 宋体;text-indent:2em;color:#121C46;background-color:#FFFFFF;&quot;&gt;
+	有一类浏览器插件允许用户篡改页面上的头部元素和表单元素。使用 Tamper Data（一个 Mozilla 插件），可以很容易地操纵包含许多隐藏文本字段的简单表单，从而向 PHP 和 MySQL 发送指令。
+&lt;/p&gt;
+&lt;p style=&quot;font-family:Verdana, 宋体;text-indent:2em;color:#121C46;background-color:#FFFFFF;&quot;&gt;
+	用户在点击表单上的 Submit 之前，他可以启动 Tamper Data。在提交表单时，他会看到表单数据字段的列表。Tamper Data 允许用户篡改这些数据，然后浏览器完成表单提交。
+&lt;/p&gt;
+&lt;p style=&quot;font-family:Verdana, 宋体;text-indent:2em;color:#121C46;background-color:#FFFFFF;&quot;&gt;
+	让我们回到前面建立的示例。已经检查了字符串长度、清除了 HTML 标记并删除了十六进制字符。但是，添加了一些隐藏的文本字段，如下所示
+&lt;/p&gt;
+&lt;pre class=&quot;brush: php;&quot;&gt;
+
+
+
+
+&lt;pre class=&quot;prettyprint lang-php&quot;&gt;if ($_POST[\'submit\'] == &quot;go&quot;){
+    //strip_tags
+    $name = strip_tags($_POST[\'name\']);
+    $name = substr($name,0,40);
+    //clean out any potential hexadecimal characters
+    $name = cleanHex($name);
+    //continue processing....
+}
+function cleanHex($input){ 
+    $clean = preg_replace(&quot;![][xX]([A-Fa-f0-9]{1,3})!&quot;, &quot;&quot;,$input);
+    return $clean;
+}
+?&amp;gt;
+&amp;lt;form action=&quot;&amp;lt;?php echo $_SERVER[\'PHP_SELF\'];?&amp;gt;&quot; method=&quot;post&quot;&amp;gt;
+&amp;lt;p&amp;gt;&amp;lt;label for=&quot;name&quot;&amp;gt;Name&amp;lt;/label&amp;gt;
+&amp;lt;input type=&quot;text&quot; name=&quot;name&quot; id=&quot;name&quot; size=&quot;20&quot; maxlength=&quot;40&quot;/&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;input type=&quot;hidden&quot; name=&quot;table&quot; value=&quot;users&quot;/&amp;gt;
+&amp;lt;input type=&quot;hidden&quot; name=&quot;action&quot; value=&quot;create&quot;/&amp;gt;
+&amp;lt;input type=&quot;hidden&quot; name=&quot;status&quot; value=&quot;live&quot;/&amp;gt;
+&amp;lt;p&amp;gt;&amp;lt;input type=&quot;submit&quot; name=&quot;submit&quot; value=&quot;go&quot;/&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;/form&amp;gt; &lt;/pre&gt;
+&lt;/pre&gt;
+&lt;p style=&quot;font-family:Verdana, 宋体;text-indent:2em;color:#121C46;background-color:#FFFFFF;&quot;&gt;
+	注意，隐藏变量之一暴露了表名：users。还会看到一个值为 create 的 action 字段。只要有基本的 SQL 经验，就能够看出这些命令可能控制着中间件中的一个 SQL 引擎。想搞大破坏的人只需改变表名或提供另一个选项，比如 delete。
+&lt;/p&gt;
+&lt;p style=&quot;font-family:Verdana, 宋体;text-indent:2em;color:#121C46;background-color:#FFFFFF;&quot;&gt;
+	现在还剩下什么问题呢？远程表单提交。
+&lt;/p&gt;
+&lt;p style=&quot;font-family:Verdana, 宋体;text-indent:2em;color:#121C46;background-color:#FFFFFF;&quot;&gt;
+	&lt;strong&gt;远程表单提交&lt;/strong&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-family:Verdana, 宋体;text-indent:2em;color:#121C46;background-color:#FFFFFF;&quot;&gt;
+	Web 的好处是可以分享信息和服务。坏处也是可以分享信息和服务，因为有些人做事毫无顾忌。
+&lt;/p&gt;
+&lt;p style=&quot;font-family:Verdana, 宋体;text-indent:2em;color:#121C46;background-color:#FFFFFF;&quot;&gt;
+	以表单为例。任何人都能够访问一个 Web 站点，并使用浏览器上的 File &amp;gt; Save As 建立表单的本地副本。然后，他可以修改 action 参数来指向一个完全限定的 URL（不指向 formHandler.php，而是指向 http://www.nowamagic.net/formHandler.php，因为表单在这个站点上），做他希望的任何修改，点击 Submit，服务器会把这个表单数据作为合法通信流接收。
+&lt;/p&gt;
+&lt;p style=&quot;font-family:Verdana, 宋体;text-indent:2em;color:#121C46;background-color:#FFFFFF;&quot;&gt;
+	首先可能考虑检查 $_SERVER[\'HTTP_REFERER\']，从而判断请求是否来自自己的服务器，这种方法可以挡住大多数恶意用户，但是挡不住最高明的黑客。这些人足够聪明，能够篡改头部中的引用者信息，使表单的远程副本看起来像是从您的服务器提交的。
+&lt;/p&gt;
+&lt;p style=&quot;font-family:Verdana, 宋体;text-indent:2em;color:#121C46;background-color:#FFFFFF;&quot;&gt;
+	处理远程表单提交更好的方式是，根据一个惟一的字符串或时间戳生成一个令牌，并将这个令牌放在会话变量和表单中。提交表单之后，检查两个令牌是否匹配。如果不匹配，就知道有人试图从表单的远程副本发送数据。
+&lt;/p&gt;
+&lt;p style=&quot;font-family:Verdana, 宋体;text-indent:2em;color:#121C46;background-color:#FFFFFF;&quot;&gt;
+	要创建随机的令牌，可以使用 PHP 内置的 md5()、uniqid() 和 rand() 函数，如下所示：
+&lt;/p&gt;
+&lt;pre class=&quot;brush: php;&quot;&gt;
+
+
+
+
+&lt;pre class=&quot;prettyprint lang-php&quot;&gt;session_start();
+if ($_POST[\'submit\'] == &quot;go&quot;){
+    //check token
+    if ($_POST[\'token\'] == $_SESSION[\'token\']){
+        //strip_tags
+        $name = strip_tags($_POST[\'name\']);
+        $name = substr($name,0,40);
+        //clean out any potential hexadecimal characters
+        $name = cleanHex($name);
+        //continue processing....
+    }else{
+        //stop all processing! remote form posting attempt!
+    }
+}
+$token = md5(uniqid(rand(), true));
+$_SESSION[\'token\']= $token;
+function cleanHex($input){
+    $clean = preg_replace(&quot;![][xX]([A-Fa-f0-9]{1,3})!&quot;, &quot;&quot;,$input);
+    return $clean;
+}
+?&amp;gt;
+&amp;lt;form action=&quot;&amp;lt;?php echo $_SERVER[\'PHP_SELF\'];?&amp;gt;&quot; method=&quot;post&quot;&amp;gt;
+&amp;lt;p&amp;gt;&amp;lt;label for=&quot;name&quot;&amp;gt;Name&amp;lt;/label&amp;gt;
+&amp;lt;input type=&quot;text&quot; name=&quot;name&quot; id=&quot;name&quot; size=&quot;20&quot; maxlength=&quot;40&quot;/&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;input type=&quot;hidden&quot; name=&quot;token&quot; value=&quot;&amp;lt;?php echo $token;?&amp;gt;&quot;/&amp;gt;
+&amp;lt;p&amp;gt;&amp;lt;input type=&quot;submit&quot; name=&quot;submit&quot; value=&quot;go&quot;/&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;/form&amp;gt; &lt;/pre&gt;
+&lt;/pre&gt;
+&lt;p style=&quot;font-family:Verdana, 宋体;text-indent:2em;color:#121C46;background-color:#FFFFFF;&quot;&gt;
+	这种技术是有效的，这是因为在 PHP 中会话数据无法在服务器之间迁移。即使有人获得了您的 PHP 源代码，将它转移到自己的服务器上，并向您的服务器提交信息，您的服务器接收的也只是空的或畸形的会话令牌和原来提供的表单令牌。它们不匹配，远程表单提交就失败了。
+&lt;/p&gt;
+&lt;p style=&quot;font-family:Verdana, 宋体;text-indent:2em;color:#121C46;background-color:#FFFFFF;&quot;&gt;
+	转自:http://www.nowamagic.net/php/php_HowToWriteSafePhpCode.php
+&lt;/p&gt;','1474167505') [ RunTime:0.0110s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.011000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.013000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-09-18T10:58:27+08:00 ] 127.0.0.1 /admin/index/article.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Non-static method Admin\Model\AdminModel::isLogin() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Admin\Controller\IndexController.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-09-18T10:58:29+08:00 ] 127.0.0.1 /admin/index/lists.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Non-static method Admin\Model\AdminModel::isLogin() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Admin\Controller\IndexController.class.php 第 13 行.
+NOTIC: [2048] Declaration of Admin\Model\ArticleModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Admin\Model\ArticleModel.class.php 第 101 行.
+NOTIC: [2048] Declaration of Admin\Model\ArticleModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Admin\Model\ArticleModel.class.php 第 101 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0150s ]
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Admin\Controller\IndexController.class.php 第 96 行.
+SQL: SELECT * FROM `article` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.098006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.099006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+

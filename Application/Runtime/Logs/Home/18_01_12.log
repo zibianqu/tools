@@ -1,0 +1,169 @@
+[ 2018-01-12T11:15:58+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014629s ]
+SQL: SHOW COLUMNS FROM `statisticsip` [ RunTime:0.0882s ]
+SQL: SELECT * FROM `statisticsip` WHERE `ip` = '127.0.0.1' AND `date` = 20180112 LIMIT 1   [ RunTime:0.0008s ]
+SQL: INSERT INTO `statisticsip` (`ip`,`date`,`recordtime`) VALUES ('127.0.0.1','20180112','1515726957') [ RunTime:0.0695s ]
+NOTIC: [2048] Declaration of Home\Model\TypeModel::save() should be compatible with that of Think\Model::save() D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 88 行.
+NOTIC: [2048] Declaration of Home\Model\TypeModel::delete() should be compatible with that of Think\Model::delete() D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0499s ]
+NOTIC: [2] Missing argument 1 for Home\Model\TypeModel::lists(), called in D:\WWW\tools\ThinkPHP\Library\Think\Controller.class.php on line 51 and defined D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 83 行.
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 84 行.
+SQL: SELECT * FROM `type` ORDER BY `order` asc,id asc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0742s ]
+SQL: SELECT * FROM `article` WHERE `status` = 1 ORDER BY id desc LIMIT 6   [ RunTime:0.0998s ]
+SQL: SELECT * FROM `article` WHERE `status` = 1 ORDER BY readnum desc,id desc LIMIT 6   [ RunTime:0.0073s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+NOTIC: [8] Undefined variable: title D:\WWW\tools\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 62 行.
+INFO: [ keyWords ] --START--
+SQL: SHOW COLUMNS FROM `keywords` [ RunTime:0.0482s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\WWW\tools\Application\Home\Model\CommModel.class.php on line 46 and defined D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `keywords` ORDER BY `order` asc,num desc LIMIT 30   [ RunTime:0.0002s ]
+INFO: Run Home\Behavior\KeyWordsBehavior [ RunTime:0.072824s ]
+INFO: [ keyWords ] --END-- [ RunTime:0.072881s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.212978s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.213023s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008122s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008175s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011162s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011233s ]
+
+[ 2018-01-12T11:33:41+08:00 ] 127.0.0.1 /art/article/id/56.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000748s ]
+NOTIC: [2048] Declaration of Home\Model\TypeModel::save() should be compatible with that of Think\Model::save() D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\TypeModel::delete() should be compatible with that of Think\Model::delete() D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0211s ]
+NOTIC: [2] Missing argument 1 for Home\Model\TypeModel::lists(), called in D:\WWW\tools\ThinkPHP\Library\Think\Controller.class.php on line 51 and defined D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 83 行.
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 84 行.
+SQL: SELECT * FROM `type` ORDER BY `order` asc,id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0106s ]
+SQL: SELECT * FROM `article` WHERE `id` = 56 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `article` WHERE `id` = 56 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `article` SET `title`='Java环境变量设置',`keyword`='',`content`='&lt;p style=&quot;box-sizing: border-box; margin-top: 0px; margin-bottom: 16px; padding: 0px; line-height: 28px; word-wrap: break-word; word-break: normal; color: rgb(69, 69, 69); font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimHei, Arial, SimSun; background-color: rgb(255, 255, 255);&quot;&gt;首先在Oracle的网站上下载对应的JDK版本，然后安装。注意在Windows下，为了避免在使用命令行的时候出现问题，一般不要选择安装在C:Program Filesjdk目录下，可以选择文件夹名没有空格的目录来安装，比如我一般安装在C:java目录下面。&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; margin-top: 0px; margin-bottom: 16px; padding: 0px; line-height: 28px; word-wrap: break-word; word-break: normal; color: rgb(69, 69, 69); font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimHei, Arial, SimSun; background-color: rgb(255, 255, 255);&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; margin-top: 0px; margin-bottom: 16px; padding: 0px; line-height: 28px; word-wrap: break-word; word-break: normal; color: rgb(69, 69, 69); font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimHei, Arial, SimSun; background-color: rgb(255, 255, 255);&quot;&gt;1. 设置JAVA_HOME，指向jdk的安装目录这一级即可。比如我的JDK安装在C:javajdk1.8.0_25，那JAVA_HOME的值就是C:javajdk1.8.0_25&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; margin-top: 0px; margin-bottom: 16px; padding: 0px; line-height: 28px; word-wrap: break-word; word-break: normal; color: rgb(69, 69, 69); font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimHei, Arial, SimSun; background-color: rgb(255, 255, 255);&quot;&gt;&lt;img src=&quot;/ueditor/php/upload/image/20180112/1515727923225185.png&quot; title=&quot;1515727923225185.png&quot; alt=&quot;1.png&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; margin-top: 0px; margin-bottom: 16px; padding: 0px; line-height: 28px; word-wrap: break-word; word-break: normal; color: rgb(69, 69, 69); font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimHei, Arial, SimSun; background-color: rgb(255, 255, 255);&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; margin-top: 0px; margin-bottom: 16px; padding: 0px; line-height: 28px; word-wrap: break-word; word-break: normal; color: rgb(69, 69, 69); font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimHei, Arial, SimSun; background-color: rgb(255, 255, 255);&quot;&gt;2. 设置Path变量&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; margin-top: 0px; margin-bottom: 16px; padding: 0px; line-height: 28px; word-wrap: break-word; word-break: normal; color: rgb(69, 69, 69); font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimHei, Arial, SimSun; background-color: rgb(255, 255, 255);&quot;&gt;在Path值后面加上&lt;strong style=&quot;box-sizing: border-box;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; margin: 0px; padding: 0px; font-weight: 400; color: rgb(255, 0, 0);&quot;&gt;;%JAVA_HOME%bin;%JAVA_HOME%jrebin&lt;/span&gt;&lt;/strong&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; margin-top: 0px; margin-bottom: 16px; padding: 0px; line-height: 28px; word-wrap: break-word; word-break: normal; color: rgb(69, 69, 69); font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimHei, Arial, SimSun; background-color: rgb(255, 255, 255);&quot;&gt;&lt;img src=&quot;/ueditor/php/upload/image/20180112/1515727961229574.png&quot; title=&quot;1515727961229574.png&quot; alt=&quot;2.png&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; margin-top: 0px; margin-bottom: 16px; padding: 0px; line-height: 28px; word-wrap: break-word; word-break: normal; color: rgb(69, 69, 69); font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimHei, Arial, SimSun; background-color: rgb(255, 255, 255);&quot;&gt;3. 设置CLASSPATH&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; margin-top: 0px; margin-bottom: 16px; padding: 0px; line-height: 28px; word-wrap: break-word; word-break: normal; color: rgb(69, 69, 69); font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimHei, Arial, SimSun; background-color: rgb(255, 255, 255);&quot;&gt;新建环境变量CLASSPATH，设置值为&lt;span style=&quot;box-sizing: border-box; margin: 0px; padding: 0px; color: rgb(255, 0, 0);&quot;&gt;&lt;strong style=&quot;box-sizing: border-box;&quot;&gt;.;%JAVA_HOME%libdt.jar;%JAVA_HOME%libtools.jar&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; margin-top: 0px; margin-bottom: 16px; padding: 0px; line-height: 28px; word-wrap: break-word; word-break: normal; color: rgb(69, 69, 69); font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimHei, Arial, SimSun; background-color: rgb(255, 255, 255);&quot;&gt;注意值前面的两个符号&lt;span style=&quot;box-sizing: border-box; margin: 0px; padding: 0px; font-size: 24px; color: rgb(255, 0, 0);&quot;&gt;&lt;strong style=&quot;box-sizing: border-box;&quot;&gt;.;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; margin-top: 0px; margin-bottom: 16px; padding: 0px; line-height: 28px; word-wrap: break-word; word-break: normal; color: rgb(69, 69, 69); font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimHei, Arial, SimSun; background-color: rgb(255, 255, 255);&quot;&gt;&lt;img src=&quot;/ueditor/php/upload/image/20180112/1515727973126509.png&quot; title=&quot;1515727973126509.png&quot; alt=&quot;3.png&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; margin-top: 0px; margin-bottom: 16px; padding: 0px; line-height: 28px; word-wrap: break-word; word-break: normal; color: rgb(69, 69, 69); font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimHei, Arial, SimSun; background-color: rgb(255, 255, 255);&quot;&gt;4. 安装完成后，打开dos窗口，-&amp;gt;开始，在&amp;quot;搜索程序和文件&amp;quot;输入框里输入&amp;quot;cmd&amp;quot;，回车，就会弹出dos窗口。&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; margin-top: 0px; margin-bottom: 16px; padding: 0px; line-height: 28px; word-wrap: break-word; word-break: normal; color: rgb(69, 69, 69); font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimHei, Arial, SimSun; background-color: rgb(255, 255, 255);&quot;&gt;在dos窗口输入命令&lt;strong style=&quot;box-sizing: border-box;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; margin: 0px; padding: 0px; font-weight: 400; color: rgb(255, 0, 0);&quot;&gt;java -version&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; margin-top: 0px; margin-bottom: 16px; padding: 0px; line-height: 28px; word-wrap: break-word; word-break: normal; color: rgb(69, 69, 69); font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimHei, Arial, SimSun; background-color: rgb(255, 255, 255);&quot;&gt;如果安装成功的话，会显示安装的JDK的版本，如下图所示&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; margin-top: 0px; margin-bottom: 16px; padding: 0px; line-height: 28px; word-wrap: break-word; word-break: normal; color: rgb(69, 69, 69); font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimHei, Arial, SimSun; background-color: rgb(255, 255, 255);&quot;&gt;&lt;img src=&quot;/ueditor/php/upload/image/20180112/1515727981838302.png&quot; title=&quot;1515727981838302.png&quot; alt=&quot;4.png&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; margin-top: 0px; margin-bottom: 16px; padding: 0px; line-height: 28px; word-wrap: break-word; word-break: normal; color: rgb(69, 69, 69); font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimHei, Arial, SimSun; background-color: rgb(255, 255, 255);&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; margin-top: 0px; margin-bottom: 16px; padding: 0px; line-height: 28px; word-wrap: break-word; word-break: normal; color: rgb(69, 69, 69); font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimHei, Arial, SimSun; background-color: rgb(255, 255, 255);&quot;&gt;输入命令&lt;span style=&quot;box-sizing: border-box; margin: 0px; padding: 0px; color: rgb(255, 0, 0);&quot;&gt;&lt;strong style=&quot;box-sizing: border-box;&quot;&gt;javac&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; margin-top: 0px; margin-bottom: 16px; padding: 0px; line-height: 28px; word-wrap: break-word; word-break: normal; color: rgb(69, 69, 69); font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimHei, Arial, SimSun; background-color: rgb(255, 255, 255);&quot;&gt;如安装成功会出现如下图所示提示，&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; margin-top: 0px; margin-bottom: 16px; padding: 0px; line-height: 28px; word-wrap: break-word; word-break: normal; color: rgb(69, 69, 69); font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimHei, Arial, SimSun; background-color: rgb(255, 255, 255);&quot;&gt;&lt;img src=&quot;/ueditor/php/upload/image/20180112/1515727989104683.png&quot; title=&quot;1515727989104683.png&quot; alt=&quot;5.png&quot;/&gt;&lt;/p&gt;',`status`='1',`type`='2',`createtime`='1515728015',`author`='小兔',`imgurl`=NULL,`recom`='0',`readnum`='1' WHERE `id` = 56 [ RunTime:0.0266s ]
+SQL: SELECT `id`,`title` FROM `article` WHERE ( id<56 and status=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`title` FROM `article` WHERE ( id>56 and status=1 ) ORDER BY id asc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`title` FROM `article` WHERE ( id<>56 and status=1 and recom=1 ) ORDER BY id desc LIMIT 6   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\tools\Application\Home\Controller\ArtController.class.php 第 87 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+NOTIC: [8] Undefined variable: title D:\WWW\tools\Application\Runtime\Cache\Home\f274c600cf8d13c9d31ff143ea08a211.php 第 55 行.
+INFO: [ keyWords ] --START--
+SQL: SHOW COLUMNS FROM `keywords` [ RunTime:0.0069s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\WWW\tools\Application\Home\Model\CommModel.class.php on line 46 and defined D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `keywords` ORDER BY `order` asc,num desc LIMIT 30   [ RunTime:0.0002s ]
+INFO: Run Home\Behavior\KeyWordsBehavior [ RunTime:0.009489s ]
+INFO: [ keyWords ] --END-- [ RunTime:0.009541s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053088s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053130s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000589s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000636s ]
+
+[ 2018-01-12T15:15:36+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000501s ]
+NOTIC: [2048] Declaration of Home\Model\TypeModel::save() should be compatible with that of Think\Model::save() D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\TypeModel::delete() should be compatible with that of Think\Model::delete() D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0453s ]
+NOTIC: [2] Missing argument 1 for Home\Model\TypeModel::lists(), called in D:\WWW\tools\ThinkPHP\Library\Think\Controller.class.php on line 51 and defined D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 83 行.
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 84 行.
+SQL: SELECT * FROM `type` ORDER BY `order` asc,id asc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0422s ]
+SQL: SELECT * FROM `article` WHERE `status` = 1 ORDER BY id desc LIMIT 6   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `article` WHERE `status` = 1 ORDER BY readnum desc,id desc LIMIT 6   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+NOTIC: [8] Undefined variable: title D:\WWW\tools\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 62 行.
+INFO: [ keyWords ] --START--
+SQL: SHOW COLUMNS FROM `keywords` [ RunTime:0.0069s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\WWW\tools\Application\Home\Model\CommModel.class.php on line 46 and defined D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `keywords` ORDER BY `order` asc,num desc LIMIT 30   [ RunTime:0.0003s ]
+INFO: Run Home\Behavior\KeyWordsBehavior [ RunTime:0.009126s ]
+INFO: [ keyWords ] --END-- [ RunTime:0.009178s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.072652s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.072697s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000524s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000579s ]
+
+[ 2018-01-12T15:16:38+08:00 ] 127.0.0.1 /art/article/id/57.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000717s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000801s ]
+NOTIC: [2048] Declaration of Home\Model\TypeModel::save() should be compatible with that of Think\Model::save() D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\TypeModel::delete() should be compatible with that of Think\Model::delete() D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0364s ]
+NOTIC: [2] Missing argument 1 for Home\Model\TypeModel::lists(), called in D:\WWW\tools\ThinkPHP\Library\Think\Controller.class.php on line 51 and defined D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 83 行.
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 84 行.
+SQL: SELECT * FROM `type` ORDER BY `order` asc,id asc  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0143s ]
+SQL: SELECT * FROM `article` WHERE `id` = 57 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `article` WHERE `id` = 57 LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `article` SET `title`='unable to open the service tomcat7',`keyword`='',`content`='&lt;p style=&quot;box-sizing: border-box; margin-top: 0px; margin-bottom: 16px; padding: 0px; line-height: 28px; word-wrap: break-word; word-break: normal; color: rgb(69, 69, 69); font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimHei, Arial, SimSun; background-color: rgb(255, 255, 255);&quot;&gt;运行tomcat7w.exe tomcat7.exe ,提示 指定的服务未安装 unable to open the service &amp;#39;tomcat7&amp;#39;（用的是绿色的Tomcat7）&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; margin-top: 0px; margin-bottom: 16px; padding: 0px; line-height: 28px; word-wrap: break-word; word-break: normal; color: rgb(69, 69, 69); font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimHei, Arial, SimSun; background-color: rgb(255, 255, 255);&quot;&gt;&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; margin-top: 0px; margin-bottom: 16px; padding: 0px; line-height: 28px; word-wrap: break-word; word-break: normal; color: rgb(69, 69, 69); font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimHei, Arial, SimSun; background-color: rgb(255, 255, 255);&quot;&gt;解决方法：&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; margin-top: 0px; margin-bottom: 16px; padding: 0px; line-height: 28px; word-wrap: break-word; word-break: normal; color: rgb(69, 69, 69); font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimHei, Arial, SimSun; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;box-sizing: border-box; margin: 0px; padding: 0px;&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; margin-top: 0px; margin-bottom: 16px; padding: 0px; line-height: normal; word-wrap: break-word; word-break: normal; color: rgb(69, 69, 69); font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimHei, Arial, SimSun; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;box-sizing: border-box; margin: 0px; padding: 0px; line-height: normal; color: rgb(255, 0, 0);&quot;&gt;打开命令行提示符窗口&lt;/span&gt;&lt;span style=&quot;box-sizing: border-box; margin: 0px; padding: 0px; color: rgb(255, 0, 0);&quot;&gt;=&amp;gt; 进入Tomcat安装目录==&amp;gt; 进入bin目录下==&amp;gt; 输入：service.bat install 即可&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; margin-top: 0px; margin-bottom: 16px; padding: 0px; line-height: normal; word-wrap: break-word; word-break: normal; color: rgb(69, 69, 69); font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimHei, Arial, SimSun; background-color: rgb(255, 255, 255);&quot;&gt;直接到目录点击这个&lt;span style=&quot;box-sizing: border-box; margin: 0px; padding: 0px; color: rgb(255, 0, 0);&quot;&gt;service.bat&lt;/span&gt;t会不会也可以？&lt;span style=&quot;box-sizing: border-box; margin: 0px; padding: 0px; line-height: normal; color: rgb(255, 0, 0);&quot;&gt;经过验证：不可以&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; margin-top: 0px; margin-bottom: 16px; padding: 0px; line-height: normal; word-wrap: break-word; word-break: normal; color: rgb(69, 69, 69); font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimHei, Arial, SimSun; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;box-sizing: border-box; margin: 0px; padding: 0px; line-height: normal; color: rgb(255, 0, 0);&quot;&gt;&lt;img src=&quot;/ueditor/php/upload/image/20180112/1515741351733691.jpg&quot; title=&quot;1515741351733691.jpg&quot; alt=&quot;1334922226_6404.jpg&quot;/&gt;&lt;/span&gt;&lt;/p&gt;',`status`='1',`type`='2',`createtime`='1515741376',`author`='小兔',`imgurl`=NULL,`recom`='0',`readnum`='1' WHERE `id` = 57 [ RunTime:0.0006s ]
+SQL: SELECT `id`,`title` FROM `article` WHERE ( id<57 and status=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title` FROM `article` WHERE ( id>57 and status=1 ) ORDER BY id asc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`title` FROM `article` WHERE ( id<>57 and status=1 and recom=1 ) ORDER BY id desc LIMIT 6   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\tools\Application\Home\Controller\ArtController.class.php 第 87 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000165s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000280s ]
+NOTIC: [8] Undefined variable: title D:\WWW\tools\Application\Runtime\Cache\Home\f274c600cf8d13c9d31ff143ea08a211.php 第 55 行.
+INFO: [ keyWords ] --START--
+SQL: SHOW COLUMNS FROM `keywords` [ RunTime:0.0124s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\WWW\tools\Application\Home\Model\CommModel.class.php on line 46 and defined D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `keywords` ORDER BY `order` asc,num desc LIMIT 30   [ RunTime:0.0004s ]
+INFO: Run Home\Behavior\KeyWordsBehavior [ RunTime:0.017114s ]
+INFO: [ keyWords ] --END-- [ RunTime:0.017213s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035245s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035355s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001174s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001321s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001992s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002115s ]
+

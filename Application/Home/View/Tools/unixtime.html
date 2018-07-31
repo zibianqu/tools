@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+
+    <!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>Unix时间戳(Unix timestamp)转换工具 - {:C('site_name')}</title>
+	<meta name="keywords" content="Unix时间戳转换,时间戳转换工具"/>
+	<meta name="description" content="Unix时间戳转换可以把Unix时间转成北京时间。"/>
+	
+    <!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <!-- CSS
+  ================================================== -->
+	<link rel="stylesheet" href="__CSS__/zerogrid.css">
+	<link rel="stylesheet" href="__CSS__/style.css">
+    <link rel="stylesheet" href="__CSS__/responsive.css">
+	<link rel="stylesheet" href="__CSS__/responsiveslides.css" />
+	<link rel="stylesheet" href="__CSS__/newstyle.css">
+
+    <script src="__JS__/jquery.min.js"></script>
+	<script src="__JS__/unixtime.js"></script>
+	
+</head>
+<body>
+<!--------------Header--------------->
+
+<include file="Public/header" />
+
+<!--------------Content--------------->
+<div class="new_content zerogrid">
+	<div class="new_br"></div>
+	<div class="new_menu">
+		{$menu_html}
+	</div>
+	<div class="new_br"></div>
+	<div class="new_line"></div>
+	<div class="new_br"></div>
+	<div class="new_tool">
+		<h1>{$menu_name}</h1>
+		<div class="new_br"></div>
+		<div class="new_tool_ unixtime">
+			<p>
+				现在的Unix时间戳（Unix timestamp）<input type="text" class="input1" name="unix1" id="unix1" value=""/>
+				<button class="button1" id="start">开始</button><button class="button1" id="stop">停止</button>
+				<button class="button1" id="refresh">刷新</button><button class="button1" id="clear">清空</button>
+			</p>
+			<p>
+				Unix时间戳（Unix timestamp）<input type="text" class="input1" name="unix2" id="unix2" value=""/>
+				<button class="button1" id="change1">转换成北京时间</button><input type="text" class="input1" name="time1" id="time1" value=""/>
+			</p>
+			<p>
+				北京时间（年/月/日 时:分:秒）<input type="text" class="input1" name="time2" id="time2"/>
+				<button class="button1" id="change2">转换成Unix时间戳</button><input type="text" class="input1" name="unix3" id="unix3"/>
+			</p>
+			<p>
+				北京时间<input type="text" class="input2" name="year" id="year"/>年<input type="text" class="input2" name="month" id="month"/>月
+				<input type="text" class="input2" name="day" id="day"/>日<input type="text" class="input2" name="hour" id="hour"/>时
+				<input type="text" class="input2" name="minute" id="minute"/>分<input type="text" class="input2" name="second" id="second"/>秒
+				<button class="button1" id="change3">转换Unix时间戳</button><input type="text" class="input1" name="unix4" id="unix4">
+			</p>
+			 
+		</div>
+	</div>
+	
+</div>
+
+<!--------------Footer--------------->
+
+<include file="Public/footer" />
+</body>
+</html>

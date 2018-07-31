@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>房贷计算器- {:C('site_name')}</title>
+	<meta name="keywords" content="房贷计算器"/>
+	<meta name="description" content="房贷计算器"/>
+	
+    <!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <!-- CSS
+  ================================================== -->
+	<link rel="stylesheet" href="__CSS__/zerogrid.css">
+	<link rel="stylesheet" href="__CSS__/style.css">
+    <link rel="stylesheet" href="__CSS__/responsive.css">
+	<link rel="stylesheet" href="__CSS__/responsiveslides.css" />
+	<link rel="stylesheet" href="__CSS__/newstyle.css">
+	<link rel="stylesheet" href="__CSS__/jquery-linedtextarea.css">
+    <script src="__JS__/jquery.min.js"></script>
+    <script src="__JS__/fdjsq.js"></script>
+</head>
+<body>
+<!--------------Header--------------->
+
+<include file="Public/header" />
+
+<!--------------Content--------------->
+<div class="new_content zerogrid">
+	<div class="new_br"></div>
+		<div class="new_menu">
+			{$menu_html}
+		</div>
+	<div class="new_br"></div>
+	<div class="new_line"></div>
+	<div class="new_br"></div>
+	<div class="new_tool">
+		<h1>{$menu_name}</h1>
+		<div class="new_br"></div>
+		<div class="new_tool_ fdjsq">
+			<div class="fdjsq_left">
+				<p>
+					<label class="label1 d_now" id="apjs">根据面积、单价计算</label>
+					<label class="label1" id="zejs">根据贷款总额计算</label>
+				</p>
+				<p id="apin">
+					<span>单价：</span>
+					<input type="text" name="price" id="price" class="input2" value=""/>元/平米
+					<span>面积：</span>
+					<input type="text" name="size" id="size" class="input2" value=""/>平方米
+					<br/><br/>
+					<span>按揭成数：</span>
+					<select id="cs" name="cs" class="select1">
+						<option value="9">9成</option>
+						<option value="8">8成</option>
+						<option value="7" selected>7成</option>
+						<option value="6">6成</option>
+						<option value="5">5成</option>
+						<option value="4">4成</option>
+						<option value="3">3成</option>
+						<option value="2">2成</option>
+					</select>
+				</p>
+				<p class="hide" id="zein">
+					<span>贷款总额：</span>
+					<input type="text" name="money" id="money" class="input1" value=""/>万元
+				</p>
+				<p>
+					<span>按揭年数：</span>
+					<input type="text" name="year" id="year" value="" class="input1"/>年<span></span>
+				</p>
+				<p>
+					<span>贷款利率：</span>
+					<input type="text" name="lilv" id="lilv" value="" class="input1" />%
+				</p>
+				<p>
+					<span>还款方式：</span>
+					<label><input type="radio" name="hkway" id="hkway" checked value="1" />等额本息</label>
+					<label><input type="radio" name="hkway" id="hkway" value="2" />等额本金</label>
+				</p>
+			</div>
+			<div class="fdjsq_center">
+				<button id="js">计算</button><br>
+				<button id="reset">重置</button>
+			</div>
+			<div class="fdjsq_right">
+				<p><span>房款总额：</span><input type="text" name="fkze" id="fkze" class="input1" />元</p>
+				<p><span>贷款总额：</span><input type="text" name="dkze" id="dkze" class="input1"/>元</p>
+				<p><span>还款总额：</span><input type="text" name="hkze" id="hkze" class="input1"/>元</p>
+				<p><span>支付利息款：</span><input type="text" name="zflx" id="zflx" class="input1"/>元</p>
+				<p><span>首期付款：</span><input type="text" name="sqfk" id="sqfk" class="input1"/>元</p>
+				<p><span>贷款月数：</span><input type="text" name="dkys" id="dkys" class="input1"/>月</p>
+				<p id="yjhkin"><span>月均还款：</span><input type="text" name="yjhk" id="yjhk" class="input1"/>元</p>
+				<p id="yjhkin1" class="hide"><span>月均还款：</span><textarea name="yjhk1" id="yjhk1" ></textarea></p>
+				<p>*以上结果仅供参考</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+<!--------------Footer--------------->
+
+<include file="Public/footer" />
+</body>
+</html>

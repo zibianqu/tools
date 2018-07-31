@@ -1,0 +1,667 @@
+[ 2016-11-15T14:47:10+08:00 ] 127.0.0.1 /admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Non-static method Admin\Model\AdminModel::isLogin() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Admin\Controller\IndexController.class.php 第 13 行.
+
+[ 2016-11-15T14:47:10+08:00 ] 127.0.0.1 /admin/login.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-15T14:47:17+08:00 ] 127.0.0.1 /admin/login/dologin.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Non-static method Admin\Model\AdminModel::adminLogin() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Admin\Controller\LoginController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0390s ]
+SQL: SELECT * FROM `admin` WHERE `user` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-11-15T14:47:18+08:00 ] 127.0.0.1 /admin/login/dologin.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Non-static method Admin\Model\AdminModel::adminLogin() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Admin\Controller\LoginController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `admin` WHERE `user` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-11-15T14:47:26+08:00 ] 127.0.0.1 /admin/login/dologin.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2048] Non-static method Admin\Model\AdminModel::adminLogin() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Admin\Controller\LoginController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `admin` WHERE `user` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-11-15T14:47:37+08:00 ] 127.0.0.1 /admin/login/dologin.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Non-static method Admin\Model\AdminModel::adminLogin() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Admin\Controller\LoginController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `admin` WHERE `user` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-11-15T14:48:38+08:00 ] 127.0.0.1 /admin/login.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-15T14:49:45+08:00 ] 127.0.0.1 /admin/login/dologin.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Non-static method Admin\Model\AdminModel::adminLogin() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Admin\Controller\LoginController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `admin` WHERE `user` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-11-15T14:51:41+08:00 ] 127.0.0.1 /admin/login/dologin.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2048] Non-static method Admin\Model\AdminModel::adminLogin() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Admin\Controller\LoginController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `admin` WHERE `user` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-11-15T14:51:41+08:00 ] 127.0.0.1 /admin/index.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Non-static method Admin\Model\AdminModel::isLogin() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Admin\Controller\IndexController.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-15T14:51:44+08:00 ] 127.0.0.1 /admin/index/lists.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Non-static method Admin\Model\AdminModel::isLogin() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Admin\Controller\IndexController.class.php 第 13 行.
+NOTIC: [2048] Declaration of Admin\Model\ArticleModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Admin\Model\ArticleModel.class.php 第 101 行.
+NOTIC: [2048] Declaration of Admin\Model\ArticleModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Admin\Model\ArticleModel.class.php 第 101 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Admin\Controller\IndexController.class.php 第 96 行.
+SQL: SELECT * FROM `article` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-15T14:51:44+08:00 ] 127.0.0.1 /admin/index/article.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Non-static method Admin\Model\AdminModel::isLogin() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Admin\Controller\IndexController.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-11-15T14:51:59+08:00 ] 127.0.0.1 /admin/index/lists.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Non-static method Admin\Model\AdminModel::isLogin() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Admin\Controller\IndexController.class.php 第 13 行.
+NOTIC: [2048] Declaration of Admin\Model\ArticleModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Admin\Model\ArticleModel.class.php 第 101 行.
+NOTIC: [2048] Declaration of Admin\Model\ArticleModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Admin\Model\ArticleModel.class.php 第 101 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Admin\Controller\IndexController.class.php 第 96 行.
+SQL: SELECT * FROM `article` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-15T14:52:30+08:00 ] 127.0.0.1 /admin/index/article.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Non-static method Admin\Model\AdminModel::isLogin() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Admin\Controller\IndexController.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-15T14:52:41+08:00 ] 127.0.0.1 /admin/index/SaveArticle.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Non-static method Admin\Model\AdminModel::isLogin() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Admin\Controller\IndexController.class.php 第 13 行.
+NOTIC: [2048] Declaration of Admin\Model\ArticleModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Admin\Model\ArticleModel.class.php 第 101 行.
+NOTIC: [2048] Declaration of Admin\Model\ArticleModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Admin\Model\ArticleModel.class.php 第 101 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0110s ]
+SQL: INSERT INTO `article` (`type`,`title`,`keyword`,`author`,`content`,`createtime`) VALUES ('0','redis与DB数据同步问题','redis','小兔','&lt;p style=&quot;color:#555555;font-family:&amp;quot;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	最近做的一个项目中很多地方用到了&lt;a href=&quot;http://lib.csdn.net/base/redis&quot; class=&quot;replace_word&quot; target=&quot;_blank&quot;&gt;Redis&lt;/a&gt;，其中纠结了一下redis的数据持久化问题，毕竟是缓存，数据随时都有可能丢失，虽然概率不大，况且redis还会将数据持久到安装路径的一个文件中，但还是要保证缓存数据与持久化数据的一致性，这个问题总结了一下（看到了一个不错的博文），其实就是读和写，还有就是要注意谁先谁后的问题。
+&lt;/p&gt;
+&lt;p style=&quot;color:#555555;font-family:&amp;quot;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;div id=&quot;content&quot; style=&quot;margin:10px auto 0px;padding:5px;border:0px;font-size:14px;font-family:simsun, Arial, Helvetica, sans-serif;vertical-align:baseline;color:#444444;background-color:#FFFFFF;&quot;&gt;
+	&lt;div id=&quot;con_top&quot; style=&quot;margin:0px;padding:0px;border:0px;font-weight:inherit;font-style:inherit;font-family:inherit;vertical-align:baseline;&quot;&gt;
+	&lt;/div&gt;
+	&lt;p style=&quot;font-weight:inherit;font-style:inherit;font-family:inherit;vertical-align:baseline;&quot;&gt;
+		　　&lt;strong&gt;Redis&lt;/strong&gt;&amp;nbsp;是一个高性能的key-value&lt;a href=&quot;http://lib.csdn.net/base/mysql&quot; class=&quot;replace_word&quot; target=&quot;_blank&quot;&gt;数据库&lt;/a&gt;。 redis的出现，很大程度补偿了memcached这类key-value存储的不足，在部 分场合可以对关系数据库起到很好的补充作用。它提供了&lt;a href=&quot;http://lib.csdn.net/base/python&quot; class=&quot;replace_word&quot; target=&quot;_blank&quot;&gt;Python&lt;/a&gt;，Ruby，Erlang，&lt;a href=&quot;http://lib.csdn.net/base/php&quot; class=&quot;replace_word&quot; target=&quot;_blank&quot;&gt;PHP&lt;/a&gt;客户端，使用很方便。
+	&lt;/p&gt;
+	&lt;p style=&quot;font-weight:inherit;font-style:inherit;font-family:inherit;vertical-align:baseline;&quot;&gt;
+		　　1. 按照我们一般的使用Redis的场景应该是这样的：
+	&lt;/p&gt;
+	&lt;p align=&quot;center&quot; style=&quot;font-weight:inherit;font-style:inherit;font-family:inherit;vertical-align:baseline;&quot;&gt;
+		&lt;img src=&quot;http://www.youxit.com/Public/files/image/20161108/20161108100452_79045.jpg&quot; alt=&quot;&quot; /&gt;
+	&lt;/p&gt;
+	&lt;p style=&quot;font-weight:inherit;font-style:inherit;font-family:inherit;vertical-align:baseline;&quot;&gt;
+		　　也就是说：我们会先去redis中判断数据是否存在，如果存在，则直接返回缓存好的数据。而如果不存在的话，就会去数据库中，读取数据，并把数据缓存到Redis中。
+	&lt;/p&gt;
+	&lt;p style=&quot;font-weight:inherit;font-style:inherit;font-family:inherit;vertical-align:baseline;&quot;&gt;
+		　　适用场合：如果数据量比较大，但不是经常更新的情况(比如用户排行)
+	&lt;/p&gt;
+	&lt;p style=&quot;font-weight:inherit;font-style:inherit;font-family:inherit;vertical-align:baseline;&quot;&gt;
+		　　2. 而第二种Redis的使用，跟第一种的情况完成不同，具体的情况请看：
+	&lt;/p&gt;
+	&lt;p align=&quot;center&quot; style=&quot;font-weight:inherit;font-style:inherit;font-family:inherit;vertical-align:baseline;&quot;&gt;
+		&lt;img src=&quot;http://www.youxit.com/Public/files/image/20161108/20161108100501_88746.png&quot; alt=&quot;&quot; /&gt;
+	&lt;/p&gt;
+	&lt;p style=&quot;font-weight:inherit;font-style:inherit;font-family:inherit;vertical-align:baseline;&quot;&gt;
+		　　这里我们会先去redis中判断数据是否存在，如果存在，则直接更新对应的数据(这一步会把对应更新过的key记录下来，比如也保存到redis中比如：key为：save_update_keys【用lpush列表记录】)，并把更新后的数据返回给页面。而如果不存在的话，就会去先更新数据库中内容，然后把数据保存一份到Redis中。后面的工作：后台会有相关机制把Redis中的save_update_keys存储的key，分别读取出来，找到对应的数据，更新到DB中。
+	&lt;/p&gt;
+	&lt;p style=&quot;font-weight:inherit;font-style:inherit;font-family:inherit;vertical-align:baseline;&quot;&gt;
+		　　优点：这个流程的主要目的是把Redis当作数据库使用，更新获取数据比DB快。非常适合&lt;a href=&quot;http://lib.csdn.net/base/spark&quot; class=&quot;replace_word&quot; target=&quot;_blank&quot;&gt;大数据&lt;/a&gt;量的频繁变动(比如微博)。
+	&lt;/p&gt;
+	&lt;p style=&quot;font-weight:inherit;font-style:inherit;font-family:inherit;vertical-align:baseline;&quot;&gt;
+		　　缺点：对Redis的依赖很大，要做好宕机时的数据保存。(不过可以使用redis的快照AOF，快速恢复的话，应该不会有多大影响，因为就算Redis不工作了，也不会影响后续数据的处理。)
+	&lt;/p&gt;
+	&lt;p style=&quot;font-weight:inherit;font-style:inherit;font-family:inherit;vertical-align:baseline;&quot;&gt;
+		　　难点：在前期规划key的格式，存储类型很重要，因为这会影响能否把数据同步到DB。&lt;br /&gt;
+&lt;br /&gt;
+来源：http://blog.csdn.net/chengguotao/article/details/52969550
+	&lt;/p&gt;
+&lt;/div&gt;','1479192761') [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-15T14:52:43+08:00 ] 127.0.0.1 /admin/index/article.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2048] Non-static method Admin\Model\AdminModel::isLogin() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Admin\Controller\IndexController.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-15T14:52:45+08:00 ] 127.0.0.1 /admin/index/lists.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Non-static method Admin\Model\AdminModel::isLogin() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Admin\Controller\IndexController.class.php 第 13 行.
+NOTIC: [2048] Declaration of Admin\Model\ArticleModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Admin\Model\ArticleModel.class.php 第 101 行.
+NOTIC: [2048] Declaration of Admin\Model\ArticleModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Admin\Model\ArticleModel.class.php 第 101 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Admin\Controller\IndexController.class.php 第 96 行.
+SQL: SELECT * FROM `article` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-15T14:52:47+08:00 ] 127.0.0.1 /admin/index/article.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2048] Non-static method Admin\Model\AdminModel::isLogin() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Admin\Controller\IndexController.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-15T14:53:05+08:00 ] 127.0.0.1 /admin/index/SaveArticle.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Non-static method Admin\Model\AdminModel::isLogin() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Admin\Controller\IndexController.class.php 第 13 行.
+NOTIC: [2048] Declaration of Admin\Model\ArticleModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Admin\Model\ArticleModel.class.php 第 101 行.
+NOTIC: [2048] Declaration of Admin\Model\ArticleModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Admin\Model\ArticleModel.class.php 第 101 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0100s ]
+SQL: INSERT INTO `article` (`type`,`title`,`keyword`,`author`,`content`,`createtime`) VALUES ('0','PHP中出现BOM字符ufeff，PHP去掉诡异的BOM ufeff​','bom文件，去除头文件bom','小兔','&lt;p&gt;
+	PHP中出现BOM字符ufeff，PHP去掉诡异的BOM ufeff&lt;span id=&quot;__kindeditor_bookmark_end_17__&quot;&gt;&lt;/span&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	去除头文件bom
+&lt;/p&gt;
+&lt;pre class=&quot;prettyprint lang-php&quot;&gt;&amp;lt;?php
+header(\'content-Type: text/html; charset=utf-8\');
+if(isset($_GET[\'dir\'])){ //设置文件目录，如果没有设置，则自动设置为当前文件所在目录
+    $basedir=$_GET[\'dir\'];
+}else{
+    $basedir=\'.\';
+}
+$auto=1;/*设置为1标示检测BOM并去除，设置为0标示只进行BOM检测，不去除*/
+
+echo \'当前查找的目录为：\'.$basedir.\'当前的设置是：\';
+echo $auto?\'检测文件BOM同时去除检测到BOM文件的BOM&amp;lt;br /&amp;gt;\':\'只检测文件BOM不执行去除BOM操作&amp;lt;br /&amp;gt;\';
+
+checkdir($basedir);
+function checkdir($basedir){
+    if($dh=opendir($basedir)){
+        while (($file=readdir($dh)) !== false){
+            if($file != \'.\' &amp;amp;&amp;amp; $file != \'..\'){
+                if(!is_dir($basedir.\'/\'.$file)){
+                    echo \'文件: \'.$basedir.\'/\'.$file .checkBOM($basedir.\'/\'.$file).\' &amp;lt;br&amp;gt;\';
+                }else{
+                    $dirname=$basedir.\'/\'.$file;
+                    checkdir($dirname);
+                }
+            }
+        }
+        closedir($dh);
+    }
+}
+function checkBOM($filename){
+    global $auto;
+    $contents=file_get_contents($filename);
+    $charset[1]=substr($contents,0,1);
+    $charset[2]=substr($contents,1,1);
+    $charset[3]=substr($contents,2,1);
+    if(ord($charset[1])==239 &amp;amp;&amp;amp; ord($charset[2])==187 &amp;amp;&amp;amp; ord($charset[3])==191){
+        if($auto==1){
+            $rest=substr($contents,3);
+            rewrite($filename,$rest);
+            return (\' &amp;lt;font color=red&amp;gt;找到BOM并已自动去除&amp;lt;/font&amp;gt;\');
+        }else{
+            return (\' &amp;lt;font color=red&amp;gt;找到BOM&amp;lt;/font&amp;gt;\');
+        }
+    }else{
+        return (\' 没有找到BOM\');
+    }
+}
+function rewrite($filename,$data){
+    $filenum=fopen($filename,\'w\');
+    flock($filenum,LOCK_EX);
+    fwrite($filenum,$data);
+    fclose($filenum);
+}
+?&amp;gt;&lt;/pre&gt;
+&lt;span&gt;来源：http://blog.csdn.net/fansunion/article/details/45540001&lt;/span&gt;
+&lt;div&gt;
+	&lt;span&gt;&lt;br /&gt;
+&lt;/span&gt;
+&lt;/div&gt;','1479192785') [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-11-15T14:53:06+08:00 ] 127.0.0.1 /admin/index/article.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Non-static method Admin\Model\AdminModel::isLogin() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Admin\Controller\IndexController.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-15T14:53:08+08:00 ] 127.0.0.1 /admin/index/lists.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Non-static method Admin\Model\AdminModel::isLogin() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Admin\Controller\IndexController.class.php 第 13 行.
+NOTIC: [2048] Declaration of Admin\Model\ArticleModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Admin\Model\ArticleModel.class.php 第 101 行.
+NOTIC: [2048] Declaration of Admin\Model\ArticleModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Admin\Model\ArticleModel.class.php 第 101 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0120s ]
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Admin\Controller\IndexController.class.php 第 96 行.
+SQL: SELECT * FROM `article` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-15T14:53:10+08:00 ] 127.0.0.1 /admin/index/article.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Non-static method Admin\Model\AdminModel::isLogin() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Admin\Controller\IndexController.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-15T14:53:26+08:00 ] 127.0.0.1 /admin/index/SaveArticle.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Non-static method Admin\Model\AdminModel::isLogin() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Admin\Controller\IndexController.class.php 第 13 行.
+NOTIC: [2048] Declaration of Admin\Model\ArticleModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Admin\Model\ArticleModel.class.php 第 101 行.
+NOTIC: [2048] Declaration of Admin\Model\ArticleModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Admin\Model\ArticleModel.class.php 第 101 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0090s ]
+SQL: INSERT INTO `article` (`type`,`title`,`keyword`,`author`,`content`,`createtime`) VALUES ('0','PHP服务器Apache虚拟主机配置','apache,虚拟主机','小兔','&lt;p style=&quot;font-family:Arial;font-size:14px;background-color:#FFFFFF;&quot;&gt;
+	&lt;strong&gt;一，修改httpd.conf&lt;/strong&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-family:Arial;font-size:14px;background-color:#FFFFFF;&quot;&gt;
+	找到Apache安装目录下confhttpd.conf文件，分别去掉下面两行文字前面的#号如下：&lt;br /&gt;
+启用apache的虚拟主机功能&lt;br /&gt;
+LoadModule vhost_alias_module modules/mod_vhost_alias.so&lt;br /&gt;
+使httpd-vhosts.conf文件起作用&lt;br /&gt;
+Include conf/extra/httpd-vhosts.conf&lt;br /&gt;
+若多端口的话，需要增加Listen如：&lt;br /&gt;
+Listen 80&lt;br /&gt;
+Listen 8888&lt;br /&gt;
+&lt;strong&gt;二，修改httpd-vhosts.conf&lt;br /&gt;
+&lt;/strong&gt;找到Apache安装目录下confextra&lt;strong&gt;httpd-vhosts.conf&lt;/strong&gt;文件&lt;br /&gt;
+&amp;nbsp;NameVirutalHost *:80 指定某个IP的某个端口是哪个主机，保持默认即可，新版的Apache已经去掉了这一项&lt;br /&gt;
+#域名形式&lt;br /&gt;
+&amp;lt;VirtualHost *:80&amp;gt;&lt;br /&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp; DocumentRoot &quot;E:/WebSite/yuanshili&quot;&lt;br /&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp; ServerName&amp;nbsp;&lt;a target=&quot;_blank&quot; href=&quot;http://www.demo.com/&quot;&gt;www.demo.com&lt;/a&gt;&lt;br /&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;lt;Directory &quot;E:/WebSite/yuanshili&quot;&amp;gt;&lt;br /&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Options Indexes FollowSymLinks Includes ExecCGI&lt;br /&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; AllowOverride All&lt;br /&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Order allow,deny&lt;br /&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span style=&quot;color:#FF0000;&quot;&gt;Allow from all&lt;/span&gt;&lt;br /&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;lt;/Directory&amp;gt;&lt;br /&gt;
+&amp;lt;/VirtualHost&amp;gt;&lt;br /&gt;
+#IP形式&lt;br /&gt;
+&amp;lt;VirtualHost *:80&amp;gt;&lt;br /&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp; DocumentRoot &quot;E:/WebSite/weidongli&quot;&lt;br /&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp; ServerName 127.0.0.2&lt;br /&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;lt;Directory &quot;E:/WebSite/weidongli&quot;&amp;gt;&lt;br /&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Options Indexes FollowSymLinks Includes ExecCGI&lt;br /&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; AllowOverride All&lt;br /&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Order allow,deny&lt;br /&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Allow from all&lt;br /&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;lt;/Directory&amp;gt;&lt;br /&gt;
+&amp;lt;/VirtualHost&amp;gt;&lt;br /&gt;
+#端口形式&lt;br /&gt;
+&amp;lt;VirtualHost *:8888&amp;gt;&lt;br /&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp; DocumentRoot &quot;E:/WebSite/test&quot;&lt;br /&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp; ServerName 127.0.0.2&lt;br /&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;lt;Directory &quot;E:/WebSite/test&quot;&amp;gt;&lt;br /&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Options Indexes FollowSymLinks Includes ExecCGI&lt;br /&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; AllowOverride All&lt;br /&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Order allow,deny&lt;br /&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Allow from all&lt;br /&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;lt;/Directory&amp;gt;&lt;br /&gt;
+&amp;lt;/VirtualHost&amp;gt;&lt;br /&gt;
+注意：若没有Directory下的Allow from all则会出现无权限访问错误如：&lt;br /&gt;
+此错误(HTTP 403 禁止)意味着 Internet Explorer 可以连接到该网站，但是没有查看该网页的权限&lt;br /&gt;
+&lt;strong&gt;三，修改C:WindowsSystem32driversetc下的hosts文件&lt;br /&gt;
+&lt;/strong&gt;# localhost name resolution is handled within DNS itself.&lt;br /&gt;
+&amp;nbsp;127.0.0.1&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; localhost&lt;br /&gt;
+&amp;nbsp;127.0.0.1&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;a target=&quot;_blank&quot; href=&quot;http://www.demo.com/&quot;&gt;www.demo.com&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;
+可在浏览器&lt;a href=&quot;http://lib.csdn.net/base/softwaretest&quot; class=&quot;replace_word&quot; target=&quot;_blank&quot;&gt;测试&lt;/a&gt;如下：&lt;br /&gt;
+&lt;a target=&quot;_blank&quot; href=&quot;http://www.demo.com/&quot;&gt;http://www.demo.com&lt;/a&gt;&lt;br /&gt;
+&lt;a target=&quot;_blank&quot; href=&quot;http://127.0.0.2/&quot;&gt;http://127.0.0.2&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;a target=&quot;_blank&quot; href=&quot;http://127.0.0.2:888/&quot;&gt;http://127.0.0.2:888&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	来源：http://blog.csdn.net/xinzheng_wang/article/details/40110745
+&lt;/p&gt;
+&lt;div&gt;
+	&lt;br /&gt;
+&lt;/div&gt;','1479192806') [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-11-15T14:53:28+08:00 ] 127.0.0.1 /admin/index/article.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Non-static method Admin\Model\AdminModel::isLogin() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Admin\Controller\IndexController.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-15T14:53:30+08:00 ] 127.0.0.1 /admin/index/lists.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Non-static method Admin\Model\AdminModel::isLogin() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Admin\Controller\IndexController.class.php 第 13 行.
+NOTIC: [2048] Declaration of Admin\Model\ArticleModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Admin\Model\ArticleModel.class.php 第 101 行.
+NOTIC: [2048] Declaration of Admin\Model\ArticleModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Admin\Model\ArticleModel.class.php 第 101 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Admin\Controller\IndexController.class.php 第 96 行.
+SQL: SELECT * FROM `article` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+

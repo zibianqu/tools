@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+
+    <!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>在线banner制作 - {:C('site_name')}</title>
+	<meta name="keywords" content="在线banner制作，广告制作，banner制作，广告banner制作"/>
+	<meta name="description" content="在线banner制作，广告制作，banner制作，广告banner制作"/>
+	
+    <!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <!-- CSS
+  ================================================== -->
+	<link rel="stylesheet" href="__CSS__/zerogrid.css">
+	<link rel="stylesheet" href="__CSS__/style.css">
+    <link rel="stylesheet" href="__CSS__/responsive.css">
+	<link rel="stylesheet" href="__CSS__/responsiveslides.css" />
+	<link rel="stylesheet" href="__CSS__/newstyle.css">
+	<link rel="stylesheet" href="__CSS__/admake.css">
+
+    <script src="__JS__/jquery.min.js"></script>
+    <script src="__JS__/iColor-min.js"></script>
+    <script src="__JS__/html5_.js"></script>
+    <script src="__JS__/jquery.mousewheel.min.js"></script>
+    <script src="__JS__/admaker.js"></script>
+  
+	
+</head>
+<body>
+<!--------------Header--------------->
+
+<include file="Public/header" />
+
+<!--------------Content--------------->
+<div class="new_content zerogrid new_width">
+	<div class="new_br"></div>
+	<div class="new_menu">
+		{$menu_html}
+	</div>
+	<div class="new_br"></div>
+	<div class="new_line"></div>
+	<div class="new_br"></div>
+	<div class="new_tool">
+		<h1>{$menu_name}</h1>
+		<div class="new_br"></div>
+		<div class="new_tool_ chat_">
+				<div id="adMakerWarp">
+			    <div class="left">
+			        <ul>
+			        	<li><label>操作提示：</label><label id="msg" style="color:red;width:100%">请选择图片!!!</label></li>
+			            <li><label>图片上传：</label><input type="file" name="file" id="file"/></li>
+			            <li class="line"></li>
+			            <li>
+			                <label>广告宽度：</label><input type="number" id="adWidth"  class="short wheelable" value="670"/>&nbsp;
+			                <label>广告高度：</label><input type="number" id="adHeight" class="short wheelable" value="240"/>  px
+			            </li>
+			            <li class="line"></li>
+			            <li><label>图片缩放：</label><input type="text" id="imgScale" class="short wheelable" value="1"/>&nbsp;&nbsp;倍</li>
+			            <li>
+			                <label>图片左偏移：</label><input type="number" id="iLeft" class="short wheelable" value="0"/>&nbsp;
+			                <label>图片顶偏移：</label><input type="number" id="iTop" class="short wheelable" value="0"/>  px
+			            </li>
+			            <li class="line"></li>
+			            <li id="colorWarp">
+			                <label class="color">文字背景：</label>
+			                <i class="white current" rgb="255,255,255"></i>
+			                <i class="gray" rgb="37,37,37"></i>
+			                <i class="yellow" rgb="244,179,0"></i>
+			                <i class="green" rgb="120,186,0"></i>
+			                <i class="blue" rgb="37,115,236"></i>
+			                <i class="red" rgb="174,17,61"></i>
+			                <i class="litter_coffe" rgb="99,47,0"></i>
+			                <i class="coffe" rgb="46,23,0"></i>
+			                <i class="orange" rgb="176,30,0"></i>
+			                <i class="purple" rgb="114,0,172"></i>
+			                <i class="yel" rgb="225,183,0"></i>
+			            </li>
+			            <li><label>背景透明度：</label><input type="text" id="bgOpacity" class="short backwheelable" value="0.5"/>&nbsp;
+			                <label>背景高度：</label><input type="number" id="bgHeight" class="short wheelable" value="60"/>  px
+			            </li>
+			            <li class="line"></li>
+			            <li><label>标题字号：</label><input type="number" id="titleFontSize" class="short wheelable"  value="25"/>&nbsp;
+			                <label>标题颜色：</label>
+			                <input type="text" id="titleFontColor" class="short" value="#000"/></li>
+			            <li><label>标题左偏移：</label><input type="number" id="titleLeft" class="short wheelable" value="10"/>&nbsp;
+			                <label>标题顶偏移：</label><input type="number" id="titleTop" class="short wheelable" value="20"/></li>
+			            <li>
+			            	<label>标题字体：</label>
+			            	<select name="titleFontFamily" id="titleFontFamily">
+			            		<option value="Microsoft YaHei">微软雅黑体</option>
+			            		<option value="SimSun">宋体</option>
+			            		<option value="NSimSun">新宋体</option>
+			            		<option value="FangSong">仿宋</option>
+			            		<option value="KaiTi">楷体</option>
+			            		<option value="SimHei">黑体</option>
+			            	</select>
+			            </li>
+			            <li>
+			            	<label>标题风格：</label>
+			            	<select name="titleFontStyle" id="titleFontStyle">
+			            		<option value="normal">正常</option>
+			            		<option value="italic">斜体</option>
+			            		<option value="oblique">偏斜体</option>
+			            	</select>&nbsp;
+			            	<label>标题显示：</label>
+			            	<select name="titleShow" id="titleShow">
+			            		<option value="1">横排</option>
+			            		<option value="2">竖排</option>
+			            	</select>
+			            	
+			            </li>
+			            <li><label>标题文字：</label><input type="text" id="title" class="long" value="标题文字写这里!!!"/></li>
+			             <li class="line"></li>
+			            <li><label>描述字号：</label><input type="number" id="desFontSize" class="short wheelable" value="15"/>&nbsp;
+			                <label>描述颜色：</label><input type="text" id="desFontColor" class="short" value="#000"/></li>
+			            <li><label>描述左偏移：</label><input type="number" id="desLeft" class="short wheelable" value="10"/>&nbsp;
+			                <label>描述顶偏移：</label><input type="number" id="desTop" class="short wheelable" value="50"/></li>
+			            <li>
+			            	<label>描述字体：</label>
+			            	<select name="desFontFamily" id="desFontFamily">
+			            		<option value="Microsoft YaHei">微软雅黑体</option>
+			            		<option value="SimSun">宋体</option>
+			            		<option value="NSimSun">新宋体</option>
+			            		<option value="FangSong">仿宋</option>
+			            		<option value="KaiTi">楷体</option>
+			            		<option value="SimHei">黑体</option>
+			            	</select>
+			            </li>
+			            <li>
+			            	<label>描述风格：</label>
+			            	<select name="desFontStyle" id="desFontStyle">
+			            		<option value="normal">正常</option>
+			            		<option value="italic">斜体</option>
+			            		<option value="oblique">偏斜体</option>
+			            	</select>
+			            	<label>描述显示：</label>
+			            	<select name="desShow" id="desShow">
+			            		<option value="1">横排</option>
+			            		<option value="2">竖排</option>
+			            	</select>
+			            </li>
+			            <li><label>描述文字：</label><input type="text" id="description" class="long" value="描述性文字写这里，字号较小!!!!!!!!!"/></li>
+			            <li><input type="button" value="输出图像格式" id="putOut" class="btn button1"></li>
+			        </ul>
+			    </div>
+			    <div class="right" id="paper"><img src="__IMAGES__/0.png" id="placeholder"></div>
+			    
+			</div>
+				
+			<div class="clearfix"></div>
+			<div class="new_br"></div>
+			<div class="new_br"></div>
+		</div>
+	</div>
+	
+</div>
+
+<!--------------Footer--------------->
+
+<include file="Public/footer" />
+<div id="mb"></div>
+<a href="javascript:;" download="banner" title="点击下载" id="banner">
+<img id="MyPix">
+</a>
+<script type="text/javascript" src="__JS__/admaker/admake.js"  media="all"></script>
+</body>
+</html>

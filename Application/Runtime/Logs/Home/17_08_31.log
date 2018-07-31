@@ -1,0 +1,960 @@
+[ 2017-08-31T09:33:40+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.060004s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021002s ]
+SQL: SHOW COLUMNS FROM `statisticsip` [ RunTime:0.0684s ]
+SQL: SELECT * FROM `statisticsip` WHERE `ip` = '127.0.0.1' AND `date` = 20170831 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `statisticsip` (`ip`,`date`,`recordtime`) VALUES ('127.0.0.1','20170831','1504143218') [ RunTime:0.0310s ]
+NOTIC: [2048] Declaration of Home\Model\TypeModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 88 行.
+NOTIC: [2048] Declaration of Home\Model\TypeModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0280s ]
+NOTIC: [2] Missing argument 1 for Home\Model\TypeModel::lists(), called in D:\WWW\tools\ThinkPHP\Library\Think\Controller.class.php on line 51 and defined D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 83 行.
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 84 行.
+SQL: SELECT * FROM `type` ORDER BY `order` asc,id asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0470s ]
+SQL: SELECT * FROM `article` WHERE `status` = 1 ORDER BY id desc LIMIT 6   [ RunTime:0.0370s ]
+SQL: SELECT * FROM `article` WHERE `status` = 1 ORDER BY readnum desc,id desc LIMIT 6   [ RunTime:0.0890s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.037002s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.039002s ]
+NOTIC: [8] Undefined variable: title D:\WWW\tools\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 62 行.
+INFO: [ keyWords ] --START--
+SQL: SHOW COLUMNS FROM `keywords` [ RunTime:0.0720s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\WWW\tools\Application\Home\Model\CommModel.class.php on line 46 and defined D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `keywords` ORDER BY `order` asc,num desc LIMIT 30   [ RunTime:0.0090s ]
+INFO: Run Home\Behavior\KeyWordsBehavior [ RunTime:0.223013s ]
+INFO: [ keyWords ] --END-- [ RunTime:0.225013s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.644037s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.647037s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.013001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011001s ]
+
+[ 2017-08-31T09:33:41+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015001s ]
+SQL: SHOW COLUMNS FROM `statisticsip` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `statisticsip` WHERE `ip` = '127.0.0.1' AND `date` = 20170831 LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [2048] Declaration of Home\Model\TypeModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 88 行.
+NOTIC: [2048] Declaration of Home\Model\TypeModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0060s ]
+NOTIC: [2] Missing argument 1 for Home\Model\TypeModel::lists(), called in D:\WWW\tools\ThinkPHP\Library\Think\Controller.class.php on line 51 and defined D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 83 行.
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 84 行.
+SQL: SELECT * FROM `type` ORDER BY `order` asc,id asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `article` WHERE `status` = 1 ORDER BY id desc LIMIT 6   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `article` WHERE `status` = 1 ORDER BY readnum desc,id desc LIMIT 6   [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: title D:\WWW\tools\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 62 行.
+INFO: [ keyWords ] --START--
+SQL: SHOW COLUMNS FROM `keywords` [ RunTime:0.0070s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\WWW\tools\Application\Home\Model\CommModel.class.php on line 46 and defined D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `keywords` ORDER BY `order` asc,num desc LIMIT 30   [ RunTime:0.0020s ]
+INFO: Run Home\Behavior\KeyWordsBehavior [ RunTime:0.077004s ]
+INFO: [ keyWords ] --END-- [ RunTime:0.080004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.267016s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.270016s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-08-31T09:36:09+08:00 ] 127.0.0.1 /art/article/id/43.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `statisticsip` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `statisticsip` WHERE `ip` = '127.0.0.1' AND `date` = 20170831 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Home\Model\TypeModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 88 行.
+NOTIC: [2048] Declaration of Home\Model\TypeModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0050s ]
+NOTIC: [2] Missing argument 1 for Home\Model\TypeModel::lists(), called in D:\WWW\tools\ThinkPHP\Library\Think\Controller.class.php on line 51 and defined D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 83 行.
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 84 行.
+SQL: SELECT * FROM `type` ORDER BY `order` asc,id asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `article` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `article` WHERE `id` = 43 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `article` SET `title`='【爱分享，爱Java】JAVA学习路线【新手可以参考看下】',`keyword`='java学习路线',`content`='&lt;table cellspacing=&quot;0&quot; class=&quot;t_table&quot; style=&quot;font-size:12px;border:1px solid #999999;color:#000000;font-family:宋体, Arial, Helvetica, san-serif;background-color:#FFFFFF;&quot;&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;td width=&quot;100&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;p align=&quot;center&quot;&gt;
+					&lt;span&gt;&lt;span&gt;&lt;strong&gt;第一阶段&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt; 
+				&lt;/p&gt;
+&lt;br /&gt;
+			&lt;/td&gt;
+			&lt;td width=&quot;100&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;p align=&quot;center&quot;&gt;
+					&lt;span&gt;&lt;span&gt;&lt;strong&gt;技术名称&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt; 
+				&lt;/p&gt;
+&lt;br /&gt;
+			&lt;/td&gt;
+			&lt;td width=&quot;400&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;p align=&quot;center&quot;&gt;
+					&lt;span&gt;&lt;span&gt;&lt;strong&gt;技术内容&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt; 
+				&lt;/p&gt;
+&lt;br /&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td rowspan=&quot;8&quot; width=&quot;100&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;p align=&quot;center&quot;&gt;
+					&lt;strong&gt;&lt;span&gt;&lt;span&gt;J2SE&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;span&gt;&lt;span&gt;(java&lt;span&gt;基础部分&lt;/span&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/strong&gt; 
+				&lt;/p&gt;
+&lt;br /&gt;
+			&lt;/td&gt;
+			&lt;td width=&quot;100&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;p align=&quot;center&quot;&gt;
+					&lt;span&gt;&lt;span&gt;java&lt;span&gt;开发前奏&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; 
+				&lt;/p&gt;
+&lt;br /&gt;
+			&lt;/td&gt;
+			&lt;td width=&quot;400&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;span&gt;&lt;span&gt;计算机基本原理，Java&lt;span&gt;语言发展简史以及开发环境的搭建，体验&lt;/span&gt;Java&lt;span&gt;程序的开发，环境变量的设置，程序的执行过程，&lt;br /&gt;
+相关反编译工具介绍，&lt;/span&gt;java&lt;span&gt;开发工具&lt;/span&gt;Eclipse&lt;span&gt;的安装和使用，&lt;/span&gt;javadoc&lt;span&gt;的说明。&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td width=&quot;100&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;p align=&quot;center&quot;&gt;
+					&lt;span&gt;&lt;span&gt;Java&lt;span&gt;基础语法&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; 
+				&lt;/p&gt;
+&lt;br /&gt;
+			&lt;/td&gt;
+			&lt;td width=&quot;400&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;span&gt;&lt;span&gt;Java&lt;span&gt;语法格式，常量和变量，变量的作用域，方法和方法的重载，运算符，程序流程控制，数组和操作数组的类，&lt;br /&gt;
+对数组循环遍历以及针对数组的常用查找、排序算法原理，最后使用&lt;/span&gt;Java&lt;span&gt;程序进行功能实现。&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td width=&quot;100&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;p align=&quot;center&quot;&gt;
+					&lt;span&gt;面向对象编程&lt;/span&gt; 
+				&lt;/p&gt;
+&lt;br /&gt;
+			&lt;/td&gt;
+			&lt;td width=&quot;400&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;span&gt;理解对象的本质，以及面向对象，类与对象之间的关系，如何用面向对象的思想分析和解决显示生活中的问题，&lt;br /&gt;
+并java&lt;span&gt;程序的手段编写出来。&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;span&gt;&lt;span&gt;如何设计类，设计类的基本原则，类的实例化过程，类元素：构造函数、this&lt;span&gt;关键字、方法和方法的参数传递过程、&lt;br /&gt;
+&lt;/span&gt;static&lt;span&gt;关键字、内部类，&lt;/span&gt;Java&lt;span&gt;的垃圾对象回收机制。&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;span&gt;&lt;span&gt;对象的三大特性：封装、继承和多态。子类对象的实例化过程、方法的重写和重载、final&lt;span&gt;关键字、抽象类、接口、&lt;br /&gt;
+继承的优点和缺点。 对象的多态性：子类和父类之间的转换、父类纸箱子类的引用、抽象类和接口在多态中的应&lt;br /&gt;
+用、多态优点。常用设计模式如单利、模版等模式。&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;span&gt;&lt;span&gt;什么是异常 异常的捕捉和抛出 异常捕捉的原则 finally&lt;span&gt;的使用，&lt;/span&gt;package&lt;span&gt;的应用&amp;nbsp;&lt;/span&gt;import&lt;span&gt;关键字。&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td width=&quot;100&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;p align=&quot;center&quot;&gt;
+					&lt;span&gt;多线程应用&lt;/span&gt; 
+				&lt;/p&gt;
+&lt;br /&gt;
+			&lt;/td&gt;
+			&lt;td width=&quot;400&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;span&gt;&lt;span&gt;多线程的概念，如何在程序中创建多线程(Thread&lt;span&gt;、&lt;/span&gt;Runnable)&lt;span&gt;，线程安全问题，线程的同步，线程之间的通讯、&lt;br /&gt;
+死锁问题的剖析。&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td width=&quot;100&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;p align=&quot;center&quot;&gt;
+					&lt;span&gt;&lt;span&gt;javaAPI&lt;span&gt;详解&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; 
+				&lt;/p&gt;
+&lt;br /&gt;
+			&lt;/td&gt;
+			&lt;td width=&quot;400&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;span&gt;&lt;span&gt;JavaAPI&lt;span&gt;介绍、&lt;/span&gt;String&lt;span&gt;和&lt;/span&gt;StringBuffer&lt;span&gt;、各种基本数据类型包装类，&lt;/span&gt;System&lt;span&gt;和&lt;/span&gt;Runtime&lt;span&gt;类，&lt;/span&gt;Date&lt;span&gt;和&lt;/span&gt;DateFomat&lt;span&gt;类等。&lt;br /&gt;
+常用的集合类使用如下：&lt;/span&gt;Java Collections Framework&lt;span&gt;：&lt;/span&gt;Collection&lt;span&gt;、&lt;/span&gt;Set&lt;span&gt;、&lt;/span&gt;List&lt;span&gt;、&lt;/span&gt;ArrayList&lt;span&gt;、&lt;/span&gt;Vector&lt;span&gt;、&lt;/span&gt;LinkedList&lt;span&gt;、&lt;/span&gt;Hashset&lt;span&gt;、&lt;/span&gt;TreeSet&lt;span&gt;、&lt;/span&gt;Map&lt;span&gt;、&lt;/span&gt;HashMap&lt;span&gt;、&lt;br /&gt;
+&lt;/span&gt;TreeMap&lt;span&gt;、&lt;/span&gt;Iterator&lt;span&gt;、&lt;/span&gt;Enumeration&lt;span&gt;等常用集合类&lt;/span&gt;API&lt;span&gt;。&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td width=&quot;100&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;p align=&quot;center&quot;&gt;
+					&lt;span&gt;&lt;span&gt;IO&lt;span&gt;技术&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; 
+				&lt;/p&gt;
+&lt;br /&gt;
+			&lt;/td&gt;
+			&lt;td width=&quot;400&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;span&gt;&lt;span&gt;什么是IO&lt;span&gt;，&lt;/span&gt;File&lt;span&gt;及相关类，字节流&lt;/span&gt;InputStream&lt;span&gt;和&lt;/span&gt;OutputStream&lt;span&gt;，字符流&lt;/span&gt;Reader&lt;span&gt;和&lt;/span&gt;Writer&lt;span&gt;，以及相应缓冲流和管道流，字节和字符的转化流，包装流，以及常用包装类使用，分析&lt;/span&gt;java&lt;span&gt;的&lt;/span&gt;IO&lt;span&gt;性能。&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td width=&quot;100&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;p align=&quot;center&quot;&gt;
+					&lt;span&gt;网络编程&lt;/span&gt; 
+				&lt;/p&gt;
+&lt;br /&gt;
+			&lt;/td&gt;
+			&lt;td width=&quot;400&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;span&gt;&lt;span&gt;Java&lt;span&gt;网络编程，网络通信底层协议&lt;/span&gt;TCP/UDP/IP&lt;span&gt;，&lt;/span&gt;Socket&lt;span&gt;编程。网络通信常用应用层协议简介：&lt;/span&gt;HTTP&lt;span&gt;、&lt;/span&gt;FTP&lt;span&gt;等，以及&lt;/span&gt;WEB&lt;span&gt;服务器的工作原理。&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td width=&quot;100&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;p align=&quot;center&quot;&gt;
+					&lt;span&gt;&lt;span&gt;java&lt;span&gt;高级特性&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; 
+				&lt;/p&gt;
+&lt;br /&gt;
+			&lt;/td&gt;
+			&lt;td width=&quot;400&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;span&gt;&lt;span&gt;递归程序，Java&lt;span&gt;的高级特性：反射、代理和泛型、枚举、&lt;/span&gt;Java&lt;span&gt;正则表达式&lt;/span&gt;API&lt;span&gt;详解及其应用。&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br /&gt;
+&lt;table cellspacing=&quot;0&quot; class=&quot;t_table&quot; bgcolor=&quot;rgb(255, 255, 255)&quot; style=&quot;font-size:12px;border:1px solid #999999;color:#000000;font-family:宋体, Arial, Helvetica, san-serif;width:704px;&quot;&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;td width=&quot;100&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;p align=&quot;center&quot;&gt;
+					&lt;span&gt;&lt;span&gt;&lt;span&gt;&lt;strong&gt;第二阶段&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; 
+				&lt;/p&gt;
+&lt;span&gt;&lt;br /&gt;
+&lt;/span&gt; 
+			&lt;/td&gt;
+			&lt;td width=&quot;100&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;p align=&quot;center&quot;&gt;
+					&lt;span&gt;&lt;span&gt;&lt;span&gt;&lt;strong&gt;技术名称&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; 
+				&lt;/p&gt;
+			&lt;/td&gt;
+			&lt;td width=&quot;400&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;p align=&quot;center&quot;&gt;
+					&lt;span&gt;&lt;span&gt;&lt;span&gt;&lt;strong&gt;技术内容&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; 
+				&lt;/p&gt;
+&lt;br /&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td rowspan=&quot;6&quot; width=&quot;100&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;p align=&quot;center&quot;&gt;
+					&lt;span&gt;&lt;span&gt;&lt;strong&gt;数据库技术&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt; 
+				&lt;/p&gt;
+&lt;br /&gt;
+			&lt;/td&gt;
+			&lt;td width=&quot;100&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;p align=&quot;center&quot;&gt;
+					&lt;span&gt;&lt;span&gt;Oracle&amp;nbsp;&lt;span&gt;基础管理&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; 
+				&lt;/p&gt;
+&lt;br /&gt;
+			&lt;/td&gt;
+			&lt;td width=&quot;400&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;span&gt;&lt;span&gt;Oracle&lt;span&gt;背景简介，数据库的安装，数据库的用户名和密码，客户端登录数据库服务&lt;/span&gt;SQLPLUS&lt;span&gt;，数据库基本概。&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td width=&quot;100&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;p align=&quot;center&quot;&gt;
+					&lt;span&gt;&lt;span&gt;SQL&lt;span&gt;语句&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; 
+				&lt;/p&gt;
+&lt;br /&gt;
+			&lt;/td&gt;
+			&lt;td width=&quot;400&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;span&gt;&lt;span&gt;数据库的创建，表的创建，修改，删除，查询，索引的创建，主从表的建立，数据控制授权和回收，事务控制，查询语句以及运算符的详解，sql&lt;span&gt;中的函数使用。&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td width=&quot;100&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;p align=&quot;center&quot;&gt;
+					&lt;span&gt;多表连接和子查询&lt;/span&gt; 
+				&lt;/p&gt;
+&lt;br /&gt;
+			&lt;/td&gt;
+			&lt;td width=&quot;400&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;span&gt;&lt;span&gt;等值和非等值连接，外连接，自连接；交叉连接，自然连接，using&lt;span&gt;子句连接，完全外连接和左右外连接，子查询使用以及注意事项。&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td width=&quot;100&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;p align=&quot;center&quot;&gt;
+					&lt;span&gt;触发器、存储过程&lt;/span&gt; 
+				&lt;/p&gt;
+&lt;br /&gt;
+			&lt;/td&gt;
+			&lt;td width=&quot;400&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;span&gt;触发器和存储过程使用场合， 通过实例进行详解。&lt;/span&gt;&lt;br /&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td width=&quot;100&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;p align=&quot;center&quot;&gt;
+					&lt;span&gt;数据库设计优化&lt;/span&gt; 
+				&lt;/p&gt;
+&lt;br /&gt;
+			&lt;/td&gt;
+			&lt;td width=&quot;400&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;span&gt;&lt;span&gt;WHERE&lt;span&gt;子句中的连接顺序，选择最有效率的表名顺序，&lt;/span&gt;SELECT&lt;span&gt;子句中避免使用&amp;nbsp;&lt;/span&gt;‘ * ‘&amp;nbsp;&lt;span&gt;计算记录条数等等。&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td width=&quot;100&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;p align=&quot;center&quot;&gt;
+					&lt;span&gt;数据备份与移植&lt;/span&gt; 
+				&lt;/p&gt;
+&lt;br /&gt;
+			&lt;/td&gt;
+			&lt;td width=&quot;400&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;span&gt;移植技巧，备份方案；导入导出等。&lt;/span&gt;&lt;br /&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br /&gt;
+&lt;table cellspacing=&quot;0&quot; class=&quot;t_table&quot; bgcolor=&quot;rgb(255, 255, 255)&quot; style=&quot;font-size:12px;border:1px solid #999999;color:#000000;font-family:宋体, Arial, Helvetica, san-serif;width:704px;&quot;&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;td width=&quot;100&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;p align=&quot;center&quot;&gt;
+					&lt;span&gt;&lt;span&gt;&lt;span&gt;&lt;strong&gt;第三阶段&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; 
+				&lt;/p&gt;
+			&lt;/td&gt;
+			&lt;td width=&quot;100&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;p align=&quot;center&quot;&gt;
+					&lt;span&gt;&lt;span&gt;&lt;span&gt;&lt;strong&gt;技术名称&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; 
+				&lt;/p&gt;
+			&lt;/td&gt;
+			&lt;td width=&quot;400&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;p align=&quot;center&quot;&gt;
+					&lt;span&gt;&lt;span&gt;&lt;span&gt;&lt;strong&gt;技术内容&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; 
+				&lt;/p&gt;
+&lt;br /&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td rowspan=&quot;3&quot; width=&quot;100&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;p align=&quot;center&quot;&gt;
+					&lt;span&gt;&lt;span&gt;&lt;strong&gt;jdbc&lt;span&gt;技术&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt; 
+				&lt;/p&gt;
+&lt;br /&gt;
+			&lt;/td&gt;
+			&lt;td width=&quot;100&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;p align=&quot;center&quot;&gt;
+					&lt;span&gt;&lt;span&gt;JDBC&lt;span&gt;基础&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; 
+				&lt;/p&gt;
+&lt;br /&gt;
+			&lt;/td&gt;
+			&lt;td width=&quot;400&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;span&gt;&lt;span&gt;JDBC Connection&lt;span&gt;、&lt;/span&gt;Statement&lt;span&gt;、&lt;/span&gt;PreparedStatement&lt;span&gt;、&lt;/span&gt;CallableStatement&lt;span&gt;、&lt;/span&gt;ResultSet&lt;span&gt;等不同类的使用。&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td width=&quot;100&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;p align=&quot;center&quot;&gt;
+					&lt;span&gt;连接池技术&lt;/span&gt; 
+				&lt;/p&gt;
+&lt;br /&gt;
+			&lt;/td&gt;
+			&lt;td width=&quot;400&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;span&gt;了解连接池的概念，掌握连接池的建立、治理、关闭和配置。&lt;/span&gt;&lt;br /&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td width=&quot;100&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;p align=&quot;center&quot;&gt;
+					&lt;span&gt;&lt;span&gt;ORM&lt;span&gt;与&lt;/span&gt;DAO&lt;span&gt;封装&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; 
+				&lt;/p&gt;
+&lt;br /&gt;
+			&lt;/td&gt;
+			&lt;td width=&quot;400&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;span&gt;&lt;span&gt;对象关系映射思想，jdbc&lt;span&gt;的&lt;/span&gt;dao&lt;span&gt;封装，实现自己的&lt;/span&gt;jdbc&lt;span&gt;。&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br /&gt;
+&lt;table cellspacing=&quot;0&quot; class=&quot;t_table&quot; bgcolor=&quot;rgb(255, 255, 255)&quot; style=&quot;font-size:12px;border:1px solid #999999;color:#000000;font-family:宋体, Arial, Helvetica, san-serif;width:704px;&quot;&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;td width=&quot;100&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;p align=&quot;center&quot;&gt;
+					&lt;span&gt;&lt;span&gt;&lt;span&gt;&lt;strong&gt;第四阶段&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; 
+				&lt;/p&gt;
+			&lt;/td&gt;
+			&lt;td width=&quot;100&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;p align=&quot;center&quot;&gt;
+					&lt;span&gt;&lt;span&gt;&lt;span&gt;&lt;strong&gt;技术名称&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; 
+				&lt;/p&gt;
+			&lt;/td&gt;
+			&lt;td width=&quot;400&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;p align=&quot;center&quot;&gt;
+					&lt;span&gt;&lt;span&gt;&lt;span&gt;&lt;strong&gt;技术内容&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; 
+				&lt;/p&gt;
+&lt;br /&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td rowspan=&quot;12&quot; width=&quot;100&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;p align=&quot;center&quot;&gt;
+					&lt;span&gt;&lt;span&gt;web&lt;span&gt;基础技术&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;span&gt;(&lt;span&gt;项目实战&lt;/span&gt;)&lt;/span&gt; 
+				&lt;/p&gt;
+&lt;br /&gt;
+			&lt;/td&gt;
+			&lt;td width=&quot;100&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;p align=&quot;center&quot;&gt;
+					&lt;span&gt;&lt;span&gt;Xml&lt;span&gt;技术&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; 
+				&lt;/p&gt;
+&lt;br /&gt;
+			&lt;/td&gt;
+			&lt;td width=&quot;400&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;span&gt;&lt;span&gt;使用jdom&lt;span&gt;和&lt;/span&gt;dom4j&lt;span&gt;来对&lt;/span&gt;xml&lt;span&gt;文档的解析和生成操作，&lt;/span&gt;xml&amp;nbsp;&lt;span&gt;的作用和使用场合。&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td width=&quot;100&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;p align=&quot;center&quot;&gt;
+					&lt;span&gt;html/css&lt;/span&gt; 
+				&lt;/p&gt;
+&lt;br /&gt;
+			&lt;/td&gt;
+			&lt;td width=&quot;400&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;span&gt;&lt;span&gt;Java&lt;span&gt;掌握基本的&lt;/span&gt;html&lt;span&gt;标签的格式和使用，&lt;/span&gt;css&lt;span&gt;层叠样式表对&lt;/span&gt;div&lt;span&gt;的定义，实现对网站布局的基本实现。&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td width=&quot;100&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;p align=&quot;center&quot;&gt;
+					&lt;span&gt;Javascript&lt;/span&gt; 
+				&lt;/p&gt;
+&lt;br /&gt;
+			&lt;/td&gt;
+			&lt;td width=&quot;400&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;span&gt;&lt;span&gt;了解javascript&lt;span&gt;的基本语法以及相关函数的使用，并结合&lt;/span&gt;html&lt;span&gt;页面实现流程控制和页面效果展示。&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;span&gt;&lt;span&gt;什么是异常 异常的捕捉和抛出 异常捕捉的原则 finally&lt;span&gt;的使用，&lt;/span&gt;package&lt;span&gt;的应用&amp;nbsp;&lt;/span&gt;import&lt;span&gt;关键字。&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td width=&quot;100&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;p align=&quot;center&quot;&gt;
+					&lt;span&gt;jsp/servlet&lt;/span&gt; 
+				&lt;/p&gt;
+&lt;br /&gt;
+			&lt;/td&gt;
+			&lt;td width=&quot;400&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;span&gt;&lt;span&gt;Servlet&lt;span&gt;和&lt;/span&gt;SP&amp;nbsp;&lt;span&gt;技术、上传下载、&amp;nbsp;&lt;/span&gt;Tomcat&amp;nbsp;&lt;span&gt;服务器技术、&lt;/span&gt;servlet&amp;nbsp;&lt;span&gt;过滤器和监听器。&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td width=&quot;100&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;p align=&quot;center&quot;&gt;
+					&lt;span&gt;jstl&lt;span&gt;和&lt;/span&gt;EL&lt;/span&gt; 
+				&lt;/p&gt;
+&lt;br /&gt;
+			&lt;/td&gt;
+			&lt;td width=&quot;400&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;span&gt;&lt;span&gt;JSTL&lt;span&gt;核心标签库、函数标签库、格式化标签库、自定义标签技术、&lt;/span&gt;EL&lt;span&gt;表达式在&lt;/span&gt;jsp&lt;span&gt;页面的使用。&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td width=&quot;100&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;p align=&quot;center&quot;&gt;
+					&lt;span&gt;&lt;span&gt;ajax&lt;span&gt;及框架技术&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; 
+				&lt;/p&gt;
+&lt;br /&gt;
+			&lt;/td&gt;
+			&lt;td width=&quot;400&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;span&gt;&lt;span&gt;了解和属性原生态的ajax&lt;span&gt;的使用，&lt;/span&gt;ajax&lt;span&gt;使用的场合，使用&lt;/span&gt;ajax&lt;span&gt;的好处，&lt;/span&gt;ajax&lt;span&gt;框架&lt;/span&gt;jquery&lt;span&gt;渲染页面效果和相关的强大的第三方类库，&lt;/span&gt;dwr&lt;span&gt;如何和后台服务进行数据传输，以及页面逻辑控制等。&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td width=&quot;100&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;p align=&quot;center&quot;&gt;
+					&lt;span&gt;&lt;span&gt;JSON&lt;span&gt;高级应用&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; 
+				&lt;/p&gt;
+&lt;br /&gt;
+			&lt;/td&gt;
+			&lt;td width=&quot;400&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;span&gt;&lt;span&gt;Java&lt;span&gt;使用&lt;/span&gt;json&lt;span&gt;支持的方式对字符串进行封装和解析，实现页面和&lt;/span&gt;java&lt;span&gt;后台服务的数据通信。&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td width=&quot;100&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;p align=&quot;center&quot;&gt;
+					&lt;span&gt;&lt;span&gt;Fckeditor&lt;span&gt;编辑器&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; 
+				&lt;/p&gt;
+&lt;br /&gt;
+			&lt;/td&gt;
+			&lt;td width=&quot;400&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;span&gt;&lt;span&gt;FCKEditor&lt;span&gt;在线编辑器技术、配置、处理图片和文件上传。&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td width=&quot;100&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;p align=&quot;center&quot;&gt;
+					&lt;span&gt;&lt;span&gt;javaMail&lt;span&gt;技术&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; 
+				&lt;/p&gt;
+&lt;br /&gt;
+			&lt;/td&gt;
+			&lt;td width=&quot;400&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;span&gt;&lt;span&gt;了解域名解析与MX&lt;span&gt;记录、电子邮件工作原理、邮件传输协议：&lt;/span&gt;SMTP&lt;span&gt;、&lt;/span&gt;POP3&lt;span&gt;、&lt;/span&gt;IMAP&lt;span&gt;、邮件组织结构：&lt;/span&gt;RFC822&lt;span&gt;邮件格式、&lt;/span&gt;MIME&lt;span&gt;协议、邮件编码、复合邮件结构分析、&lt;/span&gt;JavaMail API&lt;span&gt;及其体系结构、编程创建邮件内容：简单邮件内容、包含内嵌图片的复杂邮件、包含内嵌图片和附件的复杂邮件。&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td width=&quot;100&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;p align=&quot;center&quot;&gt;
+					&lt;span&gt;&lt;span&gt;JfreeChart&lt;span&gt;报表&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; 
+				&lt;/p&gt;
+&lt;br /&gt;
+			&lt;/td&gt;
+			&lt;td width=&quot;400&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;span&gt;统计报表；图表处理。&lt;/span&gt;&lt;br /&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td width=&quot;100&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;p align=&quot;center&quot;&gt;
+					&lt;span&gt;&lt;span&gt;BBS&lt;span&gt;项目实战&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; 
+				&lt;/p&gt;
+&lt;br /&gt;
+			&lt;/td&gt;
+			&lt;td width=&quot;400&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;span&gt;&lt;span&gt;采用Jquery+dwr+jsp+servlet+Fckeditor+JfreeChart+tomcat+jdbc(oracle)&amp;nbsp;&lt;span&gt;完成&lt;/span&gt;BBS&lt;span&gt;项目的实战。&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td width=&quot;100&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;p align=&quot;center&quot;&gt;
+					&lt;span&gt;实战价值&lt;/span&gt; 
+				&lt;/p&gt;
+&lt;br /&gt;
+			&lt;/td&gt;
+			&lt;td width=&quot;400&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;span&gt;&lt;span&gt;学完此课程你至少已经是拥有近1&lt;span&gt;年开发经验的程序员了，但是你不应该满足现状，下面的课程会更加吸引你！&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br /&gt;
+&lt;table cellspacing=&quot;0&quot; class=&quot;t_table&quot; bgcolor=&quot;rgb(255, 255, 255)&quot; style=&quot;font-size:12px;border:1px solid #999999;color:#000000;font-family:宋体, Arial, Helvetica, san-serif;width:704px;&quot;&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;td width=&quot;100&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;p align=&quot;center&quot;&gt;
+					&lt;span&gt;&lt;span&gt;&lt;span&gt;&lt;strong&gt;第五经典阶段&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; 
+				&lt;/p&gt;
+			&lt;/td&gt;
+			&lt;td width=&quot;100&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;p align=&quot;center&quot;&gt;
+					&lt;span&gt;&lt;span&gt;&lt;span&gt;&lt;strong&gt;技术名称&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; 
+				&lt;/p&gt;
+			&lt;/td&gt;
+			&lt;td width=&quot;400&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;p align=&quot;center&quot;&gt;
+					&lt;span&gt;&lt;span&gt;&lt;span&gt;&lt;strong&gt;技术内容&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; 
+				&lt;/p&gt;
+&lt;br /&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td rowspan=&quot;7&quot; width=&quot;100&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;p align=&quot;center&quot;&gt;
+					&lt;span&gt;&lt;span&gt;web&lt;span&gt;主流框架技术&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;span&gt;(&lt;span&gt;项目实战&lt;/span&gt;)&lt;/span&gt; 
+				&lt;/p&gt;
+&lt;br /&gt;
+			&lt;/td&gt;
+			&lt;td width=&quot;100&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;p align=&quot;center&quot;&gt;
+					&lt;span&gt;struts2.x&lt;/span&gt; 
+				&lt;/p&gt;
+&lt;br /&gt;
+			&lt;/td&gt;
+			&lt;td width=&quot;400&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;span&gt;&lt;span&gt;struts2&lt;span&gt;框架的工作原理和架构分析，&lt;/span&gt;struts-default.xml&lt;span&gt;与&lt;/span&gt;default.properties&lt;span&gt;文件的作用，&lt;/span&gt;struts&lt;span&gt;。&lt;/span&gt;Xml&lt;span&gt;中引入多个配置文件。&lt;/span&gt;OGNL&lt;span&gt;表达式、&lt;/span&gt;Struts2 UI&lt;span&gt;和非&lt;/span&gt;UI&lt;span&gt;标签、输入校验、使用通配符定义&lt;/span&gt;action&lt;span&gt;、动态方法调用、多文件上传、自定义类型转换器、为&lt;/span&gt;Action&lt;span&gt;的属性注入值、自定义拦截器、异常处理、使用&lt;/span&gt;struts2&lt;span&gt;实现的&lt;/span&gt;CRUD&lt;span&gt;操作的案例。&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td width=&quot;100&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;p align=&quot;center&quot;&gt;
+					&lt;span&gt;hibernate3.x&lt;/span&gt; 
+				&lt;/p&gt;
+&lt;br /&gt;
+			&lt;/td&gt;
+			&lt;td width=&quot;400&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;span&gt;&lt;span&gt;Hibernate&lt;span&gt;应用开发基础；&amp;nbsp;&lt;/span&gt;ORM&lt;span&gt;基础理论； 关系映射技术； 性能调优技术； 性能优化 一级缓存 二级缓存 查询缓存 事务与并发 悲观锁、乐观锁。&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td width=&quot;100&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;p align=&quot;center&quot;&gt;
+					&lt;span&gt;spring3.x&lt;/span&gt; 
+				&lt;/p&gt;
+&lt;br /&gt;
+			&lt;/td&gt;
+			&lt;td width=&quot;400&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;span&gt;&lt;span&gt;Spring IoC&lt;span&gt;技术；&amp;nbsp;&lt;/span&gt;Spring AOP&lt;span&gt;技术；&amp;nbsp;&lt;/span&gt;Spring&amp;nbsp;&lt;span&gt;声明事务管理；&amp;nbsp;&lt;/span&gt;Spring&amp;nbsp;&lt;span&gt;常用功能说明，&lt;/span&gt;spring3.0&lt;span&gt;的新特性，&amp;nbsp;&lt;/span&gt;Spring&lt;span&gt;整合&lt;/span&gt;struts2&lt;span&gt;和&lt;/span&gt;hibernate3&lt;span&gt;的运用。&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td width=&quot;100&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;p align=&quot;center&quot;&gt;
+					&lt;span&gt;Log4j&lt;span&gt;和&lt;/span&gt;Junit&lt;/span&gt; 
+				&lt;/p&gt;
+&lt;br /&gt;
+			&lt;/td&gt;
+			&lt;td width=&quot;400&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;span&gt;&lt;span&gt;Logging API&lt;span&gt;；&amp;nbsp;&lt;/span&gt;JUnit&lt;span&gt;单元测试技术； 压力测试技术：&lt;/span&gt;badboy&amp;nbsp;&lt;span&gt;进行测试计划跟踪获取以及&lt;/span&gt;JMeter&lt;span&gt;压力测试。&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td width=&quot;100&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;p align=&quot;center&quot;&gt;
+					&lt;span&gt;在线支付技术&lt;/span&gt; 
+				&lt;/p&gt;
+&lt;br /&gt;
+			&lt;/td&gt;
+			&lt;td width=&quot;400&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;span&gt;完成支付宝的支付接口的在线支付功能。&lt;/span&gt;&lt;br /&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td width=&quot;100&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;p align=&quot;center&quot;&gt;
+					&lt;span&gt;电子商务网实战&lt;/span&gt; 
+				&lt;/p&gt;
+&lt;br /&gt;
+			&lt;/td&gt;
+			&lt;td width=&quot;400&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;span&gt;&lt;span&gt;采用spring3+hibernate3+struts2+jquery+dwr+FckEditor+tomcat&amp;nbsp;&lt;span&gt;完成电子商务网站实战开发。&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td width=&quot;100&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;p align=&quot;center&quot;&gt;
+					&lt;span&gt;实战价值&lt;/span&gt; 
+				&lt;/p&gt;
+&lt;br /&gt;
+			&lt;/td&gt;
+			&lt;td width=&quot;400&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;span&gt;项目实战价值完全高标准的高要求的迎合企业的需求，学完此课程，全部消化了，你已经就是一个地地道道的高级程序员，已经为你的职业生涯铺平了道路，你还等什么，向着高薪冲刺吧！&lt;/span&gt;&lt;br /&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br /&gt;
+&lt;table cellspacing=&quot;0&quot; class=&quot;t_table&quot; bgcolor=&quot;rgb(255, 255, 255)&quot; style=&quot;font-size:12px;border:1px solid #999999;color:#000000;font-family:宋体, Arial, Helvetica, san-serif;width:704px;&quot;&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;td width=&quot;100&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;p align=&quot;center&quot;&gt;
+					&lt;span&gt;&lt;span&gt;&lt;span&gt;&lt;strong&gt;第六进阶阶段&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; 
+				&lt;/p&gt;
+			&lt;/td&gt;
+			&lt;td width=&quot;100&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;p align=&quot;center&quot;&gt;
+					&lt;span&gt;&lt;span&gt;&lt;span&gt;&lt;strong&gt;技术名称&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; 
+				&lt;/p&gt;
+			&lt;/td&gt;
+			&lt;td width=&quot;400&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;p align=&quot;center&quot;&gt;
+					&lt;span&gt;&lt;span&gt;&lt;span&gt;&lt;strong&gt;技术内容&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; 
+				&lt;/p&gt;
+&lt;br /&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td rowspan=&quot;10&quot; width=&quot;100&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;p align=&quot;center&quot;&gt;
+					&lt;span&gt;&lt;span&gt;web&lt;span&gt;高级进阶&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;span&gt;(&lt;span&gt;项目实战&lt;/span&gt;)&lt;/span&gt; 
+				&lt;/p&gt;
+&lt;br /&gt;
+			&lt;/td&gt;
+			&lt;td width=&quot;100&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;p align=&quot;center&quot;&gt;
+					&lt;span&gt;&lt;span&gt;openJpa&lt;span&gt;技术&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; 
+				&lt;/p&gt;
+&lt;br /&gt;
+			&lt;/td&gt;
+			&lt;td width=&quot;400&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;span&gt;&lt;span&gt;JPA&lt;span&gt;介绍及开发环境搭建、单表实体映射、一对多&lt;/span&gt;/&lt;span&gt;多对一、一对一、多对多关联、实体继承、复合主键、&lt;/span&gt;JPQL&lt;span&gt;语句、&lt;/span&gt;EntityManager API&lt;span&gt;、事务管理，了解一下&lt;/span&gt;jpa2.0&lt;span&gt;的新特性以及应用。&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td width=&quot;100&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;p align=&quot;center&quot;&gt;
+					&lt;span&gt;&lt;span&gt;lucene&lt;span&gt;搜索引擎&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; 
+				&lt;/p&gt;
+&lt;br /&gt;
+			&lt;/td&gt;
+			&lt;td width=&quot;400&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;span&gt;&lt;span&gt;了解全文搜索原理、全文搜索引擎、什么是OSEM&lt;span&gt;、&lt;/span&gt;OSEM&lt;span&gt;框架&lt;/span&gt;Compass&lt;span&gt;、基于使用&lt;/span&gt;Lucene&lt;span&gt;使用&lt;/span&gt;Compass&lt;span&gt;实现全文增量型索引创建和搜索、探索&lt;/span&gt;Lucene 3.0&lt;span&gt;以及&lt;/span&gt;API&lt;span&gt;。&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td width=&quot;100&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;p align=&quot;center&quot;&gt;
+					&lt;span&gt;电子商务网重构&lt;/span&gt; 
+				&lt;/p&gt;
+&lt;br /&gt;
+			&lt;/td&gt;
+			&lt;td width=&quot;400&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;span&gt;&lt;span&gt;此项目采用了Lucene+compass+openJpa+&lt;span&gt;上一版电子商务网站的技术进行重构。&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td width=&quot;100&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;p align=&quot;center&quot;&gt;
+					&lt;span&gt;实战价值&lt;/span&gt; 
+				&lt;/p&gt;
+&lt;br /&gt;
+			&lt;/td&gt;
+			&lt;td width=&quot;400&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;span&gt;此项目的实战价值是前所未有的超值，已经超越了企业的实际要求，你已经是企业的抢手人才，一旦进入企业，便让你立于不败之地，轻松成为公司的技术骨干和精英，技术已经改变了你一生！&lt;/span&gt;&lt;br /&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td width=&quot;100&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;p align=&quot;center&quot;&gt;
+					&lt;span&gt;&lt;span&gt;Excel/PDF&lt;span&gt;文档处理技术&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; 
+				&lt;/p&gt;
+&lt;br /&gt;
+			&lt;/td&gt;
+			&lt;td width=&quot;400&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;span&gt;&lt;span&gt;java&lt;span&gt;对&lt;/span&gt;excel&lt;span&gt;和&lt;/span&gt;pdf&lt;span&gt;文档分别利用&lt;/span&gt;poi&lt;span&gt;和&lt;/span&gt;itext&lt;span&gt;来进行解析和生成。此技术在企业级系统的报表中经常使用。&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td width=&quot;100&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;p align=&quot;center&quot;&gt;
+					&lt;span&gt;OA&lt;span&gt;工作流技术&lt;/span&gt;JBPM&lt;/span&gt; 
+				&lt;/p&gt;
+&lt;br /&gt;
+			&lt;/td&gt;
+			&lt;td width=&quot;400&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;span&gt;&lt;span&gt;工作流是什么、JBPM&lt;span&gt;介绍、&lt;/span&gt;JBPM&lt;span&gt;的主要用法、各类节点的用法、任务各种分派方式、&lt;/span&gt;JBPM&lt;span&gt;的整体架构原理、工作流定义模型分析、运行期工作流实例模型分析、数据库表模型分析、流程定义管理、流程实例监控、对&lt;/span&gt;JBPM&lt;span&gt;的相关接口进行封装，构建自己的工作流应用平台等。&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td width=&quot;100&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;p align=&quot;center&quot;&gt;
+					&lt;span&gt;&lt;span&gt;WebService&lt;span&gt;技术&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; 
+				&lt;/p&gt;
+&lt;br /&gt;
+			&lt;/td&gt;
+			&lt;td width=&quot;400&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;span&gt;&lt;span&gt;WebService&lt;span&gt;技术原理、&lt;/span&gt;WebService&lt;span&gt;技术的应用、&lt;/span&gt;Soap&lt;span&gt;服务的创建与管理、&lt;/span&gt;WSDL&lt;span&gt;描述文档规范、&lt;/span&gt;UDDI&amp;nbsp;&lt;span&gt;注册中心运行原理&lt;/span&gt;;&lt;span&gt;使用&lt;/span&gt;Axis&lt;span&gt;和&lt;/span&gt;Xfire&lt;span&gt;创建&lt;/span&gt;WEB&lt;span&gt;服务、&lt;/span&gt;Webservice&lt;span&gt;客户端的编写、使用&lt;/span&gt;TCPMonitor&lt;span&gt;监听&lt;/span&gt;SOAP&lt;span&gt;协议、异构平台的整合。&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td width=&quot;100&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;p align=&quot;center&quot;&gt;
+					&lt;span&gt;&lt;span&gt;Linux&lt;span&gt;技术&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; 
+				&lt;/p&gt;
+&lt;br /&gt;
+			&lt;/td&gt;
+			&lt;td width=&quot;400&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;span&gt;&lt;span&gt;Linux&amp;nbsp;&lt;span&gt;系统安装，卸载、&lt;/span&gt;linux&amp;nbsp;&lt;span&gt;使用的核心思想、&lt;/span&gt;linux&lt;span&gt;下的用户管理，文件管理&lt;/span&gt;,&lt;span&gt;系统管理、程序的安装，使用，卸载。&lt;/span&gt;linux&lt;span&gt;下作为&lt;/span&gt;server&lt;span&gt;的基本应用：&lt;/span&gt;web&lt;span&gt;服务器，&lt;/span&gt;j2ee&lt;span&gt;服务器，&lt;/span&gt;ftp&lt;span&gt;服务器的安装和项目的部署。&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td width=&quot;100&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;p align=&quot;center&quot;&gt;
+					&lt;span&gt;&lt;span&gt;CRM&lt;span&gt;项目实战&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; 
+				&lt;/p&gt;
+&lt;br /&gt;
+			&lt;/td&gt;
+			&lt;td width=&quot;400&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;span&gt;&lt;span&gt;此项目能了解和熟悉客户关系管理的基本流程以及功能的实现，采用上面几个阶段学到的主流框架实现，同时加入了JBPM&lt;span&gt;的技术。&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td width=&quot;100&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;p align=&quot;center&quot;&gt;
+					&lt;span&gt;实战价值&lt;/span&gt; 
+				&lt;/p&gt;
+&lt;br /&gt;
+			&lt;/td&gt;
+			&lt;td width=&quot;400&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;span&gt;学完这个系统会让你轻松进入企业级的大型项目的开发，倍感得心应手。完备的知识体系和最前沿的开发技术，带给你的将是在精神上不同目光的瞻望和物质上高薪资回报的喜悦，带你进入人生的新的转折点和起点！&lt;/span&gt;&lt;br /&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br /&gt;
+&lt;table cellspacing=&quot;0&quot; class=&quot;t_table&quot; bgcolor=&quot;rgb(255, 255, 255)&quot; style=&quot;font-size:12px;border:1px solid #999999;color:#000000;font-family:宋体, Arial, Helvetica, san-serif;width:704px;&quot;&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;td width=&quot;115&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;p align=&quot;center&quot;&gt;
+					&lt;span&gt;&lt;span&gt;&lt;span&gt;&lt;strong&gt;第七架构阶段&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; 
+				&lt;/p&gt;
+			&lt;/td&gt;
+			&lt;td width=&quot;100&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;p align=&quot;center&quot;&gt;
+					&lt;span&gt;&lt;span&gt;&lt;span&gt;&lt;strong&gt;技术名称&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; 
+				&lt;/p&gt;
+			&lt;/td&gt;
+			&lt;td width=&quot;485&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;p align=&quot;center&quot;&gt;
+					&lt;span&gt;&lt;span&gt;&lt;span&gt;&lt;strong&gt;技术内容&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; 
+				&lt;/p&gt;
+&lt;br /&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td rowspan=&quot;7&quot; width=&quot;115&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;p align=&quot;center&quot;&gt;
+					&lt;span&gt;大型高并发网站优化方案&lt;/span&gt;&lt;br /&gt;
+&lt;span&gt;(&lt;span&gt;项目实战&lt;/span&gt;)&lt;/span&gt; 
+				&lt;/p&gt;
+&lt;br /&gt;
+			&lt;/td&gt;
+			&lt;td width=&quot;100&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;p align=&quot;center&quot;&gt;
+					&lt;span&gt;如何构建一个高性能网站详解&lt;/span&gt; 
+				&lt;/p&gt;
+&lt;br /&gt;
+			&lt;/td&gt;
+			&lt;td width=&quot;485&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;span&gt;什么样的网站需要高性能，高性能的指标体系，构建高性能网站需要做哪些工作，注意哪些细节。&lt;/span&gt;&lt;br /&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td width=&quot;100&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;p align=&quot;center&quot;&gt;
+					&lt;span&gt;&lt;span&gt;SSI&lt;span&gt;技术&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; 
+				&lt;/p&gt;
+&lt;br /&gt;
+			&lt;/td&gt;
+			&lt;td width=&quot;485&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;span&gt;&lt;span&gt;什么是SSI&lt;span&gt;，使用他有什么好处，什么样的系统才使用&lt;/span&gt;SSI&lt;span&gt;，&lt;/span&gt;SSI&lt;span&gt;技术详解和使用，应用到项目中。&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td width=&quot;100&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;p align=&quot;center&quot;&gt;
+					&lt;span&gt;生成静态页技术&lt;/span&gt; 
+				&lt;/p&gt;
+&lt;br /&gt;
+			&lt;/td&gt;
+			&lt;td width=&quot;485&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;span&gt;&lt;span&gt;什么是静态页，为什么需要静态页以及带来的好处，生成静态页的模版技术Velocity&lt;span&gt;和&lt;/span&gt;Freemark&lt;span&gt;，生成静态页的访问规则等。&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td width=&quot;100&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;p align=&quot;center&quot;&gt;
+					&lt;span&gt;缓存技术&lt;/span&gt; 
+				&lt;/p&gt;
+&lt;br /&gt;
+			&lt;/td&gt;
+			&lt;td width=&quot;485&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;span&gt;&lt;span&gt;为什么使用缓存技术，oscache&lt;span&gt;缓存技术的介绍和使用，&lt;/span&gt;memcached&lt;span&gt;缓存技术的介绍和使用、两者缓存技术的比较和如何去使用。&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td width=&quot;100&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;p align=&quot;center&quot;&gt;
+					&lt;span&gt;&lt;span&gt;经典web&lt;span&gt;服务器&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; 
+				&lt;/p&gt;
+&lt;br /&gt;
+			&lt;/td&gt;
+			&lt;td width=&quot;485&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;span&gt;&lt;span&gt;什么是web&lt;span&gt;服务器，什么是&lt;/span&gt;javaweb&lt;span&gt;服务器，他们存在什么关系，当前技术主流中常用的&lt;/span&gt;web&lt;span&gt;服务器有哪些，&amp;nbsp;&lt;/span&gt;web&lt;span&gt;服务器&lt;/span&gt;apache&lt;span&gt;和&lt;/span&gt;nginx&lt;span&gt;的应用。&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td width=&quot;100&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;p align=&quot;center&quot;&gt;
+					&lt;span&gt;&lt;span&gt;nginx&lt;span&gt;架构实战&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; 
+				&lt;/p&gt;
+&lt;br /&gt;
+			&lt;/td&gt;
+			&lt;td width=&quot;485&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;span&gt;&lt;span&gt;什么是反向代理，负载均衡以及集群，在nginx&lt;span&gt;中如何实现这些高性能的系统架构。&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td width=&quot;100&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;p align=&quot;center&quot;&gt;
+					&lt;span&gt;实战价值&lt;/span&gt; 
+				&lt;/p&gt;
+&lt;br /&gt;
+			&lt;/td&gt;
+			&lt;td width=&quot;485&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;span&gt;此课程已经将你领入了技术经理和主管以及架构师的门槛了，稍微用心学习加上实战你就是技术牛人了，薪水非常高，同时很快你就是公司的技术中层管理者，你的人生就此又一次的发生巨大的转折！&lt;/span&gt;&lt;br /&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br /&gt;
+&lt;table cellspacing=&quot;0&quot; class=&quot;t_table&quot; bgcolor=&quot;rgb(255, 255, 255)&quot; style=&quot;font-size:12px;border:1px solid #999999;color:#000000;font-family:宋体, Arial, Helvetica, san-serif;width:704px;&quot;&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;td width=&quot;100&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;p align=&quot;center&quot;&gt;
+					&lt;span&gt;&lt;span&gt;&lt;span&gt;&lt;strong&gt;第八特色阶段&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; 
+				&lt;/p&gt;
+			&lt;/td&gt;
+			&lt;td width=&quot;100&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;p align=&quot;center&quot;&gt;
+					&lt;span&gt;&lt;span&gt;&lt;span&gt;&lt;strong&gt;技术名称&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; 
+				&lt;/p&gt;
+			&lt;/td&gt;
+			&lt;td width=&quot;400&quot; style=&quot;font-size:12px;border:1px solid #999999;&quot;&gt;
+				&lt;p align=&quot;center&quot;&gt;
+					&lt;span&gt;&lt;span&gt;&lt;span&gt;&lt;strong&gt;技术内容&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; 
+				&lt;/p&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;span style=&quot;font-family:宋体, Arial, Helvetica, san-serif;font-size:12px;line-height:22.4px;background-color:#FFFFFF;&quot;&gt;……这部分大家想到了可以给我补充。&lt;/span&gt;',`status`='1',`type`='0',`createtime`='1488350098',`author`='小兔',`imgurl`=NULL,`recom`='0',`readnum`='10' WHERE `id` = 43 [ RunTime:0.0040s ]
+SQL: SELECT `id`,`title` FROM `article` WHERE ( id<43 and status=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`title` FROM `article` WHERE ( id>43 and status=1 ) ORDER BY id asc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`title` FROM `article` WHERE ( id<>43 and status=1 and recom=1 ) ORDER BY id desc LIMIT 6   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003001s ]
+NOTIC: [8] Undefined variable: title D:\WWW\tools\Application\Runtime\Cache\Home\f274c600cf8d13c9d31ff143ea08a211.php 第 51 行.
+INFO: [ keyWords ] --START--
+SQL: SHOW COLUMNS FROM `keywords` [ RunTime:0.0050s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\WWW\tools\Application\Home\Model\CommModel.class.php on line 46 and defined D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `keywords` ORDER BY `order` asc,num desc LIMIT 30   [ RunTime:0.0010s ]
+INFO: Run Home\Behavior\KeyWordsBehavior [ RunTime:0.103006s ]
+INFO: [ keyWords ] --END-- [ RunTime:0.105006s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.324018s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.326018s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+

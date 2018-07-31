@@ -1,0 +1,206 @@
+[ 2018-01-19T16:09:43+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.058993s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.025857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.025947s ]
+SQL: SHOW COLUMNS FROM `statisticsip` [ RunTime:0.0804s ]
+SQL: SELECT * FROM `statisticsip` WHERE `ip` = '127.0.0.1' AND `date` = 20180119 LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `statisticsip` (`ip`,`date`,`recordtime`) VALUES ('127.0.0.1','20180119','1516349382') [ RunTime:0.0430s ]
+NOTIC: [2048] Declaration of Home\Model\TypeModel::save() should be compatible with that of Think\Model::save() D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 88 行.
+NOTIC: [2048] Declaration of Home\Model\TypeModel::delete() should be compatible with that of Think\Model::delete() D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0719s ]
+NOTIC: [2] Missing argument 1 for Home\Model\TypeModel::lists(), called in D:\WWW\tools\ThinkPHP\Library\Think\Controller.class.php on line 51 and defined D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 83 行.
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 84 行.
+SQL: SELECT * FROM `type` ORDER BY `order` asc,id asc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0756s ]
+SQL: SELECT * FROM `article` WHERE `status` = 1 ORDER BY id desc LIMIT 6   [ RunTime:0.0023s ]
+SQL: SELECT * FROM `article` WHERE `status` = 1 ORDER BY readnum desc,id desc LIMIT 6   [ RunTime:0.0187s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000253s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000412s ]
+NOTIC: [8] Undefined variable: title D:\WWW\tools\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 62 行.
+INFO: [ keyWords ] --START--
+SQL: SHOW COLUMNS FROM `keywords` [ RunTime:0.0560s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\WWW\tools\Application\Home\Model\CommModel.class.php on line 46 and defined D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `keywords` ORDER BY `order` asc,num desc LIMIT 30   [ RunTime:0.0002s ]
+INFO: Run Home\Behavior\KeyWordsBehavior [ RunTime:0.119731s ]
+INFO: [ keyWords ] --END-- [ RunTime:0.119781s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.549338s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.549429s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.019451s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.019512s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.023302s ]
+INFO: [ app_end ] --END-- [ RunTime:0.023369s ]
+
+[ 2018-01-19T16:09:47+08:00 ] 127.0.0.1 /art/lists.aspx?t=centos&c=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000508s ]
+NOTIC: [2048] Declaration of Home\Model\TypeModel::save() should be compatible with that of Think\Model::save() D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\TypeModel::delete() should be compatible with that of Think\Model::delete() D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0331s ]
+NOTIC: [2] Missing argument 1 for Home\Model\TypeModel::lists(), called in D:\WWW\tools\ThinkPHP\Library\Think\Controller.class.php on line 51 and defined D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 83 行.
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 84 行.
+SQL: SELECT * FROM `type` ORDER BY `order` asc,id asc  [ RunTime:0.0005s ]
+
+[ 2018-01-19T16:09:48+08:00 ] 127.0.0.1 /art/lists.aspx?t=centos&c=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000534s ]
+NOTIC: [2048] Declaration of Home\Model\TypeModel::save() should be compatible with that of Think\Model::save() D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\TypeModel::delete() should be compatible with that of Think\Model::delete() D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0107s ]
+NOTIC: [2] Missing argument 1 for Home\Model\TypeModel::lists(), called in D:\WWW\tools\ThinkPHP\Library\Think\Controller.class.php on line 51 and defined D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 83 行.
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 84 行.
+SQL: SELECT * FROM `type` ORDER BY `order` asc,id asc  [ RunTime:0.0002s ]
+
+[ 2018-01-19T16:09:50+08:00 ] 127.0.0.1 /art/lists.aspx?t=centos&c=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000444s ]
+NOTIC: [2048] Declaration of Home\Model\TypeModel::save() should be compatible with that of Think\Model::save() D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\TypeModel::delete() should be compatible with that of Think\Model::delete() D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0240s ]
+NOTIC: [2] Missing argument 1 for Home\Model\TypeModel::lists(), called in D:\WWW\tools\ThinkPHP\Library\Think\Controller.class.php on line 51 and defined D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 83 行.
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 84 行.
+SQL: SELECT * FROM `type` ORDER BY `order` asc,id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `keywords` [ RunTime:0.0407s ]
+SQL: SELECT * FROM `keywords` WHERE `name` = 'centos' LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `keywords` (`name`,`num`,`recordtime`) VALUES ('centos','1','1516349389') [ RunTime:0.0138s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `article` WHERE `title` LIKE '%centos%' OR `keyword` LIKE '%centos%' ORDER BY id desc LIMIT 0,6   [ RunTime:0.0045s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` WHERE `title` LIKE '%centos%' OR `keyword` LIKE '%centos%' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\WWW\tools\Application\Home\Model\CommModel.class.php on line 46 and defined D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `keywords` ORDER BY `order` asc,num desc LIMIT 20   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060724s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060791s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000435s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000489s ]
+
+[ 2018-01-19T16:09:51+08:00 ] 127.0.0.1 /art/lists.aspx?t=centos&c=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000471s ]
+NOTIC: [2048] Declaration of Home\Model\TypeModel::save() should be compatible with that of Think\Model::save() D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\TypeModel::delete() should be compatible with that of Think\Model::delete() D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0250s ]
+NOTIC: [2] Missing argument 1 for Home\Model\TypeModel::lists(), called in D:\WWW\tools\ThinkPHP\Library\Think\Controller.class.php on line 51 and defined D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 83 行.
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 84 行.
+SQL: SELECT * FROM `type` ORDER BY `order` asc,id asc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `keywords` [ RunTime:0.0135s ]
+SQL: SELECT * FROM `keywords` WHERE `name` = 'centos' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `keywords` SET `name`='centos',`num`='2',`recordtime`='1516349391',`order`='20' WHERE `id` = 38 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `article` WHERE `title` LIKE '%centos%' OR `keyword` LIKE '%centos%' ORDER BY id desc LIMIT 0,6   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` WHERE `title` LIKE '%centos%' OR `keyword` LIKE '%centos%' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\WWW\tools\Application\Home\Model\CommModel.class.php on line 46 and defined D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `keywords` ORDER BY `order` asc,num desc LIMIT 20   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000140s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000245s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019047s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019161s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000554s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000632s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000915s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001019s ]
+
+[ 2018-01-19T16:09:55+08:00 ] 127.0.0.1 /art/async_lists.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+NOTIC: [2048] Declaration of Home\Model\TypeModel::save() should be compatible with that of Think\Model::save() D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\TypeModel::delete() should be compatible with that of Think\Model::delete() D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0338s ]
+NOTIC: [2] Missing argument 1 for Home\Model\TypeModel::lists(), called in D:\WWW\tools\ThinkPHP\Library\Think\Controller.class.php on line 51 and defined D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 83 行.
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 84 行.
+SQL: SELECT * FROM `type` ORDER BY `order` asc,id asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `keywords` [ RunTime:0.0113s ]
+SQL: SELECT * FROM `keywords` WHERE `name` = 'centos' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `keywords` SET `name`='centos',`num`='3',`recordtime`='1516349395',`order`='20' WHERE `id` = 38 [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0116s ]
+SQL: SELECT * FROM `article` WHERE `title` LIKE '%centos%' OR `keyword` LIKE '%centos%' ORDER BY id desc LIMIT 6,6   [ RunTime:0.0009s ]
+
+[ 2018-01-19T16:09:59+08:00 ] 127.0.0.1 /art/article/id/52.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000446s ]
+NOTIC: [2048] Declaration of Home\Model\TypeModel::save() should be compatible with that of Think\Model::save() D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\TypeModel::delete() should be compatible with that of Think\Model::delete() D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0131s ]
+NOTIC: [2] Missing argument 1 for Home\Model\TypeModel::lists(), called in D:\WWW\tools\ThinkPHP\Library\Think\Controller.class.php on line 51 and defined D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 83 行.
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 84 行.
+SQL: SELECT * FROM `type` ORDER BY `order` asc,id asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0380s ]
+SQL: SELECT * FROM `article` WHERE `id` = 52 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `article` WHERE `id` = 52 LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `article` SET `title`='centos7 Nat模式上网配置',`keyword`='',`content`='&lt;p&gt;在配置前是得安装好了vmware10和centos7.&lt;/p&gt;&lt;p&gt;第一步：虚拟网络编辑&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/ueditor/php/upload/image/20180106/1515210423968731.png&quot; title=&quot;1515210423968731.png&quot; alt=&quot;TIM截图20180106114551.png&quot;/&gt;&lt;/p&gt;&lt;p&gt;点击虚拟网络编辑到达以下界面&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/ueditor/php/upload/image/20180106/1515210509118092.png&quot; title=&quot;1515210509118092.png&quot; alt=&quot;TIM截图20180106114809.png&quot;/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;看你是否有名称为VMnet8 如果没有点击添加网络，如图&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/ueditor/php/upload/image/20180106/1515210589572925.png&quot; title=&quot;1515210589572925.png&quot; alt=&quot;TIM截图20180106114931.png&quot;/&gt;&lt;/p&gt;&lt;p&gt;我因为有了VMnet8所以没有显示出来&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/ueditor/php/upload/image/20180106/1515219323665486.png&quot; title=&quot;1515219323665486.png&quot; alt=&quot;TIM截图20180106141319.png&quot;/&gt;&lt;/p&gt;&lt;p&gt;然后选择VMnet8 点击Nat设置&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/ueditor/php/upload/image/20180106/1515219360586308.png&quot; title=&quot;1515219360586308.png&quot; alt=&quot;TIM截图20180106141514.png&quot;/&gt;&lt;/p&gt;&lt;p&gt;点击添加&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/ueditor/php/upload/image/20180106/1515219410262407.png&quot; title=&quot;1515219410262407.png&quot; alt=&quot;TIM截图20180106141641.png&quot;/&gt;&lt;/p&gt;&lt;p&gt;在这里添加虚拟机的静态ip 添加端口ssh，后面还可以陆续添加mysql，apache端口&lt;/p&gt;&lt;p&gt;第一步就到这里完成了&lt;/p&gt;&lt;p&gt;第二部：&lt;/p&gt;&lt;p&gt;先进入/etc/sysconfig/network-scripts&lt;/p&gt;&lt;p&gt;然后备份ifcfg-ens33&amp;nbsp;&lt;/p&gt;&lt;p&gt;命令：cp ifcfg-ens33 ifcfg-ens33.bak&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/ueditor/php/upload/image/20180106/1515219717118926.png&quot; title=&quot;1515219717118926.png&quot; alt=&quot;TIM截图20180106142031.png&quot;/&gt;&lt;/p&gt;&lt;p&gt;然后修改ifcfg-ens33&lt;/p&gt;&lt;p&gt;命令：vi ifcfg-ens33&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/ueditor/php/upload/image/20180106/1515219845704817.png&quot; title=&quot;1515219845704817.png&quot; alt=&quot;TIM截图20180106142330.png&quot;/&gt;&lt;/p&gt;&lt;p&gt;BOOTPROTO=DHCP&amp;nbsp; 改成static&lt;/p&gt;&lt;p&gt;ONBOOT=no 改成yes&lt;/p&gt;&lt;p&gt;添加ip、网关、dns&lt;/p&gt;&lt;p&gt;保存后重启network&lt;/p&gt;&lt;p&gt;命令：systemctl restarrt network&lt;/p&gt;&lt;p&gt;测试命令：ping &lt;a href=&quot;http://www.baidu.com&quot;&gt;www.baidu.com&lt;/a&gt; &lt;/p&gt;&lt;p&gt;第二部完成，&lt;/p&gt;&lt;p&gt;第三部：&lt;/p&gt;&lt;p&gt;现在虚拟机可以上网了，但宿主机还ping不同虚拟机所以要设置相同网段。&lt;/p&gt;&lt;p&gt;打开网络共享中心-&amp;gt;更改适配器设置&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/ueditor/php/upload/image/20180106/1515220221908185.png&quot; title=&quot;1515220221908185.png&quot; alt=&quot;TIM截图20180106143001.png&quot;/&gt;&lt;/p&gt;&lt;p&gt;设置好就可以虚拟机和宿主机互相ping通了&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;',`status`='1',`type`='3',`createtime`='1515220268',`author`='小兔',`imgurl`=NULL,`recom`='0',`readnum`='3' WHERE `id` = 52 [ RunTime:0.0004s ]
+SQL: SELECT `id`,`title` FROM `article` WHERE ( id<52 and status=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`title` FROM `article` WHERE ( id>52 and status=1 ) ORDER BY id asc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`title` FROM `article` WHERE ( id<>52 and status=1 and recom=1 ) ORDER BY id desc LIMIT 6   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000221s ]
+NOTIC: [8] Undefined variable: title D:\WWW\tools\Application\Runtime\Cache\Home\f274c600cf8d13c9d31ff143ea08a211.php 第 55 行.
+INFO: [ keyWords ] --START--
+SQL: SHOW COLUMNS FROM `keywords` [ RunTime:0.0067s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\WWW\tools\Application\Home\Model\CommModel.class.php on line 46 and defined D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `keywords` ORDER BY `order` asc,num desc LIMIT 30   [ RunTime:0.0002s ]
+INFO: Run Home\Behavior\KeyWordsBehavior [ RunTime:0.008816s ]
+INFO: [ keyWords ] --END-- [ RunTime:0.008867s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.095875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.095963s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000361s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000409s ]
+

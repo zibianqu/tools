@@ -1,0 +1,1503 @@
+[ 2016-09-07T10:29:30+08:00 ] 127.0.0.1 /admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+NOTIC: [2048] Non-static method Admin\Model\AdminModel::isLogin() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Admin\Controller\IndexController.class.php 第 12 行.
+
+[ 2016-09-07T10:29:30+08:00 ] 127.0.0.1 /admin/login.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-09-07T10:29:43+08:00 ] 127.0.0.1 /admin/login/dologin.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Non-static method Admin\Model\AdminModel::adminLogin() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Admin\Controller\LoginController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0420s ]
+SQL: SELECT * FROM `admin` WHERE `user` = 'admin' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2016-09-07T10:29:43+08:00 ] 127.0.0.1 /admin/index.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Non-static method Admin\Model\AdminModel::isLogin() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Admin\Controller\IndexController.class.php 第 12 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-09-07T10:29:47+08:00 ] 127.0.0.1 /admin/index/lists.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Non-static method Admin\Model\AdminModel::isLogin() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Admin\Controller\IndexController.class.php 第 12 行.
+NOTIC: [2048] Declaration of Admin\Model\ArticleModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Admin\Model\ArticleModel.class.php 第 101 行.
+NOTIC: [2048] Declaration of Admin\Model\ArticleModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Admin\Model\ArticleModel.class.php 第 101 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0140s ]
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Admin\Controller\IndexController.class.php 第 95 行.
+SQL: SELECT * FROM `article` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0300s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.097006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.098006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005001s ]
+
+[ 2016-09-07T10:29:50+08:00 ] 127.0.0.1 /admin/index/article.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Non-static method Admin\Model\AdminModel::isLogin() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Admin\Controller\IndexController.class.php 第 12 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-09-07T10:48:10+08:00 ] 127.0.0.1 /admin/index/SaveArticle.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Non-static method Admin\Model\AdminModel::isLogin() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Admin\Controller\IndexController.class.php 第 12 行.
+NOTIC: [2048] Declaration of Admin\Model\ArticleModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Admin\Model\ArticleModel.class.php 第 101 行.
+NOTIC: [2048] Declaration of Admin\Model\ArticleModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Admin\Model\ArticleModel.class.php 第 101 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0340s ]
+SQL: INSERT INTO `article` (`type`,`title`,`keyword`,`author`,`content`,`createtime`) VALUES ('0','php 常用排序，冒泡排序，插入排序，选择排序','php 常用排序，冒泡排序，插入排序，选择排序','小兔','1、冒泡排序
+&lt;pre class=&quot;prettyprint lang-php&quot;&gt;function maopaosort(&amp;amp;$ar){
+	for($i=0;$i&amp;lt;count($ar);$i++){
+		for($j=count($ar)-1;$j&amp;gt;$i;$j--){
+			if($ar[$i]&amp;gt;$ar[$j]){
+				$temp=$ar[$i];
+				$ar[$i]=$ar[$j];
+				$ar[$j]=$temp;
+			}
+		}
+	}
+}
+$ar = array(5,2,4,6,1,3);
+maopaosort($ar);
+print_r($ar);&lt;/pre&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	2、插入排序
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;pre class=&quot;prettyprint lang-php&quot;&gt;function insertSort($arr) {
+	$len = count($arr);
+	for ($i = 1; $i &amp;lt; 6; $i++) {
+		// 当前值
+		$key = $arr[$i];
+		// 当前位置
+		$pos = $i;
+		// 如是当前位置 &amp;gt;0 &amp;amp;&amp;amp; 当前值的前一个值 &amp;gt; 当前值 选出最值
+		while ($pos &amp;gt; 0 &amp;amp;&amp;amp; $arr[$pos - 1] &amp;gt; $key) {
+			// 当前值  =  前一个值
+			$arr[$pos] = $arr[$pos - 1];
+			// 当前位置后移
+			$pos = $pos - 1;
+			
+		}
+		// 找到当前值的位置
+		$arr[$pos] = $key;
+		echo join(\',\', $arr);
+		echo \'&amp;lt;br&amp;gt;\';
+	}
+	return $arr;
+}
+$ar = array(5,2,4,6,1,3);
+$arr=insertSort($ar);
+print_r($arr);&lt;/pre&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	3、选择排序
+&lt;/p&gt;
+&lt;pre class=&quot;prettyprint lang-php&quot;&gt;//选择排序
+function selectSort(&amp;amp;$arr){
+	//定义进行交换的变量
+	$temp=0;
+	for($i=0;$i&amp;lt;count($arr)-1;$i++){
+		//假设$i就是最小值
+		$valmin=$arr[$i];
+		//记录最小值的下标
+		$minkey=$i;
+		for($j=$i+1;$j&amp;lt;count($arr);$j++){
+			//最小值大于后面的数就进行交换
+			if($valmin&amp;gt;$arr[$j]){
+				$valmin=$arr[$j];
+				$minkey=$j;
+			}
+		}
+		//进行交换
+		$temp=$arr[$i];
+		$arr[$i]=$arr[$minkey];
+		$arr[$minkey]=$temp;
+	}
+}
+
+$arr=array(7,5,0,4,-1);
+selectSort($arr);
+print_r($arr);&lt;/pre&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;','1473216490') [ RunTime:0.0230s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.017001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.018001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-09-07T10:48:11+08:00 ] 127.0.0.1 /admin/index/article.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Non-static method Admin\Model\AdminModel::isLogin() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Admin\Controller\IndexController.class.php 第 12 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-09-07T10:48:15+08:00 ] 127.0.0.1 /admin/index/lists.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Non-static method Admin\Model\AdminModel::isLogin() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Admin\Controller\IndexController.class.php 第 12 行.
+NOTIC: [2048] Declaration of Admin\Model\ArticleModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Admin\Model\ArticleModel.class.php 第 101 行.
+NOTIC: [2048] Declaration of Admin\Model\ArticleModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Admin\Model\ArticleModel.class.php 第 101 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0150s ]
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Admin\Controller\IndexController.class.php 第 95 行.
+SQL: SELECT * FROM `article` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-09-07T10:48:20+08:00 ] 127.0.0.1 /admin/index/article/id/14.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2048] Non-static method Admin\Model\AdminModel::isLogin() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Admin\Controller\IndexController.class.php 第 12 行.
+NOTIC: [2048] Declaration of Admin\Model\ArticleModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Admin\Model\ArticleModel.class.php 第 101 行.
+NOTIC: [2048] Declaration of Admin\Model\ArticleModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Admin\Model\ArticleModel.class.php 第 101 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `article` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2016-09-07T10:50:19+08:00 ] 127.0.0.1 /admin/index/SaveArticle.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Non-static method Admin\Model\AdminModel::isLogin() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Admin\Controller\IndexController.class.php 第 12 行.
+NOTIC: [2048] Declaration of Admin\Model\ArticleModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Admin\Model\ArticleModel.class.php 第 101 行.
+NOTIC: [2048] Declaration of Admin\Model\ArticleModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Admin\Model\ArticleModel.class.php 第 101 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0150s ]
+SQL: UPDATE `article` SET `type`='0',`title`='php 常用数组排序，冒泡排序，插入排序，选择排序',`keyword`='php 常用数组排序，数组排序，冒泡排序，插入排序，选择排序',`author`='小兔',`content`='1、冒泡排序
+&lt;pre class=&quot;prettyprint lang-php&quot;&gt;function maopaosort(&amp;amp;$ar){
+	for($i=0;$i&amp;lt;count($ar);$i++){
+		for($j=count($ar)-1;$j&amp;gt;$i;$j--){
+			if($ar[$i]&amp;gt;$ar[$j]){
+				$temp=$ar[$i];
+				$ar[$i]=$ar[$j];
+				$ar[$j]=$temp;
+			}
+		}
+	}
+}
+$ar = array(5,2,4,6,1,3);
+maopaosort($ar);
+print_r($ar);&lt;/pre&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	2、插入排序
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;pre class=&quot;prettyprint lang-php&quot;&gt;function insertSort($arr) {
+	$len = count($arr);
+	for ($i = 1; $i &amp;lt; 6; $i++) {
+		// 当前值
+		$key = $arr[$i];
+		// 当前位置
+		$pos = $i;
+		// 如是当前位置 &amp;gt;0 &amp;amp;&amp;amp; 当前值的前一个值 &amp;gt; 当前值 选出最值
+		while ($pos &amp;gt; 0 &amp;amp;&amp;amp; $arr[$pos - 1] &amp;gt; $key) {
+			// 当前值  =  前一个值
+			$arr[$pos] = $arr[$pos - 1];
+			// 当前位置后移
+			$pos = $pos - 1;
+			
+		}
+		// 找到当前值的位置
+		$arr[$pos] = $key;
+		echo join(\',\', $arr);
+		echo \'&amp;lt;br&amp;gt;\';
+	}
+	return $arr;
+}
+$ar = array(5,2,4,6,1,3);
+$arr=insertSort($ar);
+print_r($arr);&lt;/pre&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	3、选择排序
+&lt;/p&gt;
+&lt;pre class=&quot;prettyprint lang-php&quot;&gt;//选择排序
+function selectSort(&amp;amp;$arr){
+	//定义进行交换的变量
+	$temp=0;
+	for($i=0;$i&amp;lt;count($arr)-1;$i++){
+		//假设$i就是最小值
+		$valmin=$arr[$i];
+		//记录最小值的下标
+		$minkey=$i;
+		for($j=$i+1;$j&amp;lt;count($arr);$j++){
+			//最小值大于后面的数就进行交换
+			if($valmin&amp;gt;$arr[$j]){
+				$valmin=$arr[$j];
+				$minkey=$j;
+			}
+		}
+		//进行交换
+		$temp=$arr[$i];
+		$arr[$i]=$arr[$minkey];
+		$arr[$minkey]=$temp;
+	}
+}
+
+$arr=array(7,5,0,4,-1);
+selectSort($arr);
+print_r($arr);&lt;/pre&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;',`createtime`='1473216619' WHERE `id` = 14 [ RunTime:0.0860s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-09-07T10:50:22+08:00 ] 127.0.0.1 /admin/index/article/id/14.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Non-static method Admin\Model\AdminModel::isLogin() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Admin\Controller\IndexController.class.php 第 12 行.
+NOTIC: [2048] Declaration of Admin\Model\ArticleModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Admin\Model\ArticleModel.class.php 第 101 行.
+NOTIC: [2048] Declaration of Admin\Model\ArticleModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Admin\Model\ArticleModel.class.php 第 101 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `article` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-09-07T10:50:25+08:00 ] 127.0.0.1 /admin/index/article/id/14.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Non-static method Admin\Model\AdminModel::isLogin() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Admin\Controller\IndexController.class.php 第 12 行.
+NOTIC: [2048] Declaration of Admin\Model\ArticleModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Admin\Model\ArticleModel.class.php 第 101 行.
+NOTIC: [2048] Declaration of Admin\Model\ArticleModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Admin\Model\ArticleModel.class.php 第 101 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `article` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-09-07T11:20:39+08:00 ] 127.0.0.1 /admin/index/SaveArticle.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Non-static method Admin\Model\AdminModel::isLogin() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Admin\Controller\IndexController.class.php 第 12 行.
+NOTIC: [2048] Declaration of Admin\Model\ArticleModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Admin\Model\ArticleModel.class.php 第 101 行.
+NOTIC: [2048] Declaration of Admin\Model\ArticleModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Admin\Model\ArticleModel.class.php 第 101 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0090s ]
+SQL: UPDATE `article` SET `type`='0',`title`='php 常用数组排序，冒泡排序，插入排序，选择排序',`keyword`='php 常用数组排序，数组排序，冒泡排序，插入排序，选择排序',`author`='小兔',`content`='&lt;h3&gt;
+	&lt;span style=&quot;line-height:1.5;&quot;&gt;&lt;strong&gt;通过元素值对数组排序&lt;/strong&gt;&lt;/span&gt; 
+&lt;/h3&gt;
+&lt;p&gt;
+	&lt;span style=&quot;line-height:1.5;&quot;&gt;1、sort&lt;span&gt;函数对数组进行&lt;/span&gt;升序排序,忽略键名的数组排序,sort($array,$&lt;span&gt;sortingtype&lt;/span&gt;)&lt;/span&gt; 
+&lt;/p&gt;
+&lt;pre class=&quot;prettyprint lang-php&quot;&gt;$array = array(&quot;Bill&quot;=&amp;gt;&quot;60&quot;,&quot;Steve&quot;=&amp;gt;&quot;56&quot;,&quot;Mark&quot;=&amp;gt;&quot;31&quot;);
+sort($array); 
+pint_r($array)
+
+&lt;/pre&gt;
+&lt;p&gt;
+	输出：&lt;span style=&quot;font-family:Simsun;font-size:medium;line-height:normal;&quot;&gt;Array ( [0] =&amp;gt; 31 [1] =&amp;gt; 56 [2] =&amp;gt; 60 )&lt;/span&gt; 
+&lt;/p&gt;
+&lt;p&gt;
+	由小到大的顺序排序
+&lt;/p&gt;
+&lt;p&gt;
+	$sortingtype=0  默认。把每一项按常规顺序排列
+&lt;/p&gt;
+&lt;p&gt;
+	$sortingtype=1  把每一项作为数字来处理&amp;nbsp;
+&lt;/p&gt;
+&lt;p&gt;
+	$sortingtype=2  把每一项作为字符串来处理&amp;nbsp;
+&lt;/p&gt;
+&lt;p&gt;
+	$sortingtype=3  把每一项作为字符串来处理，基于当前区域设置（可通过 setlocale() 进行更改）
+&lt;/p&gt;
+&lt;p&gt;
+	$sortingtype=4   把每一项作为字符串来处理，使用类似 natsort() 的自然排序 $sortingtype=2  可以结合（按位或）SORT_STRING 或 SORT_NATURAL 对字符串进行排序，不区分大小写
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	2、rsort函数对数组进行&lt;span style=&quot;font-family:Verdana, Arial, 宋体;background-color:#F9F9F9;&quot;&gt;降序排序,忽略键名的数组排序,&lt;/span&gt;r&lt;span&gt;sort($array,&lt;/span&gt;&lt;span&gt;$&lt;/span&gt;&lt;span&gt;sortingtype&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;)&lt;/span&gt; 
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;span&gt; &lt;/span&gt; 
+&lt;/p&gt;
+&lt;pre class=&quot;prettyprint lang-js&quot;&gt;$array = array(&quot;Bill&quot;=&amp;gt;&quot;60&quot;,&quot;Steve&quot;=&amp;gt;&quot;56&quot;,&quot;Mark&quot;=&amp;gt;&quot;31&quot;); 
+rsort($array); 
+pint_r($array)&lt;/pre&gt;
+&lt;p&gt;
+	&lt;span&gt;输出&lt;/span&gt;：&lt;span style=&quot;font-family:Simsun;font-size:medium;line-height:normal;&quot;&gt;Array ( [0] =&amp;gt; 60 [1] =&amp;gt; 56 [2] =&amp;gt; 31 )&lt;/span&gt; 
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;span style=&quot;font-family:Simsun;font-size:medium;line-height:normal;&quot;&gt;&lt;br /&gt;
+&lt;/span&gt; 
+&lt;/p&gt;
+&lt;p&gt;
+	3、asort&lt;span&gt;函数对数组进行&lt;/span&gt;&lt;span&gt;升序排序,保留健民的数组排序a&lt;span&gt;sort($array,&lt;/span&gt;&lt;span&gt;$&lt;/span&gt;&lt;span&gt;sortingtype&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;)&lt;/span&gt;&lt;/span&gt; 
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;pre class=&quot;prettyprint lang-php&quot;&gt;$array = array(&quot;Bill&quot;=&amp;gt;&quot;60&quot;,&quot;Steve&quot;=&amp;gt;&quot;56&quot;,&quot;Mark&quot;=&amp;gt;&quot;31&quot;); 
+asort($array); 
+pint_r($array)&lt;/pre&gt;
+&lt;span&gt;输出&lt;/span&gt;：&lt;span style=&quot;font-family:Simsun;font-size:medium;line-height:normal;&quot;&gt;Array ( [Mark] =&amp;gt; 31 [Bill] =&amp;gt; 60 [Steve] =&amp;gt; 80 )&lt;/span&gt; 
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	1、冒泡排序
+&lt;/p&gt;
+&lt;pre class=&quot;prettyprint lang-php&quot;&gt;function maopaosort(&amp;amp;$ar){
+	for($i=0;$i&amp;lt;count($ar);$i++){
+		for($j=count($ar)-1;$j&amp;gt;$i;$j--){
+			if($ar[$i]&amp;gt;$ar[$j]){
+				$temp=$ar[$i];
+				$ar[$i]=$ar[$j];
+				$ar[$j]=$temp;
+			}
+		}
+	}
+}
+$ar = array(5,2,4,6,1,3);
+maopaosort($ar);
+print_r($ar);&lt;/pre&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	2、插入排序
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;pre class=&quot;prettyprint lang-php&quot;&gt;function insertSort($arr) {
+	$len = count($arr);
+	for ($i = 1; $i &amp;lt; 6; $i++) {
+		// 当前值
+		$key = $arr[$i];
+		// 当前位置
+		$pos = $i;
+		// 如是当前位置 &amp;gt;0 &amp;amp;&amp;amp; 当前值的前一个值 &amp;gt; 当前值 选出最值
+		while ($pos &amp;gt; 0 &amp;amp;&amp;amp; $arr[$pos - 1] &amp;gt; $key) {
+			// 当前值  =  前一个值
+			$arr[$pos] = $arr[$pos - 1];
+			// 当前位置后移
+			$pos = $pos - 1;
+			
+		}
+		// 找到当前值的位置
+		$arr[$pos] = $key;
+		echo join(\',\', $arr);
+		echo \'&amp;lt;br&amp;gt;\';
+	}
+	return $arr;
+}
+$ar = array(5,2,4,6,1,3);
+$arr=insertSort($ar);
+print_r($arr);&lt;/pre&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	3、选择排序
+&lt;/p&gt;
+&lt;pre class=&quot;prettyprint lang-php&quot;&gt;//选择排序
+function selectSort(&amp;amp;$arr){
+	//定义进行交换的变量
+	$temp=0;
+	for($i=0;$i&amp;lt;count($arr)-1;$i++){
+		//假设$i就是最小值
+		$valmin=$arr[$i];
+		//记录最小值的下标
+		$minkey=$i;
+		for($j=$i+1;$j&amp;lt;count($arr);$j++){
+			//最小值大于后面的数就进行交换
+			if($valmin&amp;gt;$arr[$j]){
+				$valmin=$arr[$j];
+				$minkey=$j;
+			}
+		}
+		//进行交换
+		$temp=$arr[$i];
+		$arr[$i]=$arr[$minkey];
+		$arr[$minkey]=$temp;
+	}
+}
+
+$arr=array(7,5,0,4,-1);
+selectSort($arr);
+print_r($arr);&lt;/pre&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;',`createtime`='1473218439' WHERE `id` = 14 [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-09-07T11:20:45+08:00 ] 127.0.0.1 /admin/index/article/id/14.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Non-static method Admin\Model\AdminModel::isLogin() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Admin\Controller\IndexController.class.php 第 12 行.
+NOTIC: [2048] Declaration of Admin\Model\ArticleModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Admin\Model\ArticleModel.class.php 第 101 行.
+NOTIC: [2048] Declaration of Admin\Model\ArticleModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Admin\Model\ArticleModel.class.php 第 101 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `article` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005001s ]
+
+[ 2016-09-07T11:25:05+08:00 ] 127.0.0.1 /admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `statisticsip` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `statisticsip` WHERE `ip` = '127.0.0.1' AND `date` = 20160907 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2048] Non-static method Admin\Model\AdminModel::isLogin() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Admin\Controller\IndexController.class.php 第 12 行.
+
+[ 2016-09-07T11:25:06+08:00 ] 127.0.0.1 /admin/login.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `statisticsip` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `statisticsip` WHERE `ip` = '127.0.0.1' AND `date` = 20160907 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-09-07T11:25:13+08:00 ] 127.0.0.1 /admin/login/dologin.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `statisticsip` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `statisticsip` WHERE `ip` = '127.0.0.1' AND `date` = 20160907 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2048] Non-static method Admin\Model\AdminModel::adminLogin() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Admin\Controller\LoginController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `admin` WHERE `user` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-09-07T11:25:14+08:00 ] 127.0.0.1 /admin/index.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `statisticsip` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `statisticsip` WHERE `ip` = '127.0.0.1' AND `date` = 20160907 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2048] Non-static method Admin\Model\AdminModel::isLogin() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Admin\Controller\IndexController.class.php 第 12 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-09-07T11:25:15+08:00 ] 127.0.0.1 /admin/login/dologin.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `statisticsip` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `statisticsip` WHERE `ip` = '127.0.0.1' AND `date` = 20160907 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2048] Non-static method Admin\Model\AdminModel::adminLogin() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Admin\Controller\LoginController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `admin` WHERE `user` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-09-07T11:25:18+08:00 ] 127.0.0.1 /admin/index/lists.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `statisticsip` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `statisticsip` WHERE `ip` = '127.0.0.1' AND `date` = 20160907 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2048] Non-static method Admin\Model\AdminModel::isLogin() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Admin\Controller\IndexController.class.php 第 12 行.
+NOTIC: [2048] Declaration of Admin\Model\ArticleModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Admin\Model\ArticleModel.class.php 第 101 行.
+NOTIC: [2048] Declaration of Admin\Model\ArticleModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Admin\Model\ArticleModel.class.php 第 101 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0150s ]
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Admin\Controller\IndexController.class.php 第 95 行.
+SQL: SELECT * FROM `article` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-09-07T11:25:24+08:00 ] 127.0.0.1 /admin/index/article/id/14.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `statisticsip` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `statisticsip` WHERE `ip` = '127.0.0.1' AND `date` = 20160907 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2048] Non-static method Admin\Model\AdminModel::isLogin() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Admin\Controller\IndexController.class.php 第 12 行.
+NOTIC: [2048] Declaration of Admin\Model\ArticleModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Admin\Model\ArticleModel.class.php 第 101 行.
+NOTIC: [2048] Declaration of Admin\Model\ArticleModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Admin\Model\ArticleModel.class.php 第 101 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `article` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-09-07T11:44:20+08:00 ] 127.0.0.1 /admin/index/SaveArticle.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `statisticsip` [ RunTime:0.2020s ]
+SQL: SELECT * FROM `statisticsip` WHERE `ip` = '127.0.0.1' AND `date` = 20160907 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2048] Non-static method Admin\Model\AdminModel::isLogin() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Admin\Controller\IndexController.class.php 第 12 行.
+NOTIC: [2048] Declaration of Admin\Model\ArticleModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Admin\Model\ArticleModel.class.php 第 101 行.
+NOTIC: [2048] Declaration of Admin\Model\ArticleModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Admin\Model\ArticleModel.class.php 第 101 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0120s ]
+SQL: UPDATE `article` SET `type`='0',`title`='php 常用数组排序，冒泡排序，插入排序，选择排序',`keyword`='php 常用数组排序，数组排序，冒泡排序，插入排序，选择排序',`author`='小兔',`content`='&lt;h3&gt;
+	&lt;span style=&quot;line-height:1.5;&quot;&gt;&lt;strong&gt;通过元素值对数组排序&lt;/strong&gt;&lt;/span&gt; 
+&lt;/h3&gt;
+&lt;p&gt;
+	&lt;span style=&quot;line-height:1.5;&quot;&gt; &lt;/span&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	$sortingtype=0 默认。把每一项按常规顺序排列
+&lt;/p&gt;
+&lt;p&gt;
+	$sortingtype=1 把每一项作为数字来处理&amp;nbsp;
+&lt;/p&gt;
+&lt;p&gt;
+	$sortingtype=2 把每一项作为字符串来处理&amp;nbsp;
+&lt;/p&gt;
+&lt;p&gt;
+	$sortingtype=3 把每一项作为字符串来处理，基于当前区域设置（可通过 setlocale() 进行更改）
+&lt;/p&gt;
+&lt;p&gt;
+	$sortingtype=4 把每一项作为字符串来处理，使用类似 natsort() 的自然排序 $sortingtype=2 可以结合（按位或）SORT_STRING 或 SORT_NATURAL 对字符串进行排序，不区分大小写
+&lt;/p&gt;
+&lt;br /&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;span style=&quot;line-height:1.5;&quot;&gt;1、&lt;strong&gt;sort&lt;/strong&gt;&lt;span&gt;函数对数组进行&lt;/span&gt;升序排序,忽略键名的数组排序,sort($array,$&lt;span&gt;sortingtype&lt;/span&gt;)&lt;/span&gt; 
+&lt;/p&gt;
+&lt;pre class=&quot;prettyprint lang-php&quot;&gt;$array = array(&quot;Bill&quot;=&amp;gt;&quot;60&quot;,&quot;Steve&quot;=&amp;gt;&quot;56&quot;,&quot;Mark&quot;=&amp;gt;&quot;31&quot;);
+sort($array); 
+var_export($array)
+
+&lt;/pre&gt;
+&lt;p&gt;
+	输出：&lt;span style=&quot;font-family:Simsun;font-size:medium;line-height:normal;&quot;&gt;&lt;span style=&quot;font-family:Simsun;font-size:medium;line-height:normal;&quot;&gt;array ( 0 =&amp;gt; \'31\', 1 =&amp;gt; \'56\', 2 =&amp;gt; \'60\', )&lt;/span&gt;&lt;/span&gt; 
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	2、&lt;strong&gt;rsort&lt;/strong&gt;函数对数组进行&lt;span style=&quot;font-family:Verdana, Arial, 宋体;background-color:#F9F9F9;&quot;&gt;降序排序,忽略键名的数组排序,&lt;/span&gt;r&lt;span&gt;sort($array,&lt;/span&gt;&lt;span&gt;$&lt;/span&gt;&lt;span&gt;sortingtype&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;)&lt;/span&gt; 
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;span&gt; &lt;/span&gt; 
+&lt;/p&gt;
+&lt;pre class=&quot;prettyprint lang-js&quot;&gt;$array = array(&quot;Bill&quot;=&amp;gt;&quot;60&quot;,&quot;Steve&quot;=&amp;gt;&quot;56&quot;,&quot;Mark&quot;=&amp;gt;&quot;31&quot;); 
+rsort($array); 
+var_export($array)&lt;/pre&gt;
+&lt;p&gt;
+	&lt;span&gt;输出&lt;/span&gt;：&lt;span style=&quot;font-family:Simsun;font-size:medium;line-height:normal;&quot;&gt;&lt;span style=&quot;font-family:Simsun;font-size:medium;line-height:normal;&quot;&gt;array ( 0 =&amp;gt; \'60\', 1 =&amp;gt; \'56\', 2 =&amp;gt; \'31\', )&lt;/span&gt;&lt;/span&gt; 
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;span style=&quot;font-family:Simsun;font-size:medium;line-height:normal;&quot;&gt;&lt;br /&gt;
+&lt;/span&gt; 
+&lt;/p&gt;
+&lt;p&gt;
+	3、&lt;strong&gt;asort&lt;/strong&gt;&lt;span&gt;函数对数组进行&lt;/span&gt;&lt;span&gt;升序排序,保留&lt;span&gt;键名&lt;/span&gt;的数组排序,a&lt;span&gt;sort($array,&lt;/span&gt;&lt;span&gt;$&lt;/span&gt;&lt;span&gt;sortingtype&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;)&lt;/span&gt;&lt;/span&gt; 
+&lt;/p&gt;
+&lt;pre class=&quot;prettyprint lang-php&quot;&gt;$array = array(&quot;Bill&quot;=&amp;gt;&quot;60&quot;,&quot;Steve&quot;=&amp;gt;&quot;56&quot;,&quot;Mark&quot;=&amp;gt;&quot;31&quot;); 
+asort($array); 
+var_export($array)&lt;/pre&gt;
+&lt;p&gt;
+	&lt;span&gt;输出&lt;/span&gt;：&lt;span style=&quot;font-family:Simsun;font-size:medium;line-height:normal;&quot;&gt;&lt;span style=&quot;font-family:Simsun;font-size:medium;line-height:normal;&quot;&gt;array ( \'Mark\' =&amp;gt; \'31\', \'Steve\' =&amp;gt; \'56\', \'Bill\' =&amp;gt; \'60\', )&lt;/span&gt;&lt;/span&gt; 
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	4、&lt;strong&gt;arsort&lt;/strong&gt;函数对数组进行降&lt;span&gt;序&lt;/span&gt;排序，保留键名的数组排序,&lt;span&gt;ar&lt;/span&gt;&lt;span&gt;sort($array,&lt;/span&gt;&lt;span&gt;$&lt;/span&gt;&lt;span&gt;sortingtype&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;)&lt;/span&gt; 
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;span&gt; &lt;/span&gt; 
+&lt;/p&gt;
+&lt;pre class=&quot;prettyprint lang-php&quot;&gt;$array = array(&quot;Bill&quot;=&amp;gt;&quot;60&quot;,&quot;Steve&quot;=&amp;gt;&quot;56&quot;,&quot;Mark&quot;=&amp;gt;&quot;31&quot;); 
+asort($array); 
+var_export($array)&lt;/pre&gt;
+&lt;span&gt;输出&lt;/span&gt;&lt;span&gt;：&lt;/span&gt;&lt;span style=&quot;font-family:Simsun;font-size:medium;line-height:normal;&quot;&gt;&lt;span style=&quot;font-family:Simsun;font-size:medium;line-height:normal;&quot;&gt;array ( \'Bill\' =&amp;gt; \'60\', \'Steve\' =&amp;gt; \'56\', \'Mark\' =&amp;gt; \'31\', )&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;span&gt;&lt;span style=&quot;font-family:Simsun;font-size:medium;line-height:normal;&quot;&gt;&lt;span style=&quot;font-family:Simsun;font-size:medium;line-height:normal;&quot;&gt;&lt;br /&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; 
+&lt;/p&gt;
+&lt;p&gt;
+	5、uasort改函数由用户自定义排序,uasort($array,\'myfunction\')
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;pre class=&quot;prettyprint lang-php&quot;&gt;function my_sort($a,$b)
+{
+	if ($a==$b) return 0;
+	return ($a&amp;lt;$b)?-1:1;
+}
+
+$arr=array(&quot;a&quot;=&amp;gt;4,&quot;c&quot;=&amp;gt;8,&quot;b&quot;=&amp;gt;2,&quot;d&quot;=&amp;gt;6);
+uasort($arr,&quot;my_sort&quot;);
+var_export($arr);&lt;/pre&gt;
+输出：&lt;span style=&quot;font-family:Simsun;font-size:medium;line-height:normal;&quot;&gt;array ( \'b\' =&amp;gt; 2, \'a\' =&amp;gt; 4, \'d\' =&amp;gt; 6, \'c\' =&amp;gt; 8, )&lt;/span&gt; 
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;span style=&quot;font-family:Simsun;font-size:medium;line-height:normal;&quot;&gt;&lt;br /&gt;
+&lt;/span&gt; 
+&lt;/p&gt;
+&lt;h3&gt;
+	&lt;span style=&quot;font-family:Simsun;font-size:medium;line-height:normal;&quot;&gt;通过元素值对数组排序&lt;/span&gt; 
+&lt;/h3&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;h3&gt;
+	&lt;strong&gt;嵌套循环排序&lt;/strong&gt; 
+&lt;/h3&gt;
+&lt;p&gt;
+	1、冒泡排序
+&lt;/p&gt;
+&lt;pre class=&quot;prettyprint lang-php&quot;&gt;function maopaosort(&amp;amp;$ar){
+	for($i=0;$i&amp;lt;count($ar);$i++){
+		for($j=count($ar)-1;$j&amp;gt;$i;$j--){
+			if($ar[$i]&amp;gt;$ar[$j]){
+				$temp=$ar[$i];
+				$ar[$i]=$ar[$j];
+				$ar[$j]=$temp;
+			}
+		}
+	}
+}
+$ar = array(5,2,4,6,1,3);
+maopaosort($ar);
+print_r($ar);&lt;/pre&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	2、插入排序
+&lt;/p&gt;
+&lt;pre class=&quot;prettyprint lang-php&quot;&gt;function insertSort($arr) {
+	$len = count($arr);
+	for ($i = 1; $i &amp;lt; 6; $i++) {
+		// 当前值
+		$key = $arr[$i];
+		// 当前位置
+		$pos = $i;
+		// 如是当前位置 &amp;gt;0 &amp;amp;&amp;amp; 当前值的前一个值 &amp;gt; 当前值 选出最值
+		while ($pos &amp;gt; 0 &amp;amp;&amp;amp; $arr[$pos - 1] &amp;gt; $key) {
+			// 当前值  =  前一个值
+			$arr[$pos] = $arr[$pos - 1];
+			// 当前位置后移
+			$pos = $pos - 1;
+			
+		}
+		// 找到当前值的位置
+		$arr[$pos] = $key;
+		echo join(\',\', $arr);
+		echo \'&amp;lt;br&amp;gt;\';
+	}
+	return $arr;
+}
+$ar = array(5,2,4,6,1,3);
+$arr=insertSort($ar);
+print_r($arr);&lt;/pre&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	3、选择排序
+&lt;/p&gt;
+&lt;pre class=&quot;prettyprint lang-php&quot;&gt;//选择排序
+function selectSort(&amp;amp;$arr){
+	//定义进行交换的变量
+	$temp=0;
+	for($i=0;$i&amp;lt;count($arr)-1;$i++){
+		//假设$i就是最小值
+		$valmin=$arr[$i];
+		//记录最小值的下标
+		$minkey=$i;
+		for($j=$i+1;$j&amp;lt;count($arr);$j++){
+			//最小值大于后面的数就进行交换
+			if($valmin&amp;gt;$arr[$j]){
+				$valmin=$arr[$j];
+				$minkey=$j;
+			}
+		}
+		//进行交换
+		$temp=$arr[$i];
+		$arr[$i]=$arr[$minkey];
+		$arr[$minkey]=$temp;
+	}
+}
+
+$arr=array(7,5,0,4,-1);
+selectSort($arr);
+print_r($arr);&lt;/pre&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;',`createtime`='1473219860' WHERE `id` = 14 [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-09-07T11:44:22+08:00 ] 127.0.0.1 /admin/index/article/id/14.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `statisticsip` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `statisticsip` WHERE `ip` = '127.0.0.1' AND `date` = 20160907 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2048] Non-static method Admin\Model\AdminModel::isLogin() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Admin\Controller\IndexController.class.php 第 12 行.
+NOTIC: [2048] Declaration of Admin\Model\ArticleModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Admin\Model\ArticleModel.class.php 第 101 行.
+NOTIC: [2048] Declaration of Admin\Model\ArticleModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Admin\Model\ArticleModel.class.php 第 101 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `article` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-09-07T11:57:56+08:00 ] 127.0.0.1 /admin/index/SaveArticle.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `statisticsip` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `statisticsip` WHERE `ip` = '127.0.0.1' AND `date` = 20160907 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2048] Non-static method Admin\Model\AdminModel::isLogin() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Admin\Controller\IndexController.class.php 第 12 行.
+NOTIC: [2048] Declaration of Admin\Model\ArticleModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Admin\Model\ArticleModel.class.php 第 101 行.
+NOTIC: [2048] Declaration of Admin\Model\ArticleModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Admin\Model\ArticleModel.class.php 第 101 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0090s ]
+SQL: UPDATE `article` SET `type`='0',`title`='php 常用数组排序，冒泡排序，插入排序，选择排序',`keyword`='php 常用数组排序，数组排序，冒泡排序，插入排序，选择排序',`author`='小兔',`content`='&lt;h3&gt;
+	&lt;span style=&quot;line-height:1.5;&quot;&gt;&lt;strong&gt;通过元素值对数组排序&lt;/strong&gt;&lt;/span&gt; 
+&lt;/h3&gt;
+&lt;p&gt;
+	&lt;span style=&quot;line-height:1.5;&quot;&gt; &lt;/span&gt; 
+&lt;/p&gt;
+&lt;p&gt;
+	$sortingtype=0 默认。把每一项按常规顺序排列
+&lt;/p&gt;
+&lt;p&gt;
+	$sortingtype=1 把每一项作为数字来处理&amp;nbsp;
+&lt;/p&gt;
+&lt;p&gt;
+	$sortingtype=2 把每一项作为字符串来处理&amp;nbsp;
+&lt;/p&gt;
+&lt;p&gt;
+	$sortingtype=3 把每一项作为字符串来处理，基于当前区域设置（可通过 setlocale() 进行更改）
+&lt;/p&gt;
+&lt;p&gt;
+	$sortingtype=4 把每一项作为字符串来处理，使用类似 natsort() 的自然排序 $sortingtype=2 可以结合（按位或）SORT_STRING 或 SORT_NATURAL 对字符串进行排序，不区分大小写
+&lt;/p&gt;
+&lt;br /&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;span style=&quot;line-height:1.5;&quot;&gt;1、&lt;strong&gt;sort&lt;/strong&gt;&lt;span&gt;函数对数组&lt;span&gt;按照键值&lt;/span&gt;进行&lt;/span&gt;升序排序,忽略键名的数组排序,sort($array,$&lt;span&gt;sortingtype&lt;/span&gt;)&lt;/span&gt; 
+&lt;/p&gt;
+&lt;pre class=&quot;prettyprint lang-php&quot;&gt;$array = array(&quot;Bill&quot;=&amp;gt;&quot;60&quot;,&quot;Steve&quot;=&amp;gt;&quot;56&quot;,&quot;Mark&quot;=&amp;gt;&quot;31&quot;);
+sort($array); 
+var_export($array)
+
+&lt;/pre&gt;
+&lt;p&gt;
+	输出：&lt;span style=&quot;font-family:Simsun;font-size:medium;line-height:normal;&quot;&gt;&lt;span style=&quot;font-family:Simsun;font-size:medium;line-height:normal;&quot;&gt;array ( 0 =&amp;gt; \'31\', 1 =&amp;gt; \'56\', 2 =&amp;gt; \'60\', )&lt;/span&gt;&lt;/span&gt; 
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	2、&lt;strong&gt;rsort&lt;/strong&gt;函数对数组&lt;span&gt;按照键值&lt;/span&gt;进行&lt;span style=&quot;font-family:Verdana, Arial, 宋体;background-color:#F9F9F9;&quot;&gt;降序排序,忽略键名的数组排序,&lt;/span&gt;r&lt;span&gt;sort($array,&lt;/span&gt;&lt;span&gt;$&lt;/span&gt;&lt;span&gt;sortingtype&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;)&lt;/span&gt; 
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;span&gt; &lt;/span&gt; 
+&lt;/p&gt;
+&lt;pre class=&quot;prettyprint lang-js&quot;&gt;$array = array(&quot;Bill&quot;=&amp;gt;&quot;60&quot;,&quot;Steve&quot;=&amp;gt;&quot;56&quot;,&quot;Mark&quot;=&amp;gt;&quot;31&quot;); 
+rsort($array); 
+var_export($array)&lt;/pre&gt;
+&lt;p&gt;
+	&lt;span&gt;输出&lt;/span&gt;：&lt;span style=&quot;font-family:Simsun;font-size:medium;line-height:normal;&quot;&gt;&lt;span style=&quot;font-family:Simsun;font-size:medium;line-height:normal;&quot;&gt;array ( 0 =&amp;gt; \'60\', 1 =&amp;gt; \'56\', 2 =&amp;gt; \'31\', )&lt;/span&gt;&lt;/span&gt; 
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;span style=&quot;font-family:Simsun;font-size:medium;line-height:normal;&quot;&gt;&lt;br /&gt;
+&lt;/span&gt; 
+&lt;/p&gt;
+&lt;p&gt;
+	3、&lt;strong&gt;asort&lt;/strong&gt;&lt;span&gt;函数对数组&lt;span&gt;按照键值&lt;/span&gt;进行&lt;/span&gt;&lt;span&gt;升序排序,保留&lt;span&gt;键名&lt;/span&gt;的数组排序,a&lt;span&gt;sort($array,&lt;/span&gt;&lt;span&gt;$&lt;/span&gt;&lt;span&gt;sortingtype&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;)&lt;/span&gt;&lt;/span&gt; 
+&lt;/p&gt;
+&lt;pre class=&quot;prettyprint lang-php&quot;&gt;$array = array(&quot;Bill&quot;=&amp;gt;&quot;60&quot;,&quot;Steve&quot;=&amp;gt;&quot;56&quot;,&quot;Mark&quot;=&amp;gt;&quot;31&quot;); 
+asort($array); 
+var_export($array)&lt;/pre&gt;
+&lt;p&gt;
+	&lt;span&gt;输出&lt;/span&gt;：&lt;span style=&quot;font-family:Simsun;font-size:medium;line-height:normal;&quot;&gt;&lt;span style=&quot;font-family:Simsun;font-size:medium;line-height:normal;&quot;&gt;array ( \'Mark\' =&amp;gt; \'31\', \'Steve\' =&amp;gt; \'56\', \'Bill\' =&amp;gt; \'60\', )&lt;/span&gt;&lt;/span&gt; 
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	4、&lt;strong&gt;arsort&lt;/strong&gt;函数对数组按照键值进行降&lt;span&gt;序&lt;/span&gt;排序，保留键名的数组排序,&lt;span&gt;ar&lt;/span&gt;&lt;span&gt;sort($array,&lt;/span&gt;&lt;span&gt;$&lt;/span&gt;&lt;span&gt;sortingtype&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;)&lt;/span&gt; 
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;span&gt; &lt;/span&gt; 
+&lt;/p&gt;
+&lt;pre class=&quot;prettyprint lang-php&quot;&gt;$array = array(&quot;Bill&quot;=&amp;gt;&quot;60&quot;,&quot;Steve&quot;=&amp;gt;&quot;56&quot;,&quot;Mark&quot;=&amp;gt;&quot;31&quot;); 
+asort($array); 
+var_export($array)&lt;/pre&gt;
+&lt;span&gt;输出&lt;/span&gt;&lt;span&gt;：&lt;/span&gt;&lt;span style=&quot;font-family:Simsun;font-size:medium;line-height:normal;&quot;&gt;&lt;span style=&quot;font-family:Simsun;font-size:medium;line-height:normal;&quot;&gt;array ( \'Bill\' =&amp;gt; \'60\', \'Steve\' =&amp;gt; \'56\', \'Mark\' =&amp;gt; \'31\', )&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;span&gt;&lt;span style=&quot;font-family:Simsun;font-size:medium;line-height:normal;&quot;&gt;&lt;span style=&quot;font-family:Simsun;font-size:medium;line-height:normal;&quot;&gt;&lt;br /&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; 
+&lt;/p&gt;
+&lt;p&gt;
+	5、&lt;strong&gt;uasort&lt;/strong&gt;改函数由用户自定义排序,uasort($array,\'myfunction\')
+&lt;/p&gt;
+&lt;pre class=&quot;prettyprint lang-php&quot;&gt;function my_sort($a,$b)
+{
+	if ($a==$b) return 0;
+	return ($a&amp;lt;$b)?-1:1;
+}
+
+$arr=array(&quot;a&quot;=&amp;gt;4,&quot;c&quot;=&amp;gt;8,&quot;b&quot;=&amp;gt;2,&quot;d&quot;=&amp;gt;6);
+uasort($arr,&quot;my_sort&quot;);
+var_export($arr);&lt;/pre&gt;
+输出：&lt;span style=&quot;font-family:Simsun;font-size:medium;line-height:normal;&quot;&gt;array ( \'b\' =&amp;gt; 2, \'a\' =&amp;gt; 4, \'d\' =&amp;gt; 6, \'c\' =&amp;gt; 8, )&lt;/span&gt; 
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;span style=&quot;font-family:Simsun;font-size:medium;line-height:normal;&quot;&gt;&lt;br /&gt;
+&lt;/span&gt; 
+&lt;/p&gt;
+&lt;h3&gt;
+	&lt;span style=&quot;font-family:Simsun;font-size:medium;line-height:normal;&quot;&gt;通过元素值对数组排序&lt;/span&gt; 
+&lt;/h3&gt;
+&lt;p&gt;
+	1、&lt;strong&gt;ksort&lt;/strong&gt;&lt;span&gt;函数对数组按照键名进行&lt;/span&gt;&lt;span&gt;升序排序,&lt;span&gt;kr&lt;/span&gt;&lt;span&gt;sort($array,&lt;/span&gt;&lt;span&gt;$&lt;/span&gt;&lt;span&gt;sortingtype&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;)&lt;/span&gt;&lt;/span&gt; 
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;span&gt; &lt;/span&gt; 
+&lt;/p&gt;
+&lt;pre class=&quot;prettyprint lang-php&quot;&gt;$array = array(&quot;Bill&quot;=&amp;gt;&quot;60&quot;,&quot;Steve&quot;=&amp;gt;&quot;56&quot;,&quot;Mark&quot;=&amp;gt;&quot;31&quot;); 
+ksort($array); 
+var_export($array);&lt;/pre&gt;
+输出：&lt;span style=&quot;font-family:Simsun;font-size:medium;line-height:normal;&quot;&gt;array ( \'Bill\' =&amp;gt; \'60\', \'Mark\' =&amp;gt; \'31\', \'Steve\' =&amp;gt; \'56\', )&lt;/span&gt; 
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;span&gt;&lt;br /&gt;
+&lt;/span&gt; 
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;span&gt;2、&lt;strong&gt;krsort&lt;/strong&gt;&lt;span&gt;函数对数组按照键名进行降&lt;/span&gt;&lt;span&gt;序排序,krsort($array,$sortingtype)&lt;/span&gt;&lt;/span&gt; 
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;span&gt; &lt;/span&gt; 
+&lt;/p&gt;
+&lt;pre class=&quot;prettyprint lang-js&quot;&gt;$array = array(&quot;Bill&quot;=&amp;gt;&quot;60&quot;,&quot;Steve&quot;=&amp;gt;&quot;56&quot;,&quot;Mark&quot;=&amp;gt;&quot;31&quot;); 
+krsort($array); 
+var_export($array);&lt;/pre&gt;
+输出：&lt;span style=&quot;font-family:Simsun;font-size:medium;line-height:normal;&quot;&gt;array ( \'Steve\' =&amp;gt; \'56\', \'Mark\' =&amp;gt; \'31\', \'Bill\' =&amp;gt; \'60\', )&lt;/span&gt; 
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;span&gt;&lt;br /&gt;
+&lt;/span&gt; 
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;span&gt;&lt;span&gt;3、&lt;strong&gt;uksort&lt;/strong&gt;改函数由用户自定义排序,uksort($array,\'myfunction\')&lt;/span&gt;&lt;/span&gt; 
+&lt;/p&gt;
+&lt;pre class=&quot;prettyprint lang-php&quot;&gt;function my_sort($a,$b)
+{
+	if ($a==$b) return 0;
+	return ($a&amp;lt;$b)?-1:1;
+}
+
+$arr=array(&quot;a&quot;=&amp;gt;4,&quot;c&quot;=&amp;gt;8,&quot;b&quot;=&amp;gt;2,&quot;d&quot;=&amp;gt;6);
+uksort($arr,&quot;my_sort&quot;);
+var_export($arr);&lt;/pre&gt;
+输出：&lt;span style=&quot;font-family:Simsun;font-size:medium;line-height:normal;&quot;&gt;array ( \'a\' =&amp;gt; 4, \'b\' =&amp;gt; 2, \'c\' =&amp;gt; 8, \'d\' =&amp;gt; 6, )&lt;/span&gt; 
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;h3&gt;
+	&lt;span style=&quot;font-family:Simsun;font-size:medium;line-height:normal;&quot;&gt;&lt;br /&gt;
+&lt;/span&gt;&lt;strong&gt;自然排序法排序&lt;/strong&gt; 
+&lt;/h3&gt;
+&lt;p&gt;
+	&lt;span style=&quot;font-family:Simsun;font-size:medium;line-height:normal;&quot;&gt;&lt;/span&gt; 
+&lt;/p&gt;
+&lt;p&gt;
+	1、&lt;strong&gt;natsort&lt;/strong&gt;&lt;span style=&quot;font-family:Verdana, Arial, 宋体;background-color:#F9F9F9;&quot;&gt;函数用&quot;自然排序&quot;算法对数组进行排序。键值保留它们原始的键名。&lt;/span&gt; 
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;span style=&quot;font-family:Verdana, Arial, 宋体;background-color:#F9F9F9;&quot;&gt;&lt;/span&gt; 
+&lt;/p&gt;
+&lt;pre class=&quot;prettyprint lang-php&quot;&gt;$array = array(&quot;temp15.txt&quot;,&quot;temp10.txt&quot;,&quot;temp1.txt&quot;,&quot;temp22.txt&quot;,&quot;temp2.txt&quot;);
+natsort($array); 
+var_export($array);&lt;/pre&gt;
+&lt;span&gt;输出：&lt;/span&gt;&lt;span style=&quot;font-family:Simsun;font-size:medium;line-height:normal;&quot;&gt;array ( 2 =&amp;gt; \'temp1.txt\', 4 =&amp;gt; \'temp2.txt\', 1 =&amp;gt; \'temp10.txt\', 0 =&amp;gt; \'temp15.txt\', 3 =&amp;gt; \'temp22.txt\', )&lt;/span&gt; 
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;span style=&quot;font-family:Verdana, Arial, 宋体;background-color:#F9F9F9;&quot;&gt;&lt;br /&gt;
+&lt;/span&gt; 
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;span style=&quot;font-family:Verdana, Arial, 宋体;background-color:#F9F9F9;&quot;&gt;2、&lt;strong&gt;natcasesort&amp;nbsp;&lt;/strong&gt;函数用&quot;自然排序&quot;算法对数组进行排序。键值保留它们原始的键名&lt;/span&gt; 
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;span style=&quot;font-family:Simsun;font-size:medium;line-height:normal;&quot;&gt;&lt;/span&gt; 
+&lt;/p&gt;
+&lt;pre class=&quot;prettyprint lang-php&quot;&gt;$array = array(&quot;Temp15.txt&quot;,&quot;temp10.txt&quot;,&quot;temp1.txt&quot;,&quot;temp22.txt&quot;,&quot;TEMP2.txt&quot;);
+natcasesort($array); 
+var_export($array);&lt;/pre&gt;
+输出：&lt;span style=&quot;font-family:Simsun;font-size:medium;line-height:normal;&quot;&gt;array ( 2 =&amp;gt; \'temp1.txt\', 4 =&amp;gt; \'TEMP2.txt\', 1 =&amp;gt; \'temp10.txt\', 0 =&amp;gt; \'Temp15.txt\', 3 =&amp;gt; \'temp22.txt\', )&lt;/span&gt;&lt;br /&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;h3&gt;
+	&lt;strong&gt;嵌套循环排序&lt;/strong&gt; 
+&lt;/h3&gt;
+&lt;p&gt;
+	1、冒泡排序
+&lt;/p&gt;
+&lt;pre class=&quot;prettyprint lang-php&quot;&gt;function maopaosort(&amp;amp;$ar){
+	for($i=0;$i&amp;lt;count($ar);$i++){
+		for($j=count($ar)-1;$j&amp;gt;$i;$j--){
+			if($ar[$i]&amp;gt;$ar[$j]){
+				$temp=$ar[$i];
+				$ar[$i]=$ar[$j];
+				$ar[$j]=$temp;
+			}
+		}
+	}
+}
+$ar = array(5,2,4,6,1,3);
+maopaosort($ar);
+print_r($ar);&lt;/pre&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	2、插入排序
+&lt;/p&gt;
+&lt;pre class=&quot;prettyprint lang-php&quot;&gt;function insertSort($arr) {
+	$len = count($arr);
+	for ($i = 1; $i &amp;lt; 6; $i++) {
+		// 当前值
+		$key = $arr[$i];
+		// 当前位置
+		$pos = $i;
+		// 如是当前位置 &amp;gt;0 &amp;amp;&amp;amp; 当前值的前一个值 &amp;gt; 当前值 选出最值
+		while ($pos &amp;gt; 0 &amp;amp;&amp;amp; $arr[$pos - 1] &amp;gt; $key) {
+			// 当前值  =  前一个值
+			$arr[$pos] = $arr[$pos - 1];
+			// 当前位置后移
+			$pos = $pos - 1;
+			
+		}
+		// 找到当前值的位置
+		$arr[$pos] = $key;
+		echo join(\',\', $arr);
+		echo \'&amp;lt;br&amp;gt;\';
+	}
+	return $arr;
+}
+$ar = array(5,2,4,6,1,3);
+$arr=insertSort($ar);
+print_r($arr);&lt;/pre&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	3、选择排序
+&lt;/p&gt;
+&lt;pre class=&quot;prettyprint lang-php&quot;&gt;//选择排序
+function selectSort(&amp;amp;$arr){
+	//定义进行交换的变量
+	$temp=0;
+	for($i=0;$i&amp;lt;count($arr)-1;$i++){
+		//假设$i就是最小值
+		$valmin=$arr[$i];
+		//记录最小值的下标
+		$minkey=$i;
+		for($j=$i+1;$j&amp;lt;count($arr);$j++){
+			//最小值大于后面的数就进行交换
+			if($valmin&amp;gt;$arr[$j]){
+				$valmin=$arr[$j];
+				$minkey=$j;
+			}
+		}
+		//进行交换
+		$temp=$arr[$i];
+		$arr[$i]=$arr[$minkey];
+		$arr[$minkey]=$temp;
+	}
+}
+
+$arr=array(7,5,0,4,-1);
+selectSort($arr);
+print_r($arr);&lt;/pre&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;',`createtime`='1473220676' WHERE `id` = 14 [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-09-07T11:57:58+08:00 ] 127.0.0.1 /admin/index/article/id/14.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `statisticsip` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `statisticsip` WHERE `ip` = '127.0.0.1' AND `date` = 20160907 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2048] Non-static method Admin\Model\AdminModel::isLogin() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Admin\Controller\IndexController.class.php 第 12 行.
+NOTIC: [2048] Declaration of Admin\Model\ArticleModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Admin\Model\ArticleModel.class.php 第 101 行.
+NOTIC: [2048] Declaration of Admin\Model\ArticleModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Admin\Model\ArticleModel.class.php 第 101 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `article` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-09-07T18:03:43+08:00 ] 127.0.0.1 /admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+SQL: SHOW COLUMNS FROM `statisticsip` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `statisticsip` WHERE `ip` = '127.0.0.1' AND `date` = 20160907 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2048] Non-static method Admin\Model\AdminModel::isLogin() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Admin\Controller\IndexController.class.php 第 12 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-09-07T18:03:47+08:00 ] 127.0.0.1 /admin/index/lists.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `statisticsip` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `statisticsip` WHERE `ip` = '127.0.0.1' AND `date` = 20160907 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2048] Non-static method Admin\Model\AdminModel::isLogin() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Admin\Controller\IndexController.class.php 第 12 行.
+NOTIC: [2048] Declaration of Admin\Model\ArticleModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Admin\Model\ArticleModel.class.php 第 101 行.
+NOTIC: [2048] Declaration of Admin\Model\ArticleModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Admin\Model\ArticleModel.class.php 第 101 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0160s ]
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Admin\Controller\IndexController.class.php 第 95 行.
+SQL: SELECT * FROM `article` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0710s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.115006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.117006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+

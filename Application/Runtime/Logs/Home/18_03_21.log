@@ -1,0 +1,212 @@
+[ 2018-03-21T10:24:48+08:00 ] 127.0.0.1 /art/article/id/65.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000574s ]
+NOTIC: [2] Declaration of Home\Model\TypeModel::save($arr) should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 10 行.
+NOTIC: [2] Declaration of Home\Model\TypeModel::delete($id) should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0159s ]
+SQL: SELECT * FROM `type` ORDER BY `order` asc,id asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0162s ]
+SQL: SELECT * FROM `article` WHERE `id` = 65 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-03-21T10:39:18+08:00 ] 127.0.0.1 /art/article/id/65.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000616s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000869s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000926s ]
+NOTIC: [2] Declaration of Home\Model\TypeModel::save($arr) should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 10 行.
+NOTIC: [2] Declaration of Home\Model\TypeModel::delete($id) should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0323s ]
+SQL: SELECT * FROM `type` ORDER BY `order` asc,id asc  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0242s ]
+SQL: SELECT * FROM `article` WHERE `id` = 65 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-03-21T10:40:49+08:00 ] 127.0.0.1 /art/article/id/65.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000333s ]
+
+[ 2018-03-21T10:40:49+08:00 ] 127.0.0.1 /art/article/id/65.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000633s ]
+
+[ 2018-03-21T15:38:40+08:00 ] 127.0.0.1 /art/article/id/65.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000663s ]
+
+[ 2018-03-21T15:38:40+08:00 ] 127.0.0.1 /art/article/id/65.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000341s ]
+
+[ 2018-03-21T15:38:40+08:00 ] 127.0.0.1 /art/article/id/65.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000355s ]
+
+[ 2018-03-21T15:38:40+08:00 ] 127.0.0.1 /art/article/id/65.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+
+[ 2018-03-21T15:38:40+08:00 ] 127.0.0.1 /art/article/id/65.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000351s ]
+
+[ 2018-03-21T15:38:40+08:00 ] 127.0.0.1 /art/article/id/65.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000343s ]
+
+[ 2018-03-21T15:38:40+08:00 ] 127.0.0.1 /art/article/id/65.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000328s ]
+
+[ 2018-03-21T15:38:40+08:00 ] 127.0.0.1 /art/article/id/65.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000376s ]
+
+[ 2018-03-21T15:38:40+08:00 ] 127.0.0.1 /art/article/id/65.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000371s ]
+
+[ 2018-03-21T15:38:40+08:00 ] 127.0.0.1 /art/lists.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000618s ]
+
+[ 2018-03-21T16:15:16+08:00 ] 127.0.0.1 /art/article/id/65.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001546s ]
+NOTIC: [2048] Declaration of Home\Model\TypeModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\TypeModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0395s ]
+SQL: SELECT * FROM `type` ORDER BY `order` asc,id asc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0196s ]
+SQL: SELECT * FROM `article` WHERE `id` = 65 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `article` WHERE `id` = 65 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `article` SET `title`='目前需要学习的东西记录',`keyword`='目前需要学习的东西记录',`content`='&lt;p&gt;需要学习的东西太多了，一步一步来&lt;/p&gt;&lt;ul class=&quot; list-paddingleft-2&quot; style=&quot;list-style-type: disc;&quot;&gt;&lt;li&gt;&lt;p&gt;laravel框架&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;outh2.0权限&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;restful风格的api&lt;br/&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;linux服务器&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;go语言&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;c语言&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;yii框架&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;java语言&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;用一个比我小很多岁编程者（18岁）的简历图来励志自己&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/ueditor/php/upload/image/20180309/1520583867.png&quot; title=&quot;1520583867.png&quot; alt=&quot;女装大佬，千里冰封的简历.png&quot;/&gt;&lt;/p&gt;',`status`='1',`type`='0',`createtime`='1520583919',`author`='小兔',`imgurl`=NULL,`recom`='0',`readnum`='1' WHERE `id` = 65 [ RunTime:0.0005s ]
+
+[ 2018-03-21T16:16:09+08:00 ] 127.0.0.1 /art/article/id/65.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000679s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000959s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001037s ]
+NOTIC: [2048] Declaration of Home\Model\TypeModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\TypeModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0187s ]
+SQL: SELECT * FROM `type` ORDER BY `order` asc,id asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0177s ]
+SQL: SELECT * FROM `article` WHERE `id` = 65 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`title` FROM `article` WHERE ( id<65 and status=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0144s ]
+SQL: SELECT `id`,`title` FROM `article` WHERE ( id>65 and status=1 ) ORDER BY id asc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`title` FROM `article` WHERE ( id<>65 and status=1 and recom=1 ) ORDER BY id desc LIMIT 6   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\tools\Application\Home\Controller\ArtController.class.php 第 87 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.012892s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.012982s ]
+NOTIC: [8] Undefined variable: title D:\WWW\tools\Application\Runtime\Cache\Home\f274c600cf8d13c9d31ff143ea08a211.php 第 55 行.
+INFO: [ keyWords ] --START--
+SQL: SHOW COLUMNS FROM `keywords` [ RunTime:0.0217s ]
+SQL: SELECT * FROM `keywords` ORDER BY `order` asc,num desc LIMIT 30   [ RunTime:0.0002s ]
+INFO: Run Home\Behavior\KeyWordsBehavior [ RunTime:0.050771s ]
+INFO: [ keyWords ] --END-- [ RunTime:0.050816s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.320963s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.320995s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008516s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008556s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.023576s ]
+INFO: [ app_end ] --END-- [ RunTime:0.023636s ]
+
+[ 2018-03-21T16:18:02+08:00 ] 127.0.0.1 /art/article/id/65.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000719s ]
+NOTIC: [2048] Declaration of Home\Model\TypeModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\TypeModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0285s ]
+SQL: SELECT * FROM `type` ORDER BY `order` asc,id asc  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0906s ]
+SQL: SELECT * FROM `article` WHERE `id` = 65 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `id`,`title` FROM `article` WHERE ( id<65 and status=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `id`,`title` FROM `article` WHERE ( id>65 and status=1 ) ORDER BY id asc LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`title` FROM `article` WHERE ( id<>65 and status=1 and recom=1 ) ORDER BY id desc LIMIT 6   [ RunTime:0.0019s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\tools\Application\Home\Controller\ArtController.class.php 第 87 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+NOTIC: [8] Undefined variable: title D:\WWW\tools\Application\Runtime\Cache\Home\f274c600cf8d13c9d31ff143ea08a211.php 第 55 行.
+INFO: [ keyWords ] --START--
+SQL: SHOW COLUMNS FROM `keywords` [ RunTime:0.0312s ]
+SQL: SELECT * FROM `keywords` ORDER BY `order` asc,num desc LIMIT 30   [ RunTime:0.0004s ]
+INFO: Run Home\Behavior\KeyWordsBehavior [ RunTime:0.035734s ]
+INFO: [ keyWords ] --END-- [ RunTime:0.035796s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062574s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062660s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000978s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001034s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001308s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001376s ]
+

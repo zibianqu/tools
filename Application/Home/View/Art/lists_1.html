@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+
+    <!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>列表- {:C('site_name')}</title>
+	<meta name="keywords" content=""/>
+	<meta name="description" content=""/>
+	
+    <!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <!-- CSS
+  ================================================== -->
+	<link rel="stylesheet" href="__CSS__/zerogrid.css">
+	<link rel="stylesheet" href="__CSS__/style.css">
+    <link rel="stylesheet" href="__CSS__/responsive.css">
+	<link rel="stylesheet" href="__CSS__/responsiveslides.css" />
+	<link rel="stylesheet" href="__CSS__/newstyle.css">
+
+    <script src="__JS__/jquery.min.js"></script>
+	<script src="__JS__/unixtime.js"></script>
+	
+</head>
+<body>
+<!--------------Header--------------->
+
+<include file="Public/header" />
+
+<!--------------Content--------------->
+
+
+<div class="new_content zerogrid ">
+	<div class="new_br"></div>
+	<div class="new_list_t">
+		<h1>文章列表</h1>
+		<div class="new_list_right">
+			<form action="" method="post">
+				<input type="text" name="t" id="t" class="" value="{$title}"><button class="button1">search</button>
+			</form>
+		</div>
+	</div>
+	<div class="clearfix"></div>
+	<div class="new_br"></div>
+	<div class="new_line"></div>
+	<div class="new_br"></div>
+	<div class="new_br"></div>
+	<div class="new_list">
+		<div class="new_label">
+			<span>标签：</span>
+			<div><a href="{:U('/art/lists')}">全部</a>
+				<foreach name="keyword" item="val">
+				<a href="{:U('/art/lists',array('t'=>$val['name']))}">{$val.name}</a>
+				</foreach>
+			</div>
+		</div>
+		<ul>
+		<foreach name="lists" item="val">
+			<li><a href="{:U('/art/article',array('id'=>$val['id']))}">{$val.title|msubstr=0,40}<span>{$val.createtime|date='Y-m-d',###}</span></a></li>
+		</foreach>
+		</ul>
+		<div class="new_br"></div>
+		<div class="new_br"></div>
+		<div class="page">
+			{$page}
+		</div>
+	</div>
+	<div class="new_br"></div>
+	<div class="new_br"></div>
+	
+</div>
+
+<!--------------Footer--------------->
+
+<include file="Public/footer" />
+</body>
+</html>

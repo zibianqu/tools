@@ -1,0 +1,638 @@
+[ 2016-12-14T14:23:47+08:00 ] 127.0.0.1 /admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-12-14T14:23:47+08:00 ] 127.0.0.1 /admin/login.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.006001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.008001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.095005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.099006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.016001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.018001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.012001s ]
+
+[ 2016-12-14T14:23:53+08:00 ] 127.0.0.1 /admin/login/dologin.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.023002s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Non-static method Admin\Model\AdminModel::adminLogin() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Admin\Controller\LoginController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `admin` WHERE `user` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-12-14T14:23:53+08:00 ] 127.0.0.1 /admin/index.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.141008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.142008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-12-14T14:23:57+08:00 ] 127.0.0.1 /admin/index/lists.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+NOTIC: [2048] Declaration of Admin\Model\ArticleModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Admin\Model\ArticleModel.class.php 第 101 行.
+NOTIC: [2048] Declaration of Admin\Model\ArticleModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Admin\Model\ArticleModel.class.php 第 101 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Admin\Controller\IndexController.class.php 第 96 行.
+SQL: SELECT * FROM `article` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.177010s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.179011s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-12-14T14:23:59+08:00 ] 127.0.0.1 /admin/index/article.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.096005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.098005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-12-14T14:24:14+08:00 ] 127.0.0.1 /admin/index/SaveArticle.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018001s ]
+NOTIC: [2048] Declaration of Admin\Model\ArticleModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Admin\Model\ArticleModel.class.php 第 101 行.
+NOTIC: [2048] Declaration of Admin\Model\ArticleModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Admin\Model\ArticleModel.class.php 第 101 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0120s ]
+SQL: INSERT INTO `article` (`type`,`title`,`keyword`,`author`,`content`,`createtime`) VALUES ('0','mysql 全文索引学习笔记详解','mysql 全文索引','小兔','&lt;p style=&quot;color:#373737;font-size:14px;font-family:&amp;quot;background-color:#F5F8FD;&quot;&gt;
+	全文索引是mysql中一个比较特殊的功能，下面我来给大家介绍我自己在学习mysql全文索引的一些笔记吧，有需要了解的同学可进入参考。
+&lt;/p&gt;
+&lt;p style=&quot;color:#373737;font-size:14px;font-family:&amp;quot;background-color:#F5F8FD;&quot;&gt;
+	场景：需要做一个关于标题的模糊查询，只是记录有点多，而且需要相对精确，比如搜索：ac， 不能出现abc，可以接受acb,bac,之类。
+&lt;/p&gt;
+&lt;p style=&quot;color:#373737;font-size:14px;font-family:&amp;quot;background-color:#F5F8FD;&quot;&gt;
+	mysql全文搜索有三种模式：
+&lt;/p&gt;
+&lt;p style=&quot;color:#373737;font-size:14px;font-family:&amp;quot;background-color:#F5F8FD;&quot;&gt;
+	一、自然语言查找。这是mysql默认的全文搜索方式，sql示例：&lt;br /&gt;
+[code=plain]
+&lt;/p&gt;
+&lt;table width=&quot;620&quot; align=&quot;center&quot; border=&quot;0&quot; cellpadding=&quot;1&quot; cellspacing=&quot;1&quot; class=&quot;ke-zeroborder&quot; style=&quot;color:#000000;font-family:simsun;font-size:14px;margin:0px auto !important;background:#FFBB77;&quot;&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;td width=&quot;464&quot; height=&quot;27&quot; bgcolor=&quot;#FFE7CE&quot;&gt;
+				&amp;nbsp;代码如下
+			&lt;/td&gt;
+			&lt;td width=&quot;109&quot; align=&quot;center&quot; bgcolor=&quot;#FFE7CE&quot;&gt;
+				复制代码
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td height=&quot;auto&quot; colspan=&quot;2&quot; valign=&quot;top&quot; bgcolor=&quot;#FFFFFF&quot; class=&quot;copyclass&quot; id=&quot;copy8708&quot;&gt;
+				&lt;p style=&quot;color:#373737;font-size:14px;font-family:&amp;quot;&quot;&gt;
+					select&amp;nbsp; id,title FROM post WHERE MATCH(content) AGAINST (\'search keyword\')
+				&lt;/p&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p style=&quot;color:#373737;font-size:14px;font-family:&amp;quot;background-color:#F5F8FD;&quot;&gt;
+	或者显式声明使用自然语言搜索方式&lt;br /&gt;
+[code=plain]
+&lt;/p&gt;
+&lt;table width=&quot;620&quot; align=&quot;center&quot; border=&quot;0&quot; cellpadding=&quot;1&quot; cellspacing=&quot;1&quot; class=&quot;ke-zeroborder&quot; style=&quot;color:#000000;font-family:simsun;font-size:14px;margin:0px auto !important;background:#FFBB77;&quot;&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;td width=&quot;464&quot; height=&quot;27&quot; bgcolor=&quot;#FFE7CE&quot;&gt;
+				&amp;nbsp;代码如下
+			&lt;/td&gt;
+			&lt;td width=&quot;109&quot; align=&quot;center&quot; bgcolor=&quot;#FFE7CE&quot;&gt;
+				复制代码
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td height=&quot;auto&quot; colspan=&quot;2&quot; valign=&quot;top&quot; bgcolor=&quot;#FFFFFF&quot; class=&quot;copyclass&quot; id=&quot;copy8846&quot;&gt;
+				&lt;p style=&quot;color:#373737;font-size:14px;font-family:&amp;quot;&quot;&gt;
+					select&amp;nbsp; id,title FROM post WHERE MATCH(content) AGAINST (\'search keyword\' IN NATURAL LANGUAGE MODE)
+				&lt;/p&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p style=&quot;color:#373737;font-size:14px;font-family:&amp;quot;background-color:#F5F8FD;&quot;&gt;
+	&lt;br /&gt;
+测试：
+&lt;/p&gt;
+&lt;p style=&quot;color:#373737;font-size:14px;font-family:&amp;quot;background-color:#F5F8FD;&quot;&gt;
+	1、100万数据，mysql / mongo ，在这种情况下。无论是查询什么数据，基本上都在0.00x秒级，&lt;br /&gt;
+mysql的查询是like \'%xxxx%\' , mongo 是 {title:/xxxx/i}&amp;nbsp;&lt;br /&gt;
+一般情况下，两者速度真心差不多，但如果查询一下不数据库中不存在的关键字，一般都在0.2秒至2秒左右，mongo会相对好一点，在0.5秒&lt;br /&gt;
+&amp;nbsp;&lt;br /&gt;
+2、500万～1000万数据&lt;br /&gt;
+查询条件如上&lt;br /&gt;
+mysql 查询的时候 cpu 占40%左右，20多秒 （mysql 1100万数据）&lt;br /&gt;
+mongo 查询的时候 CPU占50%左右，10秒/8秒左右 （mongo 550万）&lt;br /&gt;
+这种性能没法用啊&lt;br /&gt;
+&amp;nbsp;&lt;br /&gt;
+---下一步&lt;br /&gt;
+1、xunsearch / coreseek(sphinx)&lt;br /&gt;
+2、mysql 全文索引&lt;br /&gt;
+&amp;nbsp;&lt;br /&gt;
+需要再次测试一下。关键mysql虽然100万只有0.00x或者0.0x秒左右。但是如果多个并发的时候就会卡死了。&lt;br /&gt;
+所以需要再次考虑 场景的复杂性
+&lt;/p&gt;
+&lt;p style=&quot;color:#373737;font-size:14px;font-family:&amp;quot;background-color:#F5F8FD;&quot;&gt;
+	继昨天的处理之后，又来新的笔记 ，这次的笔记纯粹是个人的测试，与实际条件有关，比如，我要查询的字段不超过varchar的255的长度，所以我才这么做。
+&lt;/p&gt;
+&lt;p style=&quot;color:#373737;font-size:14px;font-family:&amp;quot;background-color:#F5F8FD;&quot;&gt;
+	昨天做普通索引后，1100万条记录，索引 为220M，改成全文索引后，索引文件为1.1G，存储空间上，涨了5倍左右。
+&lt;/p&gt;
+&lt;p style=&quot;color:#373737;font-size:14px;font-family:&amp;quot;background-color:#F5F8FD;&quot;&gt;
+	以下是笔记 ，请不要笑话，场景不同而已&lt;br /&gt;
+&amp;nbsp;
+&lt;/p&gt;
+&lt;p style=&quot;color:#373737;font-size:14px;font-family:&amp;quot;background-color:#F5F8FD;&quot;&gt;
+	•经过测试
+&lt;/p&gt;
+&lt;p style=&quot;color:#373737;font-size:14px;font-family:&amp;quot;background-color:#F5F8FD;&quot;&gt;
+	•title 字段改为全文索引后，在1100万条的时候&amp;nbsp;&lt;br /&gt;
+•优点：&amp;nbsp;&lt;br /&gt;
+•速度也为0.0x秒级。速度非常快&lt;br /&gt;
+•即使有or条件，只要带了limit参数，速度也非常快&lt;br /&gt;
+•缺点：&amp;nbsp;&lt;br /&gt;
+•如果查询不带limit ,直接卡死，因为他要计算total count&lt;br /&gt;
+•select count() 卡死&lt;br /&gt;
+•如果查询不存在的关键字，卡死&lt;br /&gt;
+•使用方法&amp;nbsp;&lt;br /&gt;
+•尽量不做select count 查询 （数量低于100万时可以考虑，超过100万时，其实已经没有必要）&lt;br /&gt;
+•查询一定要带上limit条件&lt;br /&gt;
+•每次查询到不存在的关键字时，记录到关键词库，每次有新增记录时，select 关键词库一下，如果新增房间中有关键字，则将关键词去除，避免卡死&lt;br /&gt;
+•暂时不使用coreseek（sphinx）/xunsearch等第三方工具&amp;nbsp;&lt;br /&gt;
+•xunsearch只支持分词查询，不支持完全匹配&lt;br /&gt;
+•第三方工具，耗内存，而且增量的时候，不够及时
+&lt;/p&gt;
+&lt;p style=&quot;color:#373737;font-size:14px;font-family:&amp;quot;background-color:#F5F8FD;&quot;&gt;
+	费话说了一大篇下面进入测试
+&lt;/p&gt;
+&lt;p style=&quot;color:#373737;font-size:14px;font-family:&amp;quot;background-color:#F5F8FD;&quot;&gt;
+	&lt;br /&gt;
+一个SELECT查询中的LIKE语句来执行这种查询，尽管这种方法可行，
+&lt;/p&gt;
+&lt;p style=&quot;color:#373737;font-size:14px;font-family:&amp;quot;background-color:#F5F8FD;&quot;&gt;
+	但对于全文查找而言，这是一种效率极端低下的方法，尤其在处理大量数据的时候。
+&lt;/p&gt;
+&lt;p style=&quot;color:#373737;font-size:14px;font-family:&amp;quot;background-color:#F5F8FD;&quot;&gt;
+	-------------------&lt;br /&gt;
+上面这句话 我是在网上看到的， 说得挺有道理的， mysql 本身提供了一种叫做全文搜索的技术吧，
+&lt;/p&gt;
+&lt;p style=&quot;color:#373737;font-size:14px;font-family:&amp;quot;background-color:#F5F8FD;&quot;&gt;
+	不过这好像从后来的版本才有的， 比较旧的版本不支持，不过那是很早期的版本了，
+&lt;/p&gt;
+&lt;p style=&quot;color:#373737;font-size:14px;font-family:&amp;quot;background-color:#F5F8FD;&quot;&gt;
+	现在大家使用的版本 应该都支持的。我现在使用 mysql6.0.4 来演示
+&lt;/p&gt;
+&lt;p style=&quot;color:#373737;font-size:14px;font-family:&amp;quot;background-color:#F5F8FD;&quot;&gt;
+	全文搜索 比起 索引 我觉得更加全面， 索引只对某一个字段，然后在查询时候使用 like 配合。
+&lt;/p&gt;
+&lt;p style=&quot;color:#373737;font-size:14px;font-family:&amp;quot;background-color:#F5F8FD;&quot;&gt;
+	全文搜索它可以设置多个字段进行搜索，可以说是比起 select .... like 高级吧。
+&lt;/p&gt;
+&lt;p style=&quot;color:#373737;font-size:14px;font-family:&amp;quot;background-color:#F5F8FD;&quot;&gt;
+	好了， 既然 全文搜索 有这样的优点，下面我们来看看 是否真的如此。
+&lt;/p&gt;
+&lt;p style=&quot;color:#373737;font-size:14px;font-family:&amp;quot;background-color:#F5F8FD;&quot;&gt;
+	下面提供的测试例子，是 mysql 手册上面的一个例子
+&lt;/p&gt;
+&lt;table width=&quot;620&quot; align=&quot;center&quot; border=&quot;0&quot; cellpadding=&quot;1&quot; cellspacing=&quot;1&quot; class=&quot;ke-zeroborder&quot; style=&quot;color:#000000;font-family:simsun;font-size:14px;margin:0px auto !important;background:#FFBB77;&quot;&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;td width=&quot;464&quot; height=&quot;27&quot; bgcolor=&quot;#FFE7CE&quot;&gt;
+				&amp;nbsp;代码如下
+			&lt;/td&gt;
+			&lt;td width=&quot;109&quot; align=&quot;center&quot; bgcolor=&quot;#FFE7CE&quot;&gt;
+				复制代码
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td height=&quot;auto&quot; colspan=&quot;2&quot; valign=&quot;top&quot; bgcolor=&quot;#FFFFFF&quot; class=&quot;copyclass&quot; id=&quot;copy5291&quot;&gt;
+				&lt;p style=&quot;color:#373737;font-size:14px;font-family:&amp;quot;&quot;&gt;
+					CREATE TABLE articles (
+				&lt;/p&gt;
+				&lt;p style=&quot;color:#373737;font-size:14px;font-family:&amp;quot;&quot;&gt;
+					&amp;nbsp;&amp;nbsp; id INT UNSIGNED AUTO_INCREMENT NOT NULL PRIMARY KEY,
+				&lt;/p&gt;
+				&lt;p style=&quot;color:#373737;font-size:14px;font-family:&amp;quot;&quot;&gt;
+					&amp;nbsp;&amp;nbsp; title VARCHAR(200),
+				&lt;/p&gt;
+				&lt;p style=&quot;color:#373737;font-size:14px;font-family:&amp;quot;&quot;&gt;
+					&amp;nbsp;&amp;nbsp;&amp;nbsp; body TEXT,
+				&lt;/p&gt;
+				&lt;p style=&quot;color:#373737;font-size:14px;font-family:&amp;quot;&quot;&gt;
+					&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; FULLTEXT (title,body)
+				&lt;/p&gt;
+				&lt;p style=&quot;color:#373737;font-size:14px;font-family:&amp;quot;&quot;&gt;
+					&amp;nbsp;&amp;nbsp; );
+				&lt;/p&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p style=&quot;color:#373737;font-size:14px;font-family:&amp;quot;background-color:#F5F8FD;&quot;&gt;
+	上面这是创建表的 mysql 语句， 其中最后一句&amp;nbsp; FULLTEXT (title,body)
+&lt;/p&gt;
+&lt;p style=&quot;color:#373737;font-size:14px;font-family:&amp;quot;background-color:#F5F8FD;&quot;&gt;
+	就是为 title 和 body 创建一个 全文搜索，也就是 以后 方便搜索 标题 和
+&lt;/p&gt;
+&lt;p style=&quot;color:#373737;font-size:14px;font-family:&amp;quot;background-color:#F5F8FD;&quot;&gt;
+	标题正文的内容。复制语句上去 就成功创建一张表了。&lt;br /&gt;
+查看一下 全文搜索 是否被创建， 下面语句作用是：查看表的 主键， 索引， 全文搜索
+&lt;/p&gt;
+&lt;p style=&quot;color:#373737;font-size:14px;font-family:&amp;quot;background-color:#F5F8FD;&quot;&gt;
+	show indexes from 表名
+&lt;/p&gt;
+&lt;table width=&quot;620&quot; align=&quot;center&quot; border=&quot;0&quot; cellpadding=&quot;1&quot; cellspacing=&quot;1&quot; class=&quot;ke-zeroborder&quot; style=&quot;color:#000000;font-family:simsun;font-size:14px;margin:0px auto !important;background:#FFBB77;&quot;&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;td width=&quot;464&quot; height=&quot;27&quot; bgcolor=&quot;#FFE7CE&quot;&gt;
+				&amp;nbsp;代码如下
+			&lt;/td&gt;
+			&lt;td width=&quot;109&quot; align=&quot;center&quot; bgcolor=&quot;#FFE7CE&quot;&gt;
+				复制代码
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td height=&quot;auto&quot; colspan=&quot;2&quot; valign=&quot;top&quot; bgcolor=&quot;#FFFFFF&quot; class=&quot;copyclass&quot; id=&quot;copy8961&quot;&gt;
+				&lt;p style=&quot;color:#373737;font-size:14px;font-family:&amp;quot;&quot;&gt;
+					mysql&amp;gt; show indexes from articles;&lt;br /&gt;
++----------+------------+----------+--------------+-------------+&lt;br /&gt;
+| Table&amp;nbsp;&amp;nbsp;&amp;nbsp; | Non_unique | Key_name | Seq_in_index | Column_name |&lt;br /&gt;
++----------+------------+----------+--------------+-------------+&lt;br /&gt;
+| articles |&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 0 | PRIMARY&amp;nbsp; |&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 1 | id&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; |&lt;br /&gt;
+| articles |&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 1 | title&amp;nbsp;&amp;nbsp;&amp;nbsp; |&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 1 | title&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; |&lt;br /&gt;
+| articles |&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 1 | title&amp;nbsp;&amp;nbsp;&amp;nbsp; |&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 2 | body&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; |&lt;br /&gt;
++----------+------------+----------+--------------+-------------+&lt;br /&gt;
+3 rows in set (0.01 sec)
+				&lt;/p&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p style=&quot;color:#373737;font-size:14px;font-family:&amp;quot;background-color:#F5F8FD;&quot;&gt;
+	可以看到 成功创建了， Key_name名字叫做 title ， 它的字段列名Column_name是 title 和 body
+&lt;/p&gt;
+&lt;p style=&quot;color:#373737;font-size:14px;font-family:&amp;quot;background-color:#F5F8FD;&quot;&gt;
+	=================
+&lt;/p&gt;
+&lt;p style=&quot;color:#373737;font-size:14px;font-family:&amp;quot;background-color:#F5F8FD;&quot;&gt;
+	下面为 表 添加数据内容， 好让我们进行测试。
+&lt;/p&gt;
+&lt;table width=&quot;620&quot; align=&quot;center&quot; border=&quot;0&quot; cellpadding=&quot;1&quot; cellspacing=&quot;1&quot; class=&quot;ke-zeroborder&quot; style=&quot;color:#000000;font-family:simsun;font-size:14px;margin:0px auto !important;background:#FFBB77;&quot;&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;td width=&quot;464&quot; height=&quot;27&quot; bgcolor=&quot;#FFE7CE&quot;&gt;
+				&amp;nbsp;代码如下
+			&lt;/td&gt;
+			&lt;td width=&quot;109&quot; align=&quot;center&quot; bgcolor=&quot;#FFE7CE&quot;&gt;
+				复制代码
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td height=&quot;auto&quot; colspan=&quot;2&quot; valign=&quot;top&quot; bgcolor=&quot;#FFFFFF&quot; class=&quot;copyclass&quot; id=&quot;copy7924&quot;&gt;
+				&lt;p style=&quot;color:#373737;font-size:14px;font-family:&amp;quot;&quot;&gt;
+					INSERT INTO articles (title,body) VALUES
+				&lt;/p&gt;
+				&lt;p style=&quot;color:#373737;font-size:14px;font-family:&amp;quot;&quot;&gt;
+					&amp;nbsp;&amp;nbsp;&amp;nbsp; (\'MySQL Tutorial\',\'DBMS stands for DataBase ...\'),
+				&lt;/p&gt;
+				&lt;p style=&quot;color:#373737;font-size:14px;font-family:&amp;quot;&quot;&gt;
+					&amp;nbsp;&amp;nbsp;&amp;nbsp; (\'How To Use MySQL Well\',\'After you went through a ...\'),
+				&lt;/p&gt;
+				&lt;p style=&quot;color:#373737;font-size:14px;font-family:&amp;quot;&quot;&gt;
+					&amp;nbsp;&amp;nbsp;&amp;nbsp; (\'Optimizing MySQL\',\'In this tutorial we will show ...\'),
+				&lt;/p&gt;
+				&lt;p style=&quot;color:#373737;font-size:14px;font-family:&amp;quot;&quot;&gt;
+					&amp;nbsp;&amp;nbsp;&amp;nbsp; (\'1001 MySQL Tricks\',\'1. Never run mysqld as root. 2. ...\'),
+				&lt;/p&gt;
+				&lt;p style=&quot;color:#373737;font-size:14px;font-family:&amp;quot;&quot;&gt;
+					&amp;nbsp;&amp;nbsp;&amp;nbsp; (\'MySQL vs. YourSQL\',\'In the following database comparison ...\'),
+				&lt;/p&gt;
+				&lt;p style=&quot;color:#373737;font-size:14px;font-family:&amp;quot;&quot;&gt;
+					&amp;nbsp;&amp;nbsp;&amp;nbsp; (\'MySQL Security\',\'When configured properly, MySQL ...\');
+				&lt;/p&gt;
+				&lt;p style=&quot;color:#373737;font-size:14px;font-family:&amp;quot;&quot;&gt;
+					mysql&amp;gt; select * from articles;&lt;br /&gt;
++----+-----------------------+------------------------------------------+&lt;br /&gt;
+| id | title&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; | body&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; |&lt;br /&gt;
++----+-----------------------+------------------------------------------+&lt;br /&gt;
+|&amp;nbsp; 1 | MySQL Tutorial&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; | DBMS stands for DataBase ...&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; |&lt;br /&gt;
+|&amp;nbsp; 2 | How To Use MySQL Well | After you went through a ...&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; |&lt;br /&gt;
+|&amp;nbsp; 3 | Optimizing MySQL&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; | In this tutorial we will show ...&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; |&lt;br /&gt;
+|&amp;nbsp; 4 | 1001 MySQL Tricks&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; | 1. Never run mysqld as root. 2. ...&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; |&lt;br /&gt;
+|&amp;nbsp; 5 | MySQL vs. YourSQL&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; | In the following database comparison ... |&lt;br /&gt;
+|&amp;nbsp; 6 | MySQL Security&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; | When configured properly, MySQL ...&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; |&lt;br /&gt;
++----+-----------------------+------------------------------------------+&lt;br /&gt;
+6 rows in set (0.00 sec)
+				&lt;/p&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p style=&quot;color:#373737;font-size:14px;font-family:&amp;quot;background-color:#F5F8FD;&quot;&gt;
+	添加好数据库， 下面我们就使用 全文搜索 提供的 查询语句 进行测试。
+&lt;/p&gt;
+&lt;p style=&quot;color:#373737;font-size:14px;font-family:&amp;quot;background-color:#F5F8FD;&quot;&gt;
+	=================================================
+&lt;/p&gt;
+&lt;p style=&quot;color:#373737;font-size:14px;font-family:&amp;quot;background-color:#F5F8FD;&quot;&gt;
+	使用语句的模版如下：
+&lt;/p&gt;
+&lt;p style=&quot;color:#373737;font-size:14px;font-family:&amp;quot;background-color:#F5F8FD;&quot;&gt;
+	SELECT 表字段 FROM 表名 WHERE MATCH (全文搜索表字段) AGAINST (\'搜索字符串\');
+&lt;/p&gt;
+&lt;p style=&quot;color:#373737;font-size:14px;font-family:&amp;quot;background-color:#F5F8FD;&quot;&gt;
+	下面 搜索 title 和 body 包含 database 这个字符串
+&lt;/p&gt;
+&lt;table width=&quot;620&quot; align=&quot;center&quot; border=&quot;0&quot; cellpadding=&quot;1&quot; cellspacing=&quot;1&quot; class=&quot;ke-zeroborder&quot; style=&quot;color:#000000;font-family:simsun;font-size:14px;margin:0px auto !important;background:#FFBB77;&quot;&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;td width=&quot;464&quot; height=&quot;27&quot; bgcolor=&quot;#FFE7CE&quot;&gt;
+				&amp;nbsp;代码如下
+			&lt;/td&gt;
+			&lt;td width=&quot;109&quot; align=&quot;center&quot; bgcolor=&quot;#FFE7CE&quot;&gt;
+				复制代码
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td height=&quot;auto&quot; colspan=&quot;2&quot; valign=&quot;top&quot; bgcolor=&quot;#FFFFFF&quot; class=&quot;copyclass&quot; id=&quot;copy8367&quot;&gt;
+				&lt;p style=&quot;color:#373737;font-size:14px;font-family:&amp;quot;&quot;&gt;
+					&amp;nbsp;mysql&amp;gt; SELECT * FROM articles&lt;br /&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp; -&amp;gt;&lt;br /&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp; -&amp;gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; WHERE MATCH (title,body) AGAINST (\'database\');&lt;br /&gt;
++----+-------------------+------------------------------------------+&lt;br /&gt;
+| id | title&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; | body&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; |&lt;br /&gt;
++----+-------------------+------------------------------------------+&lt;br /&gt;
+|&amp;nbsp; 5 | MySQL vs. YourSQL | In the following database comparison ... |&lt;br /&gt;
+|&amp;nbsp; 1 | MySQL Tutorial&amp;nbsp;&amp;nbsp;&amp;nbsp; | DBMS stands for DataBase ...&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; |&lt;br /&gt;
++----+-------------------+------------------------------------------+&lt;br /&gt;
+2 rows in set (0.00 sec)
+				&lt;/p&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p style=&quot;color:#373737;font-size:14px;font-family:&amp;quot;background-color:#F5F8FD;&quot;&gt;
+	MATCH 相当于要找的列， 而&amp;nbsp; AGAINST 就是要找的内容。
+&lt;/p&gt;
+&lt;p style=&quot;color:#373737;font-size:14px;font-family:&amp;quot;background-color:#F5F8FD;&quot;&gt;
+	比起 like 有点不一样
+&lt;/p&gt;
+&lt;p style=&quot;color:#373737;font-size:14px;font-family:&amp;quot;background-color:#F5F8FD;&quot;&gt;
+	而且 match ... against 还提供很多 操作， 对数据 进一步过滤，
+&lt;/p&gt;
+&lt;p style=&quot;color:#373737;font-size:14px;font-family:&amp;quot;background-color:#F5F8FD;&quot;&gt;
+	一般可以作为 比较精确的搜索，
+&lt;/p&gt;
+&lt;p style=&quot;color:#373737;font-size:14px;font-family:&amp;quot;background-color:#F5F8FD;&quot;&gt;
+	例如下面的这个例子： 搜索title和body中包含 MySQL ，但是不能有 YourSQL 的结果。
+&lt;/p&gt;
+&lt;table width=&quot;620&quot; align=&quot;center&quot; border=&quot;0&quot; cellpadding=&quot;1&quot; cellspacing=&quot;1&quot; class=&quot;ke-zeroborder&quot; style=&quot;color:#000000;font-family:simsun;font-size:14px;margin:0px auto !important;background:#FFBB77;&quot;&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;td width=&quot;464&quot; height=&quot;27&quot; bgcolor=&quot;#FFE7CE&quot;&gt;
+				&amp;nbsp;代码如下
+			&lt;/td&gt;
+			&lt;td width=&quot;109&quot; align=&quot;center&quot; bgcolor=&quot;#FFE7CE&quot;&gt;
+				复制代码
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td height=&quot;auto&quot; colspan=&quot;2&quot; valign=&quot;top&quot; bgcolor=&quot;#FFFFFF&quot; class=&quot;copyclass&quot; id=&quot;copy1039&quot;&gt;
+				&lt;p style=&quot;color:#373737;font-size:14px;font-family:&amp;quot;&quot;&gt;
+					&amp;nbsp;SELECT * FROM articles WHERE MATCH (title,body)
+				&lt;/p&gt;
+				&lt;p style=&quot;color:#373737;font-size:14px;font-family:&amp;quot;&quot;&gt;
+					&amp;nbsp;&amp;nbsp;&amp;nbsp; AGAINST (\'+MySQL -YourSQL\' IN BOOLEAN MODE);
+				&lt;/p&gt;
+				&lt;p style=&quot;color:#373737;font-size:14px;font-family:&amp;quot;&quot;&gt;
+					------------------
+				&lt;/p&gt;
+				&lt;p style=&quot;color:#373737;font-size:14px;font-family:&amp;quot;&quot;&gt;
+					|&amp;nbsp; 5 | MySQL vs. YourSQL&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; | In the following database comparison ... |
+				&lt;/p&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p style=&quot;color:#373737;font-size:14px;font-family:&amp;quot;background-color:#F5F8FD;&quot;&gt;
+	你会发现 可以看到 这个结果被过滤掉了
+&lt;/p&gt;
+&lt;p style=&quot;color:#373737;font-size:14px;font-family:&amp;quot;background-color:#F5F8FD;&quot;&gt;
+	fulltext 还提供了 更加多的逻辑搜索，也就是一些 模糊搜索 等等，要求更加高的&lt;br /&gt;
+匹配字符搜索， 大家可以上 mysql 官方网站查看。
+&lt;/p&gt;
+&lt;p style=&quot;color:#373737;font-size:14px;font-family:&amp;quot;background-color:#F5F8FD;&quot;&gt;
+	=============================================================
+&lt;/p&gt;
+&lt;p style=&quot;color:#373737;font-size:14px;font-family:&amp;quot;background-color:#F5F8FD;&quot;&gt;
+	上面 建立全文搜索 是在 建立表的同时建立的， 如果你已经建好表了， 但是想加入&lt;br /&gt;
+这个功能的话， 可以使用下面语句
+&lt;/p&gt;
+&lt;table width=&quot;620&quot; align=&quot;center&quot; border=&quot;0&quot; cellpadding=&quot;1&quot; cellspacing=&quot;1&quot; class=&quot;ke-zeroborder&quot; style=&quot;color:#000000;font-family:simsun;font-size:14px;margin:0px auto !important;background:#FFBB77;&quot;&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;td width=&quot;464&quot; height=&quot;27&quot; bgcolor=&quot;#FFE7CE&quot;&gt;
+				&amp;nbsp;代码如下
+			&lt;/td&gt;
+			&lt;td width=&quot;109&quot; align=&quot;center&quot; bgcolor=&quot;#FFE7CE&quot;&gt;
+				复制代码
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td height=&quot;auto&quot; colspan=&quot;2&quot; valign=&quot;top&quot; bgcolor=&quot;#FFFFFF&quot; class=&quot;copyclass&quot; id=&quot;copy7330&quot;&gt;
+				&lt;p style=&quot;color:#373737;font-size:14px;font-family:&amp;quot;&quot;&gt;
+					mysql&amp;gt; alter table articles add fulltext index(title,body);
+				&lt;/p&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p style=&quot;color:#373737;font-size:14px;font-family:&amp;quot;background-color:#F5F8FD;&quot;&gt;
+	--------------------
+&lt;/p&gt;
+&lt;p style=&quot;color:#373737;font-size:14px;font-family:&amp;quot;background-color:#F5F8FD;&quot;&gt;
+	为了演示，我先把刚才的删除掉
+&lt;/p&gt;
+&lt;table width=&quot;620&quot; align=&quot;center&quot; border=&quot;0&quot; cellpadding=&quot;1&quot; cellspacing=&quot;1&quot; class=&quot;ke-zeroborder&quot; style=&quot;color:#000000;font-family:simsun;font-size:14px;margin:0px auto !important;background:#FFBB77;&quot;&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;td width=&quot;464&quot; height=&quot;27&quot; bgcolor=&quot;#FFE7CE&quot;&gt;
+				&amp;nbsp;代码如下
+			&lt;/td&gt;
+			&lt;td width=&quot;109&quot; align=&quot;center&quot; bgcolor=&quot;#FFE7CE&quot;&gt;
+				复制代码
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td height=&quot;auto&quot; colspan=&quot;2&quot; valign=&quot;top&quot; bgcolor=&quot;#FFFFFF&quot; class=&quot;copyclass&quot; id=&quot;copy7338&quot;&gt;
+				&lt;p style=&quot;color:#373737;font-size:14px;font-family:&amp;quot;&quot;&gt;
+					mysql&amp;gt; drop index title on articles;
+				&lt;/p&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p style=&quot;color:#373737;font-size:14px;font-family:&amp;quot;background-color:#F5F8FD;&quot;&gt;
+	再查看一下， 已经被删除了。
+&lt;/p&gt;
+&lt;table width=&quot;620&quot; align=&quot;center&quot; border=&quot;0&quot; cellpadding=&quot;1&quot; cellspacing=&quot;1&quot; class=&quot;ke-zeroborder&quot; style=&quot;color:#000000;font-family:simsun;font-size:14px;margin:0px auto !important;background:#FFBB77;&quot;&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;td width=&quot;464&quot; height=&quot;27&quot; bgcolor=&quot;#FFE7CE&quot;&gt;
+				&amp;nbsp;代码如下
+			&lt;/td&gt;
+			&lt;td width=&quot;109&quot; align=&quot;center&quot; bgcolor=&quot;#FFE7CE&quot;&gt;
+				复制代码
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td height=&quot;auto&quot; colspan=&quot;2&quot; valign=&quot;top&quot; bgcolor=&quot;#FFFFFF&quot; class=&quot;copyclass&quot; id=&quot;copy8209&quot;&gt;
+				mysql&amp;gt; show indexes from articles;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p style=&quot;color:#373737;font-size:14px;font-family:&amp;quot;background-color:#F5F8FD;&quot;&gt;
+	再为表添加 fulltext 上去
+&lt;/p&gt;
+&lt;table width=&quot;620&quot; align=&quot;center&quot; border=&quot;0&quot; cellpadding=&quot;1&quot; cellspacing=&quot;1&quot; class=&quot;ke-zeroborder&quot; style=&quot;color:#000000;font-family:simsun;font-size:14px;margin:0px auto !important;background:#FFBB77;&quot;&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;td width=&quot;464&quot; height=&quot;27&quot; bgcolor=&quot;#FFE7CE&quot;&gt;
+				&amp;nbsp;代码如下
+			&lt;/td&gt;
+			&lt;td width=&quot;109&quot; align=&quot;center&quot; bgcolor=&quot;#FFE7CE&quot;&gt;
+				复制代码
+			&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td height=&quot;auto&quot; colspan=&quot;2&quot; valign=&quot;top&quot; bgcolor=&quot;#FFFFFF&quot; class=&quot;copyclass&quot; id=&quot;copy8842&quot;&gt;
+				mysql&amp;gt; alter table articles add fulltext index(title,body);
+			&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p style=&quot;color:#373737;font-size:14px;font-family:&amp;quot;background-color:#F5F8FD;&quot;&gt;
+	看到了吧， 这样就通过修改现有的表来添加全文搜索功能， 希望这个教程可以帮你&lt;br /&gt;
+日后使用到这个搜索功能。
+&lt;/p&gt;
+&lt;p style=&quot;color:#373737;font-size:14px;font-family:&amp;quot;background-color:#F5F8FD;&quot;&gt;
+	来源：http://www.bkjia.com/Mysql/450588.html
+&lt;/p&gt;','1481696654') [ RunTime:0.0250s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-12-14T14:24:15+08:00 ] 127.0.0.1 /admin/index/article.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.108006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.110006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-12-14T14:24:18+08:00 ] 127.0.0.1 /admin/index/lists.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Model\ArticleModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Admin\Model\ArticleModel.class.php 第 101 行.
+NOTIC: [2048] Declaration of Admin\Model\ArticleModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Admin\Model\ArticleModel.class.php 第 101 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Admin\Controller\IndexController.class.php 第 96 行.
+SQL: SELECT * FROM `article` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.160010s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.162010s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+

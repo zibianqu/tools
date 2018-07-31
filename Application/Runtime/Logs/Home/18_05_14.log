@@ -1,0 +1,36 @@
+[ 2018-05-14T11:10:11+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.056616s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.054714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.054811s ]
+SQL: SHOW COLUMNS FROM `statisticsip` [ RunTime:0.0871s ]
+SQL: SELECT * FROM `statisticsip` WHERE `ip` = '127.0.0.1' AND `date` = 20180514 LIMIT 1   [ RunTime:0.0011s ]
+SQL: INSERT INTO `statisticsip` (`ip`,`date`,`recordtime`) VALUES ('127.0.0.1','20180514','1526267409') [ RunTime:0.0542s ]
+NOTIC: [2048] Declaration of Home\Model\TypeModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 88 行.
+NOTIC: [2048] Declaration of Home\Model\TypeModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.1036s ]
+SQL: SELECT * FROM `type` ORDER BY `order` asc,id asc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.1665s ]
+SQL: SELECT * FROM `article` WHERE `status` = 1 ORDER BY id desc LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `article` WHERE `status` = 1 ORDER BY readnum desc,id desc LIMIT 6   [ RunTime:0.0137s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.019866s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.019918s ]
+NOTIC: [8] Undefined variable: title D:\WWW\tools\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 62 行.
+INFO: [ keyWords ] --START--
+SQL: SHOW COLUMNS FROM `keywords` [ RunTime:0.1215s ]
+SQL: SELECT * FROM `keywords` ORDER BY `order` asc,num desc LIMIT 30   [ RunTime:0.0002s ]
+INFO: Run Home\Behavior\KeyWordsBehavior [ RunTime:0.398479s ]
+INFO: [ keyWords ] --END-- [ RunTime:0.398520s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.154363s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.154403s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.232742s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.232860s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.052144s ]
+INFO: [ app_end ] --END-- [ RunTime:0.052271s ]
+

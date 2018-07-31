@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>jQuery Upload Image</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="Content-Language" content="zh-CN" />
+	<script type="text/javascript" src="__JS__/jquery.min.js"></script>
+</head>
+<body>
+<style>
+	#exec_target{display:none;width:0;height:0;}
+	#feedback{width:1200px;margin:0 auto;}
+	.stealth{filter:alpha(opacity=0); -moz-opacity:0; opacity:0; z-index:20; width:69px;position:absolute;left:1px;}
+	.file_con{position:relative;}
+	.btn_upload{position:absolute;left:1px;}
+</style>
+<script type="text/javascript">
+var src ="";
+$(document).ready(function(){
+		$("#btnOK").click(function(){			
+			if($("#upload_file").val() != ''){
+				var txt = $.trim($('#txt').val());
+				if(txt == ''){
+					alert('文字描述必填');
+					return;
+				}
+				if($.trim($('#upload_file').val()) == ''){
+					alert('未选择图片');
+					return;
+				}
+				$('#h_txt').val(txt);				
+				var position = $('input[name="position"]:checked').val();				
+				$("#h_position").val(position);
+				$("#submit_form").submit();
+			}				
+		});
+	
+	$("#exec_target").load(function(){
+		var data = $(window.frames['exec_target'].document.body).find("img").attr("src");
+		
+		if(data != null){
+			$("#feedback").html('<img src="'+data+'" />');
+			src = data;
+		}
+	});
+});
+
+//下载图片
+function downloadPic(){
+    try{    	
+        document.getElementById("downloadPicFrame").src ="/index.php/img/getpic?img=" + src;
+        
+    }catch(e){};
+};
+</script>
+<div>
+	<h1>参数</h1>
+	<p>
+		<span>文字描述：</span>
+		<input type="text" id="txt" name="txt" value="再通过图像函数生成,代码写出来后" />
+	</p>
+	<p>
+		<span>选择图片：</span>
+		<form id="submit_form" method="post" action="{:U('/img/imgtext')}" target="exec_target" enctype="multipart/form-data">
+			<div class="file_con">
+			<input type="file" name="upload_file" id="upload_file" class="stealth" />
+			<input type="button" value="上传图片" class="btn_upload" />
+			<input type="hidden" name="h_position" id="h_position" value="1" />
+			<input type="hidden" name="h_txt" id="h_txt" value="" />
+			</div>
+			<p>&nbsp;</p>
+		</form>
+	</p>
+	<p>
+		<span>文字位置：</span>
+		<label><input type="radio" name="position" value="1" />图片外下方</label>
+		<label><input type="radio" name="position" value="2" />图片下方</label>
+		<label><input type="radio" name="position" value="3" />图片外上方</label>
+		<label><input type="radio" name="position" value="4" />图片上方</label>
+	</p>
+	<p><input type="button" value="生成图像" id="btnOK" /></p>
+	<p><input type="button" value="下载" id="download" onclick="downloadPic();" /></p>
+</div>
+
+<iframe id="exec_target" name="exec_target"></iframe>
+<iframe id="downloadPicFrame" width="1" height="0" frameborder="0" scrolling="no"></iframe>
+
+<div id="feedback"></div>
+</body>
+</html>

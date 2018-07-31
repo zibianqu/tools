@@ -1,0 +1,253 @@
+[ 2017-02-07T10:51:44+08:00 ] 127.0.0.1 /index/wxtest
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.021002s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `statisticsip` [ RunTime:0.0440s ]
+SQL: SELECT * FROM `statisticsip` WHERE `ip` = '127.0.0.1' AND `date` = 20170207 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `statisticsip` (`ip`,`date`,`recordtime`) VALUES ('127.0.0.1','20170207','1486435902') [ RunTime:0.0340s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.018001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.020001s ]
+
+[ 2017-02-07T16:39:25+08:00 ] 127.0.0.1 /index/wxtoken
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.026001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-02-07T16:43:15+08:00 ] 127.0.0.1 /index/wxtoken
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+
+[ 2017-02-07T16:51:51+08:00 ] 127.0.0.1 /index/wxtoken
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-02-07T16:52:39+08:00 ] 127.0.0.1 /index/wxtoken
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-02-07T16:53:33+08:00 ] 127.0.0.1 /index/wxtoken
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-02-07T16:54:00+08:00 ] 127.0.0.1 /index/wxtoken
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+
+[ 2017-02-07T16:55:18+08:00 ] 127.0.0.1 /index/wxtoken
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-02-07T16:55:26+08:00 ] 127.0.0.1 /index/wxtoken
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-02-07T16:55:32+08:00 ] 127.0.0.1 /index/wxtoken
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+
+[ 2017-02-07T16:55:42+08:00 ] 127.0.0.1 /index/wxtoken
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+
+[ 2017-02-07T16:55:57+08:00 ] 127.0.0.1 /index/wxtoken
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-02-07T17:17:25+08:00 ] 127.0.0.1 /index/wxtoken
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Non-static method Home\Service\LogService::setPath() should not be called statically D:\WWW\tools\Application\Home\Service\LogService.class.php 第 39 行.
+
+[ 2017-02-07T17:20:13+08:00 ] 127.0.0.1 /index/wxtoken
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+NOTIC: [2048] Non-static method Home\Service\LogService::setPath() should not be called statically D:\WWW\tools\Application\Home\Service\LogService.class.php 第 39 行.
+
+[ 2017-02-07T17:20:14+08:00 ] 127.0.0.1 /index/wxtoken
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2048] Non-static method Home\Service\LogService::setPath() should not be called statically D:\WWW\tools\Application\Home\Service\LogService.class.php 第 39 行.
+
+[ 2017-02-07T17:22:02+08:00 ] 127.0.0.1 /index/wxtoken
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2048] Non-static method Home\Service\LogService::setPath() should not be called statically D:\WWW\tools\Application\Home\Service\LogService.class.php 第 39 行.
+
+[ 2017-02-07T17:29:51+08:00 ] 127.0.0.1 /index/wxtoken
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2048] Non-static method Home\Service\LogService::setPath() should not be called statically D:\WWW\tools\Application\Home\Service\LogService.class.php 第 39 行.
+
+[ 2017-02-07T17:33:18+08:00 ] 127.0.0.1 /index/wxtoken
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+
+[ 2017-02-07T17:36:48+08:00 ] 127.0.0.1 /index/wxtoken
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2048] Non-static method Home\Service\LogService::setPath() should not be called statically D:\WWW\tools\Application\Home\Service\LogService.class.php 第 39 行.
+NOTIC: [2] file_put_contents(D:\WWW\tools\Application\Runtime\Logs/Home/): failed to open stream: No such file or directory D:\WWW\tools\Application\Home\Service\LogService.class.php 第 40 行.
+NOTIC: [2048] Non-static method Home\Service\LogService::setPath() should not be called statically D:\WWW\tools\Application\Home\Service\LogService.class.php 第 39 行.
+NOTIC: [2] file_put_contents(D:\WWW\tools\Application\Runtime\Logs/Home/): failed to open stream: No such file or directory D:\WWW\tools\Application\Home\Service\LogService.class.php 第 40 行.
+
+[ 2017-02-07T17:40:45+08:00 ] 127.0.0.1 /index/wxtoken
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+NOTIC: [2048] Non-static method Home\Service\LogService::setPath() should not be called statically D:\WWW\tools\Application\Home\Service\LogService.class.php 第 39 行.
+NOTIC: [2] file_put_contents(D:\WWW\tools\Application\Runtime\Logs/Home/): failed to open stream: No such file or directory D:\WWW\tools\Application\Home\Service\LogService.class.php 第 40 行.
+NOTIC: [2048] Non-static method Home\Service\LogService::setPath() should not be called statically D:\WWW\tools\Application\Home\Service\LogService.class.php 第 39 行.
+NOTIC: [2] file_put_contents(D:\WWW\tools\Application\Runtime\Logs/Home/): failed to open stream: No such file or directory D:\WWW\tools\Application\Home\Service\LogService.class.php 第 40 行.
+
+[ 2017-02-07T17:40:45+08:00 ] 127.0.0.1 /index/wxtoken
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+NOTIC: [2048] Non-static method Home\Service\LogService::setPath() should not be called statically D:\WWW\tools\Application\Home\Service\LogService.class.php 第 39 行.
+NOTIC: [2] file_put_contents(D:\WWW\tools\Application\Runtime\Logs/Home/): failed to open stream: No such file or directory D:\WWW\tools\Application\Home\Service\LogService.class.php 第 40 行.
+NOTIC: [2048] Non-static method Home\Service\LogService::setPath() should not be called statically D:\WWW\tools\Application\Home\Service\LogService.class.php 第 39 行.
+NOTIC: [2] file_put_contents(D:\WWW\tools\Application\Runtime\Logs/Home/): failed to open stream: No such file or directory D:\WWW\tools\Application\Home\Service\LogService.class.php 第 40 行.
+
+[ 2017-02-07T17:40:57+08:00 ] 127.0.0.1 /index/wxtoken
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2048] Non-static method Home\Service\LogService::setPath() should not be called statically D:\WWW\tools\Application\Home\Service\LogService.class.php 第 39 行.
+NOTIC: [2] file_put_contents(D:\WWW\tools\Application\Runtime\Logs/Home/): failed to open stream: No such file or directory D:\WWW\tools\Application\Home\Service\LogService.class.php 第 41 行.
+NOTIC: [2048] Non-static method Home\Service\LogService::setPath() should not be called statically D:\WWW\tools\Application\Home\Service\LogService.class.php 第 39 行.
+NOTIC: [2] file_put_contents(D:\WWW\tools\Application\Runtime\Logs/Home/): failed to open stream: No such file or directory D:\WWW\tools\Application\Home\Service\LogService.class.php 第 41 行.
+
+[ 2017-02-07T17:44:10+08:00 ] 127.0.0.1 /index/wxtoken
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2048] Non-static method Home\Service\LogService::setPath() should not be called statically D:\WWW\tools\Application\Home\Service\LogService.class.php 第 39 行.
+NOTIC: [2048] Non-static method Home\Service\LogService::setPath() should not be called statically D:\WWW\tools\Application\Home\Service\LogService.class.php 第 39 行.
+
+[ 2017-02-07T17:44:25+08:00 ] 127.0.0.1 /index/wxtoken
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2048] Non-static method Home\Service\LogService::setPath() should not be called statically D:\WWW\tools\Application\Home\Service\LogService.class.php 第 39 行.
+NOTIC: [2048] Non-static method Home\Service\LogService::setPath() should not be called statically D:\WWW\tools\Application\Home\Service\LogService.class.php 第 39 行.
+
+[ 2017-02-07T17:48:38+08:00 ] 127.0.0.1 /index/wxtoken
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2048] Non-static method Home\Service\LogService::setPath() should not be called statically D:\WWW\tools\Application\Home\Service\LogService.class.php 第 39 行.
+NOTIC: [2048] Non-static method Home\Service\LogService::setPath() should not be called statically D:\WWW\tools\Application\Home\Service\LogService.class.php 第 39 行.
+
+[ 2017-02-07T17:49:16+08:00 ] 127.0.0.1 /index/wxtoken
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2048] Non-static method Home\Service\LogService::setPath() should not be called statically D:\WWW\tools\Application\Home\Service\LogService.class.php 第 39 行.
+NOTIC: [2048] Non-static method Home\Service\LogService::setPath() should not be called statically D:\WWW\tools\Application\Home\Service\LogService.class.php 第 39 行.
+
+[ 2017-02-07T17:49:33+08:00 ] 127.0.0.1 /index/wxtoken
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Non-static method Home\Service\LogService::setPath() should not be called statically D:\WWW\tools\Application\Home\Service\LogService.class.php 第 39 行.
+NOTIC: [2048] Non-static method Home\Service\LogService::setPath() should not be called statically D:\WWW\tools\Application\Home\Service\LogService.class.php 第 39 行.
+

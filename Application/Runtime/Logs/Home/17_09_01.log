@@ -1,0 +1,1871 @@
+[ 2017-09-01T17:44:08+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.089005s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.021001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023001s ]
+SQL: SHOW COLUMNS FROM `statisticsip` [ RunTime:0.4080s ]
+SQL: SELECT * FROM `statisticsip` WHERE `ip` = '127.0.0.1' AND `date` = 20170901 LIMIT 1   [ RunTime:0.0310s ]
+SQL: INSERT INTO `statisticsip` (`ip`,`date`,`recordtime`) VALUES ('127.0.0.1','20170901','1504259047') [ RunTime:0.0680s ]
+NOTIC: [2048] Declaration of Home\Model\TypeModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 88 行.
+NOTIC: [2048] Declaration of Home\Model\TypeModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0560s ]
+NOTIC: [2] Missing argument 1 for Home\Model\TypeModel::lists(), called in D:\WWW\tools\ThinkPHP\Library\Think\Controller.class.php on line 51 and defined D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 83 行.
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 84 行.
+SQL: SELECT * FROM `type` ORDER BY `order` asc,id asc  [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0520s ]
+SQL: SELECT * FROM `article` WHERE `status` = 1 ORDER BY id desc LIMIT 6   [ RunTime:0.0590s ]
+SQL: SELECT * FROM `article` WHERE `status` = 1 ORDER BY readnum desc,id desc LIMIT 6   [ RunTime:0.0730s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.040003s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.043003s ]
+NOTIC: [8] Undefined variable: title D:\WWW\tools\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 62 行.
+INFO: [ keyWords ] --START--
+SQL: SHOW COLUMNS FROM `keywords` [ RunTime:0.0760s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\WWW\tools\Application\Home\Model\CommModel.class.php on line 46 and defined D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `keywords` ORDER BY `order` asc,num desc LIMIT 30   [ RunTime:0.0250s ]
+INFO: Run Home\Behavior\KeyWordsBehavior [ RunTime:0.280016s ]
+INFO: [ keyWords ] --END-- [ RunTime:0.282016s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.982057s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.985057s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.018001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.020001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.041003s ]
+INFO: [ app_end ] --END-- [ RunTime:0.044003s ]
+
+[ 2017-09-01T17:44:49+08:00 ] 127.0.0.1 /art/lists.aspx?t=git&c=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2048] Declaration of Home\Model\TypeModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\TypeModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0050s ]
+NOTIC: [2] Missing argument 1 for Home\Model\TypeModel::lists(), called in D:\WWW\tools\ThinkPHP\Library\Think\Controller.class.php on line 51 and defined D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 83 行.
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 84 行.
+SQL: SELECT * FROM `type` ORDER BY `order` asc,id asc  [ RunTime:0.0010s ]
+
+[ 2017-09-01T17:44:51+08:00 ] 127.0.0.1 /art/lists.aspx?t=git&c=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+NOTIC: [2048] Declaration of Home\Model\TypeModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\TypeModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0050s ]
+NOTIC: [2] Missing argument 1 for Home\Model\TypeModel::lists(), called in D:\WWW\tools\ThinkPHP\Library\Think\Controller.class.php on line 51 and defined D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 83 行.
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 84 行.
+SQL: SELECT * FROM `type` ORDER BY `order` asc,id asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `keywords` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `keywords` WHERE `name` = 'git' LIMIT 1   [ RunTime:0.0240s ]
+SQL: UPDATE `keywords` SET `name`='git',`num`='2',`recordtime`='1504259091',`order`='20' WHERE `id` = 37 [ RunTime:0.0420s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `article` WHERE `title` LIKE '%git%' OR `keyword` LIKE '%git%' ORDER BY id desc LIMIT 0,6   [ RunTime:0.0370s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` WHERE `title` LIKE '%git%' OR `keyword` LIKE '%git%' LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\WWW\tools\Application\Home\Model\CommModel.class.php on line 46 and defined D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `keywords` ORDER BY `order` asc,num desc LIMIT 20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.012001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.016001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.280016s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.282016s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-09-01T17:44:57+08:00 ] 127.0.0.1 /art/async_lists.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+NOTIC: [2048] Declaration of Home\Model\TypeModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\TypeModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0080s ]
+NOTIC: [2] Missing argument 1 for Home\Model\TypeModel::lists(), called in D:\WWW\tools\ThinkPHP\Library\Think\Controller.class.php on line 51 and defined D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 83 行.
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 84 行.
+SQL: SELECT * FROM `type` ORDER BY `order` asc,id asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `keywords` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `keywords` WHERE `name` = 'git' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `keywords` SET `name`='git',`num`='3',`recordtime`='1504259097',`order`='20' WHERE `id` = 37 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `article` WHERE `title` LIKE '%git%' OR `keyword` LIKE '%git%' ORDER BY id desc LIMIT 6,6   [ RunTime:0.0020s ]
+
+[ 2017-09-01T17:45:04+08:00 ] 127.0.0.1 /art/article/id/42.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Home\Model\TypeModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\TypeModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0080s ]
+NOTIC: [2] Missing argument 1 for Home\Model\TypeModel::lists(), called in D:\WWW\tools\ThinkPHP\Library\Think\Controller.class.php on line 51 and defined D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 83 行.
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 84 行.
+SQL: SELECT * FROM `type` ORDER BY `order` asc,id asc  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `article` WHERE `id` = 42 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `article` WHERE `id` = 42 LIMIT 1   [ RunTime:0.0020s ]
+SQL: UPDATE `article` SET `title`='git 常用命令',`keyword`='git',`content`='&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	&lt;strong&gt;查看、添加、提交、删除、找回，重置修改文件&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git help &amp;lt;command&amp;gt; # 显示command的help
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git show # 显示某次提交的内容 git show $id
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git co -- &amp;lt;file&amp;gt; # 抛弃工作区修改
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git co . # 抛弃工作区修改
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git add &amp;lt;file&amp;gt; # 将工作文件修改提交到本地暂存区
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git add . # 将所有修改过的工作文件提交暂存区
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git rm &amp;lt;file&amp;gt; # 从版本库中删除文件
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git rm &amp;lt;file&amp;gt; --cached # 从版本库中删除文件，但不删除文件
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git reset &amp;lt;file&amp;gt; # 从暂存区恢复到工作文件
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git reset -- . # 从暂存区恢复到工作文件
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git reset --hard # 恢复最近一次提交过的状态，即放弃上次提交后的所有本次修改
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git ci &amp;lt;file&amp;gt; git ci . git ci -a # 将git add, git rm和git ci等操作都合并在一起做　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　git ci -am &quot;some comments&quot;
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git ci --amend # 修改最后一次提交记录
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git revert &amp;lt;$id&amp;gt; # 恢复某次提交的状态，恢复动作本身也创建次提交对象
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git revert HEAD # 恢复最后一次提交的状态
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	&lt;strong&gt;查看文件diff&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git diff &amp;lt;file&amp;gt; # 比较当前文件和暂存区文件差异 git diff
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git diff &amp;lt;&lt;span class=&quot;MathJax_Preview&quot; style=&quot;color:inherit;&quot;&gt;&lt;/span&gt;id1&amp;gt;&amp;lt;&lt;span class=&quot;MJX_Assistive_MathML&quot; style=&quot;vertical-align:0px;&quot;&gt;id1&amp;gt;&amp;lt;&lt;/span&gt;id2&amp;gt; # 比较两次提交之间的差异
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git diff &amp;lt;branch1&amp;gt;..&amp;lt;branch2&amp;gt; # 在两个分支之间比较
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git diff --staged # 比较暂存区和版本库差异
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git diff --cached # 比较暂存区和版本库差异
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git diff --stat # 仅仅比较统计信息
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	&lt;strong&gt;查看提交记录&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git log git log &amp;lt;file&amp;gt; # 查看该文件每次提交记录
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git log -p &amp;lt;file&amp;gt; # 查看每次详细修改内容的diff
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git log -p -2 # 查看最近两次详细修改内容的diff
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git log --stat #查看提交统计信息
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	&lt;strong&gt;tig&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	Mac上可以使用tig代替diff和log，brew install tig
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	&lt;strong&gt;Git 本地分支管理&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	&lt;strong&gt;查看、切换、创建和删除分支&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git br -r # 查看远程分支
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git br &amp;lt;new_branch&amp;gt; # 创建新的分支
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git br -v # 查看各个分支最后提交信息
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git br --merged # 查看已经被合并到当前分支的分支
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git br --no-merged # 查看尚未被合并到当前分支的分支
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git co &amp;lt;branch&amp;gt; # 切换到某个分支
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git co -b &amp;lt;new_branch&amp;gt; # 创建新的分支，并且切换过去
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git co -b &amp;lt;new_branch&amp;gt; &amp;lt;branch&amp;gt; # 基于branch创建新的new_branch
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git co $id # 把某次历史提交记录checkout出来，但无分支信息，切换到其他分支会自动删除
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git co $id -b &amp;lt;new_branch&amp;gt; # 把某次历史提交记录checkout出来，创建成一个分支
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git br -d &amp;lt;branch&amp;gt; # 删除某个分支
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git br -D &amp;lt;branch&amp;gt; # 强制删除某个分支 (未被合并的分支被删除的时候需要强制)
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	&lt;strong&gt;&amp;nbsp;分支合并和rebase&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git merge &amp;lt;branch&amp;gt; # 将branch分支合并到当前分支
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git merge origin/master --no-ff # 不要Fast-Foward合并，这样可以生成merge提交
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git rebase master &amp;lt;branch&amp;gt; # 将master rebase到branch，相当于： git co &amp;lt;branch&amp;gt; &amp;amp;&amp;amp; git rebase master &amp;amp;&amp;amp; git co master &amp;amp;&amp;amp; git merge &amp;lt;branch&amp;gt;
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	&lt;strong&gt;&amp;nbsp;Git补丁管理(方便在多台机器上开发同步时用)&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git diff &amp;gt; ../sync.patch # 生成补丁
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git apply ../sync.patch # 打补丁
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git apply --check ../sync.patch #测试补丁能否成功
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	&lt;strong&gt;&amp;nbsp;Git暂存管理&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git stash # 暂存
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git stash list # 列所有stash
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git stash apply # 恢复暂存的内容
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git stash drop # 删除暂存区
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	&lt;strong&gt;Git远程分支管理&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git pull # 抓取远程仓库所有分支更新并合并到本地
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git pull --no-ff # 抓取远程仓库所有分支更新并合并到本地，不要快进合并
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git fetch origin # 抓取远程仓库更新
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git merge origin/master # 将远程主分支合并到本地当前分支
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git co --track origin/branch # 跟踪某个远程分支创建相应的本地分支
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git co -b &amp;lt;local_branch&amp;gt; origin/&amp;lt;remote_branch&amp;gt; # 基于远程分支创建本地分支，功能同上
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git push # push所有分支
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git push origin master # 将本地主分支推到远程主分支
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git push -u origin master # 将本地主分支推到远程(如无远程主分支则创建，用于初始化远程仓库)
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git push origin &amp;lt;local_branch&amp;gt; # 创建远程分支， origin是远程仓库名
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git push origin &amp;lt;local_branch&amp;gt;:&amp;lt;remote_branch&amp;gt; # 创建远程分支
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git push origin :&amp;lt;remote_branch&amp;gt; #先删除本地分支(git br -d &amp;lt;branch&amp;gt;)，然后再push删除远程分支
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	&lt;strong&gt;Git远程仓库管理&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	&lt;span style=&quot;color:#FFFFFF;&quot;&gt;&lt;em&gt;&lt;span class=&quot;wp_keywordlink&quot;&gt;&lt;a href=&quot;http://blog.jobbole.com/6492/&quot; target=&quot;_blank&quot;&gt;GitHub&lt;/a&gt;&lt;/span&gt;&lt;/em&gt;&lt;/span&gt; 
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git remote -v # 查看远程服务器地址和仓库名称
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git remote show origin # 查看远程服务器仓库状态
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git remote add origin git@ github:robbin/robbin_site.git # 添加远程仓库地址
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git remote set-url origin git@ github.com:robbin/robbin_site.git # 设置远程仓库地址(用于修改远程仓库地址) git remote rm &amp;lt;repository&amp;gt; # 删除远程仓库
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	&lt;strong&gt;创建远程仓库&lt;/strong&gt; 
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git clone --bare robbin_site robbin_site.git # 用带版本的项目创建纯版本仓库
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	scp -r my_project.git git@ git.csdn.net:~ # 将纯仓库上传到服务器上
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	mkdir robbin_site.git &amp;amp;&amp;amp; cd robbin_site.git &amp;amp;&amp;amp; git --bare init # 在服务器创建纯仓库
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git remote add origin git@ github.com:robbin/robbin_site.git # 设置远程仓库地址
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git push -u origin master # 客户端首次提交
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git push -u origin develop # 首次将本地develop分支提交到远程develop分支，并且track
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git remote set-head origin master # 设置远程仓库的HEAD指向master分支
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	也可以命令设置跟踪远程库和本地库
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git branch --set-upstream master origin/master
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	git branch --set-upstream develop origin/develop
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p style=&quot;color:#393939;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px;background-color:#FAF7EF;&quot;&gt;
+	来源：http://www.cnblogs.com/cspku/articles/Git_cmds.html
+&lt;/p&gt;',`status`='1',`type`='0',`createtime`='1482977890',`author`='小兔',`imgurl`=NULL,`recom`='0',`readnum`='28' WHERE `id` = 42 [ RunTime:0.0020s ]
+SQL: SELECT `id`,`title` FROM `article` WHERE ( id<42 and status=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT `id`,`title` FROM `article` WHERE ( id>42 and status=1 ) ORDER BY id asc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`title` FROM `article` WHERE ( id<>42 and status=1 and recom=1 ) ORDER BY id desc LIMIT 6   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: title D:\WWW\tools\Application\Runtime\Cache\Home\f274c600cf8d13c9d31ff143ea08a211.php 第 51 行.
+INFO: [ keyWords ] --START--
+SQL: SHOW COLUMNS FROM `keywords` [ RunTime:0.0050s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\WWW\tools\Application\Home\Model\CommModel.class.php on line 46 and defined D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `keywords` ORDER BY `order` asc,num desc LIMIT 30   [ RunTime:0.0010s ]
+INFO: Run Home\Behavior\KeyWordsBehavior [ RunTime:0.066003s ]
+INFO: [ keyWords ] --END-- [ RunTime:0.069004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.237014s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.239014s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-09-01T17:45:56+08:00 ] 127.0.0.1 /art/article/id/41.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010001s ]
+NOTIC: [2048] Declaration of Home\Model\TypeModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\TypeModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0080s ]
+NOTIC: [2] Missing argument 1 for Home\Model\TypeModel::lists(), called in D:\WWW\tools\ThinkPHP\Library\Think\Controller.class.php on line 51 and defined D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 83 行.
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 84 行.
+SQL: SELECT * FROM `type` ORDER BY `order` asc,id asc  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `article` WHERE `id` = 41 LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT * FROM `article` WHERE `id` = 41 LIMIT 1   [ RunTime:0.0030s ]
+SQL: UPDATE `article` SET `title`='二、使用git GitHub创建管理仓库',`keyword`='git,GitHub创建管理仓库',`content`='&lt;p style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	五：远程仓库。
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp; &amp;nbsp; &amp;nbsp;在了解之前，先注册github账号，由于你的本地Git仓库和github仓库之间的传输是通过SSH加密的，所以需要一点设置：
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp; &amp;nbsp; &amp;nbsp;第一步：创建SSH Key。在用户主目录下，看看有没有.ssh目录，如果有，再看看这个目录下有没有id_rsa和id_rsa.pub这两个文件，如果有的话，直接跳过此如下命令，如果没有的话，打开命令行，输入如下命令：
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	ssh-keygen&amp;nbsp; -t rsa –C “youremail@example.com”, 由于我本地此前运行过一次，所以本地有，如下所示：
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp;&lt;img alt=&quot;&quot; src=&quot;/Public/files/images/2016/12/28/nizE9Avi8a1yPkk.jpg&quot; style=&quot;height:auto;&quot; /&gt; 
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	id_rsa是私钥，不能泄露出去，id_rsa.pub是公钥，可以放心地告诉任何人。
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	第二步：登录github,打开” settings”中的SSH Keys页面，然后点击“Add SSH Key”,填上任意title，在Key文本框里黏贴id_rsa.pub文件的内容。
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&lt;img alt=&quot;&quot; src=&quot;/Public/files/images/2016/12/28/F81VndiWDc4L1X9.jpg&quot; style=&quot;height:auto;&quot; /&gt; 
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	点击 Add Key，你就应该可以看到已经添加的key。
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&lt;img alt=&quot;&quot; src=&quot;/Public/files/images/2016/12/28/HAI8FD81ly1bngL.jpg&quot; style=&quot;height:auto;&quot; /&gt; 
+&lt;/p&gt;
+&lt;ol style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&lt;li&gt;
+		如何添加远程库？
+	&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;现在的情景是：我们已经在本地创建了一个Git仓库后，又想在github创建一个Git仓库，并且希望这两个仓库进行远程同步，这样github的仓库可以作为备份，又可以其他人通过该仓库来协作。
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp;&amp;nbsp; 首先，登录github上，然后在右上角找到“create a new repo”创建一个新的仓库。如下：
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&lt;img alt=&quot;&quot; src=&quot;/Public/files/images/2016/12/28/Ymjp3XSgjVIb7Iz.jpg&quot; style=&quot;height:auto;&quot; /&gt; 
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	在Repository name填入testgit，其他保持默认设置，点击“Create repository”按钮，就成功地创建了一个新的Git仓库：
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&lt;img alt=&quot;&quot; src=&quot;/Public/files/images/2016/12/28/1PzFL0IIvt1NUlt.jpg&quot; style=&quot;height:auto;&quot; /&gt; 
+&lt;/p&gt;
+&lt;p style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp; &amp;nbsp; 目前，在GitHub上的这个testgit仓库还是空的，GitHub告诉我们，可以从这个仓库克隆出新的仓库，也可以把一个已有的本地仓库与之关联，然后，把本地仓库的内容推送到GitHub仓库。
+&lt;/p&gt;
+&lt;p style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	现在，我们根据GitHub的提示，在本地的testgit仓库下运行命令：
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	git remote add origin https://github.com/tugenhua0707/testgit.git
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	所有的如下：
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp;&amp;nbsp;&lt;img alt=&quot;&quot; src=&quot;/Public/files/images/2016/12/28/626Go441AETJfrR.jpg&quot; style=&quot;height:auto;&quot; /&gt; 
+&lt;/p&gt;
+&lt;p style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	把本地库的内容推送到远程，使用 git push命令，实际上是把当前分支master推送到远程。
+&lt;/p&gt;
+&lt;p style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	由于远程库是空的，我们第一次推送master分支时，加上了 –u参数，Git不但会把本地的master分支内容推送的远程新的master分支，还会把本地的master分支和远程的master分支关联起来，在以后的推送或者拉取时就可以简化命令。推送成功后，可以立刻在github页面中看到远程库的内容已经和本地一模一样了，上面的要输入github的用户名和密码如下所示：
+&lt;/p&gt;
+&lt;p style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&lt;img alt=&quot;&quot; src=&quot;/Public/files/images/2016/12/28/4o7UtjQ8sBlpO80.jpg&quot; style=&quot;height:auto;&quot; /&gt; 
+&lt;/p&gt;
+&lt;p style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	从现在起，只要本地作了提交，就可以通过如下命令：
+&lt;/p&gt;
+&lt;p style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	git push origin master
+&lt;/p&gt;
+&lt;p style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	把本地master分支的最新修改推送到github上了，现在你就拥有了真正的分布式版本库了。
+&lt;/p&gt;
+&lt;p style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	2. 如何从远程库克隆？
+&lt;/p&gt;
+&lt;p style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	上面我们了解了先有本地库，后有远程库时候，如何关联远程库。
+&lt;/p&gt;
+&lt;p style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	现在我们想，假如远程库有新的内容了，我想克隆到本地来 如何克隆呢？
+&lt;/p&gt;
+&lt;p style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	首先，登录github，创建一个新的仓库，名字叫testgit2.如下：
+&lt;/p&gt;
+&lt;p style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&lt;img alt=&quot;&quot; src=&quot;/Public/files/images/2016/12/28/32Z59Ez2Bz1V2dC.jpg&quot; style=&quot;height:auto;&quot; /&gt; 
+&lt;/p&gt;
+&lt;p style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	如下，我们看到：
+&lt;/p&gt;
+&lt;p style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&lt;img alt=&quot;&quot; src=&quot;/Public/files/images/2016/12/28/Q3roSbX83FaFupC.jpg&quot; style=&quot;height:auto;&quot; /&gt; 
+&lt;/p&gt;
+&lt;p style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	现在，远程库已经准备好了，下一步是使用命令git clone克隆一个本地库了。如下所示：
+&lt;/p&gt;
+&lt;p style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&lt;img alt=&quot;&quot; src=&quot;/Public/files/images/2016/12/28/Lo5bJ9f2xhyv2xY.jpg&quot; style=&quot;height:auto;&quot; /&gt; 
+&lt;/p&gt;
+&lt;p style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	接着在我本地目录下 生成testgit2目录了，如下所示：
+&lt;/p&gt;
+&lt;p style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&lt;img alt=&quot;&quot; src=&quot;/Public/files/images/2016/12/28/8EWnsfPGEjLfo8V.jpg&quot; style=&quot;height:auto;&quot; /&gt; 
+&lt;/p&gt;
+&lt;p style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	六：创建与合并分支。
+&lt;/p&gt;
+&lt;p style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	在 &amp;nbsp;版本回填退里，你已经知道，每次提交，Git都把它们串成一条时间线，这条时间线就是一个分支。截止到目前，只有一条时间线，在Git里，这个分支叫主分支，即master分支。HEAD严格来说不是指向提交，而是指向master，master才是指向提交的，所以，HEAD指向的就是当前分支。
+&lt;/p&gt;
+&lt;p style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	首先，我们来创建dev分支，然后切换到dev分支上。如下操作：
+&lt;/p&gt;
+&lt;p style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&lt;img alt=&quot;&quot; src=&quot;/Public/files/images/2016/12/28/qI2LjJGPI2x1pqv.jpg&quot; style=&quot;height:auto;&quot; /&gt; 
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	git checkout 命令加上 –b参数表示创建并切换，相当于如下2条命令
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	git branch dev
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	git checkout dev
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	git branch查看分支，会列出所有的分支，当前分支前面会添加一个星号。然后我们在dev分支上继续做demo，比如我们现在在readme.txt再增加一行 7777777777777
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	首先我们先来查看下readme.txt内容，接着添加内容77777777，如下：
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&lt;img alt=&quot;&quot; src=&quot;/Public/files/images/2016/12/28/Dn1Z1i9gp3P1e9w.jpg&quot; style=&quot;height:auto;&quot; /&gt; 
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	现在dev分支工作已完成，现在我们切换到主分支master上，继续查看readme.txt内容如下：
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&lt;img alt=&quot;&quot; src=&quot;/Public/files/images/2016/12/28/zk9zwe38tHwhFcY.jpg&quot; style=&quot;height:auto;&quot; /&gt; 
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	现在我们可以把dev分支上的内容合并到分支master上了，可以在master分支上，使用如下命令 git merge dev 如下所示：
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&lt;img alt=&quot;&quot; src=&quot;/Public/files/images/2016/12/28/1fBq02Zz3EyO93I.jpg&quot; style=&quot;height:auto;&quot; /&gt; 
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	git merge命令用于合并指定分支到当前分支上，合并后，再查看readme.txt内容，可以看到，和dev分支最新提交的是完全一样的。
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	注意到上面的&lt;span&gt;Fast-forward&lt;/span&gt;信息，Git告诉我们，这次合并是“快进模式”，也就是直接把master指向dev的当前提交，所以合并速度非常快。
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	合并完成后，我们可以接着删除dev分支了，操作如下：
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&lt;img alt=&quot;&quot; src=&quot;/Public/files/images/2016/12/28/rStmHfRG8BNViSx.jpg&quot; style=&quot;height:auto;&quot; /&gt; 
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	总结创建与合并分支命令如下：
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp;&amp;nbsp; 查看分支：git branch
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp;&amp;nbsp; 创建分支：git branch name
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp;&amp;nbsp; 切换分支：git checkout name
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	创建+切换分支：git checkout –b name
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	合并某分支到当前分支：git merge name
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	删除分支：git branch –d name
+&lt;/p&gt;
+&lt;ol style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&lt;li&gt;
+		如何解决冲突？
+	&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	下面我们还是一步一步来，先新建一个新分支，比如名字叫fenzhi1，在readme.txt添加一行内容8888888，然后提交，如下所示：
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&lt;img alt=&quot;&quot; src=&quot;/Public/files/images/2016/12/28/8J31zY0POZTDdO6.jpg&quot; style=&quot;height:auto;&quot; /&gt; 
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	同样，我们现在切换到master分支上来，也在最后一行添加内容，内容为99999999，如下所示：
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&lt;img alt=&quot;&quot; src=&quot;/Public/files/images/2016/12/28/l8o4jvA1484Fu9Y.jpg&quot; style=&quot;height:auto;&quot; /&gt; 
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	现在我们需要在master分支上来合并fenzhi1，如下操作：
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&lt;img alt=&quot;&quot; src=&quot;/Public/files/images/2016/12/28/i67B4WZubeJvhm3.jpg&quot; style=&quot;height:auto;&quot; /&gt; 
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	Git用&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;，=======，&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;标记出不同分支的内容，其中&amp;lt;&amp;lt;&amp;lt;HEAD是指主分支修改的内容，&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;fenzhi1 是指fenzhi1上修改的内容，我们可以修改下如下后保存：
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&lt;img alt=&quot;&quot; src=&quot;/Public/files/images/2016/12/28/DX8ssfes56RWbCw.jpg&quot; style=&quot;height:auto;&quot; /&gt; 
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	如果我想查看分支合并的情况的话，需要使用命令 git log.命令行演示如下：
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&lt;img alt=&quot;&quot; src=&quot;/Public/files/images/2016/12/28/zkSXmmjC7Lgg1NS.jpg&quot; style=&quot;height:auto;&quot; /&gt; 
+&lt;/p&gt;
+&lt;p style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp; &amp;nbsp; 3.分支管理策略。
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp; &amp;nbsp; &amp;nbsp; 通常合并分支时，git一般使用”Fast forward”模式，在这种模式下，删除分支后，会丢掉分支信息，现在我们来使用带参数 –no-ff来禁用”Fast forward”模式。首先我们来做demo演示下：
+&lt;/p&gt;
+&lt;ol style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&lt;li&gt;
+		创建一个dev分支。
+	&lt;/li&gt;
+	&lt;li&gt;
+		修改readme.txt内容。
+	&lt;/li&gt;
+	&lt;li&gt;
+		添加到暂存区。
+	&lt;/li&gt;
+	&lt;li&gt;
+		切换回主分支(master)。
+	&lt;/li&gt;
+	&lt;li&gt;
+		合并dev分支，使用命令 git merge –no-ff&amp;nbsp; -m “注释” dev
+	&lt;/li&gt;
+	&lt;li&gt;
+		查看历史记录
+	&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	截图如下：
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp;&lt;img alt=&quot;&quot; src=&quot;/Public/files/images/2016/12/28/1Rg2AZ8eI9BZRd1.jpg&quot; style=&quot;height:auto;&quot; /&gt; 
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&lt;span&gt;分支策略：&lt;/span&gt;首先master主分支应该是非常稳定的，也就是用来发布新版本，一般情况下不允许在上面干活，干活一般情况下在新建的dev分支上干活，干完后，比如上要发布，或者说dev分支代码稳定后可以合并到主分支master上来。
+&lt;/p&gt;
+&lt;p style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	七：bug分支：
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;在开发中，会经常碰到bug问题，那么有了bug就需要修复，在Git中，分支是很强大的，每个bug都可以通过一个临时分支来修复，修复完成后，合并分支，然后将临时的分支删除掉。
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	比如我在开发中接到一个404 bug时候，我们可以创建一个404分支来修复它，但是，当前的dev分支上的工作还没有提交。比如如下：
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp;&lt;img alt=&quot;&quot; src=&quot;/Public/files/images/2016/12/28/D3CWqo30q6cWC9a.jpg&quot; style=&quot;height:auto;&quot; /&gt; 
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp; &amp;nbsp;并不是我不想提交，而是工作进行到一半时候，我们还无法提交，比如我这个分支bug要2天完成，但是我issue-404 bug需要5个小时内完成。怎么办呢？还好，Git还提供了一个stash功能，可以把当前工作现场 ”隐藏起来”，等以后恢复现场后继续工作。如下：
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp;&amp;nbsp;&lt;img alt=&quot;&quot; src=&quot;/Public/files/images/2016/12/28/V6s8ZtRyY0sZp38.jpg&quot; style=&quot;height:auto;&quot; /&gt; 
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp; &amp;nbsp;所以现在我可以通过创建issue-404分支来修复bug了。
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	首先我们要确定在那个分支上修复bug，比如我现在是在主分支master上来修复的，现在我要在master分支上创建一个临时分支，演示如下：
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp;&lt;img alt=&quot;&quot; src=&quot;/Public/files/images/2016/12/28/HDWKZCzY3fv08x4.jpg&quot; style=&quot;height:auto;&quot; /&gt; 
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	修复完成后，切换到master分支上，并完成合并，最后删除issue-404分支。演示如下：
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&lt;img alt=&quot;&quot; src=&quot;/Public/files/images/2016/12/28/3J1MBQ0TETjxiZw.jpg&quot; style=&quot;height:auto;&quot; /&gt; 
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	现在，我们回到dev分支上干活了。
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&lt;img alt=&quot;&quot; src=&quot;/Public/files/images/2016/12/28/b71xiQ17eUC0P0N.jpg&quot; style=&quot;height:auto;&quot; /&gt; 
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	工作区是干净的，那么我们工作现场去哪里呢？我们可以使用命令 git stash list来查看下。如下：
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&lt;img alt=&quot;&quot; src=&quot;/Public/files/images/2016/12/28/jZXabZq6ivpSiYi.jpg&quot; style=&quot;height:auto;&quot; /&gt; 
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	工作现场还在，Git把stash内容存在某个地方了，但是需要恢复一下，可以使用如下2个方法：
+&lt;/p&gt;
+&lt;ol style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&lt;li&gt;
+		git stash apply恢复，恢复后，stash内容并不删除，你需要使用命令git stash drop来删除。
+	&lt;/li&gt;
+	&lt;li&gt;
+		另一种方式是使用git stash pop,恢复的同时把stash内容也删除了。
+	&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 演示如下
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&lt;img alt=&quot;&quot; src=&quot;/Public/files/images/2016/12/28/4zGVnobeLGyO6DK.jpg&quot; style=&quot;height:auto;&quot; /&gt; 
+&lt;/p&gt;
+&lt;p style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	八：多人协作。
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	当你从远程库克隆时候，实际上Git自动把本地的master分支和远程的master分支对应起来了，并且远程库的默认名称是origin。
+&lt;/p&gt;
+&lt;ol style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&lt;li&gt;
+		要查看远程库的信息 使用 git remote
+	&lt;/li&gt;
+	&lt;li&gt;
+		要查看远程库的详细信息 使用 git remote –v
+	&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	如下演示：
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp;&lt;img alt=&quot;&quot; src=&quot;/Public/files/images/2016/12/28/kn91OAW960pMOXa.jpg&quot; style=&quot;height:auto;&quot; /&gt; 
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&lt;span&gt;一：推送分支：&lt;/span&gt; 
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 推送分支就是把该分支上所有本地提交到远程库中，推送时，要指定本地分支，这样，Git就会把该分支推送到远程库对应的远程分支上：
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 使用命令 git push origin master
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	比如我现在的github上的readme.txt代码如下：
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&lt;img alt=&quot;&quot; src=&quot;/Public/files/images/2016/12/28/ws02DEhfitl71Ha.jpg&quot; style=&quot;height:auto;&quot; /&gt; 
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	本地的readme.txt代码如下：
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp;&lt;img alt=&quot;&quot; src=&quot;/Public/files/images/2016/12/28/IrOho2iBXE8CRK0.jpg&quot; style=&quot;height:auto;&quot; /&gt; 
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	现在我想把本地更新的readme.txt代码推送到远程库中，使用命令如下：
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&lt;img alt=&quot;&quot; src=&quot;/Public/files/images/2016/12/28/s1JI1NM8svR3SPb.jpg&quot; style=&quot;height:auto;&quot; /&gt; 
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	我们可以看到如上，推送成功，我们可以继续来截图github上的readme.txt内容 如下：
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&lt;img alt=&quot;&quot; src=&quot;/Public/files/images/2016/12/28/tXS1910d3nh0qzF.jpg&quot; style=&quot;height:auto;&quot; /&gt; 
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	可以看到 推送成功了，如果我们现在要推送到其他分支，比如dev分支上，我们还是那个命令 git push origin dev
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	那么一般情况下，那些分支要推送呢？
+&lt;/p&gt;
+&lt;ol style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&lt;li&gt;
+		master分支是主分支，因此要时刻与远程同步。
+	&lt;/li&gt;
+	&lt;li&gt;
+		一些修复bug分支不需要推送到远程去，可以先合并到主分支上，然后把主分支master推送到远程去。
+	&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&lt;span&gt;二：抓取分支：&lt;/span&gt; 
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	多人协作时，大家都会往master分支上推送各自的修改。现在我们可以模拟另外一个同事，可以在另一台电脑上（注意要把SSH key添加到github上）或者同一台电脑上另外一个目录克隆，新建一个目录名字叫testgit2
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	但是我首先要把dev分支也要推送到远程去，如下
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&lt;img alt=&quot;&quot; src=&quot;/Public/files/images/2016/12/28/HhCQp2481Nnih0y.jpg&quot; style=&quot;height:auto;&quot; /&gt; 
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	接着进入testgit2目录，进行克隆远程的库到本地来，如下：
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp;&lt;img alt=&quot;&quot; src=&quot;/Public/files/images/2016/12/28/IoL1mGYCjXqRS6G.jpg&quot; style=&quot;height:auto;&quot; /&gt; 
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	现在目录下生成有如下所示：
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&lt;img alt=&quot;&quot; src=&quot;/Public/files/images/2016/12/28/Ydo1u3UOWm24V40.jpg&quot; style=&quot;height:auto;&quot; /&gt; 
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	现在我们的小伙伴要在dev分支上做开发，就必须把远程的origin的dev分支到本地来，于是可以使用命令创建本地dev分支：git checkout&amp;nbsp; –b dev origin/dev
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	现在小伙伴们就可以在dev分支上做开发了，开发完成后把dev分支推送到远程库时。
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	如下：
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&lt;img alt=&quot;&quot; src=&quot;/Public/files/images/2016/12/28/JHkV8W1xZBLFT4b.jpg&quot; style=&quot;height:auto;&quot; /&gt; 
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	小伙伴们已经向origin/dev分支上推送了提交，而我在我的目录文件下也对同样的文件同个地方作了修改，也试图推送到远程库时，如下：
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&lt;img alt=&quot;&quot; src=&quot;/Public/files/images/2016/12/28/0sFEKz85EuH6u25.jpg&quot; style=&quot;height:auto;&quot; /&gt; 
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	由上面可知：推送失败，因为我的小伙伴最新提交的和我试图推送的有冲突，解决的办法也很简单，上面已经提示我们，先用git pull把最新的提交从origin/dev抓下来，然后在本地合并，解决冲突，再推送。
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&lt;img alt=&quot;&quot; src=&quot;/Public/files/images/2016/12/28/pcd0xCnPzCRAHa4.jpg&quot; style=&quot;height:auto;&quot; /&gt; 
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&lt;span&gt;git pull&lt;/span&gt;也失败了，原因是没有指定本地dev分支与远程origin/dev分支的链接，根据提示，设置dev和origin/dev的链接：如下：
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&lt;img alt=&quot;&quot; src=&quot;/Public/files/images/2016/12/28/j4No0Xe4sjPzF5S.jpg&quot; style=&quot;height:auto;&quot; /&gt; 
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	这回&lt;span&gt;git pull&lt;/span&gt;成功，但是合并有冲突，需要手动解决，解决的方法和分支管理中的 解决冲突完全一样。解决后，提交，再push：
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	我们可以先来看看readme.txt内容了。
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&lt;img alt=&quot;&quot; src=&quot;/Public/files/images/2016/12/28/bpuFGiHtx8vE12f.jpg&quot; style=&quot;height:auto;&quot; /&gt; 
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	现在手动已经解决完了，我接在需要再提交，再push到远程库里面去。如下所示：&lt;br /&gt;
+&lt;img alt=&quot;&quot; src=&quot;/Public/files/images/2016/12/28/2d6fR28wwl5BbbB.jpg&quot; style=&quot;height:auto;&quot; /&gt; 
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	因此：多人协作工作模式一般是这样的：
+&lt;/p&gt;
+&lt;ol style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&lt;li&gt;
+		首先，可以试图用git push origin branch-name推送自己的修改.
+	&lt;/li&gt;
+	&lt;li&gt;
+		如果推送失败，则因为远程分支比你的本地更新早，需要先用git pull试图合并。
+	&lt;/li&gt;
+	&lt;li&gt;
+		如果合并有冲突，则需要解决冲突，并在本地提交。再用git push origin branch-name推送。
+	&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&lt;span&gt;Git基本常用命令如下：&lt;/span&gt; 
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp;&amp;nbsp; mkdir：&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; XX (创建一个空目录 XX指目录名)
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp;&amp;nbsp; pwd：&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 显示当前目录的路径。
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp;&amp;nbsp; git init&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 把当前的目录变成可以管理的git仓库，生成隐藏.git文件。
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp;&amp;nbsp; git add XX&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 把xx文件添加到暂存区去。
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp;&amp;nbsp; git commit –m “XX”&amp;nbsp; 提交文件 –m 后面的是注释。
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp;&amp;nbsp; git status&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 查看仓库状态
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp;&amp;nbsp; git diff&amp;nbsp; XX&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 查看XX文件修改了那些内容
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp;&amp;nbsp; git log&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 查看历史记录
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp;&amp;nbsp; git reset&amp;nbsp; –hard HEAD^ 或者 git reset&amp;nbsp; –hard HEAD~ 回退到上一个版本
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; (如果想回退到100个版本，使用git reset –hard HEAD~100 )
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp;&amp;nbsp; cat XX&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 查看XX文件内容
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp;&amp;nbsp; git reflog&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 查看历史记录的版本号id
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp;&amp;nbsp; git checkout — XX&amp;nbsp; 把XX文件在工作区的修改全部撤销。
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp;&amp;nbsp; git rm XX&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 删除XX文件
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp;&amp;nbsp; git remote add origin&amp;nbsp;&lt;a target=&quot;_blank&quot; href=&quot;https://github.com/tugenhua0707/testgit&quot;&gt;https://github.com/tugenhua0707/testgit&lt;/a&gt;&amp;nbsp;关联一个远程库
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp;&amp;nbsp; git push –u(第一次要用-u 以后不需要) origin master 把当前master分支推送到远程库
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp; &amp;nbsp;git clone&amp;nbsp;&lt;a target=&quot;_blank&quot; href=&quot;https://github.com/tugenhua0707/testgit&quot;&gt;https://github.com/tugenhua0707/testgit&lt;/a&gt;&amp;nbsp; 从远程库中克隆
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp; &amp;nbsp;git checkout –b dev&amp;nbsp; 创建dev分支 并切换到dev分支上
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp; &amp;nbsp;git branch&amp;nbsp; 查看当前所有的分支
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp; &amp;nbsp;git checkout master 切换回master分支
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp; &amp;nbsp;git merge dev&amp;nbsp; &amp;nbsp;&amp;nbsp;在当前的分支上合并dev分支
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp; &amp;nbsp;git branch –d dev 删除dev分支
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp; &amp;nbsp;git branch name&amp;nbsp; 创建分支
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp; &amp;nbsp;git stash 把当前的工作隐藏起来 等以后恢复现场后继续工作
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp; &amp;nbsp;git stash list 查看所有被隐藏的文件列表
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp; &amp;nbsp;git stash apply 恢复被隐藏的文件，但是内容不删除
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp; &amp;nbsp;git stash drop 删除文件
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp; &amp;nbsp;git stash pop 恢复文件的同时 也删除文件
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp; &amp;nbsp;git remote 查看远程库的信息
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp; &amp;nbsp;git remote –v 查看远程库的详细信息
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp; &amp;nbsp;git push origin master&amp;nbsp; Git会把master分支推送到远程库对应的远程分支上
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	来源：&lt;span style=&quot;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;font-size:15px;line-height:25px;&quot;&gt;http://blog.csdn.net/zhang1027963459/article/details/50478340&lt;/span&gt; 
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&lt;span style=&quot;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;font-size:15px;line-height:25px;&quot;&gt;&lt;a href=&quot;http://115.28.20.111/art/article/id/40.htm&quot;&gt;上一篇&lt;/a&gt;&lt;/span&gt; 
+&lt;/p&gt;',`status`='1',`type`='0',`createtime`='1482908378',`author`='小兔',`imgurl`=NULL,`recom`='0',`readnum`='34' WHERE `id` = 41 [ RunTime:0.0050s ]
+SQL: SELECT `id`,`title` FROM `article` WHERE ( id<41 and status=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `id`,`title` FROM `article` WHERE ( id>41 and status=1 ) ORDER BY id asc LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `id`,`title` FROM `article` WHERE ( id<>41 and status=1 and recom=1 ) ORDER BY id desc LIMIT 6   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.005000s ]
+NOTIC: [8] Undefined variable: title D:\WWW\tools\Application\Runtime\Cache\Home\f274c600cf8d13c9d31ff143ea08a211.php 第 51 行.
+INFO: [ keyWords ] --START--
+SQL: SHOW COLUMNS FROM `keywords` [ RunTime:0.0050s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\WWW\tools\Application\Home\Model\CommModel.class.php on line 46 and defined D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `keywords` ORDER BY `order` asc,num desc LIMIT 30   [ RunTime:0.0000s ]
+INFO: Run Home\Behavior\KeyWordsBehavior [ RunTime:0.067004s ]
+INFO: [ keyWords ] --END-- [ RunTime:0.069004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.224013s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.226013s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-09-01T17:45:58+08:00 ] 127.0.0.1 /art/article/id/41.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [2048] Declaration of Home\Model\TypeModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Home\Model\TypeModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0090s ]
+NOTIC: [2] Missing argument 1 for Home\Model\TypeModel::lists(), called in D:\WWW\tools\ThinkPHP\Library\Think\Controller.class.php on line 51 and defined D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 83 行.
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 84 行.
+SQL: SELECT * FROM `type` ORDER BY `order` asc,id asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `article` WHERE `id` = 41 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `article` WHERE `id` = 41 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `article` SET `title`='二、使用git GitHub创建管理仓库',`keyword`='git,GitHub创建管理仓库',`content`='&lt;p style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	五：远程仓库。
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp; &amp;nbsp; &amp;nbsp;在了解之前，先注册github账号，由于你的本地Git仓库和github仓库之间的传输是通过SSH加密的，所以需要一点设置：
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp; &amp;nbsp; &amp;nbsp;第一步：创建SSH Key。在用户主目录下，看看有没有.ssh目录，如果有，再看看这个目录下有没有id_rsa和id_rsa.pub这两个文件，如果有的话，直接跳过此如下命令，如果没有的话，打开命令行，输入如下命令：
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	ssh-keygen&amp;nbsp; -t rsa –C “youremail@example.com”, 由于我本地此前运行过一次，所以本地有，如下所示：
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp;&lt;img alt=&quot;&quot; src=&quot;/Public/files/images/2016/12/28/nizE9Avi8a1yPkk.jpg&quot; style=&quot;height:auto;&quot; /&gt; 
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	id_rsa是私钥，不能泄露出去，id_rsa.pub是公钥，可以放心地告诉任何人。
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	第二步：登录github,打开” settings”中的SSH Keys页面，然后点击“Add SSH Key”,填上任意title，在Key文本框里黏贴id_rsa.pub文件的内容。
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&lt;img alt=&quot;&quot; src=&quot;/Public/files/images/2016/12/28/F81VndiWDc4L1X9.jpg&quot; style=&quot;height:auto;&quot; /&gt; 
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	点击 Add Key，你就应该可以看到已经添加的key。
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&lt;img alt=&quot;&quot; src=&quot;/Public/files/images/2016/12/28/HAI8FD81ly1bngL.jpg&quot; style=&quot;height:auto;&quot; /&gt; 
+&lt;/p&gt;
+&lt;ol style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&lt;li&gt;
+		如何添加远程库？
+	&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;现在的情景是：我们已经在本地创建了一个Git仓库后，又想在github创建一个Git仓库，并且希望这两个仓库进行远程同步，这样github的仓库可以作为备份，又可以其他人通过该仓库来协作。
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp;&amp;nbsp; 首先，登录github上，然后在右上角找到“create a new repo”创建一个新的仓库。如下：
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&lt;img alt=&quot;&quot; src=&quot;/Public/files/images/2016/12/28/Ymjp3XSgjVIb7Iz.jpg&quot; style=&quot;height:auto;&quot; /&gt; 
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	在Repository name填入testgit，其他保持默认设置，点击“Create repository”按钮，就成功地创建了一个新的Git仓库：
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&lt;img alt=&quot;&quot; src=&quot;/Public/files/images/2016/12/28/1PzFL0IIvt1NUlt.jpg&quot; style=&quot;height:auto;&quot; /&gt; 
+&lt;/p&gt;
+&lt;p style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp; &amp;nbsp; 目前，在GitHub上的这个testgit仓库还是空的，GitHub告诉我们，可以从这个仓库克隆出新的仓库，也可以把一个已有的本地仓库与之关联，然后，把本地仓库的内容推送到GitHub仓库。
+&lt;/p&gt;
+&lt;p style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	现在，我们根据GitHub的提示，在本地的testgit仓库下运行命令：
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	git remote add origin https://github.com/tugenhua0707/testgit.git
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	所有的如下：
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp;&amp;nbsp;&lt;img alt=&quot;&quot; src=&quot;/Public/files/images/2016/12/28/626Go441AETJfrR.jpg&quot; style=&quot;height:auto;&quot; /&gt; 
+&lt;/p&gt;
+&lt;p style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	把本地库的内容推送到远程，使用 git push命令，实际上是把当前分支master推送到远程。
+&lt;/p&gt;
+&lt;p style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	由于远程库是空的，我们第一次推送master分支时，加上了 –u参数，Git不但会把本地的master分支内容推送的远程新的master分支，还会把本地的master分支和远程的master分支关联起来，在以后的推送或者拉取时就可以简化命令。推送成功后，可以立刻在github页面中看到远程库的内容已经和本地一模一样了，上面的要输入github的用户名和密码如下所示：
+&lt;/p&gt;
+&lt;p style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&lt;img alt=&quot;&quot; src=&quot;/Public/files/images/2016/12/28/4o7UtjQ8sBlpO80.jpg&quot; style=&quot;height:auto;&quot; /&gt; 
+&lt;/p&gt;
+&lt;p style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	从现在起，只要本地作了提交，就可以通过如下命令：
+&lt;/p&gt;
+&lt;p style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	git push origin master
+&lt;/p&gt;
+&lt;p style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	把本地master分支的最新修改推送到github上了，现在你就拥有了真正的分布式版本库了。
+&lt;/p&gt;
+&lt;p style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	2. 如何从远程库克隆？
+&lt;/p&gt;
+&lt;p style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	上面我们了解了先有本地库，后有远程库时候，如何关联远程库。
+&lt;/p&gt;
+&lt;p style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	现在我们想，假如远程库有新的内容了，我想克隆到本地来 如何克隆呢？
+&lt;/p&gt;
+&lt;p style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	首先，登录github，创建一个新的仓库，名字叫testgit2.如下：
+&lt;/p&gt;
+&lt;p style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&lt;img alt=&quot;&quot; src=&quot;/Public/files/images/2016/12/28/32Z59Ez2Bz1V2dC.jpg&quot; style=&quot;height:auto;&quot; /&gt; 
+&lt;/p&gt;
+&lt;p style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	如下，我们看到：
+&lt;/p&gt;
+&lt;p style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&lt;img alt=&quot;&quot; src=&quot;/Public/files/images/2016/12/28/Q3roSbX83FaFupC.jpg&quot; style=&quot;height:auto;&quot; /&gt; 
+&lt;/p&gt;
+&lt;p style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	现在，远程库已经准备好了，下一步是使用命令git clone克隆一个本地库了。如下所示：
+&lt;/p&gt;
+&lt;p style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&lt;img alt=&quot;&quot; src=&quot;/Public/files/images/2016/12/28/Lo5bJ9f2xhyv2xY.jpg&quot; style=&quot;height:auto;&quot; /&gt; 
+&lt;/p&gt;
+&lt;p style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	接着在我本地目录下 生成testgit2目录了，如下所示：
+&lt;/p&gt;
+&lt;p style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&lt;img alt=&quot;&quot; src=&quot;/Public/files/images/2016/12/28/8EWnsfPGEjLfo8V.jpg&quot; style=&quot;height:auto;&quot; /&gt; 
+&lt;/p&gt;
+&lt;p style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	六：创建与合并分支。
+&lt;/p&gt;
+&lt;p style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	在 &amp;nbsp;版本回填退里，你已经知道，每次提交，Git都把它们串成一条时间线，这条时间线就是一个分支。截止到目前，只有一条时间线，在Git里，这个分支叫主分支，即master分支。HEAD严格来说不是指向提交，而是指向master，master才是指向提交的，所以，HEAD指向的就是当前分支。
+&lt;/p&gt;
+&lt;p style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	首先，我们来创建dev分支，然后切换到dev分支上。如下操作：
+&lt;/p&gt;
+&lt;p style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&lt;img alt=&quot;&quot; src=&quot;/Public/files/images/2016/12/28/qI2LjJGPI2x1pqv.jpg&quot; style=&quot;height:auto;&quot; /&gt; 
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	git checkout 命令加上 –b参数表示创建并切换，相当于如下2条命令
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	git branch dev
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	git checkout dev
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	git branch查看分支，会列出所有的分支，当前分支前面会添加一个星号。然后我们在dev分支上继续做demo，比如我们现在在readme.txt再增加一行 7777777777777
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	首先我们先来查看下readme.txt内容，接着添加内容77777777，如下：
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&lt;img alt=&quot;&quot; src=&quot;/Public/files/images/2016/12/28/Dn1Z1i9gp3P1e9w.jpg&quot; style=&quot;height:auto;&quot; /&gt; 
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	现在dev分支工作已完成，现在我们切换到主分支master上，继续查看readme.txt内容如下：
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&lt;img alt=&quot;&quot; src=&quot;/Public/files/images/2016/12/28/zk9zwe38tHwhFcY.jpg&quot; style=&quot;height:auto;&quot; /&gt; 
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	现在我们可以把dev分支上的内容合并到分支master上了，可以在master分支上，使用如下命令 git merge dev 如下所示：
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&lt;img alt=&quot;&quot; src=&quot;/Public/files/images/2016/12/28/1fBq02Zz3EyO93I.jpg&quot; style=&quot;height:auto;&quot; /&gt; 
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	git merge命令用于合并指定分支到当前分支上，合并后，再查看readme.txt内容，可以看到，和dev分支最新提交的是完全一样的。
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	注意到上面的&lt;span&gt;Fast-forward&lt;/span&gt;信息，Git告诉我们，这次合并是“快进模式”，也就是直接把master指向dev的当前提交，所以合并速度非常快。
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	合并完成后，我们可以接着删除dev分支了，操作如下：
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&lt;img alt=&quot;&quot; src=&quot;/Public/files/images/2016/12/28/rStmHfRG8BNViSx.jpg&quot; style=&quot;height:auto;&quot; /&gt; 
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	总结创建与合并分支命令如下：
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp;&amp;nbsp; 查看分支：git branch
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp;&amp;nbsp; 创建分支：git branch name
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp;&amp;nbsp; 切换分支：git checkout name
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	创建+切换分支：git checkout –b name
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	合并某分支到当前分支：git merge name
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	删除分支：git branch –d name
+&lt;/p&gt;
+&lt;ol style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&lt;li&gt;
+		如何解决冲突？
+	&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	下面我们还是一步一步来，先新建一个新分支，比如名字叫fenzhi1，在readme.txt添加一行内容8888888，然后提交，如下所示：
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&lt;img alt=&quot;&quot; src=&quot;/Public/files/images/2016/12/28/8J31zY0POZTDdO6.jpg&quot; style=&quot;height:auto;&quot; /&gt; 
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	同样，我们现在切换到master分支上来，也在最后一行添加内容，内容为99999999，如下所示：
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&lt;img alt=&quot;&quot; src=&quot;/Public/files/images/2016/12/28/l8o4jvA1484Fu9Y.jpg&quot; style=&quot;height:auto;&quot; /&gt; 
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	现在我们需要在master分支上来合并fenzhi1，如下操作：
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&lt;img alt=&quot;&quot; src=&quot;/Public/files/images/2016/12/28/i67B4WZubeJvhm3.jpg&quot; style=&quot;height:auto;&quot; /&gt; 
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	Git用&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;，=======，&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;标记出不同分支的内容，其中&amp;lt;&amp;lt;&amp;lt;HEAD是指主分支修改的内容，&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;fenzhi1 是指fenzhi1上修改的内容，我们可以修改下如下后保存：
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&lt;img alt=&quot;&quot; src=&quot;/Public/files/images/2016/12/28/DX8ssfes56RWbCw.jpg&quot; style=&quot;height:auto;&quot; /&gt; 
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	如果我想查看分支合并的情况的话，需要使用命令 git log.命令行演示如下：
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&lt;img alt=&quot;&quot; src=&quot;/Public/files/images/2016/12/28/zkSXmmjC7Lgg1NS.jpg&quot; style=&quot;height:auto;&quot; /&gt; 
+&lt;/p&gt;
+&lt;p style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp; &amp;nbsp; 3.分支管理策略。
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp; &amp;nbsp; &amp;nbsp; 通常合并分支时，git一般使用”Fast forward”模式，在这种模式下，删除分支后，会丢掉分支信息，现在我们来使用带参数 –no-ff来禁用”Fast forward”模式。首先我们来做demo演示下：
+&lt;/p&gt;
+&lt;ol style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&lt;li&gt;
+		创建一个dev分支。
+	&lt;/li&gt;
+	&lt;li&gt;
+		修改readme.txt内容。
+	&lt;/li&gt;
+	&lt;li&gt;
+		添加到暂存区。
+	&lt;/li&gt;
+	&lt;li&gt;
+		切换回主分支(master)。
+	&lt;/li&gt;
+	&lt;li&gt;
+		合并dev分支，使用命令 git merge –no-ff&amp;nbsp; -m “注释” dev
+	&lt;/li&gt;
+	&lt;li&gt;
+		查看历史记录
+	&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	截图如下：
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp;&lt;img alt=&quot;&quot; src=&quot;/Public/files/images/2016/12/28/1Rg2AZ8eI9BZRd1.jpg&quot; style=&quot;height:auto;&quot; /&gt; 
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&lt;span&gt;分支策略：&lt;/span&gt;首先master主分支应该是非常稳定的，也就是用来发布新版本，一般情况下不允许在上面干活，干活一般情况下在新建的dev分支上干活，干完后，比如上要发布，或者说dev分支代码稳定后可以合并到主分支master上来。
+&lt;/p&gt;
+&lt;p style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	七：bug分支：
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;在开发中，会经常碰到bug问题，那么有了bug就需要修复，在Git中，分支是很强大的，每个bug都可以通过一个临时分支来修复，修复完成后，合并分支，然后将临时的分支删除掉。
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	比如我在开发中接到一个404 bug时候，我们可以创建一个404分支来修复它，但是，当前的dev分支上的工作还没有提交。比如如下：
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp;&lt;img alt=&quot;&quot; src=&quot;/Public/files/images/2016/12/28/D3CWqo30q6cWC9a.jpg&quot; style=&quot;height:auto;&quot; /&gt; 
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp; &amp;nbsp;并不是我不想提交，而是工作进行到一半时候，我们还无法提交，比如我这个分支bug要2天完成，但是我issue-404 bug需要5个小时内完成。怎么办呢？还好，Git还提供了一个stash功能，可以把当前工作现场 ”隐藏起来”，等以后恢复现场后继续工作。如下：
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp;&amp;nbsp;&lt;img alt=&quot;&quot; src=&quot;/Public/files/images/2016/12/28/V6s8ZtRyY0sZp38.jpg&quot; style=&quot;height:auto;&quot; /&gt; 
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp; &amp;nbsp;所以现在我可以通过创建issue-404分支来修复bug了。
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	首先我们要确定在那个分支上修复bug，比如我现在是在主分支master上来修复的，现在我要在master分支上创建一个临时分支，演示如下：
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp;&lt;img alt=&quot;&quot; src=&quot;/Public/files/images/2016/12/28/HDWKZCzY3fv08x4.jpg&quot; style=&quot;height:auto;&quot; /&gt; 
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	修复完成后，切换到master分支上，并完成合并，最后删除issue-404分支。演示如下：
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&lt;img alt=&quot;&quot; src=&quot;/Public/files/images/2016/12/28/3J1MBQ0TETjxiZw.jpg&quot; style=&quot;height:auto;&quot; /&gt; 
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	现在，我们回到dev分支上干活了。
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&lt;img alt=&quot;&quot; src=&quot;/Public/files/images/2016/12/28/b71xiQ17eUC0P0N.jpg&quot; style=&quot;height:auto;&quot; /&gt; 
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	工作区是干净的，那么我们工作现场去哪里呢？我们可以使用命令 git stash list来查看下。如下：
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&lt;img alt=&quot;&quot; src=&quot;/Public/files/images/2016/12/28/jZXabZq6ivpSiYi.jpg&quot; style=&quot;height:auto;&quot; /&gt; 
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	工作现场还在，Git把stash内容存在某个地方了，但是需要恢复一下，可以使用如下2个方法：
+&lt;/p&gt;
+&lt;ol style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&lt;li&gt;
+		git stash apply恢复，恢复后，stash内容并不删除，你需要使用命令git stash drop来删除。
+	&lt;/li&gt;
+	&lt;li&gt;
+		另一种方式是使用git stash pop,恢复的同时把stash内容也删除了。
+	&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 演示如下
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&lt;img alt=&quot;&quot; src=&quot;/Public/files/images/2016/12/28/4zGVnobeLGyO6DK.jpg&quot; style=&quot;height:auto;&quot; /&gt; 
+&lt;/p&gt;
+&lt;p style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	八：多人协作。
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	当你从远程库克隆时候，实际上Git自动把本地的master分支和远程的master分支对应起来了，并且远程库的默认名称是origin。
+&lt;/p&gt;
+&lt;ol style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&lt;li&gt;
+		要查看远程库的信息 使用 git remote
+	&lt;/li&gt;
+	&lt;li&gt;
+		要查看远程库的详细信息 使用 git remote –v
+	&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	如下演示：
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp;&lt;img alt=&quot;&quot; src=&quot;/Public/files/images/2016/12/28/kn91OAW960pMOXa.jpg&quot; style=&quot;height:auto;&quot; /&gt; 
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&lt;span&gt;一：推送分支：&lt;/span&gt; 
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 推送分支就是把该分支上所有本地提交到远程库中，推送时，要指定本地分支，这样，Git就会把该分支推送到远程库对应的远程分支上：
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 使用命令 git push origin master
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	比如我现在的github上的readme.txt代码如下：
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&lt;img alt=&quot;&quot; src=&quot;/Public/files/images/2016/12/28/ws02DEhfitl71Ha.jpg&quot; style=&quot;height:auto;&quot; /&gt; 
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	本地的readme.txt代码如下：
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp;&lt;img alt=&quot;&quot; src=&quot;/Public/files/images/2016/12/28/IrOho2iBXE8CRK0.jpg&quot; style=&quot;height:auto;&quot; /&gt; 
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	现在我想把本地更新的readme.txt代码推送到远程库中，使用命令如下：
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&lt;img alt=&quot;&quot; src=&quot;/Public/files/images/2016/12/28/s1JI1NM8svR3SPb.jpg&quot; style=&quot;height:auto;&quot; /&gt; 
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	我们可以看到如上，推送成功，我们可以继续来截图github上的readme.txt内容 如下：
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&lt;img alt=&quot;&quot; src=&quot;/Public/files/images/2016/12/28/tXS1910d3nh0qzF.jpg&quot; style=&quot;height:auto;&quot; /&gt; 
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	可以看到 推送成功了，如果我们现在要推送到其他分支，比如dev分支上，我们还是那个命令 git push origin dev
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	那么一般情况下，那些分支要推送呢？
+&lt;/p&gt;
+&lt;ol style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&lt;li&gt;
+		master分支是主分支，因此要时刻与远程同步。
+	&lt;/li&gt;
+	&lt;li&gt;
+		一些修复bug分支不需要推送到远程去，可以先合并到主分支上，然后把主分支master推送到远程去。
+	&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&lt;span&gt;二：抓取分支：&lt;/span&gt; 
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	多人协作时，大家都会往master分支上推送各自的修改。现在我们可以模拟另外一个同事，可以在另一台电脑上（注意要把SSH key添加到github上）或者同一台电脑上另外一个目录克隆，新建一个目录名字叫testgit2
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	但是我首先要把dev分支也要推送到远程去，如下
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&lt;img alt=&quot;&quot; src=&quot;/Public/files/images/2016/12/28/HhCQp2481Nnih0y.jpg&quot; style=&quot;height:auto;&quot; /&gt; 
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	接着进入testgit2目录，进行克隆远程的库到本地来，如下：
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp;&lt;img alt=&quot;&quot; src=&quot;/Public/files/images/2016/12/28/IoL1mGYCjXqRS6G.jpg&quot; style=&quot;height:auto;&quot; /&gt; 
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	现在目录下生成有如下所示：
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&lt;img alt=&quot;&quot; src=&quot;/Public/files/images/2016/12/28/Ydo1u3UOWm24V40.jpg&quot; style=&quot;height:auto;&quot; /&gt; 
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	现在我们的小伙伴要在dev分支上做开发，就必须把远程的origin的dev分支到本地来，于是可以使用命令创建本地dev分支：git checkout&amp;nbsp; –b dev origin/dev
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	现在小伙伴们就可以在dev分支上做开发了，开发完成后把dev分支推送到远程库时。
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	如下：
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&lt;img alt=&quot;&quot; src=&quot;/Public/files/images/2016/12/28/JHkV8W1xZBLFT4b.jpg&quot; style=&quot;height:auto;&quot; /&gt; 
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	小伙伴们已经向origin/dev分支上推送了提交，而我在我的目录文件下也对同样的文件同个地方作了修改，也试图推送到远程库时，如下：
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&lt;img alt=&quot;&quot; src=&quot;/Public/files/images/2016/12/28/0sFEKz85EuH6u25.jpg&quot; style=&quot;height:auto;&quot; /&gt; 
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	由上面可知：推送失败，因为我的小伙伴最新提交的和我试图推送的有冲突，解决的办法也很简单，上面已经提示我们，先用git pull把最新的提交从origin/dev抓下来，然后在本地合并，解决冲突，再推送。
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&lt;img alt=&quot;&quot; src=&quot;/Public/files/images/2016/12/28/pcd0xCnPzCRAHa4.jpg&quot; style=&quot;height:auto;&quot; /&gt; 
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&lt;span&gt;git pull&lt;/span&gt;也失败了，原因是没有指定本地dev分支与远程origin/dev分支的链接，根据提示，设置dev和origin/dev的链接：如下：
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&lt;img alt=&quot;&quot; src=&quot;/Public/files/images/2016/12/28/j4No0Xe4sjPzF5S.jpg&quot; style=&quot;height:auto;&quot; /&gt; 
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	这回&lt;span&gt;git pull&lt;/span&gt;成功，但是合并有冲突，需要手动解决，解决的方法和分支管理中的 解决冲突完全一样。解决后，提交，再push：
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	我们可以先来看看readme.txt内容了。
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&lt;img alt=&quot;&quot; src=&quot;/Public/files/images/2016/12/28/bpuFGiHtx8vE12f.jpg&quot; style=&quot;height:auto;&quot; /&gt; 
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	现在手动已经解决完了，我接在需要再提交，再push到远程库里面去。如下所示：&lt;br /&gt;
+&lt;img alt=&quot;&quot; src=&quot;/Public/files/images/2016/12/28/2d6fR28wwl5BbbB.jpg&quot; style=&quot;height:auto;&quot; /&gt; 
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	因此：多人协作工作模式一般是这样的：
+&lt;/p&gt;
+&lt;ol style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&lt;li&gt;
+		首先，可以试图用git push origin branch-name推送自己的修改.
+	&lt;/li&gt;
+	&lt;li&gt;
+		如果推送失败，则因为远程分支比你的本地更新早，需要先用git pull试图合并。
+	&lt;/li&gt;
+	&lt;li&gt;
+		如果合并有冲突，则需要解决冲突，并在本地提交。再用git push origin branch-name推送。
+	&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&lt;span&gt;Git基本常用命令如下：&lt;/span&gt; 
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp;&amp;nbsp; mkdir：&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; XX (创建一个空目录 XX指目录名)
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp;&amp;nbsp; pwd：&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 显示当前目录的路径。
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp;&amp;nbsp; git init&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 把当前的目录变成可以管理的git仓库，生成隐藏.git文件。
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp;&amp;nbsp; git add XX&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 把xx文件添加到暂存区去。
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp;&amp;nbsp; git commit –m “XX”&amp;nbsp; 提交文件 –m 后面的是注释。
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp;&amp;nbsp; git status&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 查看仓库状态
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp;&amp;nbsp; git diff&amp;nbsp; XX&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 查看XX文件修改了那些内容
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp;&amp;nbsp; git log&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 查看历史记录
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp;&amp;nbsp; git reset&amp;nbsp; –hard HEAD^ 或者 git reset&amp;nbsp; –hard HEAD~ 回退到上一个版本
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; (如果想回退到100个版本，使用git reset –hard HEAD~100 )
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp;&amp;nbsp; cat XX&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 查看XX文件内容
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp;&amp;nbsp; git reflog&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 查看历史记录的版本号id
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp;&amp;nbsp; git checkout — XX&amp;nbsp; 把XX文件在工作区的修改全部撤销。
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp;&amp;nbsp; git rm XX&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 删除XX文件
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp;&amp;nbsp; git remote add origin&amp;nbsp;&lt;a target=&quot;_blank&quot; href=&quot;https://github.com/tugenhua0707/testgit&quot;&gt;https://github.com/tugenhua0707/testgit&lt;/a&gt;&amp;nbsp;关联一个远程库
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp;&amp;nbsp; git push –u(第一次要用-u 以后不需要) origin master 把当前master分支推送到远程库
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp; &amp;nbsp;git clone&amp;nbsp;&lt;a target=&quot;_blank&quot; href=&quot;https://github.com/tugenhua0707/testgit&quot;&gt;https://github.com/tugenhua0707/testgit&lt;/a&gt;&amp;nbsp; 从远程库中克隆
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp; &amp;nbsp;git checkout –b dev&amp;nbsp; 创建dev分支 并切换到dev分支上
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp; &amp;nbsp;git branch&amp;nbsp; 查看当前所有的分支
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp; &amp;nbsp;git checkout master 切换回master分支
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp; &amp;nbsp;git merge dev&amp;nbsp; &amp;nbsp;&amp;nbsp;在当前的分支上合并dev分支
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp; &amp;nbsp;git branch –d dev 删除dev分支
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp; &amp;nbsp;git branch name&amp;nbsp; 创建分支
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp; &amp;nbsp;git stash 把当前的工作隐藏起来 等以后恢复现场后继续工作
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp; &amp;nbsp;git stash list 查看所有被隐藏的文件列表
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp; &amp;nbsp;git stash apply 恢复被隐藏的文件，但是内容不删除
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp; &amp;nbsp;git stash drop 删除文件
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp; &amp;nbsp;git stash pop 恢复文件的同时 也删除文件
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp; &amp;nbsp;git remote 查看远程库的信息
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp; &amp;nbsp;git remote –v 查看远程库的详细信息
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp; &amp;nbsp;git push origin master&amp;nbsp; Git会把master分支推送到远程库对应的远程分支上
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	来源：&lt;span style=&quot;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;font-size:15px;line-height:25px;&quot;&gt;http://blog.csdn.net/zhang1027963459/article/details/50478340&lt;/span&gt; 
+&lt;/p&gt;
+&lt;p align=&quot;left&quot; style=&quot;font-size:15px;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;&quot;&gt;
+	&lt;span style=&quot;color:#2E2E2E;font-family:&amp;quot;background-color:#FFFFFF;font-size:15px;line-height:25px;&quot;&gt;&lt;a href=&quot;http://115.28.20.111/art/article/id/40.htm&quot;&gt;上一篇&lt;/a&gt;&lt;/span&gt; 
+&lt;/p&gt;',`status`='1',`type`='0',`createtime`='1482908378',`author`='小兔',`imgurl`=NULL,`recom`='0',`readnum`='35' WHERE `id` = 41 [ RunTime:0.0030s ]
+SQL: SELECT `id`,`title` FROM `article` WHERE ( id<41 and status=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`title` FROM `article` WHERE ( id>41 and status=1 ) ORDER BY id asc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title` FROM `article` WHERE ( id<>41 and status=1 and recom=1 ) ORDER BY id desc LIMIT 6   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: title D:\WWW\tools\Application\Runtime\Cache\Home\f274c600cf8d13c9d31ff143ea08a211.php 第 51 行.
+INFO: [ keyWords ] --START--
+SQL: SHOW COLUMNS FROM `keywords` [ RunTime:0.0050s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\WWW\tools\Application\Home\Model\CommModel.class.php on line 46 and defined D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `keywords` ORDER BY `order` asc,num desc LIMIT 30   [ RunTime:0.0000s ]
+INFO: Run Home\Behavior\KeyWordsBehavior [ RunTime:0.063004s ]
+INFO: [ keyWords ] --END-- [ RunTime:0.065004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.226013s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.228013s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-09-01T17:45:58+08:00 ] 127.0.0.1 /Public/files/images/2016/12/28/nizE9Avi8a1yPkk.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-09-01T17:45:58+08:00 ] 127.0.0.1 /Public/files/images/2016/12/28/F81VndiWDc4L1X9.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+
+[ 2017-09-01T17:45:58+08:00 ] 127.0.0.1 /Public/files/images/2016/12/28/HAI8FD81ly1bngL.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-09-01T17:45:58+08:00 ] 127.0.0.1 /Public/files/images/2016/12/28/Ymjp3XSgjVIb7Iz.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-09-01T17:45:58+08:00 ] 127.0.0.1 /Public/files/images/2016/12/28/1PzFL0IIvt1NUlt.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-09-01T17:45:58+08:00 ] 127.0.0.1 /Public/files/images/2016/12/28/Q3roSbX83FaFupC.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-09-01T17:45:58+08:00 ] 127.0.0.1 /Public/files/images/2016/12/28/Lo5bJ9f2xhyv2xY.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-09-01T17:45:58+08:00 ] 127.0.0.1 /Public/files/images/2016/12/28/8EWnsfPGEjLfo8V.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-09-01T17:45:58+08:00 ] 127.0.0.1 /Public/files/images/2016/12/28/qI2LjJGPI2x1pqv.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-09-01T17:45:58+08:00 ] 127.0.0.1 /Public/files/images/2016/12/28/Dn1Z1i9gp3P1e9w.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-09-01T17:45:58+08:00 ] 127.0.0.1 /Public/files/images/2016/12/28/zk9zwe38tHwhFcY.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-09-01T17:45:58+08:00 ] 127.0.0.1 /Public/files/images/2016/12/28/1fBq02Zz3EyO93I.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005001s ]
+
+[ 2017-09-01T17:45:59+08:00 ] 127.0.0.1 /Public/files/images/2016/12/28/rStmHfRG8BNViSx.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+
+[ 2017-09-01T17:45:59+08:00 ] 127.0.0.1 /Public/files/images/2016/12/28/8J31zY0POZTDdO6.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-09-01T17:45:59+08:00 ] 127.0.0.1 /Public/files/images/2016/12/28/l8o4jvA1484Fu9Y.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008001s ]
+
+[ 2017-09-01T17:45:59+08:00 ] 127.0.0.1 /Public/files/images/2016/12/28/i67B4WZubeJvhm3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008001s ]
+
+[ 2017-09-01T17:45:59+08:00 ] 127.0.0.1 /Public/files/images/2016/12/28/zkSXmmjC7Lgg1NS.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007001s ]
+
+[ 2017-09-01T17:45:59+08:00 ] 127.0.0.1 /Public/files/images/2016/12/28/DX8ssfes56RWbCw.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006001s ]
+
+[ 2017-09-01T17:45:59+08:00 ] 127.0.0.1 /Public/files/images/2016/12/28/1Rg2AZ8eI9BZRd1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013000s ]
+
+[ 2017-09-01T17:45:59+08:00 ] 127.0.0.1 /Public/files/images/2016/12/28/D3CWqo30q6cWC9a.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010001s ]
+
+[ 2017-09-01T17:45:59+08:00 ] 127.0.0.1 /Public/files/images/2016/12/28/V6s8ZtRyY0sZp38.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011001s ]
+
+[ 2017-09-01T17:45:59+08:00 ] 127.0.0.1 /Public/files/images/2016/12/28/4o7UtjQ8sBlpO80.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.065004s ]
+
+[ 2017-09-01T17:45:59+08:00 ] 127.0.0.1 /Public/files/images/2016/12/28/32Z59Ez2Bz1V2dC.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.007000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.069004s ]
+
+[ 2017-09-01T17:45:59+08:00 ] 127.0.0.1 /Public/files/images/2016/12/28/3J1MBQ0TETjxiZw.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014001s ]
+
+[ 2017-09-01T17:45:59+08:00 ] 127.0.0.1 /Public/files/images/2016/12/28/HDWKZCzY3fv08x4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.002001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.030001s ]
+
+[ 2017-09-01T17:45:59+08:00 ] 127.0.0.1 /Public/files/images/2016/12/28/b71xiQ17eUC0P0N.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018001s ]
+
+[ 2017-09-01T17:45:59+08:00 ] 127.0.0.1 /Public/files/images/2016/12/28/626Go441AETJfrR.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011001s ]
+
+[ 2017-09-01T17:45:59+08:00 ] 127.0.0.1 /Public/files/images/2016/12/28/jZXabZq6ivpSiYi.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014001s ]
+
+[ 2017-09-01T17:45:59+08:00 ] 127.0.0.1 /Public/files/images/2016/12/28/4zGVnobeLGyO6DK.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.029001s ]
+
+[ 2017-09-01T17:45:59+08:00 ] 127.0.0.1 /Public/files/images/2016/12/28/s1JI1NM8svR3SPb.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013000s ]
+
+[ 2017-09-01T17:45:59+08:00 ] 127.0.0.1 /Public/files/images/2016/12/28/ws02DEhfitl71Ha.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016001s ]
+
+[ 2017-09-01T17:45:59+08:00 ] 127.0.0.1 /Public/files/images/2016/12/28/kn91OAW960pMOXa.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009000s ]
+
+[ 2017-09-01T17:46:00+08:00 ] 127.0.0.1 /Public/files/images/2016/12/28/IrOho2iBXE8CRK0.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015001s ]
+
+[ 2017-09-01T17:46:00+08:00 ] 127.0.0.1 /Public/files/images/2016/12/28/tXS1910d3nh0qzF.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008000s ]
+
+[ 2017-09-01T17:46:00+08:00 ] 127.0.0.1 /Public/files/images/2016/12/28/HhCQp2481Nnih0y.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.020001s ]
+
+[ 2017-09-01T17:46:00+08:00 ] 127.0.0.1 /Public/files/images/2016/12/28/IoL1mGYCjXqRS6G.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.004001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013001s ]
+
+[ 2017-09-01T17:46:00+08:00 ] 127.0.0.1 /Public/files/images/2016/12/28/Ydo1u3UOWm24V40.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010000s ]
+
+[ 2017-09-01T17:46:00+08:00 ] 127.0.0.1 /Public/files/images/2016/12/28/0sFEKz85EuH6u25.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011001s ]
+
+[ 2017-09-01T17:46:00+08:00 ] 127.0.0.1 /Public/files/images/2016/12/28/JHkV8W1xZBLFT4b.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011001s ]
+
+[ 2017-09-01T17:46:00+08:00 ] 127.0.0.1 /Public/files/images/2016/12/28/pcd0xCnPzCRAHa4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009000s ]
+
+[ 2017-09-01T17:46:00+08:00 ] 127.0.0.1 /Public/files/images/2016/12/28/j4No0Xe4sjPzF5S.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.004000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012000s ]
+
+[ 2017-09-01T17:46:00+08:00 ] 127.0.0.1 /Public/files/images/2016/12/28/bpuFGiHtx8vE12f.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-09-01T17:46:00+08:00 ] 127.0.0.1 /Public/files/images/2016/12/28/2d6fR28wwl5BbbB.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006000s ]
+
+[ 2017-09-01T17:46:04+08:00 ] 127.0.0.1 /Public/files/images/2016/12/28/Ymjp3XSgjVIb7Iz.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+

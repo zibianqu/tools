@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+
+    <!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>ip/域名地址查询 - {:C('site_name')}</title>
+	<meta name="keywords" content="ip地址查询,域名ip地址查询,域名查询,域名地址查询"/>
+	<meta name="description" content="ip地址查询,域名ip地址查询,域名查询,域名地址查询"/>
+	
+    <!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <!-- CSS
+  ================================================== -->
+	<link rel="stylesheet" href="__CSS__/zerogrid.css">
+	<link rel="stylesheet" href="__CSS__/style.css">
+    <link rel="stylesheet" href="__CSS__/responsive.css">
+	<link rel="stylesheet" href="__CSS__/responsiveslides.css" />
+	<link rel="stylesheet" href="__CSS__/newstyle.css">
+
+    <script src="__JS__/jquery.min.js"></script>
+	
+</head>
+<body>
+<!--------------Header--------------->
+
+<include file="Public/header" />
+
+<!--------------Content--------------->
+<div class="new_content zerogrid">
+	<div class="new_br"></div>
+	<div class="new_menu">
+		{$menu_html}
+	</div>
+	<div class="new_br"></div>
+	<div class="new_line"></div>
+	<div class="new_br"></div>
+	<div class="new_tool">
+		<h1>{$menu_name}</h1>
+		<div class="new_br"></div>
+		<div class="new_tool_ iplocation">
+			<form action="" method="post">
+			<p>
+				<input type="text" name="ip" id="ip" value="{$ip}" class="input3" placeholder="请输入ip或域名"/>
+				<button class="button2">查询</button>
+			</p>
+			 <p>
+			 	<span>您的ip：</span> {$res.ip}
+			 </p>
+			 <p>
+			 	<span>您的地址：</span>{$res.country}
+			 </p>
+			 </form>
+		</div>
+	</div>
+	
+</div>
+
+<!--------------Footer--------------->
+
+<include file="Public/footer" />
+</body>
+</html>

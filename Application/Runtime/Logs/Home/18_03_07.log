@@ -1,0 +1,737 @@
+[ 2018-03-07T17:52:36+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.022697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022739s ]
+SQL: SHOW COLUMNS FROM `statisticsip` [ RunTime:0.1041s ]
+SQL: SELECT * FROM `statisticsip` WHERE `ip` = '127.0.0.1' AND `date` = 20180307 LIMIT 1   [ RunTime:0.0129s ]
+SQL: INSERT INTO `statisticsip` (`ip`,`date`,`recordtime`) VALUES ('127.0.0.1','20180307','1520416355') [ RunTime:0.0437s ]
+NOTIC: [2] Declaration of Home\Model\TypeModel::save($arr) should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 88 行.
+NOTIC: [2] Declaration of Home\Model\TypeModel::delete($id) should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0438s ]
+NOTIC: [2] Missing argument 1 for Home\Model\TypeModel::lists(), called in D:\WWW\tools\ThinkPHP\Library\Think\Controller.class.php on line 51 and defined D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 83 行.
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 84 行.
+SQL: SELECT * FROM `type` ORDER BY `order` asc,id asc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0597s ]
+SQL: SELECT * FROM `article` WHERE `status` = 1 ORDER BY id desc LIMIT 6   [ RunTime:0.0241s ]
+SQL: SELECT * FROM `article` WHERE `status` = 1 ORDER BY readnum desc,id desc LIMIT 6   [ RunTime:0.0089s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+NOTIC: [8] Undefined variable: title D:\WWW\tools\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 62 行.
+INFO: [ keyWords ] --START--
+SQL: SHOW COLUMNS FROM `keywords` [ RunTime:0.1170s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\WWW\tools\Application\Home\Model\CommModel.class.php on line 46 and defined D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `keywords` ORDER BY `order` asc,num desc LIMIT 30   [ RunTime:0.0007s ]
+INFO: Run Home\Behavior\KeyWordsBehavior [ RunTime:0.216203s ]
+INFO: [ keyWords ] --END-- [ RunTime:0.216262s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.558642s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.558716s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.048814s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.048920s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.029201s ]
+INFO: [ app_end ] --END-- [ RunTime:0.029268s ]
+
+[ 2018-03-07T17:53:42+08:00 ] 127.0.0.1 /art/article/id/64.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000492s ]
+NOTIC: [2] Declaration of Home\Model\TypeModel::save($arr) should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 10 行.
+NOTIC: [2] Declaration of Home\Model\TypeModel::delete($id) should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0270s ]
+NOTIC: [2] Missing argument 1 for Home\Model\TypeModel::lists(), called in D:\WWW\tools\ThinkPHP\Library\Think\Controller.class.php on line 51 and defined D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 83 行.
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 84 行.
+SQL: SELECT * FROM `type` ORDER BY `order` asc,id asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0352s ]
+SQL: SELECT * FROM `article` WHERE `id` = 64 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `article` WHERE `id` = 64 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `article` SET `title`='Http、TCP/IP协议与Socket之间的区别',`keyword`='',`content`='&lt;p&gt;&lt;span style=&quot;margin: 0px; padding: 0px; box-sizing: border-box; background-color: rgb(255, 255, 255); color: rgb(51, 51, 51); font-family: Arial; font-size: 14px; line-height: 26px;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: 700;&quot;&gt;HTTP协议&lt;/span&gt;：简单对象访问协议，对应于应用层 ，HTTP协议是基于TCP连接的&lt;br/&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: 700;&quot;&gt;tcp协议&lt;/span&gt;： &amp;nbsp; &amp;nbsp;对应于传输层&lt;br/&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: 700;&quot;&gt;ip协议&lt;/span&gt;： &amp;nbsp; &amp;nbsp; 对应于网络层&amp;nbsp;&lt;br/&gt;TCP/IP是传输层协议，主要解决数据如何在网络中传输；而HTTP是应用层协议，主要解决如何包装数据。&lt;br/&gt;Socket是对TCP/IP协议的封装，Socket本身并不是协议，而是一个调用接口（API），通过Socket，我们才能使用TCP/IP协议。&lt;br/&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: 700;&quot;&gt;http连接&lt;/span&gt;：http连接就是所谓的短连接，即客户端向服务器端发送一次请求，服务器端响应后连接即会断掉；&lt;br/&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(69, 69, 69); font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimHei, Arial, SimSun; background-color: rgb(255, 255, 255);&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 16px; padding: 0px; box-sizing: border-box; color: rgb(79, 79, 79); line-height: 26px; min-height: 26px; text-align: justify; font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimHei, Arial, SimSun; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;margin: 0px; padding: 0px; box-sizing: border-box; color: rgb(51, 51, 51); font-family: Arial; font-size: 14px; line-height: 26px;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: 700;&quot;&gt;socket连接&lt;/span&gt;：socket连接就是所谓的长连接，理论上客户端和服务器端一旦建立起连接将不会主动断掉；但是由于各种环境因素可能会是连接断开，比如说：服务器端或客户端主机down了，网络故障，或者两者之间长时间没有数据传输，网络防火墙可能会断开该连接以释放网络资源。所以当一个socket连接中没有数据的传输，那么为了维持连接需要发送心跳消息~~具体心跳消息格式是开发者自己定义的&lt;span style=&quot;margin: 0px; padding: 0px; box-sizing: border-box; line-height: 26px;&quot;&gt;。&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 16px; padding: 0px; box-sizing: border-box; color: rgb(79, 79, 79); line-height: 26px; min-height: 26px; text-align: justify; font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimHei, Arial, SimSun; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;margin: 0px; padding: 0px; box-sizing: border-box; color: rgb(51, 51, 51); font-family: Arial; font-size: 14px; line-height: 26px;&quot;&gt;&lt;span style=&quot;margin: 0px; padding: 0px; box-sizing: border-box; line-height: 26px;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: 700;&quot;&gt;ISO制定的OSI参考模型&lt;/span&gt;过于庞大、复杂招致了许多批评。与此对照，由技术人员自己开发的TCP/IP协议栈获得了更为广泛的应用。如图所示，是TCP/IP参考模型和OSI参考模型的对比示意图。&lt;br/&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 16px; padding: 0px; box-sizing: border-box; color: rgb(79, 79, 79); line-height: 26px; min-height: 26px; text-align: justify; font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimHei, Arial, SimSun; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;margin: 0px; padding: 0px; box-sizing: border-box; color: rgb(51, 51, 51); font-family: Arial; font-size: 14px; line-height: 26px;&quot;&gt;&lt;span style=&quot;margin: 0px; padding: 0px; box-sizing: border-box; line-height: 26px;&quot;&gt;&lt;img src=&quot;http://img.blog.csdn.net/20160328114437318?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQv/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center&quot; alt=&quot;iso 7 4&quot;/&gt;&lt;br/&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 16px; padding: 0px; box-sizing: border-box; color: rgb(79, 79, 79); line-height: 26px; min-height: 26px; text-align: justify; font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimHei, Arial, SimSun; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;margin: 0px; padding: 0px; box-sizing: border-box; color: rgb(51, 51, 51); font-family: Arial; font-size: 14px; line-height: 26px;&quot;&gt;&lt;span style=&quot;margin: 0px; padding: 0px; box-sizing: border-box; line-height: 26px;&quot;&gt;TCP/IP协议栈是美国国防部高级研究计划局计算机网（Advanced Research Projects Agency Network，ARPANET）和其后继因特网使用的参考模型。ARPANET是由美国国防部（U.S．Department of Defense，DoD）赞助的研究网络。最初，它只连接了美国境内的四所大学。随后的几年中，它通过租用的电话线连接了数百所大学和政府部门。最终ARPANET发展成为全球规模最大的互连网络-因特网。最初的ARPANET于1990年永久性地关闭。　　&lt;br/&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: 700;&quot;&gt;TCP/IP参考模型&lt;/span&gt;分为四个层次：应用层、传输层、网络互连层和主机到网络层。如图所示。&lt;br/&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 16px; padding: 0px; box-sizing: border-box; color: rgb(79, 79, 79); line-height: 26px; min-height: 26px; text-align: justify; font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimHei, Arial, SimSun; background-color: rgb(255, 255, 255);&quot;&gt;&lt;img src=&quot;http://img.blog.csdn.net/20160328114519513?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQv/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center&quot; alt=&quot;tcpip&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 16px; padding: 0px; box-sizing: border-box; color: rgb(79, 79, 79); line-height: 26px; min-height: 26px; text-align: justify; font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimHei, Arial, SimSun; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;margin: 0px; padding: 0px; box-sizing: border-box; color: rgb(51, 51, 51); font-family: Arial; font-size: 14px; line-height: 26px;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: 700;&quot;&gt;1、TCP/IP连接&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 16px; padding: 0px; box-sizing: border-box; color: rgb(79, 79, 79); line-height: 26px; min-height: 26px; text-align: justify; font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimHei, Arial, SimSun; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;margin: 0px; padding: 0px; box-sizing: border-box; color: rgb(51, 51, 51); font-family: Arial; font-size: 14px; line-height: 26px;&quot;&gt;手机能够使用联网功能是因为手机底层实现了TCP/IP协议，可以使手机终端通过无线网络建立TCP连接。TCP协议可以对上层网络提供接口，使上层网络数据的传输建立在“无差别”的网络之上。&lt;br/&gt;建立起一个TCP连接需要经过“三次握手”：&lt;br/&gt;第一次握手：客户端发送syn包(syn=j)到服务器，并进入SYN_SEND状态，等待服务器确认;&lt;br/&gt;第二次握手：服务器收到syn包，必须确认客户的SYN(ack=j+1)，同时自己也发送一个SYN包(syn=k)，即SYN+ACK包，此时服务器进入SYN_RECV状态;&lt;br/&gt;第三次握手：客户端收到服务器的SYN+ACK包，向服务器发送确认包ACK(ack=k+1)，此包发送完毕，客户端和服务器进入ESTABLISHED状态，完成三次握手。&lt;br/&gt;握手过程中传送的包里不包含数据，三次握手完毕后，客户端与服务器才正式开始传送数据。理想状态下，TCP连接一旦建立，在通信双方中的任何一方主动关闭连接之前，TCP 连接都将被一直保持下去。断开连接时服务器和客户端均可以主动发起断开TCP连接的请求，断开过程需要经过“四次握手”(过程就不细写了，就是服务器和客户端交互，最终确定断开).&lt;br/&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: 700;&quot;&gt;2、HTTP连接&lt;/span&gt;&lt;br/&gt;HTTP协议即超文本传送协议(Hypertext Transfer Protocol )，是Web联网的基础，也是手机联网常用的协议之一，HTTP协议是建立在TCP协议之上的一种应用。&lt;br/&gt;HTTP连接最显著的特点是客户端发送的每次请求都需要服务器回送响应，在请求结束后，会主动释放连接。从建立连接到关闭连接的过程称为“一次连接”。&lt;br/&gt;1)在HTTP 1.0中，客户端的每次请求都要求建立一次单独的连接，在处理完本次请求后，就自动释放连接。&lt;br/&gt;2)在HTTP 1.1中则可以在一次连接中处理多个请求，并且多个请求可以重叠进行，不需要等待一个请求结束后再发送下一个请求。&lt;br/&gt;由于HTTP在每次请求结束后都会主动释放连接，因此HTTP连接是一种“短连接”，要保持客户端程序的在线状态，需要不断地向服务器发起连接请求。通常的做法是即时不需要获得任何数据，客户端也保持每隔一段固定的时间向服务器发送一次“保持连接”的请求，服务器在收到该请求后对客户端进行回复，表明知道客户端“在线”。若服务器长时间无法收到客户端的请求，则认为客户端“下线”，若客户端长时间无法收到服务器的回复，则认为网络已经断开。&lt;br/&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: 700;&quot;&gt;3、SOCKET原理&lt;br/&gt;3.1套接字(socket)概念&lt;/span&gt;&lt;br/&gt;套接字(socket)是通信的基石，是支持TCP/IP协议的网络通信的基本操作单元。它是网络通信过程中端点的抽象表示，包含进行网络通信必须的五种信息：连接使用的协议，本地主机的IP地址，本地进程的协议端口，远地主机的IP地址，远地进程的协议端口。&lt;br/&gt;应用层通过传输层进行数据通信时，TCP会遇到同时为多个应用程序进程提供并发服务的问题。多个TCP连接或多个应用程序进程可能需要通过同一个 TCP协议端口传输数据。为了区别不同的应用程序进程和连接，许多计算机操作系统为应用程序与TCP/IP协议交互提供了套接字(Socket)接口。应用层可以和传输层通过Socket接口，区分来自不同应用程序进程或网络连接的通信，实现数据传输的并发服务。&lt;br/&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: 700;&quot;&gt;3.2 建立socket连接&lt;/span&gt;&lt;br/&gt;建立Socket连接至少需要一对套接字，其中一个运行于客户端，称为ClientSocket ，另一个运行于服务器端，称为ServerSocket 。&lt;br/&gt;套接字之间的连接过程分为三个步骤：服务器监听，客户端请求，连接确认。&lt;br/&gt;服务器监听：服务器端套接字并不定位具体的客户端套接字，而是处于等待连接的状态，实时监控网络状态，等待客户端的连接请求。&lt;br/&gt;客户端请求：指客户端的套接字提出连接请求，要连接的目标是服务器端的套接字。为此，客户端的套接字必须首先描述它要连接的服务器的套接字，指出服务器端套接字的地址和端口号，然后就向服务器端套接字提出连接请求。&lt;br/&gt;连接确认：当服务器端套接字监听到或者说接收到客户端套接字的连接请求时，就响应客户端套接字的请求，建立一个新的线程，把服务器端套接字的描述发给客户端，一旦客户端确认了此描述，双方就正式建立连接。而服务器端套接字继续处于监听状态，继续接收其他客户端套接字的连接请求。&lt;br/&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: 700;&quot;&gt;4、SOCKET连接与TCP/IP连接&lt;/span&gt;&lt;br/&gt;创建Socket连接时，可以指定使用的传输层协议，Socket可以支持不同的传输层协议(TCP或UDP)，当使用TCP协议进行连接时，该Socket连接就是一个TCP连接。&lt;br/&gt;socket则是对TCP/IP协议的封装和应用(程序员层面上)。也可以说，TPC/IP协议是传输层协议，主要解决数据 如何在网络中传输，而HTTP是应用层协议，主要解决如何包装数据。关于TCP/IP和HTTP协议的关系，网络有一段比较容易理解的介绍：&lt;br/&gt;“我们在传输数据时，可以只使用(传输层)TCP/IP协议，但是那样的话，如 果没有应用层，便无法识别数据内容，如果想要使传输的数据有意义，则必须使用到应用层协议，应用层协议有很多，比如HTTP、FTP、TELNET等，也 可以自己定义应用层协议。WEB使用HTTP协议作应用层协议，以封装HTTP文本信息，然后使用TCP/IP做传输层协议将它发到网络上。”&lt;br/&gt;我们平时说的最多的socket是什么呢，实际上socket是对TCP/IP协议的封装，Socket本身并不是协议，而是一个调用接口(API)，通过Socket，我们才能使用TCP/IP协议。 实际上，Socket跟TCP/IP协议没有必然的联系。Socket编程接口在设计的时候，就希望也能适应其他的网络协议。所以说，Socket的出现 只是使得程序员更方便地使用TCP/IP协议栈而已，是对TCP/IP协议的抽象，从而形成了我们知道的一些最基本的函数接口，比如create、 listen、connect、accept、send、read和write等等。网络有一段关于socket和TCP/IP协议关系的说法比较容易理解：&lt;br/&gt;“TCP/IP只是一个协议栈，就像操作系统的运行机制一样，必须要具体实现，同时还要提供对外的操作接口。这个就像操作系统会提供标准的编程接口，比如win32编程接口一样，TCP/IP也要提供可供程序员做网络开发所用的接口，这就是Socket编程接口。”&lt;br/&gt;实际上，传输层的TCP是基于网络层的IP协议的，而应用层的HTTP协议又是基于传输层的TCP协议的，而Socket本身不算是协议，就像上面所说，它只是提供了一个针对TCP或者UDP编程的接口。socket是对端口通信开发的工具,它要更底层一些.&lt;br/&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: 700;&quot;&gt;5、Socket连接与HTTP连接&lt;/span&gt;&lt;br/&gt;由于通常情况下Socket连接就是TCP连接，因此Socket连接一旦建立，通信双方即可开始相互发送数据内容，直到双方连接断开。但在实际网络应用中，客户端到服务器之间的通信往往需要穿越多个中间节点，例如路由器、网关、防火墙等，大部分防火墙默认会关闭长时间处于非活跃状态的连接而导致 Socket 连接断连，因此需要通过轮询告诉网络，该连接处于活跃状态。&lt;br/&gt;而HTTP连接使用的是“请求—响应”的方式，不仅在请求时需要先建立连接，而且需要客户端向服务器发出请求后，服务器端才能回复数据。&lt;br/&gt;很多情况下，需要服务器端主动向客户端推送数据，保持客户端与服务器数据的实时与同步。此时若双方建立的是Socket连接，服务器就可以直接将数据传送给客户端;若双方建立的是HTTP连接，则服务器需要等到客户端发送一次请求后才能将数据传回给客户端，因此，客户端定时向服务器端发送连接请求，不仅可以保持在线，同时也是在“询问”服务器是否有新的数据，如果有就将数据传给客户端。&lt;br/&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: 700;&quot;&gt;http协议是应用层的协议&lt;/span&gt;&lt;br/&gt;两个计算机之间的交流无非是两个端口之间的数据通信,具体的数据会以什么样的形式展现`是以不同的应用层协议来定义的`如HTTP`FTP`...&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 16px; padding: 0px; box-sizing: border-box; color: rgb(79, 79, 79); line-height: 26px; min-height: 26px; text-align: justify; font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimHei, Arial, SimSun; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;margin: 0px; padding: 0px; box-sizing: border-box; color: rgb(51, 51, 51); font-family: Arial; font-size: 14px; line-height: 26px;&quot;&gt;&lt;span style=&quot;margin: 0px; padding: 0px; box-sizing: border-box; line-height: 26px;&quot;&gt;有个比较形象的描述：HTTP是轿车，提供了封装或者显示数据的具体形式;Socket是发动机，提供了网络通信的能力。&lt;/span&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 16px; padding: 0px; box-sizing: border-box; color: rgb(79, 79, 79); line-height: 26px; min-height: 26px; text-align: justify; font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimHei, Arial, SimSun; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;margin: 0px; padding: 0px; box-sizing: border-box; color: rgb(51, 51, 51); font-family: Arial; font-size: 14px; line-height: 26px;&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 0px; padding: 0px; box-sizing: border-box; font-size: 13px; color: rgb(51, 51, 51); line-height: 26px; min-height: 26px; text-align: justify; background-color: rgb(255, 255, 255); font-family: Arial;&quot;&gt;&lt;span style=&quot;margin: 0px; padding: 0px; box-sizing: border-box; color: rgb(255, 0, 0);&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: 700;&quot;&gt;&amp;lt;1&amp;gt;Socket是一个针对TCP和UDP编程的接口，你可以借助它建立TCP连接等等。而TCP和UDP协议属于传输层&amp;nbsp;。&lt;br/&gt;&amp;nbsp; 而http是个应用层的协议，它实际上也建立在TCP协议之上(HTTP是轿车，提供了封装或者显示数据的具体形式；Socket是发动机，提供了网络通信的能力)。&lt;/span&gt;&lt;/span&gt;&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 0px; padding: 0px; box-sizing: border-box; font-size: 13px; color: rgb(51, 51, 51); line-height: 26px; min-height: 26px; text-align: justify; background-color: rgb(255, 255, 255); font-family: Arial;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: 700;&quot;&gt;&lt;span style=&quot;margin: 0px; padding: 0px; box-sizing: border-box; color: rgb(255, 0, 0);&quot;&gt;&amp;lt;2&amp;gt;Socket是对TCP/IP协议的封装，Socket本身并不是协议，而是一个调用接口（API），通过Socket，我们才能使用TCP/IP协议。Socket的出现只是使得程序员更方便地使用TCP/IP协议栈而已，是对TCP/IP协议的抽象，从而形成了我们知道的一些最基本的函数接口。&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: 700; color: rgb(69, 69, 69); font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimHei, Arial, SimSun; background-color: rgb(255, 255, 255);&quot;&gt;短连接&amp;nbsp;&lt;/span&gt;&lt;br/&gt;&lt;span style=&quot;color: rgb(69, 69, 69); font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimHei, Arial, SimSun; background-color: rgb(255, 255, 255);&quot;&gt;连接-&amp;gt;传输数据-&amp;gt;关闭连接&amp;nbsp;&lt;/span&gt;&lt;br/&gt;&lt;span style=&quot;color: rgb(69, 69, 69); font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimHei, Arial, SimSun; background-color: rgb(255, 255, 255);&quot;&gt;HTTP是无状态的，浏览器和服务器每进行一次HTTP操作，就建立一次连接，但任务结束就中断连接。&amp;nbsp;&lt;/span&gt;&lt;br/&gt;&lt;span style=&quot;color: rgb(69, 69, 69); font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimHei, Arial, SimSun; background-color: rgb(255, 255, 255);&quot;&gt;也可以这样说：短连接是指SOCKET连接后发送后接收完数据后马上断开连接。&amp;nbsp;&lt;/span&gt;&lt;br/&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: 700; color: rgb(69, 69, 69); font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimHei, Arial, SimSun; background-color: rgb(255, 255, 255);&quot;&gt;长连接&lt;/span&gt;&lt;span style=&quot;color: rgb(69, 69, 69); font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimHei, Arial, SimSun; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;br/&gt;&lt;span style=&quot;color: rgb(69, 69, 69); font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimHei, Arial, SimSun; background-color: rgb(255, 255, 255);&quot;&gt;连接-&amp;gt;传输数据-&amp;gt;保持连接 -&amp;gt; 传输数据-&amp;gt; 。。。 -&amp;gt;关闭连接。&amp;nbsp;&lt;/span&gt;&lt;br/&gt;&lt;span style=&quot;color: rgb(69, 69, 69); font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimHei, Arial, SimSun; background-color: rgb(255, 255, 255);&quot;&gt;长连接指建立SOCKET连接后不管是否使用都保持连接，但安全性较差。&amp;nbsp;&lt;/span&gt;&lt;br/&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: 700; color: rgb(69, 69, 69); font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimHei, Arial, SimSun; background-color: rgb(255, 255, 255);&quot;&gt;http的长连接&amp;nbsp;&lt;/span&gt;&lt;br/&gt;&lt;span style=&quot;color: rgb(69, 69, 69); font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimHei, Arial, SimSun; background-color: rgb(255, 255, 255);&quot;&gt;HTTP也可以建立长连接的，使用Connection:keep-alive，HTTP 1.1默认进行持久连接。HTTP1.1和HTTP1.0相比较而言，最大的区别就是增加了持久连接支持(貌似最新的 http1.0 可以显示的指定 keep-alive),但还是无状态的，或者说是不可以信任的。&amp;nbsp;&lt;/span&gt;&lt;br/&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: 700; color: rgb(69, 69, 69); font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimHei, Arial, SimSun; background-color: rgb(255, 255, 255);&quot;&gt;什么时候用长连接，短连接？&amp;nbsp;&lt;/span&gt;&lt;br/&gt;&lt;span style=&quot;color: rgb(69, 69, 69); font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimHei, Arial, SimSun; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;长连接多用于操作频繁，点对点的通讯，而且连接数不能太多情况，。每个TCP连接都需要三步握手，这需要时间，如果每个操作都是先连接，再操作的话那么处理速度会降低很多，所以每个操作完后都不断开，次处理时直接发送数据包就OK了，不用建立TCP连接。例如：数据库的连接用长连接， 如果用短连接频繁的通信会造成socket错误，而且频繁的socket 创建也是对资源的浪费。&amp;nbsp;&lt;/span&gt;&lt;br/&gt;&lt;span style=&quot;color: rgb(69, 69, 69); font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimHei, Arial, SimSun; background-color: rgb(255, 255, 255);&quot;&gt;而像WEB网站的http服务一般都用短链接，因为长连接对于服务端来说会耗费一定的资源，而像WEB网站这么频繁的成千上万甚至上亿客户端的连接用短连接会更省一些资源，如果用长连接，而且同时有成千上万的用户，如果每个用户都占用一个连接的话，那可想而知吧。所以并发量大，但每个用户无需频繁操作情况下需用短连好。&amp;nbsp;&lt;/span&gt;&lt;br/&gt;&lt;span style=&quot;color: rgb(69, 69, 69); font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimHei, Arial, SimSun; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;总之，长连接和短连接的选择要视情况而定。&amp;nbsp;&lt;/span&gt;&lt;br/&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: 700; color: rgb(69, 69, 69); font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimHei, Arial, SimSun; background-color: rgb(255, 255, 255);&quot;&gt;发送接收方式&amp;nbsp;&lt;/span&gt;&lt;br/&gt;&lt;span style=&quot;color: rgb(69, 69, 69); font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimHei, Arial, SimSun; background-color: rgb(255, 255, 255);&quot;&gt;1、异步&amp;nbsp;&lt;/span&gt;&lt;br/&gt;&lt;span style=&quot;color: rgb(69, 69, 69); font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimHei, Arial, SimSun; background-color: rgb(255, 255, 255);&quot;&gt;报文发送和接收是分开的，相互独立的，互不影响。这种方式又分两种情况：&amp;nbsp;&lt;/span&gt;&lt;br/&gt;&lt;span style=&quot;color: rgb(69, 69, 69); font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimHei, Arial, SimSun; background-color: rgb(255, 255, 255);&quot;&gt;(1)异步双工：接收和发送在同一个程序中，由两个不同的子进程分别负责发送和接收&amp;nbsp;&lt;/span&gt;&lt;br/&gt;&lt;span style=&quot;color: rgb(69, 69, 69); font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimHei, Arial, SimSun; background-color: rgb(255, 255, 255);&quot;&gt;(2)异步单工：接收和发送是用两个不同的程序来完成。&amp;nbsp;&lt;/span&gt;&lt;br/&gt;&lt;span style=&quot;color: rgb(69, 69, 69); font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimHei, Arial, SimSun; background-color: rgb(255, 255, 255);&quot;&gt;2、同步&amp;nbsp;&lt;/span&gt;&lt;br/&gt;&lt;span style=&quot;color: rgb(69, 69, 69); font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimHei, Arial, SimSun; background-color: rgb(255, 255, 255);&quot;&gt;报文发送和接收是同步进行，既报文发送后等待接收返回报文。 同步方式一般需要考虑超时问题，即报文发出去后不能无限等待，需要设定超时时间，超过该时间发送方不再等待读返回报文，直接通知超时返回。&amp;nbsp;&lt;/span&gt;&lt;br/&gt;&lt;span style=&quot;color: rgb(69, 69, 69); font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimHei, Arial, SimSun; background-color: rgb(255, 255, 255);&quot;&gt;在长连接中一般是没有条件能够判断读写什么时候结束，所以必须要加长度报文头。读函数先是读取报文头的长度，再根据这个长度去读相应长度的报文。&lt;/span&gt;&lt;br/&gt;&lt;/p&gt;',`status`='1',`type`='14',`createtime`='1520416415',`author`='小兔',`imgurl`=NULL,`recom`='0',`readnum`='1' WHERE `id` = 64 [ RunTime:0.0151s ]
+SQL: SELECT `id`,`title` FROM `article` WHERE ( id<64 and status=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`title` FROM `article` WHERE ( id>64 and status=1 ) ORDER BY id asc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`title` FROM `article` WHERE ( id<>64 and status=1 and recom=1 ) ORDER BY id desc LIMIT 6   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\tools\Application\Home\Controller\ArtController.class.php 第 87 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000175s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000248s ]
+NOTIC: [8] Undefined variable: title D:\WWW\tools\Application\Runtime\Cache\Home\f274c600cf8d13c9d31ff143ea08a211.php 第 55 行.
+INFO: [ keyWords ] --START--
+SQL: SHOW COLUMNS FROM `keywords` [ RunTime:0.0089s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\WWW\tools\Application\Home\Model\CommModel.class.php on line 46 and defined D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `keywords` ORDER BY `order` asc,num desc LIMIT 30   [ RunTime:0.0002s ]
+INFO: Run Home\Behavior\KeyWordsBehavior [ RunTime:0.011549s ]
+INFO: [ keyWords ] --END-- [ RunTime:0.011589s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.122291s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.122329s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000618s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000649s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000779s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000823s ]
+
+[ 2018-03-07T17:55:40+08:00 ] 127.0.0.1 /art/article/id/64.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000652s ]
+NOTIC: [2] Declaration of Home\Model\TypeModel::save($arr) should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 10 行.
+NOTIC: [2] Declaration of Home\Model\TypeModel::delete($id) should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0144s ]
+NOTIC: [2] Missing argument 1 for Home\Model\TypeModel::lists(), called in D:\WWW\tools\ThinkPHP\Library\Think\Controller.class.php on line 51 and defined D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 83 行.
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 84 行.
+SQL: SELECT * FROM `type` ORDER BY `order` asc,id asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0464s ]
+SQL: SELECT * FROM `article` WHERE `id` = 64 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title` FROM `article` WHERE ( id<64 and status=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`title` FROM `article` WHERE ( id>64 and status=1 ) ORDER BY id asc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`title` FROM `article` WHERE ( id<>64 and status=1 and recom=1 ) ORDER BY id desc LIMIT 6   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\tools\Application\Home\Controller\ArtController.class.php 第 87 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+NOTIC: [8] Undefined variable: title D:\WWW\tools\Application\Runtime\Cache\Home\f274c600cf8d13c9d31ff143ea08a211.php 第 55 行.
+INFO: [ keyWords ] --START--
+SQL: SHOW COLUMNS FROM `keywords` [ RunTime:0.0583s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\WWW\tools\Application\Home\Model\CommModel.class.php on line 46 and defined D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `keywords` ORDER BY `order` asc,num desc LIMIT 30   [ RunTime:0.0005s ]
+INFO: Run Home\Behavior\KeyWordsBehavior [ RunTime:0.060880s ]
+INFO: [ keyWords ] --END-- [ RunTime:0.060927s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066672s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066703s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000750s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000807s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001089s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001174s ]
+
+[ 2018-03-07T17:58:10+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+NOTIC: [2] Declaration of Home\Model\TypeModel::save($arr) should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 10 行.
+NOTIC: [2] Declaration of Home\Model\TypeModel::delete($id) should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0219s ]
+NOTIC: [2] Missing argument 1 for Home\Model\TypeModel::lists(), called in D:\WWW\tools\ThinkPHP\Library\Think\Controller.class.php on line 51 and defined D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 83 行.
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 84 行.
+SQL: SELECT * FROM `type` ORDER BY `order` asc,id asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `article` WHERE `status` = 1 ORDER BY id desc LIMIT 6   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `article` WHERE `status` = 1 ORDER BY readnum desc,id desc LIMIT 6   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+NOTIC: [8] Undefined variable: title D:\WWW\tools\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 62 行.
+INFO: [ keyWords ] --START--
+SQL: SHOW COLUMNS FROM `keywords` [ RunTime:0.0063s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\WWW\tools\Application\Home\Model\CommModel.class.php on line 46 and defined D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `keywords` ORDER BY `order` asc,num desc LIMIT 30   [ RunTime:0.0002s ]
+INFO: Run Home\Behavior\KeyWordsBehavior [ RunTime:0.007819s ]
+INFO: [ keyWords ] --END-- [ RunTime:0.007840s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017085s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017109s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000392s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000417s ]
+
+[ 2018-03-07T17:58:17+08:00 ] 127.0.0.1 /art/lists.aspx?t=composer.json&c=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000352s ]
+NOTIC: [2] Declaration of Home\Model\TypeModel::save($arr) should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 10 行.
+NOTIC: [2] Declaration of Home\Model\TypeModel::delete($id) should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0290s ]
+NOTIC: [2] Missing argument 1 for Home\Model\TypeModel::lists(), called in D:\WWW\tools\ThinkPHP\Library\Think\Controller.class.php on line 51 and defined D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 83 行.
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 84 行.
+SQL: SELECT * FROM `type` ORDER BY `order` asc,id asc  [ RunTime:0.0003s ]
+
+[ 2018-03-07T17:58:18+08:00 ] 127.0.0.1 /art/lists.aspx?t=composer.json&c=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000373s ]
+NOTIC: [2] Declaration of Home\Model\TypeModel::save($arr) should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 10 行.
+NOTIC: [2] Declaration of Home\Model\TypeModel::delete($id) should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0100s ]
+NOTIC: [2] Missing argument 1 for Home\Model\TypeModel::lists(), called in D:\WWW\tools\ThinkPHP\Library\Think\Controller.class.php on line 51 and defined D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 83 行.
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 84 行.
+SQL: SELECT * FROM `type` ORDER BY `order` asc,id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `keywords` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `keywords` WHERE `name` = 'composer.json' LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `keywords` (`name`,`num`,`recordtime`) VALUES ('composer.json','1','1520416698') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `article` WHERE `title` LIKE '%composer.json%' OR `keyword` LIKE '%composer.json%' ORDER BY id desc LIMIT 0,6   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` WHERE `title` LIKE '%composer.json%' OR `keyword` LIKE '%composer.json%' LIMIT 1   [ RunTime:0.0239s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\WWW\tools\Application\Home\Model\CommModel.class.php on line 46 and defined D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `keywords` ORDER BY `order` asc,num desc LIMIT 20   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000236s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000362s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.126302s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.126370s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000685s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000741s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000585s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000628s ]
+
+[ 2018-03-07T17:58:22+08:00 ] 127.0.0.1 /art/article/id/39.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000406s ]
+NOTIC: [2] Declaration of Home\Model\TypeModel::save($arr) should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 10 行.
+NOTIC: [2] Declaration of Home\Model\TypeModel::delete($id) should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0506s ]
+NOTIC: [2] Missing argument 1 for Home\Model\TypeModel::lists(), called in D:\WWW\tools\ThinkPHP\Library\Think\Controller.class.php on line 51 and defined D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 83 行.
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Home\Model\TypeModel.class.php 第 84 行.
+SQL: SELECT * FROM `type` ORDER BY `order` asc,id asc  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `article` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `article` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `article` SET `title`='Composer 的结构、Composer.json详解',`keyword`='Composer 的结构,Composer.json详解',`content`='&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	&lt;a href=&quot;http://phpernotes.com/wp-content/uploads/2013/07/composer-cartoon.gif&quot;&gt;&lt;img src=&quot;http://phpernotes.com/wp-content/uploads/2013/07/composer-cartoon.gif&quot; alt=&quot;composer-cartoon&quot; /&gt;&lt;/a&gt; 
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	&lt;a href=&quot;http://getcomposer.org/doc/04-schema.md&quot;&gt;这片文章&lt;/a&gt;是 composer.json 中各个字段的说明书。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	一、Root Package（根目录包）
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	根目录包就是在你的项目的根目录由 composer.json 定义的包。主要就是由 composer.json 来定义你的项目的依赖。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	某些字段只能在根目录包的中使用，比如 config 字段，只有根目录包能定义自己的配置。依赖包中的 config 字段是被忽略的。所以 config 字段是 root-only 的。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	如果你克隆了其中一个依赖包并在上面工作，那么这个包就是根目录包。composer.json 还是一样的，但上下文不同。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	（注：一个包是不是根目录包，取决于上下文。）
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	二、composer.json 中的各个属性（字段）
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	1、name
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	包的名字。由供应方（vendor）名和项目名组成，用 / 分隔。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	在发布包的时候需要填。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	2、description
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	对包的一个简短描述，通常是一行的长度。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	在发布包的时候需要填。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	3、version
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	包的版本。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	格式必须是 X.Y.Z，选择性后缀：-dev、-alphaN、-betaN、-RCN。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	4、type
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	包的类型，默认为 library。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	包类型用于定制安装逻辑。如果你的包的安装需要一些特殊的逻辑，你可以定义一个定制的类型。它可以是一个 symfony-bundle 的类型，或者 wordpress-plugin，或者 typo3-module。这些类型将被特定的项目所用，它们将提供安装器来安装这些类型的包。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	Composer 支持 3 种类型：
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	library：默认值。它将复制文件到 vendor 目录。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	project：它表示这是个项目，而不是库。比如像 Symfony 标准版这种应用。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	metapackage：一个含有依赖的空包，能触发安装，但不包含文件，不会向文件系统写任何东西。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	composer-install：为其他的定制类型的包提供安装器的包。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	5、keywords
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	一个与包相关的关键词数组。用于包的搜索和过滤。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	可选。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	6、homepage
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	项目的网站 URL。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	可选。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	7、time
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	版本发布时间。必须是 YYYY-MM-DD 或 YYYY-MM-DD HH:MM:SS 格式。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	可选。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	8、license
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	包的许可证。可以是字符串或字符串数组。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	可选，但强烈建议加上。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	9、authors
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	包的作者。是个对象数组。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	每个 author 对象有这些属性：
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	name：作者名字&amp;nbsp;&lt;br /&gt;
+email：作者邮箱&amp;nbsp;&lt;br /&gt;
+homepage：作者网站 URL&amp;nbsp;&lt;br /&gt;
+role：作者在项目中的角色（如：developer 或 translator）
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	10、support
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	各种关于该项目如何获取支持的信息。包含这些属性：
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	email：获取支持的邮箱&amp;nbsp;&lt;br /&gt;
+issues：问题跟踪的 URL&amp;nbsp;&lt;br /&gt;
+forum：论坛的 URL&amp;nbsp;&lt;br /&gt;
+wiki：Wiki 的 URL&amp;nbsp;&lt;br /&gt;
+irc：IRC 的频道&amp;nbsp;&lt;br /&gt;
+source：查看或下载源码的 URL
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	可选。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	11、Package links
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	依赖包的映射表，由包名映射版本约束。如：
+&lt;/p&gt;
+&lt;pre&gt;{
+    &quot;require&quot;: {
+        &quot;monolog/monolog&quot;: &quot;1.0.*&quot;
+    }
+}&lt;/pre&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	（1）require
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	列出包所依赖的包。除非这些依赖已经存在，否则这个包不会被安装。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	（2）require-dev（root-only）
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	列出开发这个包（或跑测试等等）所依赖的包。在使用 install 命令时，只有带上 “–dev” 参数才能安装 dev 包。在使用 update 命令时，带上 “–no-dev” 则不更新。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	（3）conflict
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	列出包会和哪些包发生冲突。它们将不被允许和你的包一起安装。如果约束了版本，则只会针对特定的版本。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	（4）replace
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	列出哪些包要被这个包替代。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	（5）provide
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	这个包所推荐的包列表。这个对公共接口最有用，一个包可以依赖一个虚拟的 logger 包，而实现 logger 接口的库可以放到 provide 字段中。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	12、suggest
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	建议一些能让这个包工作的更好或得到增强的包列表。这些信息只在包安装完成时给出，暗示用户可以添加更多包，虽然不是必须要安装的。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	格式是，包名映射文字说明，如：
+&lt;/p&gt;
+&lt;pre&gt;{
+    &quot;suggest&quot;: {
+        &quot;monolog/monolog&quot;: &quot;Allows more advanced logging of the application flow&quot;
+    }
+}&lt;/pre&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	13、autoload
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	提供给 PHP autoloader 的自动加载映射。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	目前支持的有：PSR-0 自动加载规范，classmap 生成器，还有 files。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	PSR-0 是比较推荐的，因为它的优秀的扩展性（在添加新的类的适合，不需要重新生成自动加载器）。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	（1）PSR-0
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	在 psr-0 键名下，定义一个命名空间到路径的映射表，相对于包的根目录。注意，这也同样支持 PEAR-style 的没有命名空间的风格。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	请注意命名空间的声明得以 \\ 结尾，确保自动加载器正确响应。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	PSR-0 的引用可以在安装或更新时生成的文件中查看：&amp;nbsp;&lt;br /&gt;
+vendor/composer/autoload_namespaces.php
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	例子：
+&lt;/p&gt;
+&lt;pre&gt;{
+    &quot;autoload&quot;: {
+        &quot;psr-0&quot;: {
+            &quot;Monolog\\&quot;: &quot;src/&quot;,
+            &quot;Vendor\\Namespace\\&quot;: &quot;src/&quot;,
+            &quot;Vendor_Namespace_&quot;: &quot;src/&quot;
+        }
+    }
+}&lt;/pre&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	如果你需要在多个目录里查找同一个前缀的命名空间，你可以用数组，如：
+&lt;/p&gt;
+&lt;pre&gt;{
+    &quot;autoload&quot;: {
+        &quot;psr-0&quot;: { &quot;Monolog\\&quot;: [&quot;src/&quot;, &quot;lib/&quot;] }
+    }
+}&lt;/pre&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	PSR-0 风格并不局限于加载命名空间的声明的东西，也可以用于类这个层级。当库中只有一个在全局命名空间中的类时，这种方式就能用上。比如你有个 PHP 源文件放在项目的根目录，你可以这样声明：
+&lt;/p&gt;
+&lt;pre&gt;{
+    &quot;autoload&quot;: {
+        &quot;psr-0&quot;: { &quot;UniqueGlobalClass&quot;: &quot;&quot; }
+    }
+}&lt;/pre&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	如果你有个目录下全是用命名空间组织的，你可以用空前缀：
+&lt;/p&gt;
+&lt;pre&gt;{
+    &quot;autoload&quot;: {
+        &quot;psr-0&quot;: { &quot;&quot;: &quot;src/&quot; }
+    }
+}&lt;/pre&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	（2）Classmap
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	classmap 的引用可以在安装或更新时生成的文件中查看：&amp;nbsp;&lt;br /&gt;
+vendor/composer/autoload_classmap.php
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	类映射表是通过扫描指定的目录或文件下的所有的 .php 和 .inc 文件生成的。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	你可以给任何不支持 PSR-0 的库用 classmap 生成器实现自动加载。配置上只要指定类所在的目录或文件即可：
+&lt;/p&gt;
+&lt;pre&gt;{
+    &quot;autoload&quot;: {
+        &quot;classmap&quot;: [&quot;src/&quot;, &quot;lib/&quot;, &quot;Something.php&quot;]
+    }
+}&lt;/pre&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	（3）files
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	如果你确定需要在任何请求中都加载某些文件，你可以使用 files 自动加载机制。对于那些包中有些 PHP 函数但不能自动加载时特别有用。例如：
+&lt;/p&gt;
+&lt;pre&gt;{
+    &quot;autoload&quot;: {
+        &quot;files&quot;: [&quot;src/MyLibrary/functions.php&quot;]
+    }
+}&lt;/pre&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	14、include-path
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	（将被弃用，它的功能由 autoload 代替。其实就是设置 include_path，可选）
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	15、target-dir
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	指定安装目标路径。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	如果包的根目录是在命名空间下，自动加载就不正确了，所以才有 target-dir 来解决这个问题。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	Symfony 就是个例子。它由很多组件包组成。Yaml 组件是在
+&lt;/p&gt;
+&lt;pre&gt;SymfonyComponentYaml&lt;/pre&gt;
+&lt;span style=&quot;color:#333333;font-family:arial;font-size:15px;line-height:27px;background-color:#FFFFFF;&quot;&gt;&amp;nbsp;&amp;nbsp;命名空间下的，它的根目录是 Yaml 目录。要让自动加载正常工作，我们要确保它不是安装在&lt;/span&gt; 
+&lt;pre&gt;vendor/symfony/yaml&lt;/pre&gt;
+&lt;span style=&quot;color:#333333;font-family:arial;font-size:15px;line-height:27px;background-color:#FFFFFF;&quot;&gt;&amp;nbsp;，而是在&lt;/span&gt; 
+&lt;pre&gt;vendor/symfony/yaml/Symfony/Component/Yaml&lt;/pre&gt;
+&lt;span style=&quot;color:#333333;font-family:arial;font-size:15px;line-height:27px;background-color:#FFFFFF;&quot;&gt;&amp;nbsp;，这样自动加载器才能从 vendor/symfony/yaml 加载它。&lt;/span&gt; 
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	所以要定义 target-dir 如下：
+&lt;/p&gt;
+&lt;pre&gt;{
+    &quot;autoload&quot;: {
+        &quot;psr-0&quot;: { &quot;Symfony\\Component\\Yaml\\&quot;: &quot;&quot; }
+    },
+    &quot;target-dir&quot;: &quot;Symfony/Component/Yaml&quot;
+}&lt;/pre&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	16、minimum-stability（root-only）
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	定义根据稳定性如何过滤包。默认是 stable，如果你信赖一个 dev 包，你需要指明。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	17、prefer-stable（root-only）
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	如果开启，Composer 会在稳定包和不稳定包中选择前者。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	18、repositories（root-only）
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	定制包的仓库地址。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	默认的，Composer 只使用 Packagist 仓库。通过指定仓库地址，你可以从任何地方获取包。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	仓库不能递归。你只能将它们添加到主的 composer.json 中。所依赖包中 composer.json 文件中的仓库定义是被忽略的。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	支持的仓库的类型有：
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	（1）composer
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	composer 仓库通过网络提供 packages.json 文件，它包含一个 composer.json 对象的列表，还有额外的 dist 或 source 信息。packages.json 文件通过 PHP 流加载。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	（2）vcs
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	版本控制系统仓库，如：git、svn、hg。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	（3）pear
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	通过它，你可以导入任何 pear 仓库到你的项目中。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	（4）package
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	如果你依赖一个不支持 composer 的项目，你可以定义一个 package 类型的仓库，然后将 composer.json 对象直接写入。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	完整的例子：
+&lt;/p&gt;
+&lt;pre&gt;{
+    &quot;repositories&quot;: [
+        {
+            &quot;type&quot;: &quot;composer&quot;,
+            &quot;url&quot;: &quot;http://packages.example.com&quot;
+        },
+        {
+            &quot;type&quot;: &quot;composer&quot;,
+            &quot;url&quot;: &quot;https://packages.example.com&quot;,
+            &quot;options&quot;: {
+                &quot;ssl&quot;: {
+                    &quot;verify_peer&quot;: &quot;true&quot;
+                }
+            }
+        },
+        {
+            &quot;type&quot;: &quot;vcs&quot;,
+            &quot;url&quot;: &quot;https://github.com/Seldaek/monolog&quot;
+        },
+        {
+            &quot;type&quot;: &quot;pear&quot;,
+            &quot;url&quot;: &quot;http://pear2.php.net&quot;
+        },
+        {
+            &quot;type&quot;: &quot;package&quot;,
+            &quot;package&quot;: {
+                &quot;name&quot;: &quot;smarty/smarty&quot;,
+                &quot;version&quot;: &quot;3.1.7&quot;,
+                &quot;dist&quot;: {
+                    &quot;url&quot;: &quot;http://www.smarty.net/files/Smarty-3.1.7.zip&quot;,
+                    &quot;type&quot;: &quot;zip&quot;
+                },
+                &quot;source&quot;: {
+                    &quot;url&quot;: &quot;http://smarty-php.googlecode.com/svn/&quot;,
+                    &quot;type&quot;: &quot;svn&quot;,
+                    &quot;reference&quot;: &quot;tags/Smarty_3_1_7/distribution/&quot;
+                }
+            }
+        }
+    ]
+}&lt;/pre&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	19、config（root-only）
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	针对项目的一些配置。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	process-timeout：默认 300 秒，Composer 进程执行超时时间；&amp;nbsp;&lt;br /&gt;
+use-include-path：默认 false，如果是 true，Composer 自动加载器也会到 PHP 的 include_path 中查找；&amp;nbsp;&lt;br /&gt;
+preferred-install：默认 auto，设置 Composer 安装方式；&amp;nbsp;&lt;br /&gt;
+github-protocols：默认 [“git”, “https”]，设置与 github 通信协议；&amp;nbsp;&lt;br /&gt;
+github-oauth：设置 oauth；&amp;nbsp;&lt;br /&gt;
+vendor-dir：默认 vendor，你可以换成别的；&amp;nbsp;&lt;br /&gt;
+bin-dir：默认 vendor/bin，如果项目有二进制文件，会链接到这；&amp;nbsp;&lt;br /&gt;
+cache-dir：默认 $home/cache，存放 Composer 运行时产生的缓存；&amp;nbsp;&lt;br /&gt;
+cache-files-dir：默认 $cache-dir/files，存放包的 zip 文件；&amp;nbsp;&lt;br /&gt;
+cache-repo-dir：默认 $cache-dir/repo，存放仓库元数据；&amp;nbsp;&lt;br /&gt;
+cache-vcs-dir：默认 $cache-dir/vcs，存放 vcs 克隆；&amp;nbsp;&lt;br /&gt;
+cache-files-ttl：默认六个月，缓存的过期时间；&amp;nbsp;&lt;br /&gt;
+cache-files-maxsize：默认 300M；&amp;nbsp;&lt;br /&gt;
+notify-no-install：默认 true，从仓库安装包会有个通知，可以关掉；&amp;nbsp;&lt;br /&gt;
+discard-changes：默认false，如何处理脏的更新；
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	20、scripts（root-only）
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	Composer 允许你在安装进程中安装钩子脚本，钩子是基于事件的；
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	21、extra
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	供 scripts 消费的额外数据；
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	22、bin
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	指定哪些文件必须被当做二进制文件处理的；
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	23、archive
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	设置创建包时的选项，exclude 属性可以设置排除哪些目录，例如：
+&lt;/p&gt;
+&lt;pre&gt;{
+    &quot;archive&quot;: {
+        &quot;exclude&quot;: [&quot;/foo/bar&quot;, &quot;baz&quot;, &quot;/*.test&quot;, &quot;!/foo/bar/baz&quot;]
+    }
+}&lt;/pre&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp;
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	这篇看下来，再看 Symfony 的标准版中的 composer.json，应该了然了吧。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	来源：http://phpernotes.com/php/composer_schema
+&lt;/p&gt;',`status`='1',`type`='0',`createtime`='1482744657',`author`='小兔',`imgurl`=NULL,`recom`='0',`readnum`='31' WHERE `id` = 39 [ RunTime:0.0025s ]
+SQL: SELECT `id`,`title` FROM `article` WHERE ( id<39 and status=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title` FROM `article` WHERE ( id>39 and status=1 ) ORDER BY id asc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`title` FROM `article` WHERE ( id<>39 and status=1 and recom=1 ) ORDER BY id desc LIMIT 6   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000132s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000183s ]
+NOTIC: [8] Undefined variable: title D:\WWW\tools\Application\Runtime\Cache\Home\f274c600cf8d13c9d31ff143ea08a211.php 第 55 行.
+INFO: [ keyWords ] --START--
+SQL: SHOW COLUMNS FROM `keywords` [ RunTime:0.0131s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\WWW\tools\Application\Home\Model\CommModel.class.php on line 46 and defined D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\WWW\tools\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `keywords` ORDER BY `order` asc,num desc LIMIT 30   [ RunTime:0.0003s ]
+INFO: Run Home\Behavior\KeyWordsBehavior [ RunTime:0.016201s ]
+INFO: [ keyWords ] --END-- [ RunTime:0.016247s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028532s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028569s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000607s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000822s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000875s ]
+

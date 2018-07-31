@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+
+    <!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>{$art.title}- {:C('site_name')}</title>
+	<meta name="keywords" content="{$art.keyword}"/>
+	<meta name="description" content="{$art.keyword}"/>
+	
+    <!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <!-- CSS
+  ================================================== -->
+	<link rel="stylesheet" href="__CSS__/zerogrid.css">
+	<link rel="stylesheet" href="__CSS__/style.css">
+    <link rel="stylesheet" href="__CSS__/responsive.css">
+	<link rel="stylesheet" href="__CSS__/responsiveslides.css" />
+	<link rel="stylesheet" href="__CSS__/newstyle.css">
+
+    <script src="__JS__/jquery.min.js"></script>
+	<script src="__JS__/unixtime.js"></script>
+	
+</head>
+<body>
+<!--------------Header--------------->
+
+<include file="Public/header" />
+
+<!--------------Content--------------->
+<div class="new_content zerogrid">
+	<div class="new_br"></div>
+	<div class="new_title">
+		<h1>{$art.title}</h1>
+		<p><span>作者：{$art.author}</span><span>阅读：{$art.readnum}</span><span>时间：{$art.createtime|date='Y-m-d',###}</span></p>
+	</div>
+	<div class="new_br"></div>
+	<div class="new_line"></div>
+	<div class="new_br"></div>
+	<div class="new_br"></div>
+	<div class="new_br"></div>
+	<div class="new_br"></div>
+	<div class="new_art">
+		{$art.content|htmlspecialchars_decode}
+	</div>
+	<div class="new_br"></div>
+	<div class="new_br"></div>
+	<div class="new_line"></div>
+	<div class="new_br"></div>
+	<div class="new_related">
+		<if condition="$prev.id gt 0">
+			&lt;&lt;&nbsp;&nbsp;<a href="{:U('/art/article',array('id'=>$prev['id']))}">{$prev.title|msubstr=0,40}</a>
+		</if>
+		<if condition="$next.id gt 0">
+			<br/>
+			&gt;&gt;&nbsp;&nbsp;<a href="{:U('/art/article',array('id'=>$next['id']))}">{$next.title|msubstr=0,40}</a>
+		</if>
+	</div>
+	<div class="clearfix"></div>
+	<div class="new_br"></div>
+	<div class="new_br"></div>
+	<div class="new_br"></div>
+</div>
+
+<!--------------Footer--------------->
+
+<include file="Public/footer" />
+</body>
+</html>

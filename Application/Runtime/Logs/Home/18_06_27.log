@@ -1,0 +1,25 @@
+[ 2018-06-27T10:48:25+08:00 ] 127.0.0.1 /tools/apache2_2/img/folder.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019338s ]
+
+[ 2018-06-27T14:50:53+08:00 ] 127.0.0.1 /tools/apache2_2/img/folder.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+
+[ 2018-06-27T15:34:47+08:00 ] 127.0.0.1 /tools/apache2_2/img/folder.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+
+[ 2018-06-27T15:59:58+08:00 ] 127.0.0.1 /tools/apache2_2/img/folder.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000445s ]
+
+[ 2018-06-27T16:22:05+08:00 ] 127.0.0.1 /tools/apache2_2/img/folder.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+
+    <!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>{:C('site_name')}</title>
+	<meta name="keywords" content="{:C('site_name')}，在线工具，站长工具，便民工具,在线json格式化，json格式化，Unicode编码转换，在线时间戳转换，时间戳转换，在线js格式化，js格式化,HTML格式化，在线二维码生成，二维码生成，在线正则，在线正则表达式测试，ip地址查询"/>
+	<meta name="description" content="{:C('site_name')}，在线工具，站长工具，便民工具在线json格式化，json格式化，Unicode编码转换，在线时间戳转换，时间戳转换，在线js格式化，js格式化，HTML格式化，在线二维码生成，二维码生成，在线正则，在线正则表达式测试，ip地址查询"/>
+	
+    <!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <!-- CSS
+  ================================================== -->
+	<link rel="stylesheet" href="__CSS__/zerogrid.css">
+	<link rel="stylesheet" href="__CSS__/style.css">
+    <link rel="stylesheet" href="__CSS__/responsive.css">
+	<link rel="stylesheet" href="__CSS__/responsiveslides.css" />
+	<link rel="stylesheet" href="__CSS__/newstyle.css">
+    <script src="__JS__/jquery.min.js"></script>
+	<script src="__JS__/responsiveslides.js"></script>
+	<script src="__JS__/swfobject.js"></script>
+	<script>
+		$(function () {
+		  $("#slider").responsiveSlides({
+			auto: true,
+			pager: false,
+			nav: true,
+			speed: 500,
+			maxwidth: 962,
+			namespace: "centered-btns"
+		  });
+		});
+	</script>
+</head>
+<body>
+<!--------------Header--------------->
+
+<include file="Public/header" />
+
+
+<!--------------Content--------------->
+<div class="c_basic zerogrid">
+	<div class="c_left index">
+		<div class="c_l_tools">
+			<div class="c_l_tools_1">
+				<p ><span id="kfzgj">开发者工具</span></p>
+				<div class="c_l_border"></div>
+				<div class="c_l_tools_2">
+					{$kaifa}
+				</div>
+			</div>
+		</div>
+		<div class="c_l_tools">
+			<div class="c_l_tools_1">
+				<p><span>站长工具</span></p>
+				<div class="c_l_border"></div>
+				<div class="c_l_tools_2">
+					{$zz}
+				</div>
+			</div>
+		</div>
+		<div class="c_l_tools">
+			<div class="c_l_tools_1">
+				<p><span>便民工具</span></p>
+				<div class="c_l_border"></div>
+				<div class="c_l_tools_2">
+					{$bm}
+				</div>
+			</div>
+		</div>
+		
+		<div class="c_l_tools">
+			<div class="c_l_art_1">
+				<p><span>热门文章</span><span><a href="{:U('/art/lists')}">更多>></a></span></p>
+				<div class="c_l_border"></div>
+				<div class="c_l_art_2">
+					<ul>
+						<foreach name="hotart" item="val">
+							<li><a href="{:U('/art/article',array('id'=>$val['id']))}">{$val.title}</a><span>{$val.createtime|date='m-d',###}</span></li>
+						</foreach>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+		<div class="c_l_tools">
+			<div class="c_l_art_1">
+				<p><span>最新文章</span><span><a href="{:U('/art/lists')}">更多>></a></span></p>
+				<div class="c_l_border"></div>
+				<div class="c_l_art_2">
+					<ul>
+						<foreach name="newart" item="val">
+							<li><a href="{:U('/art/article',array('id'=>$val['id']))}">{$val.title}</a><span>{$val.createtime|date='m-d',###}</span></li>
+						</foreach>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+	
+	<div class="c_right">
+		<div class="c_r_tags">
+			<div class="c_r_tags_1">
+				<p><span>推荐</span></p>
+				<div class="c_r_tags_2">
+					<foreach name="recomtool" item="val">
+					<a href="{:U('/tools/'.$val['function'])}" class="button- button--wayra">{$val.name}</a>
+					</foreach>
+				</div>
+			</div>
+		</div>
+		
+		<div class="c_r_tags">
+			<div class="c_r_tags_1">
+				<p><span>标签</span></p>
+				<div class="c_r_tags_2">
+					<embed type="application/x-shockwave-flash" src="__IMAGES__/tagcloud.swf" width="260" height="250" id="tagcloudflash" name="tagcloudflash" bgcolor="#ffffff" quality="high" wmode="transparent" allowscriptaccess="always" flashvars="{:hook('keyWords')}">
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+<!--------------Footer--------------->
+
+<include file="Public/footer" />
+</body>
+</html>

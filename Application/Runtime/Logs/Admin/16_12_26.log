@@ -1,0 +1,641 @@
+[ 2016-12-26T17:31:04+08:00 ] 127.0.0.1 /admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.020001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.033002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.038002s ]
+SQL: SHOW COLUMNS FROM `statisticsip` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `statisticsip` WHERE `ip` = '127.0.0.1' AND `date` = 20161226 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-12-26T17:31:06+08:00 ] 127.0.0.1 /admin/login.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `statisticsip` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `statisticsip` WHERE `ip` = '127.0.0.1' AND `date` = 20161226 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.004000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.006001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.074004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2016-12-26T17:31:13+08:00 ] 127.0.0.1 /admin/login/dologin.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `statisticsip` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `statisticsip` WHERE `ip` = '127.0.0.1' AND `date` = 20161226 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] Non-static method Admin\Model\AdminModel::adminLogin() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Admin\Controller\LoginController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0312s ]
+SQL: SELECT * FROM `admin` WHERE `user` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-12-26T17:31:15+08:00 ] 127.0.0.1 /admin/index.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `statisticsip` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `statisticsip` WHERE `ip` = '127.0.0.1' AND `date` = 20161226 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.087005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.089005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005001s ]
+
+[ 2016-12-26T17:31:19+08:00 ] 127.0.0.1 /admin/index/lists.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `statisticsip` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `statisticsip` WHERE `ip` = '127.0.0.1' AND `date` = 20161226 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Admin\Model\ArticleModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Admin\Model\ArticleModel.class.php 第 101 行.
+NOTIC: [2048] Declaration of Admin\Model\ArticleModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Admin\Model\ArticleModel.class.php 第 101 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Admin\Controller\IndexController.class.php 第 96 行.
+SQL: SELECT * FROM `article` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0400s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.155009s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.156009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006000s ]
+
+[ 2016-12-26T17:31:22+08:00 ] 127.0.0.1 /admin/index/article.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `statisticsip` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `statisticsip` WHERE `ip` = '127.0.0.1' AND `date` = 20161226 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.083005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.085005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005001s ]
+
+[ 2016-12-26T17:31:35+08:00 ] 127.0.0.1 /admin/index/SaveArticle.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `statisticsip` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `statisticsip` WHERE `ip` = '127.0.0.1' AND `date` = 20161226 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Admin\Model\ArticleModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Admin\Model\ArticleModel.class.php 第 101 行.
+NOTIC: [2048] Declaration of Admin\Model\ArticleModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Admin\Model\ArticleModel.class.php 第 101 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0060s ]
+SQL: INSERT INTO `article` (`type`,`title`,`keyword`,`author`,`content`,`createtime`) VALUES ('0','Composer 的结构、Composer.json详解','Composer 的结构,Composer.json详解','小兔','&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	&lt;a href=&quot;http://phpernotes.com/wp-content/uploads/2013/07/composer-cartoon.gif&quot;&gt;&lt;img src=&quot;http://phpernotes.com/wp-content/uploads/2013/07/composer-cartoon.gif&quot; alt=&quot;composer-cartoon&quot; /&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	&lt;a href=&quot;http://getcomposer.org/doc/04-schema.md&quot;&gt;这片文章&lt;/a&gt;是 composer.json 中各个字段的说明书。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	一、Root Package（根目录包）
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	根目录包就是在你的项目的根目录由 composer.json 定义的包。主要就是由 composer.json 来定义你的项目的依赖。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	某些字段只能在根目录包的中使用，比如 config 字段，只有根目录包能定义自己的配置。依赖包中的 config 字段是被忽略的。所以 config 字段是 root-only 的。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	如果你克隆了其中一个依赖包并在上面工作，那么这个包就是根目录包。composer.json 还是一样的，但上下文不同。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	（注：一个包是不是根目录包，取决于上下文。）
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	二、composer.json 中的各个属性（字段）
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	1、name
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	包的名字。由供应方（vendor）名和项目名组成，用 / 分隔。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	在发布包的时候需要填。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	2、description
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	对包的一个简短描述，通常是一行的长度。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	在发布包的时候需要填。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	3、version
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	包的版本。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	格式必须是 X.Y.Z，选择性后缀：-dev、-alphaN、-betaN、-RCN。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	4、type
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	包的类型，默认为 library。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	包类型用于定制安装逻辑。如果你的包的安装需要一些特殊的逻辑，你可以定义一个定制的类型。它可以是一个 symfony-bundle 的类型，或者 wordpress-plugin，或者 typo3-module。这些类型将被特定的项目所用，它们将提供安装器来安装这些类型的包。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	Composer 支持 3 种类型：
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	library：默认值。它将复制文件到 vendor 目录。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	project：它表示这是个项目，而不是库。比如像 Symfony 标准版这种应用。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	metapackage：一个含有依赖的空包，能触发安装，但不包含文件，不会向文件系统写任何东西。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	composer-install：为其他的定制类型的包提供安装器的包。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	5、keywords
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	一个与包相关的关键词数组。用于包的搜索和过滤。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	可选。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	6、homepage
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	项目的网站 URL。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	可选。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	7、time
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	版本发布时间。必须是 YYYY-MM-DD 或 YYYY-MM-DD HH:MM:SS 格式。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	可选。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	8、license
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	包的许可证。可以是字符串或字符串数组。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	可选，但强烈建议加上。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	9、authors
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	包的作者。是个对象数组。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	每个 author 对象有这些属性：
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	name：作者名字&amp;nbsp;&lt;br /&gt;
+email：作者邮箱&amp;nbsp;&lt;br /&gt;
+homepage：作者网站 URL&amp;nbsp;&lt;br /&gt;
+role：作者在项目中的角色（如：developer 或 translator）
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	10、support
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	各种关于该项目如何获取支持的信息。包含这些属性：
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	email：获取支持的邮箱&amp;nbsp;&lt;br /&gt;
+issues：问题跟踪的 URL&amp;nbsp;&lt;br /&gt;
+forum：论坛的 URL&amp;nbsp;&lt;br /&gt;
+wiki：Wiki 的 URL&amp;nbsp;&lt;br /&gt;
+irc：IRC 的频道&amp;nbsp;&lt;br /&gt;
+source：查看或下载源码的 URL
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	可选。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	11、Package links
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	依赖包的映射表，由包名映射版本约束。如：
+&lt;/p&gt;
+&lt;pre&gt;{
+    &quot;require&quot;: {
+        &quot;monolog/monolog&quot;: &quot;1.0.*&quot;
+    }
+}&lt;/pre&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	（1）require
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	列出包所依赖的包。除非这些依赖已经存在，否则这个包不会被安装。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	（2）require-dev（root-only）
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	列出开发这个包（或跑测试等等）所依赖的包。在使用 install 命令时，只有带上 “–dev” 参数才能安装 dev 包。在使用 update 命令时，带上 “–no-dev” 则不更新。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	（3）conflict
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	列出包会和哪些包发生冲突。它们将不被允许和你的包一起安装。如果约束了版本，则只会针对特定的版本。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	（4）replace
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	列出哪些包要被这个包替代。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	（5）provide
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	这个包所推荐的包列表。这个对公共接口最有用，一个包可以依赖一个虚拟的 logger 包，而实现 logger 接口的库可以放到 provide 字段中。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	12、suggest
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	建议一些能让这个包工作的更好或得到增强的包列表。这些信息只在包安装完成时给出，暗示用户可以添加更多包，虽然不是必须要安装的。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	格式是，包名映射文字说明，如：
+&lt;/p&gt;
+&lt;pre&gt;{
+    &quot;suggest&quot;: {
+        &quot;monolog/monolog&quot;: &quot;Allows more advanced logging of the application flow&quot;
+    }
+}&lt;/pre&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	13、autoload
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	提供给 PHP autoloader 的自动加载映射。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	目前支持的有：PSR-0 自动加载规范，classmap 生成器，还有 files。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	PSR-0 是比较推荐的，因为它的优秀的扩展性（在添加新的类的适合，不需要重新生成自动加载器）。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	（1）PSR-0
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	在 psr-0 键名下，定义一个命名空间到路径的映射表，相对于包的根目录。注意，这也同样支持 PEAR-style 的没有命名空间的风格。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	请注意命名空间的声明得以  结尾，确保自动加载器正确响应。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	PSR-0 的引用可以在安装或更新时生成的文件中查看：&amp;nbsp;&lt;br /&gt;
+vendor/composer/autoload_namespaces.php
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	例子：
+&lt;/p&gt;
+&lt;pre&gt;{
+    &quot;autoload&quot;: {
+        &quot;psr-0&quot;: {
+            &quot;Monolog&quot;: &quot;src/&quot;,
+            &quot;VendorNamespace&quot;: &quot;src/&quot;,
+            &quot;Vendor_Namespace_&quot;: &quot;src/&quot;
+        }
+    }
+}&lt;/pre&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	如果你需要在多个目录里查找同一个前缀的命名空间，你可以用数组，如：
+&lt;/p&gt;
+&lt;pre&gt;{
+    &quot;autoload&quot;: {
+        &quot;psr-0&quot;: { &quot;Monolog&quot;: [&quot;src/&quot;, &quot;lib/&quot;] }
+    }
+}&lt;/pre&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	PSR-0 风格并不局限于加载命名空间的声明的东西，也可以用于类这个层级。当库中只有一个在全局命名空间中的类时，这种方式就能用上。比如你有个 PHP 源文件放在项目的根目录，你可以这样声明：
+&lt;/p&gt;
+&lt;pre&gt;{
+    &quot;autoload&quot;: {
+        &quot;psr-0&quot;: { &quot;UniqueGlobalClass&quot;: &quot;&quot; }
+    }
+}&lt;/pre&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	如果你有个目录下全是用命名空间组织的，你可以用空前缀：
+&lt;/p&gt;
+&lt;pre&gt;{
+    &quot;autoload&quot;: {
+        &quot;psr-0&quot;: { &quot;&quot;: &quot;src/&quot; }
+    }
+}&lt;/pre&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	（2）Classmap
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	classmap 的引用可以在安装或更新时生成的文件中查看：&amp;nbsp;&lt;br /&gt;
+vendor/composer/autoload_classmap.php
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	类映射表是通过扫描指定的目录或文件下的所有的 .php 和 .inc 文件生成的。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	你可以给任何不支持 PSR-0 的库用 classmap 生成器实现自动加载。配置上只要指定类所在的目录或文件即可：
+&lt;/p&gt;
+&lt;pre&gt;{
+    &quot;autoload&quot;: {
+        &quot;classmap&quot;: [&quot;src/&quot;, &quot;lib/&quot;, &quot;Something.php&quot;]
+    }
+}&lt;/pre&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	（3）files
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	如果你确定需要在任何请求中都加载某些文件，你可以使用 files 自动加载机制。对于那些包中有些 PHP 函数但不能自动加载时特别有用。例如：
+&lt;/p&gt;
+&lt;pre&gt;{
+    &quot;autoload&quot;: {
+        &quot;files&quot;: [&quot;src/MyLibrary/functions.php&quot;]
+    }
+}&lt;/pre&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	14、include-path
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	（将被弃用，它的功能由 autoload 代替。其实就是设置 include_path，可选）
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	15、target-dir
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	指定安装目标路径。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	如果包的根目录是在命名空间下，自动加载就不正确了，所以才有 target-dir 来解决这个问题。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	Symfony 就是个例子。它由很多组件包组成。Yaml 组件是在
+&lt;/p&gt;
+&lt;pre&gt;SymfonyComponentYaml&lt;/pre&gt;
+&lt;span style=&quot;color:#333333;font-family:arial;font-size:15px;line-height:27px;background-color:#FFFFFF;&quot;&gt;&amp;nbsp;&amp;nbsp;命名空间下的，它的根目录是 Yaml 目录。要让自动加载正常工作，我们要确保它不是安装在&lt;/span&gt;&lt;span&gt;&lt;/span&gt; 
+&lt;pre&gt;vendor/symfony/yaml&lt;/pre&gt;
+&lt;span style=&quot;color:#333333;font-family:arial;font-size:15px;line-height:27px;background-color:#FFFFFF;&quot;&gt;&amp;nbsp;，而是在&lt;/span&gt;&lt;span&gt;&lt;/span&gt; 
+&lt;pre&gt;vendor/symfony/yaml/Symfony/Component/Yaml&lt;/pre&gt;
+&lt;span style=&quot;color:#333333;font-family:arial;font-size:15px;line-height:27px;background-color:#FFFFFF;&quot;&gt;&amp;nbsp;，这样自动加载器才能从 vendor/symfony/yaml 加载它。&lt;/span&gt;&lt;span&gt;&lt;/span&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	所以要定义 target-dir 如下：
+&lt;/p&gt;
+&lt;pre&gt;{
+    &quot;autoload&quot;: {
+        &quot;psr-0&quot;: { &quot;SymfonyComponentYaml&quot;: &quot;&quot; }
+    },
+    &quot;target-dir&quot;: &quot;Symfony/Component/Yaml&quot;
+}&lt;/pre&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	16、minimum-stability（root-only）
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	定义根据稳定性如何过滤包。默认是 stable，如果你信赖一个 dev 包，你需要指明。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	17、prefer-stable（root-only）
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	如果开启，Composer 会在稳定包和不稳定包中选择前者。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	18、repositories（root-only）
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	定制包的仓库地址。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	默认的，Composer 只使用 Packagist 仓库。通过指定仓库地址，你可以从任何地方获取包。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	仓库不能递归。你只能将它们添加到主的 composer.json 中。所依赖包中 composer.json 文件中的仓库定义是被忽略的。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	支持的仓库的类型有：
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	（1）composer
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	composer 仓库通过网络提供 packages.json 文件，它包含一个 composer.json 对象的列表，还有额外的 dist 或 source 信息。packages.json 文件通过 PHP 流加载。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	（2）vcs
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	版本控制系统仓库，如：git、svn、hg。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	（3）pear
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	通过它，你可以导入任何 pear 仓库到你的项目中。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	（4）package
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	如果你依赖一个不支持 composer 的项目，你可以定义一个 package 类型的仓库，然后将 composer.json 对象直接写入。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	完整的例子：
+&lt;/p&gt;
+&lt;pre&gt;{
+    &quot;repositories&quot;: [
+        {
+            &quot;type&quot;: &quot;composer&quot;,
+            &quot;url&quot;: &quot;http://packages.example.com&quot;
+        },
+        {
+            &quot;type&quot;: &quot;composer&quot;,
+            &quot;url&quot;: &quot;https://packages.example.com&quot;,
+            &quot;options&quot;: {
+                &quot;ssl&quot;: {
+                    &quot;verify_peer&quot;: &quot;true&quot;
+                }
+            }
+        },
+        {
+            &quot;type&quot;: &quot;vcs&quot;,
+            &quot;url&quot;: &quot;https://github.com/Seldaek/monolog&quot;
+        },
+        {
+            &quot;type&quot;: &quot;pear&quot;,
+            &quot;url&quot;: &quot;http://pear2.php.net&quot;
+        },
+        {
+            &quot;type&quot;: &quot;package&quot;,
+            &quot;package&quot;: {
+                &quot;name&quot;: &quot;smarty/smarty&quot;,
+                &quot;version&quot;: &quot;3.1.7&quot;,
+                &quot;dist&quot;: {
+                    &quot;url&quot;: &quot;http://www.smarty.net/files/Smarty-3.1.7.zip&quot;,
+                    &quot;type&quot;: &quot;zip&quot;
+                },
+                &quot;source&quot;: {
+                    &quot;url&quot;: &quot;http://smarty-php.googlecode.com/svn/&quot;,
+                    &quot;type&quot;: &quot;svn&quot;,
+                    &quot;reference&quot;: &quot;tags/Smarty_3_1_7/distribution/&quot;
+                }
+            }
+        }
+    ]
+}&lt;/pre&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	19、config（root-only）
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	针对项目的一些配置。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	process-timeout：默认 300 秒，Composer 进程执行超时时间；&amp;nbsp;&lt;br /&gt;
+use-include-path：默认 false，如果是 true，Composer 自动加载器也会到 PHP 的 include_path 中查找；&amp;nbsp;&lt;br /&gt;
+preferred-install：默认 auto，设置 Composer 安装方式；&amp;nbsp;&lt;br /&gt;
+github-protocols：默认 [“git”, “https”]，设置与 github 通信协议；&amp;nbsp;&lt;br /&gt;
+github-oauth：设置 oauth；&amp;nbsp;&lt;br /&gt;
+vendor-dir：默认 vendor，你可以换成别的；&amp;nbsp;&lt;br /&gt;
+bin-dir：默认 vendor/bin，如果项目有二进制文件，会链接到这；&amp;nbsp;&lt;br /&gt;
+cache-dir：默认 $home/cache，存放 Composer 运行时产生的缓存；&amp;nbsp;&lt;br /&gt;
+cache-files-dir：默认 $cache-dir/files，存放包的 zip 文件；&amp;nbsp;&lt;br /&gt;
+cache-repo-dir：默认 $cache-dir/repo，存放仓库元数据；&amp;nbsp;&lt;br /&gt;
+cache-vcs-dir：默认 $cache-dir/vcs，存放 vcs 克隆；&amp;nbsp;&lt;br /&gt;
+cache-files-ttl：默认六个月，缓存的过期时间；&amp;nbsp;&lt;br /&gt;
+cache-files-maxsize：默认 300M；&amp;nbsp;&lt;br /&gt;
+notify-no-install：默认 true，从仓库安装包会有个通知，可以关掉；&amp;nbsp;&lt;br /&gt;
+discard-changes：默认false，如何处理脏的更新；
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	20、scripts（root-only）
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	Composer 允许你在安装进程中安装钩子脚本，钩子是基于事件的；
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	21、extra
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	供 scripts 消费的额外数据；
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	22、bin
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	指定哪些文件必须被当做二进制文件处理的；
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	23、archive
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	设置创建包时的选项，exclude 属性可以设置排除哪些目录，例如：
+&lt;/p&gt;
+&lt;pre&gt;{
+    &quot;archive&quot;: {
+        &quot;exclude&quot;: [&quot;/foo/bar&quot;, &quot;baz&quot;, &quot;/*.test&quot;, &quot;!/foo/bar/baz&quot;]
+    }
+}&lt;/pre&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	&amp;nbsp;
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	这篇看下来，再看 Symfony 的标准版中的 composer.json，应该了然了吧。
+&lt;/p&gt;
+&lt;p style=&quot;color:#333333;font-family:arial;font-size:15px;background-color:#FFFFFF;&quot;&gt;
+	来源：http://phpernotes.com/php/composer_schema
+&lt;/p&gt;','1482744695') [ RunTime:0.0380s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.080004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.083004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-12-26T17:31:42+08:00 ] 127.0.0.1 /admin/index/article.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `statisticsip` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `statisticsip` WHERE `ip` = '127.0.0.1' AND `date` = 20161226 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.069004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.072004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006000s ]
+

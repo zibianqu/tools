@@ -1,0 +1,654 @@
+[ 2016-11-17T18:01:02+08:00 ] 127.0.0.1 /admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Non-static method Admin\Model\AdminModel::isLogin() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Admin\Controller\IndexController.class.php 第 13 行.
+
+[ 2016-11-17T18:01:02+08:00 ] 127.0.0.1 /admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Non-static method Admin\Model\AdminModel::isLogin() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Admin\Controller\IndexController.class.php 第 13 行.
+
+[ 2016-11-17T18:01:02+08:00 ] 127.0.0.1 /admin/login.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-17T18:01:07+08:00 ] 127.0.0.1 /admin/login/dologin.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Non-static method Admin\Model\AdminModel::adminLogin() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Admin\Controller\LoginController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0470s ]
+SQL: SELECT * FROM `admin` WHERE `user` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-11-17T18:01:08+08:00 ] 127.0.0.1 /admin/index.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Non-static method Admin\Model\AdminModel::isLogin() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Admin\Controller\IndexController.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-17T18:01:09+08:00 ] 127.0.0.1 /admin/login/dologin.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Non-static method Admin\Model\AdminModel::adminLogin() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Admin\Controller\LoginController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin` WHERE `user` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-11-17T18:01:09+08:00 ] 127.0.0.1 /admin/index/article.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Non-static method Admin\Model\AdminModel::isLogin() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Admin\Controller\IndexController.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-17T18:01:20+08:00 ] 127.0.0.1 /admin/index/SaveArticle.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Non-static method Admin\Model\AdminModel::isLogin() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Admin\Controller\IndexController.class.php 第 13 行.
+NOTIC: [2048] Declaration of Admin\Model\ArticleModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Admin\Model\ArticleModel.class.php 第 101 行.
+NOTIC: [2048] Declaration of Admin\Model\ArticleModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Admin\Model\ArticleModel.class.php 第 101 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0110s ]
+SQL: INSERT INTO `article` (`type`,`title`,`keyword`,`author`,`content`,`createtime`) VALUES ('0','PHP-redis中文文档','redis,php-redis,redis中文文档','小兔','&lt;p style=&quot;font-family:verdana, sans-serif;font-size:13px;background-color:#FFFFFF;&quot;&gt;
+	phpredis是php的一个扩展，效率是相当高有链表排序功能，对创建内存级的模块业务关系
+&lt;/p&gt;
+&lt;p style=&quot;font-family:verdana, sans-serif;font-size:13px;background-color:#FFFFFF;&quot;&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-family:verdana, sans-serif;font-size:13px;background-color:#FFFFFF;&quot;&gt;
+	很有用;以下是redis官方提供的命令使用技巧:
+&lt;/p&gt;
+&lt;p style=&quot;font-family:verdana, sans-serif;font-size:13px;background-color:#FFFFFF;&quot;&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-family:verdana, sans-serif;font-size:13px;background-color:#FFFFFF;&quot;&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-family:verdana, sans-serif;font-size:13px;background-color:#FFFFFF;&quot;&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-family:verdana, sans-serif;font-size:13px;background-color:#FFFFFF;&quot;&gt;
+	下载地址如下：
+&lt;/p&gt;
+&lt;p style=&quot;font-family:verdana, sans-serif;font-size:13px;background-color:#FFFFFF;&quot;&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p style=&quot;font-family:verdana, sans-serif;font-size:13px;background-color:#FFFFFF;&quot;&gt;
+	https://github.com/owlient/phpredis（支持redis 2.0.4）
+&lt;/p&gt;
+&lt;p style=&quot;font-family:verdana, sans-serif;font-size:13px;background-color:#FFFFFF;&quot;&gt;
+	&lt;span style=&quot;font-weight:bold;&quot;&gt;&lt;br /&gt;
+Redis::__construct&lt;/span&gt;构造函数&lt;span style=&quot;font-family:monospace;&quot;&gt;&lt;br /&gt;
+&lt;/span&gt;$redis = new Redis();&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;connect, open&lt;/span&gt;&amp;nbsp;链接redis服务&lt;br /&gt;
+&lt;span style=&quot;font-style:italic;&quot;&gt;&lt;span style=&quot;font-weight:bold;&quot;&gt;参数&lt;/span&gt;&lt;/span&gt;&lt;em&gt;&lt;span style=&quot;font-weight:bold;&quot;&gt;&lt;br /&gt;
+&lt;/span&gt;host&lt;/em&gt;: string，服务地址&lt;em&gt;&lt;br /&gt;
+port&lt;/em&gt;: int,端口号&lt;em&gt;&lt;br /&gt;
+timeout&lt;/em&gt;: float,链接时长 (可选, 默认为 0 ，不限链接时间)&lt;br /&gt;
+注: 在redis.conf中也有时间，默认为300&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;pconnect, popen&lt;/span&gt;&amp;nbsp;不会主动关闭的链接&lt;br /&gt;
+参考上面&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;setOption&lt;/span&gt;&amp;nbsp;设置redis模式&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;getOption&lt;/span&gt;&amp;nbsp;查看redis设置的模式&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;ping&lt;/span&gt;&amp;nbsp;查看连接状态&lt;br /&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;&lt;br /&gt;
+get&lt;/span&gt;&amp;nbsp;得到某个key的值（string值）&lt;br /&gt;
+如果该key不存在，return&amp;nbsp;&lt;span style=&quot;font-weight:bold;&quot;&gt;false&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;&lt;br /&gt;
+set&lt;/span&gt;&amp;nbsp;写入key 和 value（string值）&lt;br /&gt;
+如果写入成功，return&amp;nbsp;&lt;span style=&quot;font-weight:bold;&quot;&gt;ture&lt;/span&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;setex&lt;/span&gt;&amp;nbsp;带生存时间的写入值&lt;br /&gt;
+$redis-&amp;gt;setex(\'key\', 3600, \'value\'); // sets key → value, with 1h TTL.&lt;br /&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;&lt;br /&gt;
+setnx&lt;/span&gt;&amp;nbsp;判断是否重复的，写入值&lt;br /&gt;
+$redis-&amp;gt;setnx(\'key\', \'value\');&lt;br /&gt;
+$redis-&amp;gt;setnx(\'key\', \'value\');&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;delete&lt;/span&gt;&amp;nbsp; 删除指定key的值&lt;br /&gt;
+返回已经删除key的个数（长整数）&lt;br /&gt;
+$redis-&amp;gt;delete(\'key1\', \'key2\');&lt;br /&gt;
+$redis-&amp;gt;delete(array(\'key3\', \'key4\', \'key5\'));&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;ttl&lt;/span&gt;&lt;br /&gt;
+得到一个key的生存时间&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;persist&lt;/span&gt;&lt;br /&gt;
+移除生存时间到期的key&lt;br /&gt;
+如果key到期 true 如果不到期 false&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;mset&lt;/span&gt;&amp;nbsp;（redis版本1.1以上才可以用）&lt;br /&gt;
+同时给多个key赋值&lt;br /&gt;
+$redis-&amp;gt;mset(array(\'key0\' =&amp;gt; \'value0\', \'key1\' =&amp;gt; \'value1\'));&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;multi, exec, discard&lt;/span&gt;&lt;br /&gt;
+进入或者退出事务模式&lt;br /&gt;
+参数可选Redis::MULTI&lt;span style=&quot;font-family:monospace;&quot;&gt;或&lt;/span&gt;Redis::PIPELINE. 默认是 Redis::MULTI&lt;br /&gt;
+Redis::MULTI：将多个操作当成一个事务执行&lt;br /&gt;
+Redis::PIPELINE:让（多条）执行命令简单的，更加快速的发送给服务器，但是没有任何原子性的保证&lt;br /&gt;
+discard:删除一个事务&lt;br /&gt;
+返回值&lt;br /&gt;
+multi()，返回一个redis对象，并进入multi-mode模式，一旦进入multi-mode模式，以后调用的所有方法都会返回相同的对象，只到exec(）方法被调用。&lt;br /&gt;
+&lt;span style=&quot;font-family:monospace;&quot;&gt;&lt;br /&gt;
+&lt;/span&gt;&lt;span style=&quot;font-weight:bold;&quot;&gt;watch, unwatch&lt;/span&gt;&amp;nbsp;（代码测试后，不能达到所说的效果）&lt;br /&gt;
+监测一个key的值是否被其它的程序更改。如果这个key在watch 和 exec （方法）间被修改，这个 MULTI/EXEC 事务的执行将失败（return false）&lt;br /&gt;
+unwatch&amp;nbsp; 取消被这个程序监测的所有key&lt;br /&gt;
+参数，一对key的列表&lt;br /&gt;
+$redis-&amp;gt;watch(\'x\');&lt;br /&gt;
+&lt;br /&gt;
+$ret = $redis-&amp;gt;multi() -&amp;gt;incr(\'x\') -&amp;gt;exec();&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;&lt;br /&gt;
+subscribe&lt;/span&gt;&amp;nbsp;*&lt;br /&gt;
+方法回调。注意，该方法可能在未来里发生改变&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;publish&lt;/span&gt;&amp;nbsp;*&lt;br /&gt;
+发表内容到某一个通道。注意，该方法可能在未来里发生改变&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;exists&lt;/span&gt;&lt;br /&gt;
+判断key是否存在。存在 true 不在 false&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;incr, incrBy&lt;/span&gt;&lt;br /&gt;
+key中的值进行自增1，如果填写了第二个参数，者自增第二个参数所填的值&lt;span style=&quot;font-family:monospace;&quot;&gt;&lt;br /&gt;
+&lt;/span&gt;$redis-&amp;gt;incr(\'key1\');&lt;span style=&quot;font-family:monospace;&quot;&gt;&lt;br /&gt;
+&lt;/span&gt;$redis-&amp;gt;incrBy(\'key1\', 10);&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;decr, decrBy&lt;/span&gt;&lt;br /&gt;
+做减法，使用方法同incr&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;getMultiple&lt;/span&gt;&lt;br /&gt;
+传参&lt;br /&gt;
+由key组成的数组&lt;br /&gt;
+返回参数&lt;br /&gt;
+如果key存在返回value，不存在返回false&lt;br /&gt;
+$redis-&amp;gt;set(\'key1\', \'value1\'); $redis-&amp;gt;set(\'key2\', \'value2\'); $redis-&amp;gt;set(\'key3\', \'value3\'); $redis-&amp;gt;getMultiple(array(\'key1\', \'key2\', \'key3\'));&lt;br /&gt;
+$redis-&amp;gt;lRem(\'key1\', \'A\', 2);&lt;br /&gt;
+$redis-&amp;gt;lRange(\'key1\', 0, -1);&lt;br /&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;&lt;br /&gt;
+list&lt;/span&gt;相关操作&lt;br /&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;lPush&lt;br /&gt;
+&lt;/span&gt;$redis-&amp;gt;lPush(key, value);&lt;br /&gt;
+在名称为key的list左边（头）添加一个值为value的&amp;nbsp;元素&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;rPush&lt;/span&gt;&lt;span style=&quot;font-weight:bold;&quot;&gt;&lt;br /&gt;
+&lt;/span&gt;$redis-&amp;gt;rPush(key, value);&lt;br /&gt;
+在名称为key的list右边（尾）添加一个值为value的&amp;nbsp;元素&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;lPushx/&lt;/span&gt;&lt;span style=&quot;font-weight:bold;&quot;&gt;rPushx&lt;/span&gt;&lt;br /&gt;
+$redis-&amp;gt;lPushx(key, value);&lt;br /&gt;
+在名称为key的list左边(头)/右边（尾）添加一个值为value的元素,如果value已经存在，则不添加&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;lPop&lt;/span&gt;/&lt;span style=&quot;font-weight:bold;&quot;&gt;rPop&lt;/span&gt;&lt;br /&gt;
+$redis-&amp;gt;lPop(\'key\');&lt;br /&gt;
+输出名称为key的list左(头)起/右（尾）起的第一个元素，删除该元素&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;blPop/brPop&lt;br /&gt;
+&lt;/span&gt;$redis-&amp;gt;blPop(\'key1\', \'key2\', 10);&lt;br /&gt;
+lpop命令的block版本。即当timeout为0时，若遇到名称为key&amp;nbsp;&lt;strong&gt;&lt;em&gt;&lt;span style=&quot;font-size:7.5pt;&quot;&gt;i&lt;/span&gt;&lt;/em&gt;&lt;/strong&gt;的list不存在或该list为空，则命令结束。如果timeout&amp;gt;0，则遇到上述情况时，等待timeout秒，如果问题没有解决，则对key&lt;strong&gt;&lt;em&gt;&lt;span style=&quot;font-size:7.5pt;&quot;&gt;i+1&lt;/span&gt;&lt;/em&gt;&lt;/strong&gt;开始的list执行pop操作&lt;span style=&quot;font-weight:bold;&quot;&gt;&lt;br /&gt;
+&lt;br /&gt;
+lSize&lt;/span&gt;&lt;br /&gt;
+$redis-&amp;gt;lSize(\'key\');&lt;br /&gt;
+返回名称为key的list有多少个元素&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;lIndex, lGet&lt;/span&gt;&lt;br /&gt;
+$redis-&amp;gt;lGet(\'key\', 0);&lt;br /&gt;
+返回名称为key的list中index位置的元素&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;lSet&lt;/span&gt;&lt;br /&gt;
+$redis-&amp;gt;lSet(\'key\', 0, \'X\');&lt;br /&gt;
+给名称为key的list中index位置的元素赋值为value&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;lRange, lGetRange&lt;/span&gt;&lt;br /&gt;
+$redis-&amp;gt;lRange(\'key1\', 0, -1);&lt;br /&gt;
+返回名称为key的list中start至end之间的元素（end为 -1 ，返回所有）&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;lTrim, listTrim&lt;/span&gt;&lt;br /&gt;
+$redis-&amp;gt;lTrim(\'key\',&amp;nbsp;start,&amp;nbsp;end);&lt;br /&gt;
+截取名称为key的list，保留start至end之间的元素&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;lRem, lRemove&lt;/span&gt;&lt;br /&gt;
+$redis-&amp;gt;lRem(\'key\', \'A\', 2);&lt;br /&gt;
+删除count个名称为key的list中值为value的元素。count为0，删除所有值为value的元素，count&amp;gt;0从头至尾删除count个值为value的元素，count&amp;lt;0从尾到头删除|count|个值为value的元素&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;lInsert&lt;/span&gt;&lt;br /&gt;
+在名称为为key的list中，找到值为&lt;em&gt;pivot&lt;/em&gt;&amp;nbsp;的value，并根据参数Redis::BEFORE | Redis::AFTER，来确定，newvalue 是放在 pivot 的前面，或者后面。如果key不存在，不会插入，如果 pivot不存在，return -1&lt;br /&gt;
+$redis-&amp;gt;delete(\'key1\'); $redis-&amp;gt;lInsert(\'key1\', Redis::AFTER, \'A\', \'X\'); $redis-&amp;gt;lPush(\'key1\', \'A\'); $redis-&amp;gt;lPush(\'key1\', \'B\'); $redis-&amp;gt;lPush(\'key1\', \'C\'); $redis-&amp;gt;lInsert(\'key1\', Redis::BEFORE, \'C\', \'X\');&lt;br /&gt;
+$redis-&amp;gt;lRange(\'key1\', 0, -1);&lt;br /&gt;
+$redis-&amp;gt;lInsert(\'key1\', Redis::AFTER, \'C\', \'Y\');&lt;br /&gt;
+$redis-&amp;gt;lRange(\'key1\', 0, -1);&lt;br /&gt;
+$redis-&amp;gt;lInsert(\'key1\', Redis::AFTER, \'W\', \'value\');&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;rpoplpush&lt;/span&gt;&lt;br /&gt;
+返回并删除名称为srckey的list的尾元素，并将该元素添加到名称为dstkey的list的头部&lt;br /&gt;
+$redis-&amp;gt;delete(\'x\', \'y\');&lt;br /&gt;
+$redis-&amp;gt;lPush(\'x\', \'abc\'); $redis-&amp;gt;lPush(\'x\', \'def\'); $redis-&amp;gt;lPush(\'y\', \'123\'); $redis-&amp;gt;lPush(\'y\', \'456\'); // move the last of x to the front of y. var_dump($redis-&amp;gt;rpoplpush(\'x\', \'y\'));&lt;br /&gt;
+var_dump($redis-&amp;gt;lRange(\'x\', 0, -1));&lt;br /&gt;
+var_dump($redis-&amp;gt;lRange(\'y\', 0, -1));&amp;nbsp;&lt;span style=&quot;font-family:monospace;&quot;&gt;&lt;br /&gt;
+&lt;/span&gt;&lt;br /&gt;
+string(3) &quot;abc&quot;&amp;nbsp;&lt;span style=&quot;font-family:monospace;&quot;&gt;&lt;br /&gt;
+&lt;/span&gt;array(1) { [0]=&amp;gt; string(3) &quot;def&quot; }&amp;nbsp;&lt;span style=&quot;font-family:monospace;&quot;&gt;&lt;br /&gt;
+&lt;/span&gt;array(3) { [0]=&amp;gt; string(3) &quot;abc&quot; [1]=&amp;gt; string(3) &quot;456&quot; [2]=&amp;gt; string(3) &quot;123&quot; }&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-size:16px;font-weight:bold;text-decoration:underline;&quot;&gt;SET操作相关&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;sAdd&lt;/span&gt;&lt;br /&gt;
+向名称为key的set中添加元素value,如果value存在，不写入，return false&lt;br /&gt;
+$redis-&amp;gt;sAdd(key , value);&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;sRem, sRemove&lt;/span&gt;&lt;br /&gt;
+删除名称为key的set中的元素value&lt;br /&gt;
+$redis-&amp;gt;sAdd(\'key1\' , \'set1\');&lt;br /&gt;
+$redis-&amp;gt;sAdd(\'key1\' , \'set2\');&lt;br /&gt;
+$redis-&amp;gt;sAdd(\'key1\' , \'set3\');&lt;br /&gt;
+$redis-&amp;gt;sRem(\'key1\', \'set2\');&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;sMove&lt;/span&gt;&lt;br /&gt;
+将value元素从名称为srckey的集合移到名称为dstkey的集合&lt;br /&gt;
+$redis-&amp;gt;sMove(seckey, dstkey, value);&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;sIsMember, sContains&lt;/span&gt;&lt;br /&gt;
+名称为key的集合中查找是否有value元素，有ture 没有 false&lt;br /&gt;
+$redis-&amp;gt;sIsMember(key, value);&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;sCard, sSize&lt;/span&gt;&lt;br /&gt;
+返回名称为key的set的元素个数&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;sPop&lt;/span&gt;&lt;br /&gt;
+随机返回并删除名称为key的set中一个元素&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;sRandMember&lt;/span&gt;&lt;br /&gt;
+随机返回名称为key的set中一个元素，不删除&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;sInter&lt;/span&gt;&lt;br /&gt;
+求交集&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;sInterStore&lt;/span&gt;&lt;br /&gt;
+求交集并将交集保存到output的集合&lt;br /&gt;
+$redis-&amp;gt;sInterStore(\'output\', \'key1\', \'key2\', \'key3\')&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;sUnion&lt;/span&gt;&lt;br /&gt;
+求并集&lt;br /&gt;
+$redis-&amp;gt;sUnion(\'s0\', \'s1\', \'s2\');&lt;br /&gt;
+s0,s1,s2 同时求并集&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;sUnionStore&lt;/span&gt;&lt;br /&gt;
+求并集并将并集保存到output的集合&lt;br /&gt;
+$redis-&amp;gt;sUnionStore(\'output\', \'key1\', \'key2\', \'key3\')；&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;sDiff&lt;/span&gt;&lt;br /&gt;
+求差集&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;sDiffStore&lt;/span&gt;&lt;br /&gt;
+求差集并将差集保存到output的集合&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;sMembers, sGetMembers&lt;/span&gt;&lt;br /&gt;
+返回名称为key的set的所有元素&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;sort&lt;/span&gt;&lt;br /&gt;
+排序，分页等&lt;br /&gt;
+参数&lt;span style=&quot;font-family:monospace;&quot;&gt;&lt;br /&gt;
+&lt;/span&gt;\'by\' =&amp;gt; \'some_pattern_*\',&lt;br /&gt;
+\'limit\' =&amp;gt; array(0, 1),&lt;br /&gt;
+\'get\' =&amp;gt; \'some_other_pattern_*\' or an array of patterns,&lt;br /&gt;
+\'sort\' =&amp;gt; \'asc\' or \'desc\',&lt;br /&gt;
+\'alpha\' =&amp;gt; TRUE,&lt;br /&gt;
+\'store\' =&amp;gt; \'external-key\'&lt;span style=&quot;font-family:monospace;&quot;&gt;&lt;br /&gt;
+例子&lt;br /&gt;
+&lt;/span&gt;$redis-&amp;gt;delete(\'s\'); $redis-&amp;gt;sadd(\'s\', 5); $redis-&amp;gt;sadd(\'s\', 4); $redis-&amp;gt;sadd(\'s\', 2); $redis-&amp;gt;sadd(\'s\', 1); $redis-&amp;gt;sadd(\'s\', 3);&lt;br /&gt;
+var_dump($redis-&amp;gt;sort(\'s\')); // 1,2,3,4,5&lt;br /&gt;
+var_dump($redis-&amp;gt;sort(\'s\', array(\'sort\' =&amp;gt; \'desc\'))); // 5,4,3,2,1&lt;br /&gt;
+var_dump($redis-&amp;gt;sort(\'s\', array(\'sort\' =&amp;gt; \'desc\', \'store\' =&amp;gt; \'out\'))); // (int)5&lt;br /&gt;
+&amp;nbsp;&lt;br /&gt;
+&lt;span style=&quot;font-size:16px;&quot;&gt;&lt;span style=&quot;font-weight:bold;&quot;&gt;string命令&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;getSet&lt;/span&gt;&lt;br /&gt;
+返回原来key中的值，并将value写入key&lt;br /&gt;
+$redis-&amp;gt;set(\'x\', \'42\');&lt;br /&gt;
+$exValue = $redis-&amp;gt;getSet(\'x\', \'lol\'); // return \'42\', replaces x by \'lol\'&lt;br /&gt;
+$newValue = $redis-&amp;gt;get(\'x\')\' // return \'lol\'&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;append&lt;/span&gt;&lt;br /&gt;
+string，名称为key的string的值在后面加上value&lt;br /&gt;
+$redis-&amp;gt;set(\'key\', \'value1\');&lt;br /&gt;
+$redis-&amp;gt;append(\'key\', \'value2\');&lt;br /&gt;
+$redis-&amp;gt;get(\'key\');&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;getRange&lt;/span&gt;&amp;nbsp;（方法不存在）&lt;br /&gt;
+返回名称为key的string中start至end之间的字符&lt;br /&gt;
+$redis-&amp;gt;set(\'key\', \'string value\');&lt;br /&gt;
+$redis-&amp;gt;getRange(\'key\', 0, 5);&lt;br /&gt;
+$redis-&amp;gt;getRange(\'key\', -5, -1);&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;setRange&lt;/span&gt;&amp;nbsp;（方法不存在）&lt;br /&gt;
+改变key的string中start至end之间的字符为value&lt;br /&gt;
+$redis-&amp;gt;set(\'key\', \'Hello world\');&lt;br /&gt;
+$redis-&amp;gt;setRange(\'key\', 6, &quot;redis&quot;);&lt;br /&gt;
+$redis-&amp;gt;get(\'key\');&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;strlen&lt;/span&gt;&lt;br /&gt;
+得到key的string的长度&lt;br /&gt;
+$redis-&amp;gt;strlen(\'key\');&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;getBit&lt;/span&gt;/&lt;span style=&quot;font-weight:bold;&quot;&gt;setBit&lt;/span&gt;&lt;br /&gt;
+返回2进制信息&lt;br /&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;&lt;br /&gt;
+&lt;/span&gt;&lt;span style=&quot;font-size:16px;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;font-size:14pt;&quot;&gt;zset&lt;/span&gt;&lt;/strong&gt;&lt;strong&gt;（&lt;/strong&gt;&lt;strong&gt;&lt;span style=&quot;font-size:14pt;&quot;&gt;sorted set&lt;/span&gt;&lt;/strong&gt;&lt;strong&gt;）操作相关&lt;/strong&gt;&lt;/span&gt;&lt;span style=&quot;font-weight:bold;&quot;&gt;&lt;br /&gt;
+zAdd&lt;/span&gt;&lt;strong&gt;(&lt;em&gt;key, score, member&lt;/em&gt;)&lt;/strong&gt;：向名称为key的zset中添加元素member，score用于排序。如果该元素已经存在，则根据score更新该元素的顺序。&lt;br /&gt;
+$redis-&amp;gt;zAdd(\'key\', 1, \'val1\');&lt;br /&gt;
+$redis-&amp;gt;zAdd(\'key\', 0, \'val0\');&lt;br /&gt;
+$redis-&amp;gt;zAdd(\'key\', 5, \'val5\');&lt;br /&gt;
+$redis-&amp;gt;zRange(\'key\', 0, -1); // array(val0, val1, val5)&lt;br /&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;&lt;br /&gt;
+zRange&lt;/span&gt;&lt;strong&gt;(&lt;em&gt;key, start, end&lt;/em&gt;,&lt;/strong&gt;&lt;em&gt;withscores&lt;/em&gt;&lt;strong&gt;)&lt;/strong&gt;：返回名称为key的zset（元素已按score从小到大排序）中的index从start到end的所有元素&lt;br /&gt;
+$redis-&amp;gt;zAdd(\'key1\', 0, \'val0\');&lt;br /&gt;
+$redis-&amp;gt;zAdd(\'key1\', 2, \'val2\');&lt;br /&gt;
+$redis-&amp;gt;zAdd(\'key1\', 10, \'val10\');&lt;br /&gt;
+$redis-&amp;gt;zRange(\'key1\', 0, -1); // with scores $redis-&amp;gt;zRange(\'key1\', 0, -1, true);&lt;br /&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;&lt;br /&gt;
+zDelete, zRem&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;zRem&lt;/span&gt;&lt;strong&gt;(&lt;em&gt;key, member&lt;/em&gt;)&lt;/strong&gt;&amp;nbsp;：删除名称为key的zset中的元素member&lt;br /&gt;
+$redis-&amp;gt;zAdd(\'key\', 0, \'val0\');&lt;br /&gt;
+$redis-&amp;gt;zAdd(\'key\', 2, \'val2\');&lt;br /&gt;
+$redis-&amp;gt;zAdd(\'key\', 10, \'val10\');&lt;br /&gt;
+$redis-&amp;gt;zDelete(\'key\', \'val2\');&lt;br /&gt;
+$redis-&amp;gt;zRange(\'key\', 0, -1);&amp;nbsp;&lt;span style=&quot;font-weight:bold;&quot;&gt;&lt;br /&gt;
+&lt;br /&gt;
+zRevRange&lt;/span&gt;&lt;strong&gt;(&lt;em&gt;key, start, end&lt;/em&gt;,&lt;/strong&gt;&lt;em&gt;withscores&lt;/em&gt;&lt;strong&gt;)&lt;/strong&gt;：返回名称为key的zset（元素已按score从大到小排序）中的index从start到end的所有元素.&lt;em&gt;withscores&lt;/em&gt;: 是否输出socre的值，默认false，不输出&lt;br /&gt;
+$redis-&amp;gt;zAdd(\'key\', 0, \'val0\');&lt;br /&gt;
+$redis-&amp;gt;zAdd(\'key\', 2, \'val2\');&lt;br /&gt;
+$redis-&amp;gt;zAdd(\'key\', 10, \'val10\');&lt;br /&gt;
+$redis-&amp;gt;zRevRange(\'key\', 0, -1); // with scores $redis-&amp;gt;zRevRange(\'key\', 0, -1, true);&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;zRangeByScore, zRevRangeByScore&lt;/span&gt;&lt;br /&gt;
+$redis-&amp;gt;zRangeByScore(key, star, end, array(withscores， limit ));&lt;br /&gt;
+返回名称为key的zset中score &amp;gt;= star且score &amp;lt;= end的所有元素&lt;span style=&quot;font-weight:bold;&quot;&gt;&lt;br /&gt;
+&lt;br /&gt;
+zCount&lt;/span&gt;&lt;br /&gt;
+$redis-&amp;gt;zCount(key, star, end);&lt;br /&gt;
+返回名称为key的zset中score &amp;gt;= star且score &amp;lt;= end的所有元素的个数&lt;span style=&quot;font-weight:bold;&quot;&gt;&lt;br /&gt;
+&lt;br /&gt;
+zRemRangeByScore, zDeleteRangeByScore&lt;/span&gt;&lt;span style=&quot;font-family:monospace;&quot;&gt;&lt;br /&gt;
+&lt;/span&gt;$redis-&amp;gt;zRemRangeByScore(\'key\', star, end);&lt;span style=&quot;font-weight:bold;&quot;&gt;&lt;br /&gt;
+&lt;/span&gt;删除名称为key的zset中score &amp;gt;= star且score &amp;lt;= end的所有元素，返回删除个数&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;zSize, zCard&lt;/span&gt;&lt;br /&gt;
+返回名称为key的zset的所有元素的个数&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;zScore&lt;br /&gt;
+&lt;/span&gt;$redis-&amp;gt;zScore(key, val2);&lt;br /&gt;
+返回名称为key的zset中元素val2的score&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;zRank, zRevRank&lt;/span&gt;&lt;br /&gt;
+$redis-&amp;gt;zRevRank(key, val);&lt;br /&gt;
+返回名称为key的zset（元素已按score从小到大排序）中val元素的rank（即index，从0开始），若没有val元素，返回“null”。zRevRank 是从大到小排序&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;zIncrBy&lt;/span&gt;&lt;br /&gt;
+$redis-&amp;gt;zIncrBy(\'key\',&amp;nbsp;increment, \'member\');&lt;br /&gt;
+如果在名称为key的zset中已经存在元素member，则该元素的score增加increment；否则向集合中添加该元素，其score的值为increment&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;zUnion&lt;/span&gt;/&lt;span style=&quot;font-weight:bold;&quot;&gt;zInter&lt;/span&gt;&lt;em&gt;&lt;span style=&quot;font-weight:bold;&quot;&gt;&lt;br /&gt;
+&lt;/span&gt;参数&lt;br /&gt;
+keyOutput&lt;br /&gt;
+arrayZSetKeys&lt;br /&gt;
+arrayWeights&lt;br /&gt;
+aggregateFunction&lt;/em&gt;&amp;nbsp;Either &quot;SUM&quot;, &quot;MIN&quot;, or &quot;MAX&quot;: defines the behaviour to use on duplicate entries during the zUnion.&lt;br /&gt;
+对N个zset求并集和交集，并将最后的集合保存在dstkeyN中。对于集合中每一个元素的score，在进行AGGREGATE运算前，都要乘以对于的WEIGHT参数。如果没有提供WEIGHT，默认为1。默认的AGGREGATE是SUM，即结果集合中元素的score是所有集合对应元素进行SUM运算的值，而MIN和MAX是指，结果集合中元素的score是所有集合对应元素中最小值和最大值。&lt;br /&gt;
+&lt;br /&gt;
+&lt;strong&gt;&lt;span style=&quot;font-size:14pt;&quot;&gt;Hash&lt;/span&gt;&lt;/strong&gt;&lt;strong&gt;操作&lt;/strong&gt;&lt;span style=&quot;font-weight:bold;&quot;&gt;&lt;br /&gt;
+hSet&lt;/span&gt;&lt;br /&gt;
+$redis-&amp;gt;hSet(\'h\', \'key1\', \'hello\');&lt;br /&gt;
+向名称为h的hash中添加元素key1—&amp;gt;hello&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;hGet&lt;/span&gt;&lt;br /&gt;
+$redis-&amp;gt;hGet(\'h\', \'key1\');&lt;br /&gt;
+返回名称为h的hash中key1对应的value（hello）&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;hLen&lt;/span&gt;&lt;br /&gt;
+$redis-&amp;gt;hLen(\'h\');&lt;br /&gt;
+返回名称为h的hash中元素个数&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;hDel&lt;/span&gt;&lt;br /&gt;
+$redis-&amp;gt;hDel(\'h\', \'key1\');&lt;br /&gt;
+删除名称为h的hash中键为key1的域&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;hKeys&lt;br /&gt;
+&lt;/span&gt;$redis-&amp;gt;hKeys(\'h\');&lt;br /&gt;
+返回名称为key的hash中所有键&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;hVals&lt;/span&gt;&lt;br /&gt;
+$redis-&amp;gt;hVals(\'h\')&lt;br /&gt;
+返回名称为h的hash中所有键对应的value&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;hGetAll&lt;/span&gt;&lt;br /&gt;
+$redis-&amp;gt;hGetAll(\'h\');&lt;br /&gt;
+返回名称为h的hash中所有的键（field）及其对应的value&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;hExists&lt;/span&gt;&lt;br /&gt;
+$redis-&amp;gt;hExists(\'h\', \'a\');&lt;br /&gt;
+名称为h的hash中是否存在键名字为a的域&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;hIncrBy&lt;/span&gt;&lt;br /&gt;
+$redis-&amp;gt;hIncrBy(\'h\', \'x\', 2);&lt;br /&gt;
+将名称为h的hash中x的value增加2&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;hMset&lt;br /&gt;
+&lt;/span&gt;$redis-&amp;gt;hMset(\'user:1\', array(\'name\' =&amp;gt; \'Joe\', \'salary\' =&amp;gt; 2000));&lt;br /&gt;
+向名称为key的hash中批量添加元素&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;hMGet&lt;br /&gt;
+&lt;/span&gt;$redis-&amp;gt;hmGet(\'h\', array(\'field1\', \'field2\'));&lt;br /&gt;
+返回名称为h的hash中field1,field2对应的value&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-size:18px;&quot;&gt;&lt;span style=&quot;font-weight:bold;&quot;&gt;redis 操作相关&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;flushDB&lt;/span&gt;&lt;br /&gt;
+清空当前数据库&lt;br /&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;&lt;br /&gt;
+flushAll&lt;/span&gt;&lt;br /&gt;
+清空所有数据库&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;randomKey&lt;/span&gt;&lt;br /&gt;
+随机返回key空间的一个key&lt;br /&gt;
+$key = $redis-&amp;gt;randomKey();&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;select&lt;/span&gt;&lt;br /&gt;
+选择一个数据库&lt;br /&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;move&lt;/span&gt;&lt;br /&gt;
+转移一个key到另外一个数据库&lt;br /&gt;
+$redis-&amp;gt;select(0); // switch to DB 0&lt;br /&gt;
+$redis-&amp;gt;set(\'x\', \'42\'); // write 42 to x&lt;br /&gt;
+$redis-&amp;gt;move(\'x\', 1); // move to DB 1&lt;br /&gt;
+$redis-&amp;gt;select(1); // switch to DB 1&lt;br /&gt;
+$redis-&amp;gt;get(\'x\'); // will return 42&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;rename, renameKey&lt;/span&gt;&lt;br /&gt;
+给key重命名&lt;br /&gt;
+$redis-&amp;gt;set(\'x\', \'42\');&lt;br /&gt;
+$redis-&amp;gt;rename(\'x\', \'y\');&lt;br /&gt;
+$redis-&amp;gt;get(\'y\'); // → 42&lt;br /&gt;
+$redis-&amp;gt;get(\'x\'); // → `FALSE`&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;renameNx&lt;/span&gt;&lt;br /&gt;
+与remane类似，但是，如果重新命名的名字已经存在，不会替换成功&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;setTimeout, expire&lt;/span&gt;&lt;br /&gt;
+设定一个key的活动时间（s）&lt;br /&gt;
+$redis-&amp;gt;setTimeout(\'x\', 3);&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;expireAt&lt;/span&gt;&lt;br /&gt;
+key存活到一个unix时间戳时间&lt;br /&gt;
+$redis-&amp;gt;expireAt(\'x\', time() + 3);&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;keys, getKeys&lt;/span&gt;&lt;br /&gt;
+返回满足给定pattern的所有key&lt;br /&gt;
+$keyWithUserPrefix = $redis-&amp;gt;keys(\'user*\');&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;dbSize&lt;/span&gt;&lt;br /&gt;
+查看现在数据库有多少key&lt;br /&gt;
+$count = $redis-&amp;gt;dbSize();&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;auth&lt;/span&gt;&lt;br /&gt;
+密码认证&lt;br /&gt;
+$redis-&amp;gt;auth(\'foobared\');&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;bgrewriteaof&lt;br /&gt;
+&lt;/span&gt;使用aof来进行数据库持久化&lt;br /&gt;
+$redis-&amp;gt;bgrewriteaof();&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;slaveof&lt;/span&gt;&lt;br /&gt;
+选择从服务器&lt;br /&gt;
+$redis-&amp;gt;slaveof(\'10.0.1.7\', 6379);&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;save&lt;/span&gt;&lt;br /&gt;
+将数据同步保存到磁盘&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;bgsave&lt;/span&gt;&lt;br /&gt;
+将数据异步保存到磁盘&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;lastSave&lt;/span&gt;&lt;br /&gt;
+返回上次成功将数据保存到磁盘的Unix时戳&lt;br /&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;&lt;br /&gt;
+info&lt;/span&gt;&lt;br /&gt;
+返回redis的版本信息等详情&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;type&lt;/span&gt;&lt;br /&gt;
+返回key的类型值&lt;br /&gt;
+string: Redis::REDIS_STRING&lt;br /&gt;
+set: Redis::REDIS_SET&lt;br /&gt;
+list: Redis::REDIS_LIST&lt;br /&gt;
+zset: Redis::REDIS_ZSET&lt;br /&gt;
+hash: Redis::REDIS_HASH&lt;br /&gt;
+other: Redis::REDIS_NOT_FOUND
+&lt;/p&gt;
+&lt;p style=&quot;font-family:verdana, sans-serif;font-size:13px;background-color:#FFFFFF;&quot;&gt;
+	来源：http://www.cnblogs.com/weafer/archive/2011/09/21/2184059.html
+&lt;/p&gt;','1479376880') [ RunTime:0.0270s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-11-17T18:01:21+08:00 ] 127.0.0.1 /admin/index/article.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Non-static method Admin\Model\AdminModel::isLogin() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Admin\Controller\IndexController.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-17T18:04:11+08:00 ] 127.0.0.1 /admin/index/lists.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Non-static method Admin\Model\AdminModel::isLogin() should not be called statically, assuming $this from incompatible context D:\WWW\tools\Application\Admin\Controller\IndexController.class.php 第 13 行.
+NOTIC: [2048] Declaration of Admin\Model\ArticleModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\WWW\tools\Application\Admin\Model\ArticleModel.class.php 第 101 行.
+NOTIC: [2048] Declaration of Admin\Model\ArticleModel::delete() should be compatible with Think\Model::delete($options = Array) D:\WWW\tools\Application\Admin\Model\ArticleModel.class.php 第 101 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined variable: arr D:\WWW\tools\Application\Admin\Controller\IndexController.class.php 第 96 行.
+SQL: SELECT * FROM `article` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

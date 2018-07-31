@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+
+    <!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>{:C('site_name')}</title>
+	<meta name="keywords" content="{:C('site_name')}，在线工具，站长工具，便民工具,在线json格式化，json格式化，Unicode编码转换，在线时间戳转换，时间戳转换，在线js格式化，js格式化,HTML格式化，在线二维码生成，二维码生成，在线正则，在线正则表达式测试，ip地址查询"/>
+	<meta name="description" content="{:C('site_name')}，在线工具，站长工具，便民工具在线json格式化，json格式化，Unicode编码转换，在线时间戳转换，时间戳转换，在线js格式化，js格式化，HTML格式化，在线二维码生成，二维码生成，在线正则，在线正则表达式测试，ip地址查询"/>
+	
+    <!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <!-- CSS
+  ================================================== -->
+	<link rel="stylesheet" href="__CSS__/zerogrid.css">
+	<link rel="stylesheet" href="__CSS__/style.css">
+    <link rel="stylesheet" href="__CSS__/responsive.css">
+	<link rel="stylesheet" href="__CSS__/responsiveslides.css" />
+	<link rel="stylesheet" href="__CSS__/newstyle.css">
+    <script src="__JS__/jquery.min.js"></script>
+	<script src="__JS__/responsiveslides.js"></script>
+	<script>
+		$(function () {
+		  $("#slider").responsiveSlides({
+			auto: true,
+			pager: false,
+			nav: true,
+			speed: 500,
+			maxwidth: 962,
+			namespace: "centered-btns"
+		  });
+		});
+	</script>
+</head>
+<body>
+<!--------------Header--------------->
+
+<include file="Public/header" />
+
+
+<!--------------Content--------------->
+
+<div class="new_content zerogrid">
+	<div class="new_br"></div>
+	<div class="bankuai">
+		<h1>开发者工具</h1>
+		<div class="new_line"></div>
+		<div class="bankuai_content">
+			{$kaifa}
+		</div>
+	</div>
+	<div class="new_br"></div>
+	<div class="new_br"></div>
+	<div class="new_br"></div>
+	<div class="bankuai">
+		<h1>站长工具</h1>
+		<div class="new_line"></div>
+		<div class="bankuai_content">
+			{$zz}
+		</div>
+	</div>
+	<div class="new_br"></div>
+	<div class="new_br"></div>
+	<div class="new_br"></div>
+	<div class="bankuai">
+		<h1>便民工具</h1>
+		<div class="new_line"></div>
+		<div class="bankuai_content">
+			{$bm}
+		</div>
+	</div>
+	<div class="new_br"></div>
+	<div class="new_br"></div>
+</div>
+<div class="new_content zerogrid">
+	<div class="new_br"></div>
+	<div class="bankuai">
+		<p class="zixun_zhuanlan">
+			<span>热门文章</span><span>最新文章</span>
+		</p>
+		<div class="clearfix"></div>
+		<div class="new_line"></div>
+		<div class="zixun_content">
+			<ul>
+				<foreach name="hotart" item="val">
+					<li><a href="{:U('/art/article',array('id'=>$val['id']))}">{$val.title}</a></li>
+				</foreach>
+		
+			</ul>
+			<ul>
+				<foreach name="newart" item="val">
+					<li><a href="{:U('/art/article',array('id'=>$val['id']))}">{$val.title}</a></li>
+				</foreach>
+			</ul>
+		</div>
+	</div>
+</div>
+<div class="new_content zerogrid">
+	<div class="new_br"></div>
+	<div class="bankuai">
+		<h1>友情链接</h1>
+		<div class="new_line"></div>
+		<div class="bankuai_content ">
+			
+		</div>
+	</div>
+</div>
+
+
+<!--------------Footer--------------->
+
+<include file="Public/footer" />
+</body>
+</html>
